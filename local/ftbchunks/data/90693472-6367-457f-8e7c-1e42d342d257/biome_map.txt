@@ -1,0 +1,8 @@
+#556 minecraft:beach
+#010 minecraft:forest
+#3B7 projectvibrantjourneys:gravel_shore
+#4F1 minecraft:ocean
+#278 biomesoplenty:redwood_forest_edge
+#0B4 biomesoplenty:seasonal_orchard
+#65A biomesoplenty:seasonal_pumpkin_patch
+#16D projectvibrantjourneys:windswept_shore

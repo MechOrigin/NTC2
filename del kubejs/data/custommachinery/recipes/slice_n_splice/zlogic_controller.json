@@ -1,0 +1,42 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:slice_n_splice",
+	"time": 100,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "tconstruct:drowned_head",
+			"amount": 1,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "enderioalloys:item_material_skull_zombie_electrode",
+			"amount": 1,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "tconstruct:husk_head",
+			"amount": 1,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "tconstruct:soulsteel_ingot",
+			"amount": 2,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 20,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "enderioalloys:item_material_skull_zombie_controller",
+			"amount": 1,
+			"mode": "output"
+		}
+	]
+}

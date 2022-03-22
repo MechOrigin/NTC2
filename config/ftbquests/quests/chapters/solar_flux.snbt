@@ -1,0 +1,336 @@
+{
+	id: "1C384588850B9E51"
+	group: "3584F5F5EDA97E25"
+	order_index: 5
+	filename: "solar_flux"
+	title: "{ntc2.solarflux.chapter}"
+	icon: "solarflux:sp_4"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["41862929DC85BE7A"]
+			id: "2F3567E9F245AB19"
+			tasks: [{
+				id: "5969F00EB40D28F9"
+				type: "item"
+				item: "solarflux:mirror"
+			}]
+			rewards: [{
+				id: "06A84CF401BD8569"
+				type: "item"
+				item: "solarflux:mirror"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["2F3567E9F245AB19"]
+			id: "51326FA535C6CCB1"
+			tasks: [{
+				id: "1A0B4802F3705EF7"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_1"
+			}]
+			rewards: [{
+				id: "7116606A6D2652B8"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_1"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["51326FA535C6CCB1"]
+			id: "37414202133EC107"
+			tasks: [{
+				id: "041E099069E2A588"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_2"
+			}]
+			rewards: [{
+				id: "03DD09E9CE45983D"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["37414202133EC107"]
+			id: "26643177DED777FC"
+			tasks: [{
+				id: "79E4C53C42B69AFB"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_3"
+			}]
+			rewards: [{
+				id: "4695FFA524D2BCB3"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_3"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["26643177DED777FC"]
+			id: "312644ABC29DD710"
+			tasks: [{
+				id: "5DF9F680361A95A6"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_4"
+			}]
+			rewards: [{
+				id: "219B17748ACD9280"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_4"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["312644ABC29DD710"]
+			id: "4CC18753940E5034"
+			tasks: [{
+				id: "59067D7ECEE89638"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_5"
+			}]
+			rewards: [{
+				id: "1F0D48AC81E1121D"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_5"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["4CC18753940E5034"]
+			id: "1F43BAFAE1D468CC"
+			tasks: [{
+				id: "56D52C6A4BB7C5F5"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_6"
+			}]
+			rewards: [{
+				id: "304CC545DF722479"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_6"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["2F3567E9F245AB19"]
+			id: "557E82DCAFC29361"
+			tasks: [{
+				id: "24CD6D3CF4354230"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [{
+				id: "3425EDFF2748967D"
+				type: "item"
+				item: "emendatusenigmatica:lapis_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["557E82DCAFC29361"]
+			id: "39345B17D52307E0"
+			tasks: [{
+				id: "55AEB14D6DA8B5E4"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["39345B17D52307E0"]
+			id: "5BEA6DAD0CBAEA0C"
+			tasks: [{
+				id: "12765309A457CE46"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["5BEA6DAD0CBAEA0C"]
+			id: "266783E905C5882B"
+			tasks: [{
+				id: "7A2DC863D8C96950"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["266783E905C5882B"]
+			id: "4EDC07EFC3E3DBB5"
+			tasks: [{
+				id: "08F56078C55B3804"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["4EDC07EFC3E3DBB5"]
+			id: "3CAE404CA4D25005"
+			tasks: [{
+				id: "6615BE5E34AF1BE5"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["3CAE404CA4D25005"]
+			id: "5C8DB20F294A1432"
+			tasks: [{
+				id: "3A9843E16F739858"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["5C8DB20F294A1432"]
+			id: "0910680D33C1CB60"
+			tasks: [{
+				id: "32D705FD3F3808D5"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["2F3567E9F245AB19"]
+			optional: true
+			id: "39992E9F3ABB79A2"
+			tasks: [{
+				id: "0A0C61EC5C7EAD5A"
+				type: "item"
+				item: "solarflux:blank_upgrade"
+			}]
+			rewards: [{
+				id: "2AB8C3BE9C04BFEC"
+				type: "item"
+				item: "solarflux:blank_upgrade"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			subtitle: "{ntc2.efficiencyupgrade.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["39992E9F3ABB79A2"]
+			optional: true
+			id: "57D97F666DEDB416"
+			tasks: [{
+				id: "20F407DCF232511F"
+				type: "item"
+				item: "solarflux:efficiency_upgrade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			subtitle: "{ntc2.transferupgrade.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["39992E9F3ABB79A2"]
+			optional: true
+			id: "57E041B7F80257F2"
+			tasks: [{
+				id: "7F20838AE30E11DD"
+				type: "item"
+				item: "solarflux:transfer_rate_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			subtitle: "{ntc2.capacityupgrade.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["39992E9F3ABB79A2"]
+			optional: true
+			id: "49428F70D651A4FB"
+			tasks: [{
+				id: "08DB0EBC0E2246B2"
+				type: "item"
+				item: "solarflux:capacity_upgrade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "{ntc2.travupgrade.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["39992E9F3ABB79A2"]
+			optional: true
+			id: "4F3600DE4B4643FC"
+			tasks: [{
+				id: "01B247E39FCCF17A"
+				type: "item"
+				item: "solarflux:traversal_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			subtitle: "{ntc2.dispersgrade.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["39992E9F3ABB79A2"]
+			optional: true
+			id: "70EEC1D13A8AFE3D"
+			tasks: [{
+				id: "724EABCCFF8FD9B8"
+				type: "item"
+				item: "solarflux:dispersive_upgrade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			subtitle: "{ntc2.blockchargegrade.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["39992E9F3ABB79A2"]
+			optional: true
+			id: "435CC63C6A0C34F6"
+			tasks: [{
+				id: "2E6EB8063A3268BB"
+				type: "item"
+				item: "solarflux:block_charging_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			subtitle: "{ntc2.furnacegrade.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["39992E9F3ABB79A2"]
+			optional: true
+			id: "261F224E67A8240E"
+			tasks: [{
+				id: "7A0CD1185C99AA3A"
+				type: "item"
+				item: "solarflux:furnace_upgrade"
+			}]
+		}
+	]
+}

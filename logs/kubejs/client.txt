@@ -1,0 +1,7 @@
+[08:50:56] [INFO ] Loaded script client_scripts:constants.js in 0.005 s
+[08:50:56] [INFO ] Loaded script client_scripts:basic_jei_info.js in 0.002 s
+[08:50:56] [INFO ] Loaded script client_scripts:basic_tooltips.js in 0.005 s
+[08:50:56] [INFO ] Loaded script client_scripts:jeiremovals.js in 0.034 s
+[08:50:56] [INFO ] Loaded script client_scripts:tooltips.js in 0.005 s
+[08:50:56] [INFO ] Loaded script client_scripts:unify.js in 0.009 s
+[08:50:56] [INFO ] Loaded 6/6 KubeJS client scripts in 0.069 s

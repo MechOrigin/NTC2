@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "65e094c9baef42779108d47c875f90bc"
+	name: "Falkaga"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

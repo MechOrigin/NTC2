@@ -1,0 +1,59 @@
+{
+    "name": "Clean Room",
+    "appearance": {
+      "lightmode": "running",
+      "lightlevel": 7,
+      "model": "testresourcepack:machine/stone_generator_model"
+    },
+    "components": [
+      {
+        "capacity": 100000,
+        "type": "custommachinery:energy"
+      },
+      {
+        "mode": "output",
+        "id": "output1",
+        "type": "custommachinery:item"
+      }
+    ],
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "x": 47,
+        "y": 30,
+        "type": "custommachinery:energy"
+      },
+      {
+        "id": "output1",
+        "x": 159,
+        "y": 30,
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 116,
+        "y": 30,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "Clean Room",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ]
+  }

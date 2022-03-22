@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "item": "industrialforegoing:advanced_black_hole_tank",
+              "type": "forge:item_exists"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PPP",
+          "NNN",
+          "CMC"
+        ],
+        "key": {
+          "P": {
+            "tag": "forge:plastic"
+          },
+          "N": {
+            "item": "enderioalloys:item_alloy_ingot_crystalline_pink_slime"
+          },
+          "C": {
+            "item": "minecraft:bucket"
+          },
+          "M": {
+            "tag": "industrialforegoing:machine_frame/advanced"
+          }
+        },
+        "result": {
+          "item": "industrialforegoing:advanced_black_hole_tank"
+        }
+      }
+    }
+  ]
+}

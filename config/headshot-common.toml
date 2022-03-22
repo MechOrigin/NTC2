@@ -1,0 +1,22 @@
+
+#Headshot Mod Configuration
+[headshot_mod_configuration]
+	#Choose the damage multiplier done on a headshot. [default 1.5]
+	#Range: 1.0 ~ 999.0
+	damageMultiplier = 1.5
+	#Choose the percentage of damage reduction for Projectile Protection from a headshot. Note, 0.5 is 50%. [0.0 - 1.0, default 0.5]
+	#Range: 0.0 ~ 1.0
+	headshotProjectileProtectionDamageReduction = 0.5
+	#Enable blindness effect after being headshot. [true / false, default, false]
+	doBlindness = false
+	#The number of ticks that the blindness effect lasts for. [0 - 9999, default 35]
+	#Range: 0 ~ 9999
+	blindnessTicks = 35
+	#Enable nausea effect after being headshot. [true / false, default, false]]
+	doNausea = false
+	#The number of ticks that the nausea effect lasts for. [0 - 9999, default 35]
+	#Range: 0 ~ 9999
+	nauseaTicks = 35
+	#Choose whether or not wearing a helmet can prevent a headshot. [true / false, default false]
+	doHelmetMitigation = false
+

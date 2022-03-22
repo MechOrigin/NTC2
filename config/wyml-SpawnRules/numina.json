@@ -1,0 +1,19 @@
+{
+	"mod": "numina",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"armor_stand_entity": {
+						// Do not edit this name
+						"name": "armor_stand_entity",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

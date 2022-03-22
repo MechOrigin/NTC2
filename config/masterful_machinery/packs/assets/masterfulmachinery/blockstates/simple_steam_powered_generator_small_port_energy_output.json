@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "masterfulmachinery:block/simple_steam_powered_generator_small_port_energy_output"
+    }
+  }
+}

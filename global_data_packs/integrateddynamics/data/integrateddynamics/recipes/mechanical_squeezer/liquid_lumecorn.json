@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "betterendforge:lumecorn_rod",
+  "result": {
+    "fluid": {
+      "fluid": "kubejs:liquid_lumecorn",
+      "amount": 125
+    },
+    "items": [
+
+    ]
+  },
+  "duration": 15
+}

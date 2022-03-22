@@ -1,0 +1,16 @@
+#3D6 minecraft:cold_ocean
+#109 minecraft:deep_cold_ocean
+#705 minecraft:deep_frozen_ocean
+#181 terraforged:frozen_lake
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#005 biomesoplenty:gravel_beach
+#251 terraforged:marshland
+#5FF minecraft:river
+#72D minecraft:snowy_beach
+#1D0 minecraft:snowy_mountains
+#2C0 projectvibrantjourneys:snowy_redwoods
+#162 minecraft:snowy_tundra
+#240 biomesoplenty:tundra
+#4FA biomesoplenty:tundra_basin
+#43B biomesoplenty:tundra_bog

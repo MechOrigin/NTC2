@@ -1,0 +1,12 @@
+#148 biomesoplenty:alps
+#3D6 minecraft:cold_ocean
+#109 minecraft:deep_cold_ocean
+#705 minecraft:deep_frozen_ocean
+#3DE minecraft:deep_ocean
+#7EA minecraft:deep_warm_ocean
+#292 minecraft:frozen_ocean
+#4F1 minecraft:ocean
+#72D minecraft:snowy_beach
+#68C biomesoplenty:snowy_coniferous_forest
+#4C8 biomesoplenty:snowy_fir_clearing
+#406 minecraft:stone_shore

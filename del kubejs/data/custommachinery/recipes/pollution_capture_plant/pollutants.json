@@ -1,0 +1,69 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:pollution_capture_plant",
+	"time": 600,
+	"requirements": [
+        {
+            "type": "custommachinery:block",
+            "mode": "output",
+            "action": "destroy",
+            "amount": 10,
+            "pos": [-16, 0, -16, 16, 255, 16],
+            "filter": ["adpother:carbon", "adpother:dust", "adpother:sulfur"],
+            "whitelist": true
+        },
+        {
+            "type": "custommachinery:energy",
+            "mode": "input",
+            "amount": 4000,
+            "chance": 1.0
+        },
+        {
+            "type": "custommachinery:item",
+            "mode": "output",
+            "item": "kubejs:sludge_dust",
+            "amount": 10,
+            "chance": 0.10
+        },
+        {
+            "type": "custommachinery:structure",
+            "pattern": [
+              [
+                "**+**",
+                "**+**",
+                "+++++",
+                "**+**",
+                "* m *"
+              ],
+              [
+                "**+**",
+                "**+**",
+                "+++++",
+                "**+**",
+                "*****"
+              ],
+              [
+                "-----",
+                "-----",
+                "-----",
+                "-----",
+                "-----"
+              ],
+              [
+                "-----",
+                "-----",
+                "-----",
+                "-----",
+                "-----"
+              ]
+            ],
+            "keys": {
+              "*": "immersiveengineering:alu_scaffolding_standard",
+
+              "+": "chisel:laboratory/largetile",
+
+              "-": "chisel:laboratory/wallvents"
+            }
+        }        
+	]
+}

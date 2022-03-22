@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "betterendforge:glowing_bulb",
+  "result": {
+    "fluid": {
+      "fluid": "kubejs:liquid_bulb_vine",
+      "amount": 250
+    },
+    "items": [
+
+    ]
+  },
+  "duration": 15
+}

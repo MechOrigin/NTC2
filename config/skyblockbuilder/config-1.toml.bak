@@ -1,0 +1,25 @@
+world = {}
+
+[structures]
+	#All the structures that should be generated.
+	#A list with all possible structures can be found in config/skyblockbuilder/structures.txt
+	structures = ["minecraft:fortress"]
+	#All the features that should be generated.
+	#A list with all possible structures can be found in config/skyblockbuilder/features.txt
+	#INFO: The two default values are required for the obsidian towers in end. If this is missing, they will be first generated when respawning the dragon.
+	features = ["minecraft:end_spike", "minecraft:end_gateway"]
+	#If this is true, the structure and feature whitelist will be blacklists and everything except of the given structures/features are being generated. [default: false]
+	whitelist-is-blacklist = false
+
+[dimensions]
+
+	[dimensions.nether]
+		#Should nether generate as in default world type? [default: false]
+		default = false
+
+	[dimensions.end]
+		#Should end generate as in default world type? [default: false]
+		default = false
+		#Should the main island be generated as normal? [default: true]
+		main-island = true
+

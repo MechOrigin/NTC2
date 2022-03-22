@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:electrum_essence"
+    }
+  },
+  "result": {
+    "item": "emendatusenigmatica:electrum_ingot",
+   	"count": 8
+  }
+}

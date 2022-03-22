@@ -1,0 +1,57 @@
+{
+  "projecte:recipes/projecte/interdiction_torch": {
+    "criteria": {
+      "has_philo_stone": "2022-02-13 09:03:24 -0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alloybrick_from_slab": {
+    "criteria": {
+      "has_alloybrick": "2022-02-13 09:07:59 -0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alloybrick_to_slab": {
+    "criteria": {
+      "has_alloybrick": "2022-02-13 09:07:59 -0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/survey_tools": {
+    "criteria": {
+      "has_hammer": "2022-02-13 09:08:18 -0800"
+    },
+    "done": true
+  },
+  "projecte:philosophers_stone": {
+    "criteria": {
+      "philosophers_stone": "2022-02-13 09:03:24 -0800"
+    },
+    "done": true
+  },
+  "nethers_exoticism:nethers_exoticism_adv": {
+    "criteria": {
+      "nethers_exoticism_adv": "2022-02-13 09:03:24 -0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "hammer": "2022-02-13 09:08:18 -0800"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2022-02-13 09:03:25 -0800"
+    },
+    "done": true
+  },
+  "projecte:recipes/projecte/transmutation_table": {
+    "criteria": {
+      "has_philo_stone": "2022-02-13 09:03:24 -0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

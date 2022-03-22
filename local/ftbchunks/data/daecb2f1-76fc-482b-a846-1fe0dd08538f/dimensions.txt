@@ -1,0 +1,4 @@
+minecraft:overworld
+ntc_dimension:ntc_dimension
+minecraft:the_nether
+minecraft:the_end

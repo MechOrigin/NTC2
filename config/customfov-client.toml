@@ -1,0 +1,63 @@
+#Determines which source is allowed to change FoV
+#NONE - No FoV changes allowed
+#VANILLA - Only vanilla FoV changes will be applied
+#MODDED - Only modded FoV changes will be applied
+#ALL - All FoV changes will be applied
+#Allowed Values: NONE, VANILLA, MODDED, ALL
+fovChangePermission = "ALL"
+
+[flying]
+	#The modifier to multiply by the original FoV modifier
+	#Range: 0.0 ~ 10.0
+	flyingModifier = 1.0
+	#The maximum FoV flying modifier value
+	#Range: -10.0 ~ 10.0
+	flyingMax = 10.0
+	#The minimum FoV flying modifier value
+	#Range: -10.0 ~ 10.0
+	flyingMin = -10.0
+
+[aiming]
+	#The modifier to multiply by the original FoV modifier
+	#Range: 0.0 ~ 10.0
+	aimingModifier = 1.0
+	#The maximum FoV aiming modifier value
+	#Range: -10.0 ~ 10.0
+	aimingMax = 10.0
+	#The minimum FoV aiming modifier value
+	#Range: -10.0 ~ 10.0
+	aimingMin = -10.0
+
+[sprinting]
+	#The modifier to multiply by the original FoV modifier
+	#Range: 0.0 ~ 10.0
+	sprintingModifier = 1.0
+	#The maximum FoV sprinting modifier value
+	#Range: -10.0 ~ 10.0
+	sprintingMax = 10.0
+	#The minimum FoV sprinting modifier value
+	#Range: -10.0 ~ 10.0
+	sprintingMin = -10.0
+
+[speedEffects]
+	#The modifier to multiply by the original FoV modifier
+	#Range: 0.0 ~ 10.0
+	effectsModifier = 1.0
+	#The maximum FoV effects modifier value
+	#Range: -10.0 ~ 10.0
+	effectsMax = 10.0
+	#The minimum FoV effects modifier value
+	#Range: -10.0 ~ 10.0
+	effectsMin = -10.0
+
+[underwater]
+	#The modifier to multiply by the original FoV modifier
+	#Range: 0.0 ~ 10.0
+	underwaterModifier = 1.0
+	#The maximum FoV underwater modifier value
+	#Range: -10.0 ~ 10.0
+	underwaterMax = 10.0
+	#The minimum FoV underwater modifier value
+	#Range: -10.0 ~ 10.0
+	underwaterMin = -10.0
+

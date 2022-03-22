@@ -1,0 +1,7 @@
+#52B53D minecraft:air
+#DFC019 mekanism:creative_energy_cube
+#4A5E4E minecraft:obsidian
+#C9A627 industrialforegoing:sludge_refiner
+#7CF074 projecte:transmutation_table
+#89780A mekanism:ultimate_fluid_tank
+#C10E6D mekanism:ultimate_mechanical_pipe

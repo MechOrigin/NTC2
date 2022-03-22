@@ -1,0 +1,76 @@
+
+[basic_crafter]
+	#How much FE the Basic Package Crafter should hold.
+	#Range: > 0
+	energy_capacity = 5000
+	#How much total FE the Basic Package Crafter should use per operation.
+	#Range: > 0
+	energy_req = 500
+	#How much FE/t maximum the Basic Package Crafter can use.
+	#Range: > 0
+	energy_usage = 100
+	#Should the Basic Package Crafter draw energy from ME systems.
+	draw_me_energy = true
+
+[advanced_crafter]
+	#How much FE the Advanced Package Crafter should hold.
+	#Range: > 0
+	energy_capacity = 5000
+	#How much total FE the Advanced Package Crafter should use per operation.
+	#Range: > 0
+	energy_req = 1000
+	#How much FE/t maximum the Advanced Package Crafter can use.
+	#Range: > 0
+	energy_usage = 125
+	#Should the Advanced Package Crafter draw energy from ME systems.
+	draw_me_energy = true
+
+[elite_crafter]
+	#How much FE the Elite Package Crafter should hold.
+	#Range: > 0
+	energy_capacity = 5000
+	#How much total FE the Elite Package Crafter should use per operation.
+	#Range: > 0
+	energy_req = 2500
+	#How much FE/t maximum the Elite Package Crafter can use.
+	#Range: > 0
+	energy_usage = 250
+	#Should the Elite Package Crafter draw energy from ME systems.
+	draw_me_energy = true
+
+[ultimate_crafter]
+	#How much FE the Ultimate Package Crafter should hold.
+	#Range: > 0
+	energy_capacity = 5000
+	#How much total FE the Ultimate Package Crafter should use per operation.
+	#Range: > 0
+	energy_req = 5000
+	#How much FE/t maximum the Ultimate Package Crafter can use.
+	#Range: > 0
+	energy_usage = 500
+	#Should the Ultimate Package Crafter draw energy from ME systems.
+	draw_me_energy = true
+
+[ender_crafter]
+	#How much FE the Ender Package Crafter should hold.
+	#Range: > 0
+	energy_capacity = 5000
+	#How much each alternator should reduce the waiting time of the Ender Package Crafter. This is a percentage of the time required.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	alternator_eff = 0.02
+	#How much total FE the Ender Package Crafter should use per operation.
+	#Range: > 0
+	energy_req = 500
+	#How much FE/t maximum the Ender Package Crafter can use.
+	#Range: > 0
+	energy_usage = 100
+	#Should the Ender Package Crafter draw energy from ME systems.
+	draw_me_energy = true
+
+[combination_crafter]
+	#How much FE the Combination Package Crafter should hold.
+	#Range: > 0
+	energy_capacity = 5000000
+	#Should the Combination Package Crafter draw energy from ME systems.
+	draw_me_energy = false
+

@@ -1,0 +1,318 @@
+{
+	id: "13FA3D5FA6269E31"
+	group: "3584F5F5EDA97E25"
+	order_index: 13
+	filename: "utilities"
+	title: "Utilities"
+	icon: "miniutilities:the_final_opinium_core"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["Spikes - 5 types of spikes:    Wooden Spikes - 1 Damage Point per 10 ticks, does not kill    Iron Spikes - 2 Damage Points per 10 ticks    Gold Spikes - 4 Damage Points per 10 ticks, mobs drop EXP    Diamond Spikes - 8 Damage Points per 10 ticks, mobs drop Player Kill items. Example: Pigmen drop Gold Ingots    Netherite Spikes - 16 Damage Points per 10 ticks, mobs drop Player Kill items and EXP"]
+			id: "130BD9FAF55F04F9"
+			tasks: [
+				{
+					id: "11305D3BDD668CC2"
+					type: "item"
+					item: "miniutilities:wooden_spikes"
+				}
+				{
+					id: "0A3344A665AE33C4"
+					type: "item"
+					item: "miniutilities:iron_spikes"
+				}
+				{
+					id: "50C24018BF6F94EB"
+					type: "item"
+					item: "miniutilities:gold_spikes"
+				}
+				{
+					id: "254CE3AB91F94F45"
+					type: "item"
+					item: "miniutilities:diamond_spikes"
+				}
+				{
+					id: "6B801BFBF1D99B1F"
+					type: "item"
+					item: "miniutilities:netherite_spikes"
+				}
+			]
+			rewards: [{
+				id: "5B84485A9E2CA59A"
+				type: "item"
+				item: "mysticalagriculture:experience_droplet"
+				count: 32
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Angel Rings and Derivatives - Allows player to fly in Survival Mode, and the different types allow the player to have their own wings rendered on the back of the player"]
+			id: "04B73B48F0C575C8"
+			tasks: [{
+				id: "57A53E846E3EB5EA"
+				type: "item"
+				item: "miniutilities:angel_ring"
+			}]
+			rewards: [{
+				id: "7AFC9BB50F27526E"
+				type: "item"
+				item: "mysticalagriculture:experience_droplet"
+				count: 32
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["After 10 seconds, slowly ramps up the damage"]
+			id: "490AFB2339BD1A91"
+			tasks: [{
+				id: "371BF9D1AD174A07"
+				type: "item"
+				item: {
+					id: "miniutilities:unstable_ingot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0781645EBA88EDCE"
+				type: "item"
+				item: "miniutilities:experience_pearl_4x"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["Allows Players to stack enchantments higher than the maximum defined by Vanilla Minecraft and Mods. VERY OP!"]
+			id: "1EDF0D7D406D7696"
+			tasks: [{
+				id: "2AA2B88D14A4EDE2"
+				type: "item"
+				item: "miniutilities:kikoku"
+			}]
+			rewards: [{
+				id: "41BEEADE58F11876"
+				type: "item"
+				item: "mysticalagriculture:experience_droplet"
+				count: 32
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "3FE776F06BDE778C"
+			tasks: [
+				{
+					id: "59D744876EE0DCF6"
+					type: "item"
+					item: "miniutilities:iron_opinium_core"
+				}
+				{
+					id: "493BAA6F69FFB1B8"
+					type: "item"
+					item: "miniutilities:gold_opinium_core"
+				}
+				{
+					id: "5C921913BB507C00"
+					type: "item"
+					item: "miniutilities:diamond_opinium_core"
+				}
+				{
+					id: "35435E3CBFC47DA6"
+					type: "item"
+					item: "miniutilities:netherite_opinium_core"
+				}
+				{
+					id: "313E88EE160472DF"
+					type: "item"
+					item: "miniutilities:emerald_opinium_core"
+				}
+				{
+					id: "2F77A97779A0A90F"
+					type: "item"
+					item: "miniutilities:chorus_opinium_core"
+				}
+				{
+					id: "4F502E1FB05719CC"
+					type: "item"
+					item: "miniutilities:experience_opinium_core"
+				}
+				{
+					id: "72D7333A294E47CC"
+					type: "item"
+					item: "miniutilities:nether_star_opinium_core"
+				}
+				{
+					id: "22121DBC2A2C7602"
+					type: "item"
+					item: "miniutilities:the_final_opinium_core"
+				}
+			]
+			rewards: [{
+				id: "34E2CEE8E9F2BAA3"
+				type: "item"
+				item: "mysticalagriculture:experience_droplet"
+				count: 32
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "46662C4AE2031CBF"
+			tasks: [
+				{
+					id: "58DF27DBB510F02B"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+				}
+				{
+					id: "50743E09CCB1397E"
+					type: "item"
+					item: "miniutilities:experience_pearl_1x"
+				}
+				{
+					id: "181ED44EC038CBCF"
+					type: "item"
+					item: "miniutilities:experience_pearl_2x"
+				}
+				{
+					id: "51A06A5D2716978E"
+					type: "item"
+					item: "miniutilities:experience_pearl_3x"
+				}
+				{
+					id: "6171DD9228A100FF"
+					type: "item"
+					item: "miniutilities:experience_pearl_4x"
+				}
+				{
+					id: "3ABBCA84DA305313"
+					type: "item"
+					item: "miniutilities:experience_pearl_5x"
+				}
+				{
+					id: "120071F1E42AB0E6"
+					type: "item"
+					item: "miniutilities:experience_pearl_6x"
+				}
+				{
+					id: "35DAAA663FB73C33"
+					type: "item"
+					item: "miniutilities:experience_pearl_7x"
+				}
+				{
+					id: "5578355C05085B49"
+					type: "item"
+					item: "miniutilities:experience_pearl_8x"
+				}
+			]
+			rewards: [{
+				id: "42F16A0643199BC3"
+				type: "item"
+				item: "miniutilities:nether_star_opinium_core"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "Turns any creature into its Egg"
+			id: "7190B4D2C06D4CAE"
+			tasks: [{
+				id: "5FDB675A11C7B0AB"
+				type: "item"
+				item: "miniutilities:magical_egg"
+			}]
+			rewards: [{
+				id: "4539166E080D024F"
+				type: "item"
+				item: "miniutilities:nether_star_opinium_core"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Storage Block for Unstable Ingots, but can not be crafted back into Ingots."
+			dependencies: ["490AFB2339BD1A91"]
+			id: "642FAF3E0D2B8D77"
+			tasks: [{
+				id: "0ABCE26BD1269A3F"
+				type: "item"
+				item: "miniutilities:unstable_block"
+			}]
+			rewards: [{
+				id: "6BB809EB2B79572A"
+				type: "item"
+				item: "mysticalagriculture:experience_droplet"
+				count: 32
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			id: "30EA88895D1FED75"
+			tasks: [{
+				id: "1E333F444E083C51"
+				type: "item"
+				item: "miniutilities:infused_helmet"
+			}]
+			rewards: [{
+				id: "6A1CB5E84894B951"
+				type: "item"
+				item: "projecte:gem_helmet"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			id: "558E57E2158841CF"
+			tasks: [{
+				id: "6B5D4C47E06B76DF"
+				type: "item"
+				item: "miniutilities:infused_chestplate"
+			}]
+			rewards: [{
+				id: "3B674BA1B62F1F10"
+				type: "item"
+				item: "projecte:gem_chestplate"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			id: "048DBF894443F53E"
+			tasks: [{
+				id: "3B273F3F8EF6A988"
+				type: "item"
+				item: "miniutilities:infused_leggings"
+			}]
+			rewards: [{
+				id: "7A44C55DDA81FFFF"
+				type: "item"
+				item: "projecte:gem_leggings"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			id: "7FFC7FC816223969"
+			tasks: [{
+				id: "278D71A0BE30E621"
+				type: "item"
+				item: "miniutilities:infused_boots"
+			}]
+			rewards: [{
+				id: "612179B1C6D3AF2D"
+				type: "item"
+				item: "projecte:gem_boots"
+			}]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	last_seen: { dim: "ntc_dimension:ntc_dimension", x: 29, y: 108, z: 8, time: 1642708852359L }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}

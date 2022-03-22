@@ -1,0 +1,2 @@
+minecraft:overworld
+ntc_dimension:ntc_dimension

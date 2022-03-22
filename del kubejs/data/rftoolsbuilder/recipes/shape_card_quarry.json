@@ -1,0 +1,34 @@
+{
+  "type": "mcjtylib:copy_nbt",
+  "pattern": [
+    "rPr",
+    "iMi",
+    "rSr"
+  ],
+  "key": {
+    "P": {
+      "type": "forge:nbt",
+      "item": "tconstruct:pickaxe",
+      "count": 1,
+      "nbt": "{tic_materials:[\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\"],Damage:0}"
+    },
+    "S": {
+      "type": "forge:nbt",
+      "item": "tconstruct:mattock",
+      "count": 1,
+      "nbt": "{tic_materials:[\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\"],Damage:0}"
+    },
+    "M": {
+      "item": "rftoolsbuilder:shape_card_def"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "rftoolsbuilder:shape_card_quarry"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:stone",
+        "minecraft:andesite",
+        "minecraft:diorite",
+        "minecraft:granite",
+        "quark:slate",
+        "quark:jasper",
+        "quark:marble",
+        "quark:limestone"
+    ]
+}

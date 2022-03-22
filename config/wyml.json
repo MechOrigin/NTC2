@@ -1,0 +1,104 @@
+{
+	// Set the max amount of spawn tries base rate
+	"MOB_TRIES": 4,
+	// Set to true to multiply base rate by online player count
+	"MULTIPLY_BY_PLAYERS": true,
+	// Replace Mojang magic number (pow2) with this
+	"MOJANG_MAGIC_NUM": 17.0,
+	// Spam your console and make performance terrible...
+	"DEBUG_PRINT": false,
+	// Downscale the Mojang Magic Number by the online player count
+	"DOWNSCALE_MAGIC_NUM": true,
+	// If downscaling enabled, do not allow below this value
+	"DOWNSCALE_MAGIC_NUM_MIN": 10.0,
+	// Amount of nano seconds to wait for a task (Mojang default is 100000), thread locking uses the futex[https://man7.org/linux/man-pages/man2/futex.2.html] syscall on linux, causing a lot of syscalls when the value is too low
+	"TASK_WAIT_NANOS": 5000000,
+	// Enable Minecraft dataFixerUpper (enables you to upgrade worlds between Minecraft versions), disabling this stops the big ram spike at server start when loading existing worlds [ENABLE THIS IF YOU HAVE ANOTHER DFU CHANGING MOD!]
+	"ENABLE_DFU": true,
+	// Force Java garbage collector to run once the levels have been generated or loaded the first time (Frees up memory after the server is initially started)
+	"ENABLE_GARBAGE_COLLECTION_LOAD": true,
+	// Ensure the tick loop does not run repeatedly, waits until the next tick is due (reduce cpu usage on hardware)
+	"NORMALIZE_TICKS": true,
+	// Set the amount of time it takes for an item to de-spawn in ticks, This can only be reduced (default 6000)
+	"ITEM_DESPAWN_TIME": 6000,
+	/* List of items which are not to have their de-spawn time changed
+	   Example: minecraft:kelp
+	*/
+	"ITEM_DESPAWN_DENYLIST": [],
+	// Allow pausing of spawns in specific chunks
+	"ALLOW_PAUSE": true,
+	// Allow pausing of chunks claimed using FTB Chunks
+	"ALLOW_PAUSE_CLAIMED": true,
+	// Allow pausing of force chunk loaded chunks
+	"ALLOW_PAUSE_FORCED": true,
+	// At what what percentage of failed spawns should we then pause spawning in a chunk
+	"PAUSE_RATE": 65,
+	// How long to pause spawning if pause spawn failure rate reached
+	"PAUSE_TICKS": 1800,
+	// At what what percentage of successful spawns, after we pause spawning, should we resume spawning
+	"RESUME_RATE": 10,
+	// At what what percentage of failed spawns should we then pause spawning in a chunk in claimed chunks
+	"PAUSE_CLAIMED_RATE": 80,
+	// How long to pause spawning if pause spawn failure rate reached in claimed chunks
+	"PAUSE_CLAIMED_TICKS": 150,
+	// At what what percentage of successful spawns, after we pause spawning, should we resume spawning in claimed chunks
+	"RESUME_CLAIMED_RATE": 4,
+	// The minimum amount of attempted spawns of a type in a chunk before we allow pausing
+	"PAUSE_MIN": 256,
+	// The minimum amount connected players to enable pausing
+	"MINIMUM_PAUSE_PLAYERS": 4,
+	// Allow slowing of spawns in specific chunks
+	"ALLOW_SLOW": true,
+	// Maximum spawn requests per chunk per tick based off average spawn rate in sample spawn rate
+	"MAX_CHUNK_SPAWN_REQ_TICK": 12,
+	// How long to stay in slow mode after spawn rates are under control
+	"SLOW_TICKS": 600,
+	// Set to true to spread entity pushing updates between ticks. (Reduces network and CPU usage)
+	"NORMALIZE_PUSHING": true,
+	// Set to true to spread the merging of ItemStacks between ticks. (Reduces CPU usage)
+	"NORMALIZE_ITEM_STACK_MERGING": true,
+	// How many ticks to sample (and average) spawn rates over
+	"SAMPLE_TICKS": 5,
+	// How many ticks to remember if we fail spawning in a block position
+	"SPAWNLOC_CACHE_TICKS": 400,
+	// How many ticks to store a SpawnManager for a chunk after it's last update
+	"MANAGER_CACHE_TICKS": 600,
+	// Disable this once you are happy with the configs you have and their impact on memory. This will print how many SpawnManagers and SpawnCaches we have at once, every 10 seconds.
+	"CLEAN_PRINT": false,
+	// Allow Paper bags to pickup item spills
+	"ALLOW_PAPER_BAGS": false,
+	// The minimum age an item will need to be in a spill before a Paper bag will be spawned (default 60)
+	"MIN_ITEM_AGE": 60,
+	// The minimum amount of items in a spill needed for a Paper bag to spawn (default 20)
+	"MIN_ITEM_COUNT": 20,
+	// The amount of time in seconds before a Paper bag will de-spawn (default 300)
+	"PAPER_BAG_DESPAWN_TIME": 300,
+	// The amount of monster creatures that can spawn in a chunk
+	"MONSTER_PER_CHUNK": 70,
+	// The amount of creatures that can spawn in a chunk
+	"CREATURES_PER_CHUNK": 10,
+	// The amount of ambient creatures that can spawn in a chunk
+	"AMBIENT_CREATURES_PER_CHUNK": 5,
+	// The amount of water creatures that can spawn in a chunk
+	"WATER_CREATURES_PER_CHUNK": 5,
+	// The amount of water_ambient creatures that can spawn in a chunk
+	"WATER_AMBIENT_PER_CHUNK": 5,
+	// The amount of misc creatures that can spawn in a chunk
+	"MISC_CREATURES_PER_CHUNK": -1,
+	// Allow per mob, per category, per chunk, per mob limitations from the SpawnLimits directory.
+	"ENABLE_PER_MOD_CONFIGS": true,
+	// Make per mob, per category per chunk limitations hard limits or soft (Forcefully stop spawns even when not natural).
+	"HARD_MOB_LIMITS": false,
+	// The distance an monster will need to be from the player to despawn
+	"MONSTER_DESPAWN_DISTANCE": 128,
+	// TThe distance an creature will need to be from the player to despawn
+	"CREATURES_DESPAWN_DISTANCE": 128,
+	// The distance an ambient creature will need to be from the player to despawn
+	"AMBIENT_CREATURES_DESPAWN_DISTANCE": 128,
+	// The distance an water creature will need to be from the player to despawn
+	"WATER_CREATURES_DESPAWN_DISTANCE": 128,
+	// The distance an water ambient creature will need to be from the player to despawn
+	"WATER_AMBIENT_DESPAWN_DISTANCE": 64,
+	// The distance an misc creature will need to be from the player to despawn
+	"MISC_CREATURES_DESPAWN_DISTANCE": 128
+}

@@ -1,0 +1,12 @@
+#735 biomesoplenty:coniferous_forest
+#3DE minecraft:deep_ocean
+#112 biomesoplenty:dense_woodland
+#005 biomesoplenty:gravel_beach
+#3B7 projectvibrantjourneys:gravel_shore
+#07B biomesoplenty:grove_clearing
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#65A biomesoplenty:seasonal_pumpkin_patch
+#162 minecraft:snowy_tundra
+#406 minecraft:stone_shore
+#16D projectvibrantjourneys:windswept_shore

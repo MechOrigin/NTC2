@@ -1,0 +1,8 @@
+#52B53D minecraft:air
+#7F66E7 alchemistry:chemical_combiner
+#B9247B alchemistry:chemical_dissolver
+#DFC019 mekanism:creative_energy_cube
+#DEC0E9 metalbarrels:crystal_barrel
+#79904E pipez:item_pipe
+#4A5E4E minecraft:obsidian
+#7CF074 projecte:transmutation_table

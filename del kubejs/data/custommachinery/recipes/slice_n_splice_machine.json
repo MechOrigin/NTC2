@@ -1,0 +1,32 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAA",
+      "ABCBA",
+      "ABDBA",
+      "ABEBA",
+      "AAAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "emendatusenigmatica:steel_plate"
+      },
+      "B": {
+        "item": "enderioalloys:item_alloy_ingot_crystalline_pink_slime"
+      },
+      "C": {
+        "item": "projecte:dm_shears"
+      },
+      "D": {
+        "item": "extendedcrafting:basic_table"
+      },
+      "E": {
+        "item": "projecte:dm_axe"
+      }
+    },
+    "result": {
+      "item": "custommachinery:custom_machine_item",
+      "count": 1,
+      "nbt": {"machine":"custommachinery:slice_n_splice"}
+    }
+  }

@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:sheetmetals/tin",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:sheetmetals/tin"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_tin",
+    "amount": 144
+  },
+  "temperature": 232,
+  "time": 39
+}

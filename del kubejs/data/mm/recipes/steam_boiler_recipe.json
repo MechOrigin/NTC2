@@ -1,0 +1,31 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "steam_boiler_structure",
+    "controllerId": "steam_boiler",
+    "ticks": 200,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:fluids",
+            "data": {
+                "fluid": "minecraft:water",
+                "amount": 10
+            }
+        },
+        {
+            "type": "masterfulmachinery:items",
+            "data": {
+                "tag": "minecraft:coals",
+                "count": 1
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "type": "masterfulmachinery:mekanism_gas",
+            "data": {
+                "gas": "mekanism:steam",
+                "amount": 10
+            }
+        }
+    ]
+}

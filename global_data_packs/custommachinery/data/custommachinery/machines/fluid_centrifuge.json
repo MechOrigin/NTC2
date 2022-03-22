@@ -1,0 +1,152 @@
+{
+  "name": "Fluid Centrifuge",
+  "appearance": {
+    "lightmode": "running",
+    "lightlevel": 7,
+    "model": "testresourcepack:machine/stone_generator_model"
+  },
+  "components": [
+    {
+      "capacity": 100000,
+      "type": "custommachinery:energy"
+    },
+    {
+      "mode": "input",
+      "id": "input1",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "output",
+      "id": "output1",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "output",
+      "id": "output2",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "output",
+      "id": "output3",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "output",
+      "id": "output4",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "output",
+      "id": "output5",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "output",
+      "id": "output6",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade",
+      "filter": ["kubejs:upgrade_basic"],
+      "whitelist": true,
+      "mode": "upgrade",
+      "variant": "custommachinery:upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 47,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "x": 67,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "input1"
+    },
+    {
+      "x": 117,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "output1"
+    },
+    {
+      "x": 137,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "output2"
+    },
+    {
+      "x": 157,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "output3"
+    },
+    {
+      "x": 177,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "output4"
+    },
+    {
+      "x": 197,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "output5"
+    },
+    {
+      "x": 217,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "output6"
+    },
+    {
+      "x": 87,
+      "y": 30,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Fluid Centrifuge",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "id": "upgrade",
+      "x": 200,
+      "y": 5,
+      "type": "custommachinery:slot"
+    },
+    {
+      "text": "Upgrade:",
+      "x": 150,
+      "y": 5,
+      "type": "custommachinery:text"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "simpleitemstructure",
+    "controllerId": "simpleitem",
+    "ticks": 100,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:items",
+            "data": {
+                "item": "minecraft:sand",
+                "count": 1
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "type": "masterfulmachinery:items",
+            "data": {
+                "item": "minecraft:glass",
+                "count": 3456
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "projecte:recipes/projecte/interdiction_torch": {
+    "criteria": {
+      "has_philo_stone": "2022-02-13 07:46:30 -0800"
+    },
+    "done": true
+  },
+  "projecte:philosophers_stone": {
+    "criteria": {
+      "philosophers_stone": "2022-02-13 07:46:30 -0800"
+    },
+    "done": true
+  },
+  "nethers_exoticism:nethers_exoticism_adv": {
+    "criteria": {
+      "nethers_exoticism_adv": "2022-02-13 07:46:30 -0800"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2022-02-13 07:46:30 -0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2022-02-13 07:57:00 -0800"
+    },
+    "done": true
+  },
+  "projecte:recipes/projecte/transmutation_table": {
+    "criteria": {
+      "has_philo_stone": "2022-02-13 07:46:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2022-02-13 07:57:00 -0800"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

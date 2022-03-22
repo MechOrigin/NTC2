@@ -1,0 +1,22 @@
+{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid": "thermal:crude_oil",
+    "amount": 100
+  },
+  "result": [
+    {
+      "fluid": "immersivepetroleum:diesel_sulfur",
+      "amount": 40
+    },
+    {
+      "fluid": "immersivepetroleum:diesel",
+      "amount": 60
+    },
+    {
+      "item": "emendatusenigmatica:bitumen_gem",
+      "chance": 0.10
+    }
+  ],
+  "energy": 6000
+}

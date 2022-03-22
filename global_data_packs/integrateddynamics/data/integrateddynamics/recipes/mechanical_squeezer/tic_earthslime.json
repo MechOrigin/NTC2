@@ -1,0 +1,17 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "tconstruct:earth_slime_sapling",
+  "result": {
+    "fluid": {
+      "fluid": "tconstruct:earth_slime",
+      "amount": 50
+    },
+    "items": [
+      {
+        "item": "minecraft:slime_ball",
+        "count": 2
+      }
+    ]
+  },
+  "duration": 40
+}

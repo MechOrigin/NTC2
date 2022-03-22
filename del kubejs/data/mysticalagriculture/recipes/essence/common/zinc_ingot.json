@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:zinc_essence"
+    }
+  },
+  "result": {
+    "item": "emendatusenigmatica:zinc_ingot",
+   	"count": 8
+  }
+}

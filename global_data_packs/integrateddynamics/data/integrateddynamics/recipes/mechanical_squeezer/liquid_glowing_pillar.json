@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "betterendforge:glowing_pillar_luminophor",
+  "result": {
+    "fluid": {
+      "fluid": "kubejs:liquid_glowing_pillar",
+      "amount": 500
+    },
+    "items": [
+
+    ]
+  },
+  "duration": 15
+}

@@ -1,0 +1,11 @@
+{
+	id: "38EB24D97AD37F14"
+	order_index: 3
+	title: "crystal_seeds"
+	loot_size: 4
+	rewards: [
+		{ item: "appliedenergistics2:certus_crystal_seed" }
+		{ item: "appliedenergistics2:fluix_crystal_seed" }
+		{ item: "appliedenergistics2:nether_quartz_seed" }
+	]
+}

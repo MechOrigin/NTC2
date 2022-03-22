@@ -1,0 +1,1 @@
+{"type":"mekanism:reaction","itemInput":{"ingredient":{"item":"chemlib:compound_sulfuric_acid"}},"fluidInput":{"amount":50,"tag":"minecraft:water"},"gasInput":{"amount":50,"gas":"mekanism:water_vapor"},"duration":15,"gasOutput":{"gas":"mekanism:sulfuric_acid","amount":100}}

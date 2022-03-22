@@ -1,0 +1,587 @@
+{
+	id: "00D9C3D9BEDFCD38"
+	group: "3584F5F5EDA97E25"
+	order_index: 6
+	filename: "fantastic_scans"
+	title: "{ntc2.scanner.chapter}"
+	icon: "scannable:scanner"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{ntc2.scanner.item.title}"
+			x: 5.0d
+			y: -2.5d
+			subtitle: "{ntc2.scanner.item.subtitle}"
+			description: [
+				"{ntc2.scanner.item.desc1}"
+				"{image:ntc2:textures/quests/scannable-scan.png width:200 height:100 align:1}"
+			]
+			dependencies: ["317C081878B9B85E"]
+			id: "494EE3C82571C157"
+			tasks: [{
+				id: "66732BCDC4BFF2A4"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [{
+				id: "34F0C0D17D1843E4"
+				type: "item"
+				item: "scannable:module_blank"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["317C081878B9B85E"]
+			id: "0539055FB0321299"
+			tasks: [{
+				id: "376EC86D7C04DBC9"
+				type: "item"
+				item: "scannable:module_blank"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "{ntc2.scanner.range.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["0539055FB0321299"]
+			id: "36B45902A4E14CFD"
+			tasks: [{
+				id: "22C5527248BD51DF"
+				type: "item"
+				item: "scannable:module_range"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "{ntc2.scanner.entity.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["0539055FB0321299"]
+			id: "404B642564F261A6"
+			tasks: [{
+				id: "1AD6DDD0E112C3B5"
+				type: "item"
+				item: "scannable:module_entity"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "{ntc2.scanner.animals.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["0539055FB0321299"]
+			id: "4FD4FD2DA8AD7C40"
+			tasks: [{
+				id: "633D77DBA2763ACC"
+				type: "item"
+				item: "scannable:module_animal"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "{ntc2.scanner.monster.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["0539055FB0321299"]
+			id: "7D06CD3B168CF9B0"
+			tasks: [{
+				id: "3C91BF7264A9B574"
+				type: "item"
+				item: "scannable:module_monster"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			subtitle: "{ntc2.scanner.block.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["0539055FB0321299"]
+			id: "5E602E901341B274"
+			tasks: [{
+				id: "4A3EB33946F83A57"
+				type: "item"
+				item: "scannable:module_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			subtitle: "{ntc2.scanner.common.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["0539055FB0321299"]
+			id: "7956A56D8DA590CD"
+			tasks: [{
+				id: "0ED981142D8167ED"
+				type: "item"
+				item: "scannable:module_ore_common"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "{ntc2.scanner.rare.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["0539055FB0321299"]
+			id: "0F3E155C28D9A743"
+			tasks: [{
+				id: "66D69BC0770FD19F"
+				type: "item"
+				item: "scannable:module_ore_rare"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "{ntc2.scanner.fluid.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["0539055FB0321299"]
+			id: "234C0DEF4BEC32B8"
+			tasks: [{
+				id: "1DE9C931112BBC44"
+				type: "item"
+				item: "scannable:module_fluid"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["39D5B7D46B047DCC"]
+			id: "5932ACD58B84F60C"
+			tasks: [{
+				id: "70609A86FEEA67E0"
+				type: "observation"
+				title: "{ntc2.scanner.ancient_debris.title}"
+				icon: "kubejs:ancient_debris_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:ancient_debris_ore_sample"
+			}]
+			rewards: [{
+				id: "4A4F92D00B4D6DD3"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 6
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["39D5B7D46B047DCC"]
+			id: "4B961F9F542E2FCA"
+			tasks: [{
+				id: "41ADCB6EDB8735B5"
+				type: "observation"
+				title: "{ntc2.scanner.cobalt_ore.title}"
+				icon: "kubejs:cobalt_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:cobalt_ore_sample"
+			}]
+			rewards: [{
+				id: "54BFA9D68D708AAD"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "5581634A26677306"
+			tasks: [{
+				id: "1EA07B7D19893F86"
+				type: "observation"
+				title: "{ntc2.scanner.galena_ore.title}"
+				icon: "kubejs:galena_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:galena_ore_sample"
+			}]
+			rewards: [
+				{
+					id: "7445FCD6981EF11F"
+					type: "item"
+					item: "emendatusenigmatica:lead_chunk"
+					count: 3
+				}
+				{
+					id: "0AD59C6482996751"
+					type: "item"
+					item: "emendatusenigmatica:silver_chunk"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "7275C2F1432F4A85"
+			tasks: [{
+				id: "04E07867C9AB5B75"
+				type: "observation"
+				title: "{ntc2.scanner.malachite_ore.title}"
+				icon: "kubejs:malachite_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:malachite_ore_sample"
+			}]
+			rewards: [{
+				id: "2CDA33EF7C0F34D0"
+				type: "item"
+				item: "emendatusenigmatica:copper_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "4316A5704F574C06"
+			tasks: [{
+				id: "71A45A02F0A6969D"
+				type: "observation"
+				title: "{ntc2.scanner.teallite_ore.title}"
+				icon: "kubejs:teallite_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:teallite_ore_sample"
+			}]
+			rewards: [
+				{
+					id: "6CA5DAE06B41393D"
+					type: "item"
+					item: "emendatusenigmatica:tin_chunk"
+					count: 3
+				}
+				{
+					id: "453BA14D04F47806"
+					type: "item"
+					item: "emendatusenigmatica:lead_chunk"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "6274CA90685E3F80"
+			tasks: [{
+				id: "5B7FE9546575582A"
+				type: "observation"
+				title: "{ntc2.scanner.cassiterite_ore.title}"
+				icon: "kubejs:cassiterite_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:cassiterite_ore_sample"
+			}]
+			rewards: [{
+				id: "7A89AD158FF03C59"
+				type: "item"
+				item: "emendatusenigmatica:tin_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "38DD190858A65D1F"
+			tasks: [{
+				id: "669189582684D5D0"
+				type: "observation"
+				title: "{ntc2.scanner.sphalerite_ore.title}"
+				icon: "kubejs:sphalerite_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:sphalerite_ore_sample"
+			}]
+			rewards: [{
+				id: "491B238B0F643BAD"
+				type: "item"
+				item: "emendatusenigmatica:zinc_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "59056EF542A30754"
+			tasks: [{
+				id: "73176C79FEF2B108"
+				type: "observation"
+				title: "{ntc2.scanner.quartz_ore.title}"
+				icon: "kubejs:quartz_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:quartz_ore_sample"
+			}]
+			rewards: [
+				{
+					id: "43F33B82A55DA77D"
+					type: "item"
+					item: "emendatusenigmatica:quartz_chunk"
+					count: 6
+				}
+				{
+					id: "227B918F7BAD8D84"
+					type: "item"
+					item: "emendatusenigmatica:certus_quartz_chunk"
+					count: 6
+				}
+				{
+					id: "3978F8DAB732100C"
+					type: "item"
+					item: "emendatusenigmatica:charged_certus_quartz_chunk"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			dependencies: ["5B33B6BF2688F603"]
+			id: "762F4059EC4E962D"
+			tasks: [{
+				id: "1DE6B70C56940E65"
+				type: "observation"
+				title: "{ntc2.scanner.platinum_ore.title}"
+				icon: "kubejs:platinum_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:platinum_ore_sample"
+			}]
+			rewards: [{
+				id: "36541348A6751D19"
+				type: "item"
+				item: "emendatusenigmatica:osmium_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["39D5B7D46B047DCC"]
+			id: "711018C660042E01"
+			tasks: [{
+				id: "3138286C0AE15908"
+				type: "observation"
+				title: "{ntc2.scanner.nether_gold_ore.title}"
+				icon: "kubejs:nether_gold_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:nether_gold_ore_sample"
+			}]
+			rewards: [{
+				id: "275AE1F819BEFE75"
+				type: "item"
+				item: "emendatusenigmatica:gold_chunk"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "2FD14B4A61911FCD"
+			tasks: [{
+				id: "2227E3B9214E38C9"
+				type: "observation"
+				title: "{ntc2.scanner.limonite_ore.title}"
+				icon: "kubejs:limonite_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:limonite_ore_sample"
+			}]
+			rewards: [
+				{
+					id: "675AB6415C2B3B46"
+					type: "item"
+					item: "emendatusenigmatica:iron_chunk"
+					count: 3
+				}
+				{
+					id: "1EBB440B8C2F5FD0"
+					type: "item"
+					item: "emendatusenigmatica:nickel_chunk"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "71E8471BCF0A17D6"
+			tasks: [{
+				id: "71D35A25A946EA4A"
+				type: "observation"
+				title: "{ntc2.scanner.hematite_ore.title}"
+				icon: "kubejs:hematite_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:hematite_ore_sample"
+			}]
+			rewards: [{
+				id: "0FC713AF418DC95C"
+				type: "item"
+				item: "emendatusenigmatica:iron_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "1F6CEAC97D56FAF0"
+			tasks: [{
+				id: "04895F69C4DE96F2"
+				type: "observation"
+				title: "{ntc2.scanner.gold_ore.title}"
+				icon: "kubejs:gold_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:gold_ore_sample"
+			}]
+			rewards: [{
+				id: "1EF2BF928620DA1D"
+				type: "item"
+				item: "emendatusenigmatica:gold_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "2DE216E219023501"
+			tasks: [{
+				id: "775832F8335879B4"
+				type: "observation"
+				title: "{ntc2.scanner.cinnabar_ore.title}"
+				icon: "kubejs:cinnabar_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:cinnabar_ore_sample"
+			}]
+			rewards: [{
+				id: "77E0451B959295CF"
+				type: "item"
+				item: "emendatusenigmatica:redstone_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "48842E61EFA5030B"
+			tasks: [{
+				id: "741A8AFABC2C8457"
+				type: "observation"
+				title: "{ntc2.scanner.beryl_ore.title}"
+				icon: "kubejs:beryl_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:beryl_ore_sample"
+			}]
+			rewards: [{
+				id: "053524D063AA0412"
+				type: "item"
+				item: "emendatusenigmatica:emerald_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "2A6F1618B77A2108"
+			tasks: [{
+				id: "51BF43AFBCE27B1B"
+				type: "observation"
+				title: "{ntc2.scanner.bauxite_ore.title}"
+				icon: "kubejs:bauxite_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:bauxite_ore_sample"
+			}]
+			rewards: [{
+				id: "4E5C2CF7156B8ACD"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "61858C6A7DF1841A"
+			tasks: [{
+				id: "511EFF5E2D10A340"
+				type: "observation"
+				title: "{ntc2.scanner.azurite_ore.title}"
+				icon: "kubejs:azurite_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:azurite_ore_sample"
+			}]
+			rewards: [{
+				id: "304E97BA8A33C52A"
+				type: "item"
+				item: "emendatusenigmatica:copper_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "3A0D3740F35860F2"
+			tasks: [{
+				id: "35F85C8938813732"
+				type: "observation"
+				title: "{ntc2.scanner.autunite_ore.title}"
+				icon: "kubejs:autunite_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:autunite_ore_sample"
+			}]
+			rewards: [{
+				id: "51CE7784058E00AA"
+				type: "item"
+				item: "emendatusenigmatica:uranium_chunk"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["42C0FD39CDE94EDD"]
+			id: "1CEB855362677539"
+			tasks: [{
+				id: "233547B64D29979E"
+				type: "observation"
+				title: "{ntc2.scanner.coal_ore.title}"
+				icon: "kubejs:coal_ore_sample"
+				timer: 0L
+				observe_type: 0
+				to_observe: "kubejs:coal_ore_sample"
+			}]
+			rewards: [{
+				id: "2EB7EAABD5D4136F"
+				type: "item"
+				item: "emendatusenigmatica:coal_chunk"
+				count: 6
+			}]
+		}
+	]
+}

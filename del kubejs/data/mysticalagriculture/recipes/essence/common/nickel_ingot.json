@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:nickel_essence"
+    }
+  },
+  "result": {
+    "item": "emendatusenigmatica:nickel_ingot",
+   	"count": 8
+  }
+}

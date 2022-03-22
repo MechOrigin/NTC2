@@ -1,0 +1,210 @@
+{
+	"mod": "aquaculture",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"starshell_turtle": {
+						// Do not edit this name
+						"name": "starshell_turtle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"arrau_turtle": {
+						// Do not edit this name
+						"name": "arrau_turtle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"box_turtle": {
+						// Do not edit this name
+						"name": "box_turtle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"tuna": {
+						// Do not edit this name
+						"name": "tuna",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"jellyfish": {
+						// Do not edit this name
+						"name": "jellyfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"bluegill": {
+						// Do not edit this name
+						"name": "bluegill",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"muskellunge": {
+						// Do not edit this name
+						"name": "muskellunge",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"catfish": {
+						// Do not edit this name
+						"name": "catfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"brown_shrooma": {
+						// Do not edit this name
+						"name": "brown_shrooma",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"tambaqui": {
+						// Do not edit this name
+						"name": "tambaqui",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"pacific_halibut": {
+						// Do not edit this name
+						"name": "pacific_halibut",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"rainbow_trout": {
+						// Do not edit this name
+						"name": "rainbow_trout",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"boulti": {
+						// Do not edit this name
+						"name": "boulti",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"gar": {
+						// Do not edit this name
+						"name": "gar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"perch": {
+						// Do not edit this name
+						"name": "perch",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"capitaine": {
+						// Do not edit this name
+						"name": "capitaine",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"atlantic_halibut": {
+						// Do not edit this name
+						"name": "atlantic_halibut",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"piranha": {
+						// Do not edit this name
+						"name": "piranha",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"blackfish": {
+						// Do not edit this name
+						"name": "blackfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"red_grouper": {
+						// Do not edit this name
+						"name": "red_grouper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"arapaima": {
+						// Do not edit this name
+						"name": "arapaima",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"atlantic_herring": {
+						// Do not edit this name
+						"name": "atlantic_herring",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"bayad": {
+						// Do not edit this name
+						"name": "bayad",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"pollock": {
+						// Do not edit this name
+						"name": "pollock",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"carp": {
+						// Do not edit this name
+						"name": "carp",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"red_shrooma": {
+						// Do not edit this name
+						"name": "red_shrooma",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"atlantic_cod": {
+						// Do not edit this name
+						"name": "atlantic_cod",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"pink_salmon": {
+						// Do not edit this name
+						"name": "pink_salmon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"synodontis": {
+						// Do not edit this name
+						"name": "synodontis",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"brown_trout": {
+						// Do not edit this name
+						"name": "brown_trout",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"smallmouth_bass": {
+						// Do not edit this name
+						"name": "smallmouth_bass",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"minnow": {
+						// Do not edit this name
+						"name": "minnow",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					}
+				}
+			}
+		}
+	}
+}

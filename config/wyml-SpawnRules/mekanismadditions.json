@@ -1,0 +1,43 @@
+{
+	"mod": "mekanismadditions",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"baby_enderman": {
+						// Do not edit this name
+						"name": "baby_enderman",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"baby_stray": {
+						// Do not edit this name
+						"name": "baby_stray",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"baby_wither_skeleton": {
+						// Do not edit this name
+						"name": "baby_wither_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"baby_creeper": {
+						// Do not edit this name
+						"name": "baby_creeper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"baby_skeleton": {
+						// Do not edit this name
+						"name": "baby_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

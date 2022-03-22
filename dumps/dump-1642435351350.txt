@@ -1,0 +1,12 @@
+Section             Count      Time MS    Min MS     Max MS     Average MS
+structure_starts    0          0          0          0          0.00
+structure_refs      0          0          0          0          0.00
+biomes              0          0          0          0          0.00
+terrain             0          0          0          0          0.00
+surface             0          0          0          0          0.00
+air_carvers         0          0          0          0          0.00
+fluid_carvers       0          0          0          0          0.00
+decoration          0          0          0          0          0.00
+mob_spawns          0          0          0          0          0.00
+structure_searches  0          0          0          0          0.00
+Sum                                                             0.00

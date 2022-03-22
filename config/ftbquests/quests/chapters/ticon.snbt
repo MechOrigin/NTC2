@@ -1,0 +1,1219 @@
+{
+	id: "4E40D737FC8ACBCF"
+	group: "3584F5F5EDA97E25"
+	order_index: 0
+	filename: "ticon"
+	title: "{ntc2.ticon.chapter}"
+	icon: {
+		id: "tconstruct:pickaxe"
+		Count: 1b
+		tag: {
+			tic_multipliers: { }
+			tic_stats: {
+				"tconstruct:attack_speed": 1.2f
+				"tconstruct:mining_speed": 2.0f
+				"tconstruct:attack_damage": 0.0f
+				"tconstruct:harvest_level": 0.0f
+				"tconstruct:durability": 60.0f
+			}
+			tic_broken: 0b
+			tic_modifiers: [
+				{
+					name: "tconstruct:cultivated"
+					level: 3s
+				}
+				{
+					name: "tconstruct:piercing"
+					level: 1s
+				}
+			]
+			tic_materials: [
+				"tconstruct:wood"
+				"tconstruct:wood"
+				"tconstruct:wood"
+			]
+			Damage: 0
+			tic_persistent_data: {
+				abilities: 1
+				traits: 0
+				upgrades: 3
+			}
+		}
+	}
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "{ntc2.matsandyou.subtitle}"
+			description: [
+				"{ntc2.matsandyou.desc1}"
+				""
+				"{ntc2.matsandyou.desc2}"
+			]
+			dependencies: ["038B805835DEAAE9"]
+			id: "32B1F239DC2D89B8"
+			tasks: [{
+				id: "48C89B3C8623B317"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+			rewards: [{
+				id: "670B447A27D3C27B"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:part_builder"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: 1.0d
+			y: -2.5d
+			subtitle: "{ntc2.partbuilder.subtitle}"
+			description: [
+				"{ntc2.partbuilder.desc1}"
+				""
+				"{ntc2.partbuilder.desc2}"
+				""
+				"{ntc2.partbuilder.desc3}"
+				""
+				"{ntc2.partbuilder.desc4}"
+				"{image:ntc2:textures/quests/part_builder.png width:157 height:100}"
+				""
+				"{ntc2.partbuilder.desc5}"
+			]
+			dependencies: ["038B805835DEAAE9"]
+			min_width: 275
+			id: "520B7867982ADE3A"
+			tasks: [
+				{
+					id: "2154020B7C56682A"
+					type: "item"
+					item: "tconstruct:part_builder"
+				}
+				{
+					id: "5C24D15AF4DC7D93"
+					type: "item"
+					item: "tconstruct:pattern"
+				}
+			]
+			rewards: [{
+				id: "22E6020EE749C0B1"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 32
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "{ntc2.tinkerstation.subtitle}"
+			description: [
+				"{ntc2.tinkerstation.desc1}"
+				""
+				"{ntc2.tinkerstation.desc2}"
+				""
+				"{ntc2.tinkerstation.desc3}"
+				"{image:ntc2:textures/quests/tinker_station.png width:199 height:100}"
+			]
+			dependencies: ["520B7867982ADE3A"]
+			id: "2E1AED53B5AFF928"
+			tasks: [{
+				id: "61D5C3BFBA04A411"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "70B80D8B78B4508D"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: -1.75d
+			subtitle: "{ntc2.partchest.subtitle}"
+			description: [
+				"{ntc2.partchest.desc1}"
+				""
+				"{ntc2.partchest.desc2}"
+			]
+			dependencies: ["520B7867982ADE3A"]
+			size: 0.5d
+			optional: true
+			id: "7F49C51FE0DF2D0F"
+			tasks: [{
+				id: "4D8B9EC0EB411AA9"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+		}
+		{
+			x: 1.25d
+			y: -1.75d
+			subtitle: "{ntc2.modchest.subtitle}"
+			description: [
+				"{ntc2.modchest.desc1}"
+				""
+				"{ntc2.modchest.desc2}"
+			]
+			dependencies: ["520B7867982ADE3A"]
+			size: 0.5d
+			optional: true
+			id: "6E06FBB553E5C0E0"
+			tasks: [{
+				id: "615A3C9FF56184C8"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			subtitle: "{ntc2.gadgetbook.subtitle}"
+			description: [
+				"{ntc2.gadgetbook.desc1}"
+				""
+				"{ntc2.gadgetbook.desc2}"
+			]
+			dependencies: ["038B805835DEAAE9"]
+			optional: true
+			id: "5C7D4D925550B5C3"
+			tasks: [{
+				id: "587E44AFA26E99E0"
+				type: "item"
+				item: "tconstruct:tinkers_gadgetry"
+			}]
+		}
+		{
+			icon: "tconstruct:ender_slime_ball"
+			x: -2.0d
+			y: -1.75d
+			subtitle: "{ntc2.tinkerslime.subtitle}"
+			description: [
+				"{ntc2.tinkerslime.desc1}"
+				""
+				"{ntc2.tinkerslime.desc2}"
+				""
+				"{ntc2.tinkerslime.desc3}"
+				""
+				"{ntc2.tinkerslime.desc4}"
+				""
+				"{ntc2.tinkerslime.desc5}"
+			]
+			dependencies: ["038B805835DEAAE9"]
+			size: 0.5d
+			id: "57FB3DABB44CD552"
+			tasks: [{
+				id: "06414461F7CBAE09"
+				type: "item"
+				title: "{ntc2.tinkerslime.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:sky_slime_ball"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:ender_slime_ball"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:blood_slime_ball"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:ichor_slime_ball"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "033989190282D77D"
+				type: "item"
+				item: "mysticalagriculture:experience_droplet"
+				count: 16
+			}]
+		}
+		{
+			title: "{ntc2.melter.title}"
+			icon: "tconstruct:seared_melter"
+			x: 1.0d
+			y: -5.5d
+			subtitle: "{ntc2.melter.subtitle}"
+			description: [
+				"{ntc2.melter.desc1}"
+				""
+				"{ntc2.melter.desc2}"
+				"{image:ntc2:textures/quests/melter.png height:100 width:58}"
+				""
+				"{ntc2.melter.desc3}"
+				""
+				"{ntc2.melter.desc4}"
+			]
+			dependencies: ["2E1AED53B5AFF928"]
+			id: "41862929DC85BE7A"
+			tasks: [
+				{
+					id: "720A00D745395572"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "336CC1B2FEFE4A0F"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+			rewards: [{
+				id: "794CE40D0D4E0409"
+				type: "item"
+				item: "emendatusenigmatica:iron_chunk"
+				count: 4
+			}]
+		}
+		{
+			title: "{ntc2.casting.title}"
+			icon: "tconstruct:seared_table"
+			x: 1.0d
+			y: -6.5d
+			subtitle: "{ntc2.casting.subtitle}"
+			description: [
+				"{ntc2.casting.desc1}"
+				""
+				"{ntc2.casting.desc2}"
+				"{image:ntc2:textures/quests/casting.png height:100 width:104}"
+				""
+				"{ntc2.casting.desc3}"
+				""
+				"{ntc2.casting.desc4}"
+				""
+				"{ntc2.casting.desc5}"
+				""
+				"{ntc2.casting.desc6}"
+				""
+				"{ntc2.casting.desc7}"
+				""
+				"{ntc2.casting.desc8}"
+			]
+			dependencies: ["41862929DC85BE7A"]
+			min_width: 350
+			id: "495CDB1D83742564"
+			tasks: [
+				{
+					id: "6865D141FB96C8AB"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "0F87E6033428F41D"
+					type: "item"
+					title: "{ntc2.casting.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_table"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_basin"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "741E156FCE0E8BB9"
+					type: "item"
+					title: "{ntc2.casting.task2}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:casts"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "548E0DB1D18DD11C"
+				type: "item"
+				item: "tconstruct:blank_cast"
+				count: 16
+			}]
+		}
+		{
+			title: "{ntc2.smeltery.title}"
+			icon: "tconstruct:smeltery_controller"
+			x: 1.0d
+			y: -7.5d
+			subtitle: "{ntc2.smeltery.subtitle}"
+			description: [
+				"{ntc2.smeltery.desc1}"
+				""
+				"{ntc2.smeltery.desc2}"
+				""
+				"{ntc2.smeltery.desc3}"
+				""
+				"{ntc2.smeltery.desc4}"
+				"{image:ntc2:textures/quests/smeltery.png height:125 width:147}"
+				""
+				"{ntc2.smeltery.desc5}"
+				""
+				"{ntc2.smeltery.desc6}"
+				""
+				"{ntc2.smeltery.desc7}"
+				""
+				"{ntc2.smeltery.desc8}"
+			]
+			dependencies: ["495CDB1D83742564"]
+			min_width: 375
+			id: "10A0EEB7B141701F"
+			tasks: [
+				{
+					id: "45EFCBE71E45FAFF"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "47CD43FF78963EFB"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "2AB95D359DD1744C"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "737298ED87BF1685"
+					type: "item"
+					title: "{ntc2.smeltery.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_stone"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_cobble"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_paver"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_cracked_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_fancy_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_triangle_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_ladder"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_glass"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0C39B88C3E9A688E"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 16
+			}]
+		}
+		{
+			title: "{ntc2.mattiers.title}"
+			icon: {
+				id: "tconstruct:encyclopedia"
+				Count: 1b
+				tag: {
+					mantle: {
+						book: {
+							current_page: ""
+						}
+					}
+				}
+			}
+			x: 2.0d
+			y: -2.5d
+			subtitle: "{ntc2.mattiers.subtitle}"
+			description: [
+				"{ntc2.mattiers.desc1}"
+				""
+				"{ntc2.mattiers.desc2}"
+				""
+				"{ntc2.mattiers.desc3}"
+				""
+				"{ntc2.mattiers.desc4}"
+			]
+			dependencies: ["520B7867982ADE3A"]
+			min_width: 250
+			id: "67557FD2E5362BD4"
+			tasks: [{
+				id: "07ECDD0357DE29E5"
+				type: "item"
+				item: {
+					id: "tconstruct:encyclopedia"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: ""
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.foundry.title}"
+			icon: "tconstruct:foundry_controller"
+			x: 1.0d
+			y: -8.5d
+			subtitle: "{ntc2.foundry.subtitle}"
+			description: [
+				"{ntc2.foundry.desc1}"
+				"{image:ntc2:textures/quests/foundry.png height:125 width:153}"
+				""
+				"{ntc2.foundry.desc2}"
+				""
+				"{ntc2.foundry.desc3}"
+			]
+			dependencies: ["495CDB1D83742564"]
+			min_width: 275
+			id: "586D0FD07ECB5179"
+			tasks: [
+				{
+					id: "563E8259144B2AA5"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "5DCBB8F008626224"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "269D2076ACCB66CE"
+					type: "item"
+					title: "{ntc2.foundry.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:scorched_stone"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:polished_scorched_stone"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_road"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:chiseled_scorched_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_ladder"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_glass"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "03BBCE8487F8799F"
+				type: "item"
+				item: "tconstruct:scorched_bricks"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			subtitle: "{ntc2.alloyer.subtitle}"
+			description: [
+				"{ntc2.alloyer.desc}"
+				"{image:ntc2:textures/quests/alloyer.png height:100 width:148}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2E1AED53B5AFF928"]
+			id: "1E88864C64A70258"
+			tasks: [{
+				id: "34499BFCD79FA17D"
+				type: "item"
+				item: "tconstruct:scorched_alloyer"
+			}]
+			rewards: [{
+				id: "22AA0697D7F1ADB1"
+				type: "item"
+				item: "tconstruct:scorched_ingot_tank"
+				count: 2
+			}]
+		}
+		{
+			title: "{ntc2.smelteryio.title}"
+			icon: "tconstruct:seared_duct"
+			x: 0.0d
+			y: -7.5d
+			subtitle: "{ntc2.smelteryio.subtitle}"
+			description: [
+				"{ntc2.smelteryio.desc1}"
+				""
+				"{ntc2.smelteryio.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2E1AED53B5AFF928"]
+			id: "1F35727FC8CF7185"
+			tasks: [
+				{
+					id: "71AA2621FD8B56B4"
+					type: "item"
+					title: "{ntc2.smelteryio.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_chute"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_chute"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "11193826ED8675B6"
+					type: "item"
+					title: "{ntc2.smelteryio.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_duct"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_duct"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6500C2E277E8CB8C"
+				type: "item"
+				item: {
+					id: "tconstruct:scorched_lantern"
+					Count: 1b
+					tag: {
+						tank: {
+							FluidName: "tconstruct:blazing_blood"
+							Amount: 100
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "{ntc2.blazing.title}"
+			x: 2.0d
+			y: -7.5d
+			subtitle: "{ntc2.blazing.subtitle}"
+			description: [
+				"{ntc2.blazing.desc1}"
+				""
+				"{ntc2.blazing.desc2}"
+				""
+				"{ntc2.blazing.desc3}"
+			]
+			dependencies: ["10A0EEB7B141701F"]
+			id: "7E941A8F779BED59"
+			tasks: [{
+				id: "3D0EE1D6A6C2528D"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+			rewards: [{
+				id: "64AF7D1D06C01E23"
+				type: "item"
+				item: "minecraft:blaze_powder"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			subtitle: "{ntc2.pigback.subtitle}"
+			description: [
+				"{ntc2.pigback.desc1}"
+				""
+				"{ntc2.pigback.desc2}"
+				""
+				"{ntc2.pigback.desc3}"
+			]
+			dependencies: ["038B805835DEAAE9"]
+			id: "7D58CF53295D1D6A"
+			tasks: [{
+				id: "2C0CF5E329187C23"
+				type: "item"
+				item: "tconstruct:piggy_backpack"
+			}]
+		}
+		{
+			title: "{ntc2.efln.title}"
+			x: 4.0d
+			y: -3.5d
+			subtitle: "{ntc2.efln.subtitle}"
+			description: [
+				"{ntc2.efln.desc1}"
+				""
+				"{ntc2.efln.desc2}"
+				""
+				"{ntc2.efln.desc3}"
+			]
+			dependencies: ["038B805835DEAAE9"]
+			id: "027957CB59735B04"
+			tasks: [{
+				id: "42046772243991D2"
+				type: "item"
+				item: "tconstruct:efln_ball"
+			}]
+			rewards: [{
+				id: "7C138F0623A7B33E"
+				type: "item"
+				item: "tconstruct:efln_ball"
+				count: 16
+			}]
+		}
+		{
+			icon: "tconstruct:earth_slime_boots"
+			x: 4.0d
+			y: -2.5d
+			subtitle: "{ntc2.slimeboots.subtitle}"
+			description: [
+				"{ntc2.slimeboots.desc1}"
+				""
+				"{ntc2.slimeboots.desc2}"
+				""
+				"{ntc2.slimeboots.desc3}"
+			]
+			dependencies: ["038B805835DEAAE9"]
+			id: "2F728909BC4FD299"
+			tasks: [{
+				id: "1234D1BB14F6BA7A"
+				type: "item"
+				title: "{ntc2.slimeboots.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:earth_slime_boots"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:sky_slime_boots"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:ichor_slime_boots"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:ender_slime_boots"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:blood_slime_boots"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:earth_slime_sling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.0d
+			y: -2.5d
+			subtitle: "{ntc2.slimesling.subtitle}"
+			description: [
+				"{ntc2.slimesling.desc1}"
+				""
+				"{ntc2.slimesling.desc2}"
+				""
+				"{ntc2.slimesling.desc3}"
+				""
+				"{ntc2.slimesling.desc4}"
+				""
+				"{ntc2.slimesling.desc5}"
+			]
+			dependencies: ["038B805835DEAAE9"]
+			min_width: 275
+			id: "1C5ED39DB076AB8D"
+			tasks: [{
+				id: "2F8D9A9D9FC3F96F"
+				type: "item"
+				title: "{ntc2.slimesling.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:earth_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:sky_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:ichor_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:ender_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			subtitle: "{ntc2.cans.subtitle}"
+			description: [
+				"{ntc2.cans.desc1}"
+				""
+				"{ntc2.cans.desc2}"
+			]
+			dependencies: ["038B805835DEAAE9"]
+			id: "54B9B25778C87DD7"
+			tasks: [{
+				id: "06E9468F24B904F5"
+				type: "item"
+				item: "tconstruct:copper_can"
+			}]
+			rewards: [{
+				id: "5797355A4F78936D"
+				type: "item"
+				item: "tconstruct:copper_can"
+				count: 32
+			}]
+		}
+		{
+			title: "{ntc2.clearglass.title}"
+			icon: "tconstruct:clear_glass"
+			x: 0.0d
+			y: -3.5d
+			subtitle: "{ntc2.clearglass.subtitle}"
+			description: ["{ntc2.clearglass.desc}"]
+			dependencies: ["038B805835DEAAE9"]
+			id: "4C3D753553B58537"
+			tasks: [{
+				id: "3085B785A6B83A04"
+				type: "item"
+				title: "{ntc2.clearglass.task}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "tcon.*clear.*glass"
+					}
+				}
+			}]
+			rewards: [{
+				id: "749C0D596421015D"
+				type: "item"
+				item: "tconstruct:clear_glass"
+				count: 128
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:tinkers_anvil"
+				Count: 1b
+				tag: {
+					texture: "minecraft:netherite_block"
+				}
+			}
+			x: 2.0d
+			y: -6.5d
+			subtitle: "{ntc2.tinkersanvil.subtitle}"
+			description: [
+				"{ntc2.tinkersanvil.desc1}"
+				""
+				"{ntc2.tinkersanvil.desc2}"
+			]
+			dependencies: ["495CDB1D83742564"]
+			id: "76AD58F29FC949E8"
+			tasks: [{
+				id: "1E5DC406540ADAC3"
+				type: "item"
+				title: "{ntc2.tinkersanvil.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "tcon.*anvil"
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.modifiers.title}"
+			icon: "tconstruct:silky_cloth"
+			x: 2.0d
+			y: -3.5d
+			subtitle: "{ntc2.modifiers.subtitle}"
+			description: [
+				"{ntc2.modifiers.desc1}"
+				""
+				"{ntc2.modifiers.desc2}"
+				""
+				"{ntc2.modifiers.desc3}"
+				""
+				"{ntc2.modifiers.desc4}"
+				""
+				"{ntc2.modifiers.desc5}"
+			]
+			dependencies: ["2E1AED53B5AFF928"]
+			min_width: 275
+			id: "2C49036009BDAFB9"
+			tasks: [{
+				id: "68F16F703202FA3D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{ntc2.smeltbooks.title}"
+			icon: {
+				id: "tconstruct:mighty_smelting"
+				Count: 1b
+				tag: {
+					mantle: {
+						book: {
+							current_page: "tools.tools"
+						}
+					}
+				}
+			}
+			x: 0.0d
+			y: -6.5d
+			subtitle: "{ntc2.smeltbooks.subtitle}"
+			description: [
+				"{ntc2.smeltbooks.desc1}"
+				""
+				"{ntc2.smeltbooks.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2E1AED53B5AFF928"]
+			id: "34110AF04D4A74BA"
+			tasks: [
+				{
+					id: "25178F8B2EE18818"
+					type: "item"
+					item: {
+						id: "tconstruct:puny_smelting"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: ""
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "11BCB568FA3D7669"
+					type: "item"
+					item: {
+						id: "tconstruct:mighty_smelting"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: "tools.tools"
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			subtitle: "{ntc2.foundrybook.subtitle}"
+			description: ["{ntc2.foundrybook.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["2E1AED53B5AFF928"]
+			id: "1E203DAE6C2C65B5"
+			tasks: [{
+				id: "4CC42AEC56340907"
+				type: "item"
+				item: "tconstruct:fantastic_foundry"
+			}]
+		}
+		{
+			title: "{ntc2.gotothermal.title}"
+			icon: "thermal:machine_frame"
+			x: 0.0d
+			y: -5.5d
+			shape: "circle"
+			dependencies: ["41862929DC85BE7A"]
+			id: "2FFFCDB3843FE3B7"
+			tasks: [{
+				id: "19E14D3311A40148"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{ntc2.tinkerslimeseeds.title}"
+			x: -2.0d
+			y: -2.5d
+			subtitle: "{ntc2.tinkerslimeseeds.subtitle}"
+			description: ["{ntc2.tinkerslimeseeds.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["520B7867982ADE3A"]
+			id: "1087C6CDD8EADEC0"
+			tasks: [
+				{
+					id: "5DEB47612E33BAD6"
+					type: "item"
+					item: "tconstruct:earth_slime_grass_seeds"
+				}
+				{
+					id: "3AB5B5E2F08BC22C"
+					type: "item"
+					item: "tconstruct:sky_slime_grass_seeds"
+				}
+				{
+					id: "78D20A9BB4605B35"
+					type: "item"
+					item: "tconstruct:ender_slime_grass_seeds"
+				}
+				{
+					id: "5150189A65D789AB"
+					type: "item"
+					item: "tconstruct:blood_slime_grass_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "4C1B6C27E1F8DB9B"
+					type: "item"
+					item: "tconstruct:earth_congealed_slime"
+				}
+				{
+					id: "3D62756BAF4FE545"
+					type: "item"
+					item: "tconstruct:sky_congealed_slime"
+				}
+				{
+					id: "4C99EB98F54EB99B"
+					type: "item"
+					item: "tconstruct:ender_congealed_slime"
+				}
+				{
+					id: "7A816159CE0F680A"
+					type: "item"
+					item: "tconstruct:blood_congealed_slime"
+				}
+			]
+		}
+		{
+			title: "{ntc2.tinkerslimesaps.title}"
+			x: -2.0d
+			y: -3.5d
+			subtitle: "{ntc2.emcable}"
+			description: ["{ntc2.tinkerslimesaps.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["520B7867982ADE3A"]
+			id: "085887EE5B7DC0AB"
+			tasks: [
+				{
+					id: "50B11396FACB71FF"
+					type: "item"
+					item: "tconstruct:earth_slime_sapling"
+				}
+				{
+					id: "333F90DDA56443A6"
+					type: "item"
+					item: "tconstruct:sky_slime_sapling"
+				}
+				{
+					id: "50C2CCFE0532597A"
+					type: "item"
+					item: "tconstruct:ender_slime_sapling"
+				}
+				{
+					id: "3817E956BDAC7487"
+					type: "item"
+					item: "tconstruct:blood_slime_sapling"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["41862929DC85BE7A"]
+			id: "0D04303121912C3D"
+			tasks: [{
+				id: "07BD751C505DE4EA"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+			}]
+			rewards: [{
+				id: "414A090107369EAE"
+				type: "item"
+				item: "tconstruct:slimesteel_block"
+			}]
+		}
+		{
+			title: "{ntc2.gotocompact.title}"
+			icon: "compactcrafting:field_projector"
+			x: -4.0d
+			y: -3.0d
+			shape: "circle"
+			dependencies: ["0D04303121912C3D"]
+			id: "12B2FEB9BEF9BB50"
+			tasks: [{
+				id: "6D4AEF032B00D1EF"
+				type: "checkmark"
+				title: "Go To Compact Machines Chapter"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			subtitle: "Solid Fuels"
+			description: ["{ntc2.melter.desc2}"]
+			dependencies: ["41862929DC85BE7A"]
+			optional: true
+			id: "280D7067A13C62FC"
+			tasks: [{
+				id: "41873C5FF2DA7A89"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+		}
+		{
+			title: "{ntc2.meltingpnt.title}"
+			icon: "engineersdecor:sign_firehazard"
+			x: 1.0d
+			y: -4.5d
+			subtitle: "{ntc2.meltingpnt.subtitle}"
+			description: [
+				"{ntc2.meltingpnt.desc1}"
+				""
+				"{image:ntc2:textures/quests/melting_points.png width:593 height:675 align:1 fit:true}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2E1AED53B5AFF928"]
+			min_width: 500
+			id: "0407C24AB0324F02"
+			tasks: [{
+				id: "51F42D7A83DDD2E3"
+				type: "checkmark"
+			}]
+		}
+	]
+}

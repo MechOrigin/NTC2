@@ -1,0 +1,12 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "enderioalloys:item_material_pulsating_crystal",
+  "result": {
+    "items": [
+      {
+        "item": "enderioalloys:item_material_pulsating_powder"
+      }
+    ]
+  },
+  "duration": 40
+}

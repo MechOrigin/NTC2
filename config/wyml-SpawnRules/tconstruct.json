@@ -1,0 +1,37 @@
+{
+	"mod": "tconstruct",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"ender_slime": {
+						// Do not edit this name
+						"name": "ender_slime",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"earth_slime": {
+						// Do not edit this name
+						"name": "earth_slime",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"terracube": {
+						// Do not edit this name
+						"name": "terracube",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"sky_slime": {
+						// Do not edit this name
+						"name": "sky_slime",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

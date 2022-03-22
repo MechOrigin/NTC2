@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/nugget"
+  },
+  "fluid": {
+    "name": "kubejs:molten_ender_iron",
+    "amount": 16
+  },
+  "result": "extendedcrafting:ender_nugget",
+  "cooling_time": 19
+}

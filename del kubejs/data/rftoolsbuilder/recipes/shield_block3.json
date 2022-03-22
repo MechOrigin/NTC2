@@ -1,0 +1,22 @@
+{
+  "type": "mcjtylib:copy_nbt",
+  "pattern": [
+    "sOs",
+    "OMO",
+    "sOs"
+  ],
+  "key": {
+    "M": {
+      "item": "rftoolsbuilder:shield_block2"
+    },
+    "s": {
+      "item": "emendatusenigmatica:dimensional_gem"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "rftoolsbuilder:shield_block3"
+  }
+}

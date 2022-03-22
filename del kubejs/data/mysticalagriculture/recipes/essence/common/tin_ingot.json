@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:tin_essence"
+    }
+  },
+  "result": {
+    "item": "emendatusenigmatica:tin_ingot",
+   	"count": 8
+  }
+}

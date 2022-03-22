@@ -1,0 +1,4 @@
+#52B53D minecraft:air
+#D0995E immersiveengineering:alloybrick
+#4A5E4E minecraft:obsidian
+#7CF074 projecte:transmutation_table

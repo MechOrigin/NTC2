@@ -1,0 +1,37 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:assembler",
+	"time": 100,
+	"requirements": [
+		{
+			"type": "custommachinery:fluid",
+			"fluid": "mekanism:sulfuric_acid",
+			"amount": 100,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "kubejs:basic_circuit_board",
+			"amount": 1,
+			"mode": "input"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "immersiveengineering:wire_copper",
+			"amount": 1,
+			"mode": "input"
+		},
+        {
+            "type": "custommachinery:energy",
+            "mode": "input",
+            "amount": 2500,
+            "chance": 1.0
+        },
+		{
+			"type": "custommachinery:item",
+			"item": "kubejs:printed_basic_circuit_board",
+			"amount": 1,
+			"mode": "output"
+		}
+	]
+}

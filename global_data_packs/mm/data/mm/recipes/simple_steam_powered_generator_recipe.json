@@ -1,0 +1,31 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "simple_steam_powered_generator_structure",
+    "controllerId": "simple_steam_powered_generator",
+    "ticks": 200,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:mekanism_gas",
+            "data": {
+                "gas": "mekanism:steam",
+                "amount": 100
+            }
+        }
+    ],
+    "outputs": [
+
+        {
+            "type": "masterfulmachinery:energy",
+            "data": {
+                "amount": 25600
+            }
+        },
+        {
+            "type": "masterfulmachinery:fluids",
+            "data": {
+                "fluid": "minecraft:water",
+                "amount": 100
+            }
+        }
+    ]
+}

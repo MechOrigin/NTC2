@@ -1,0 +1,106 @@
+{
+	"mod": "upgrade_aquatic",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"water_creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"immortal_jellyfish": {
+						// Do not edit this name
+						"name": "immortal_jellyfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"cassiopea_jellyfish": {
+						// Do not edit this name
+						"name": "cassiopea_jellyfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"box_jellyfish": {
+						// Do not edit this name
+						"name": "box_jellyfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"glow_squid": {
+						// Do not edit this name
+						"name": "glow_squid",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"lionfish": {
+						// Do not edit this name
+						"name": "lionfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"pike": {
+						// Do not edit this name
+						"name": "pike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"nautilus": {
+						// Do not edit this name
+						"name": "nautilus",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"perch": {
+						// Do not edit this name
+						"name": "perch",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					}
+				}
+			},
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"goose": {
+						// Do not edit this name
+						"name": "goose",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"thrasher": {
+						// Do not edit this name
+						"name": "thrasher",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"flare": {
+						// Do not edit this name
+						"name": "flare",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"great_thrasher": {
+						// Do not edit this name
+						"name": "great_thrasher",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"ululu": {
+						// Do not edit this name
+						"name": "ululu",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

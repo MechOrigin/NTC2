@@ -1,0 +1,67 @@
+{
+	id: "18A32D619292D3EA"
+	group: "3584F5F5EDA97E25"
+	order_index: 4
+	filename: "compact_machines"
+	title: "{ntc2.compactmachines.chapter}"
+	icon: "compactcrafting:field_projector"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			description: [
+				"Crafting Compact Machines themselves is done with Field Projectors. Four of them need to be placed facing each other in a cross shape."
+				""
+				"Begin by placing one a few blocks off the ground and then right click it. It will show you a series of marks floating in front of it that represent valid locations for the next Projector."
+				""
+				"Once the second Projector is placed, Right-Clicking again will show the final two Projector locations."
+				""
+				"If done correctly, an orange force field will appear in the center. This area is where the Compact Machines themselves must be constructed."
+				""
+				"{image:ntc2:textures/quests/compact_crafting.png width:100 height:100 align:1}"
+			]
+			dependencies: [
+				"0D04303121912C3D"
+				"53E428F5CA485C95"
+				"578241FBD4744DAA"
+			]
+			id: "0A15033C254CE730"
+			tasks: [{
+				id: "36F5A61016B517E1"
+				type: "item"
+				item: "compactcrafting:field_projector"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5287D5BD3BD71267"
+				type: "item"
+				item: "mysticalagriculture:experience_droplet"
+				count: 16
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["12B2FEB9BEF9BB50"]
+			id: "53E428F5CA485C95"
+			tasks: [{
+				id: "64BBF15750966125"
+				type: "item"
+				item: "compactcrafting:projector_dish"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["12B2FEB9BEF9BB50"]
+			id: "578241FBD4744DAA"
+			tasks: [{
+				id: "4ECD005CAF5D33D7"
+				type: "item"
+				item: "compactcrafting:base"
+			}]
+		}
+	]
+}

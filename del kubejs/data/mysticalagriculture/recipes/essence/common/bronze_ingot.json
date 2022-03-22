@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mysticalagriculture:bronze_essence"
+    }
+  },
+  "result": {
+    "item": "emendatusenigmatica:bronze_ingot",
+   	"count": 8
+  }
+}

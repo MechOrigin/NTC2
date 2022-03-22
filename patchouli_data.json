@@ -1,0 +1,44 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "industrialforegoing:industrial_foregoing": {
+      "viewedEntries": [
+        "industrialforegoing:agr_hus/animal_rancher",
+        "industrialforegoing:agr_hus/sludge",
+        "industrialforegoing:resource_production/sludge_refiner",
+        "industrialforegoing:basics/addons",
+        "industrialforegoing:basics/dissolution_chamber",
+        "industrialforegoing:agr_hus/mob_slaughter_factory",
+        "industrialforegoing:agr_hus/pink_slime"
+      ],
+      "bookmarks": [],
+      "history": [
+        "industrialforegoing:agr_hus/pink_slime",
+        "industrialforegoing:agr_hus/mob_slaughter_factory",
+        "industrialforegoing:basics/dissolution_chamber",
+        "industrialforegoing:basics/addons",
+        "industrialforegoing:agr_hus/sludge",
+        "industrialforegoing:resource_production/sludge_refiner",
+        "industrialforegoing:agr_hus/animal_rancher"
+      ],
+      "completedManualQuests": []
+    },
+    "alchemistry:alchemistry_book": {
+      "viewedEntries": [
+        "alchemistry:fission/fission_template",
+        "alchemistry:fission/fission_overview",
+        "alchemistry:fusion/fusion_template",
+        "alchemistry:fusion/fusion_overview"
+      ],
+      "bookmarks": [],
+      "history": [
+        "alchemistry:fusion/fusion_template",
+        "alchemistry:fusion/fusion_overview",
+        "alchemistry:fission/fission_template",
+        "alchemistry:fission/fission_overview"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

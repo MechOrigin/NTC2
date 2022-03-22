@@ -1,0 +1,18 @@
+{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid": "immersivepetroleum:diesel_sulfur",
+    "amount": 100
+  },
+  "result": [
+    {
+      "fluid": "thermal:refined_fuel",
+      "amount": 100
+    },
+    {
+      "item": "emendatusenigmatica:sulfur_dust",
+      "chance": 0.20
+    }
+  ],
+  "energy": 6000
+}

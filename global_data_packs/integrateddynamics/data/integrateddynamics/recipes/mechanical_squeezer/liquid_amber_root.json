@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "betterendforge:amber_root_raw",
+  "result": {
+    "fluid": {
+      "fluid": "kubejs:liquid_amber_root",
+      "amount": 125
+    },
+    "items": [
+
+    ]
+  },
+  "duration": 15
+}

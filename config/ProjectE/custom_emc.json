@@ -1,0 +1,624 @@
+{
+  "entries": [
+    {
+      "item": "projecte:tome",
+      "emc": 500
+    },
+    {
+      "item": "minecraft:nether_star",
+      "emc": 0
+    },
+    {
+      "item": "chemlib:ingot_uranium",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bell",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:golden_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:trident",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:diamond_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:ingot_uranium",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:ingot_uranium",
+      "emc": 0
+    },
+    {
+      "item": "chemlib:ingot_platinum",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:ingot_uranium",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:ingot_platinum",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_stal",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_chirp",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_blocks",
+      "emc": 0
+    },
+    {
+      "item": "biomesoplenty:music_disc_wanderer",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_ward",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_wait",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_mall",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_strad",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_mellohi",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_cat",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_pigstep",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_13",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_11",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:ingot_nickel",
+      "emc": 0
+    },
+    {
+      "item": "chemlib:ingot_nickel",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:ingot_nickel",
+      "emc": 0
+    },
+    {
+      "item": "thermal:nickel_ingot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:filled_map",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:music_disc_far",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:ingot_lead",
+      "emc": 0
+    },
+    {
+      "item": "chemlib:ingot_silver",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:ingot_osmium",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:ingot_lead",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:ingot_lead",
+      "emc": 0
+    },
+    {
+      "item": "electrodynamics:ingotlead",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:ingot_silver",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:ingot_silver",
+      "emc": 0
+    },
+    {
+      "item": "chemlib:ingot_osmium",
+      "emc": 0
+    },
+    {
+      "item": "chemlib:ingot_tin",
+      "emc": 0
+    },
+    {
+      "item": "thermal:tin_ingot",
+      "emc": 0
+    },
+    {
+      "item": "libvulpes:ingottin",
+      "emc": 0
+    },
+    {
+      "item": "electrodynamics:ingottin",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:ingot_tin",
+      "emc": 0
+    },
+    {
+      "item": "chemlib:ingot_lead",
+      "emc": 0
+    },
+    {
+      "item": "thermal:silver_ingot",
+      "emc": 0
+    },
+    {
+      "item": "thermal:lead_ingot",
+      "emc": 0
+    },
+    {
+      "item": "electrodynamics:ingotsilver",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:ingot_tin",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:name_tag",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:turtle_egg",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:saddle",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:ingot_copper",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:copper_ingot",
+      "emc": 0
+    },
+    {
+      "item": "thermal:bronze_ingot",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:ingot_bronze",
+      "emc": 0
+    },
+    {
+      "item": "libvulpes:ingotcopper",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:magma_block",
+      "emc": 0
+    },
+    {
+      "item": "thermal:copper_ingot",
+      "emc": 0
+    },
+    {
+      "item": "electrodynamics:ingotcopper",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:ingot_copper",
+      "emc": 0
+    },
+    {
+      "item": "chemlib:ingot_aluminum",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:ingot_aluminum",
+      "emc": 0
+    },
+    {
+      "item": "electrodynamics:ingotbronze",
+      "emc": 0
+    },
+    {
+      "item": "chemlib:ingot_copper",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:ingot_aluminum",
+      "emc": 0
+    },
+    {
+      "item": "libvulpes:ingotaluminum",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:ingot_copper",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_plant",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:honey_bottle",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:hdpe_pellet",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:stick_treated",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gravel",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mycelium",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:basalt",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:crimson_nylium",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:podzol",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:warped_nylium",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:grass_path",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:snow",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:netherrack",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:end_stone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:soul_soil",
+      "emc": 0
+    },
+    {
+      "item": "biomesoplenty:white_sand",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:orange_sand",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:black_sand",
+      "emc": 1
+    },
+    {
+      "item": "atmospheric:arid_sand",
+      "emc": 1
+    },
+    {
+      "item": "atmospheric:red_arid_sand",
+      "emc": 1
+    },
+    {
+      "item": "emendatusenigmatica:osmium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "emendatusenigmatica:bronze_ingot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:flint",
+      "emc": 0
+    },
+    {
+      "item": "fluxnetworks:flux_dust",
+      "emc": 512
+    },
+    {
+      "item": "betterendforge:crystal_grass",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:chorus_grass",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:cave_grass",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:bushy_grass",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:shadow_plant",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:amber_grass",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:jungle_grass",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:globulagus",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:orango",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:dense_vine",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:creeping_moss",
+      "emc": 1024
+    },
+    {
+      "item": "betterendforge:neon_cactus",
+      "emc": 8
+    },
+    {
+      "item": "betterendforge:bolux_mushroom",
+      "emc": 32
+    },
+    {
+      "item": "betterendforge:small_amaranita_mushroom",
+      "emc": 32
+    },
+    {
+      "item": "exnihilosequentia:seed_blue_coral",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:seed_pink_coral",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:seed_purple_coral",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:seed_red_coral",
+      "emc": 0
+    },
+    {
+      "item": "exnihilosequentia:seed_yellow_coral",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tube_coral_block",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:brain_coral_block",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:bubble_coral_block",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:fire_coral_block",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:horn_coral_block",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:creeper_head",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:skeleton_skull",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:zombie_head",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:honeycomb",
+      "emc": 64
+    },
+    {
+      "item": "integrateddynamics:menril_log_filled",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_flower",
+      "emc": 24576
+    },
+    {
+      "item": "emendatusenigmatica:certus_quartz_gem",
+      "emc": 256
+    },
+    {
+      "item": "projecte:alchemical_coal",
+      "emc": 512
+    },
+    {
+      "item": "projecte:mobius_fuel",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:aeternalis_fuel",
+      "emc": 8192
+    },
+    {
+      "item": "tconstruct:blood_slime_sapling",
+      "emc": 32
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 139264
+    },
+    {
+      "item": "projecte:red_matter",
+      "emc": 466944
+    },
+    {
+      "item": "projectex:magenta_matter",
+      "emc": 1449984
+    },
+    {
+      "item": "projectex:pink_matter",
+      "emc": 4399104
+    },
+    {
+      "item": "projectex:purple_matter",
+      "emc": 13246464
+    },
+    {
+      "item": "projectex:violet_matter",
+      "emc": 39788544
+    },
+    {
+      "item": "projectex:blue_matter",
+      "emc": 119414784
+    },
+    {
+      "item": "projectex:cyan_matter",
+      "emc": 358293504
+    },
+    {
+      "item": "projectex:green_matter",
+      "emc": 1074929664
+    },
+    {
+      "item": "projectex:lime_matter",
+      "emc": 3224838144
+    },
+    {
+      "item": "projectex:yellow_matter",
+      "emc": 9674563584
+    },
+    {
+      "item": "projectex:orange_matter",
+      "emc": 29023739904
+    },
+    {
+      "item": "projectex:white_matter",
+      "emc": 87071268864
+    },
+    {
+      "item": "projectex:fading_matter",
+      "emc": 261213855744
+    },
+    {
+      "item": "thermal:oil_red_sand",
+      "emc": 0
+    },
+    {
+      "item": "thermal:oil_sand",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:shroomlight",
+      "emc": 64
+    },
+    {
+      "item": "emendatusenigmatica:zinc_ingot",
+      "emc": 512
+    },
+    {
+      "item": "emendatusenigmatica:fluorite_gem",
+      "emc": 576
+    },
+    {
+      "item": "emendatusenigmatica:bitumen_gem",
+      "emc": 0
+    },
+    {
+      "item": "emendatusenigmatica:bitumen_chunk",
+      "emc": 2048
+    }
+  ]
+}

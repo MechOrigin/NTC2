@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "betterendforge:blue_vine_lantern",
+  "result": {
+    "fluid": {
+      "fluid": "kubejs:liquid_blue_vine",
+      "amount": 500
+    },
+    "items": [
+
+    ]
+  },
+  "duration": 15
+}

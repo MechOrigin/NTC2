@@ -1,0 +1,23 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "productivebees:honeycomb_experience"
+  },
+  "result": [
+    {
+      "item": "miniutilities:experience_pearl",
+      "count": 3,
+      "chance": 0.7
+    },
+    {
+      "fluid": "cofh_core:experience",
+      "amount": 250
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

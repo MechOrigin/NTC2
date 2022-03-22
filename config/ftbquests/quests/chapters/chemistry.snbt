@@ -1,0 +1,167 @@
+{
+	id: "79FD426346697704"
+	group: "000A286551FED281"
+	order_index: 1
+	filename: "chemistry"
+	title: "Chemistry"
+	icon: "chemlib:element_hydrogen"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Chemistry is fun!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Now you don't need a degree in chemical engineering... yet.."
+			id: "101E93E40DDEC3F3"
+			tasks: [{
+				id: "4DBB3FEA28E37A32"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1FE929DECCFC3FE3"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "alchemistry:alchemistry_book"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["101E93E40DDEC3F3"]
+			size: 0.5d
+			id: "7497D0E17B119448"
+			tasks: [{
+				id: "54C041EF3228A450"
+				type: "item"
+				item: "alchemistry:slot_filler"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["101E93E40DDEC3F3"]
+			id: "063C2017DDE6765C"
+			tasks: [{
+				id: "4671000BFC31880F"
+				type: "item"
+				item: "alchemistry:chemical_dissolver"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["101E93E40DDEC3F3"]
+			id: "2CEC4E67CEC20F7A"
+			tasks: [{
+				id: "150476FE3A19DC42"
+				type: "item"
+				item: "alchemistry:chemical_combiner"
+			}]
+		}
+		{
+			title: "Stone to Gold"
+			icon: {
+				id: "mekanism:creative_energy_cube"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "18446744073709551615.9999"
+						}]
+					}
+				}
+			}
+			x: 2.5d
+			y: -1.5d
+			subtitle: "It costs a disgusting amount of power to break appart molecules and atoms. So make sure you have a decent power source available."
+			dependencies: ["101E93E40DDEC3F3"]
+			id: "4C3E82DC4B4866D8"
+			tasks: [{
+				id: "6897F02325882758"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			subtitle: "2.87%"
+			description: [
+				"It's not always consistent but roughly 8 stacks of stone nets around 16 gold samples. Roughly 512 EMC worth."
+				""
+				"It has other byproducts as well. Such as Iron, Silicon Dioxide (more stone), and Aluminum. As well as other valuable minerals/metals."
+			]
+			dependencies: ["4C3E82DC4B4866D8"]
+			id: "778BB082230DE5CB"
+			tasks: [{
+				id: "0CFF85FF570D756C"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			subtitle: "16 per ingot"
+			dependencies: ["778BB082230DE5CB"]
+			id: "29F49CDB3C9FE588"
+			tasks: [{
+				id: "3BF26556B645834C"
+				type: "item"
+				item: "chemlib:element_gold"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			subtitle: "4096 EMC - 512 EMC = 3584 EMC"
+			description: ["Even in a world where you blow through 20 stacks of stone you're still netting around 2816 EMC."]
+			dependencies: ["29F49CDB3C9FE588"]
+			id: "0410128D831786BD"
+			tasks: [{
+				id: "6AC11B54DD9D0D22"
+				type: "checkmark"
+				title: "Gold Ingot"
+				icon: "minecraft:gold_ingot"
+			}]
+			rewards: [{
+				id: "406951BAF3EF4525"
+				type: "item"
+				item: "chemlib:element_gold"
+				count: 32
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["778BB082230DE5CB"]
+			optional: true
+			id: "279BB707A7B74245"
+			tasks: [{
+				id: "61701BA61D4EA73A"
+				type: "item"
+				item: "chemlib:element_aluminum"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["778BB082230DE5CB"]
+			optional: true
+			id: "551B84EF00F9F8AA"
+			tasks: [{
+				id: "6A55B2472AA0DF7B"
+				type: "item"
+				item: "chemlib:element_iron"
+			}]
+		}
+	]
+}

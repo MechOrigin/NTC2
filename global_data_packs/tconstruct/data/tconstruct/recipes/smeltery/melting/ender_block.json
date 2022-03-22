@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "extendedcrafting:ender_ingot_block"
+  },
+  "result": {
+    "fluid": "kubejs:molten_ender_iron",
+    "amount": 1296
+  },
+  "temperature": 1600,
+  "time": 53
+}

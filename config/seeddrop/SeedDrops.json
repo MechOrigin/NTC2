@@ -1,0 +1,24 @@
+{
+  "dropConfig": [
+    {
+      "item": "minecraft:wheat_seeds",
+      "chance": 12.5
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "chance": 12.5
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "chance": 12.5
+    },
+    {
+      "item": "minecraft:beetroot_seeds",
+      "chance": 12.5
+    },
+    {
+      "item": "immersiveengineering:seed",
+      "chance": 12.5
+    }
+  ]
+}

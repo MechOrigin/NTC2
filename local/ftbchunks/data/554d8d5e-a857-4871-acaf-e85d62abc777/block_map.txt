@@ -1,0 +1,3 @@
+#52B53D minecraft:air
+#4A5E4E minecraft:obsidian
+#7CF074 projecte:transmutation_table

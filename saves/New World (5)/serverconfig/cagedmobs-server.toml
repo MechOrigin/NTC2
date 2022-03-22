@@ -1,0 +1,26 @@
+
+#Server side config for CagedMobs. If changed it will affect the whole server!
+[server]
+	#Disables Hopping Cages' automatic harvest, making them work the same as the non-hopping variant.
+	hoppingCagesDisabled = false
+	#Makes all samplers (all tiers) only single use. After a mob is sampled and put into the cage the sampler will break.
+	singleUseSamplers = false
+	#Sets the speed of all cages. The bigger the value the faster the cages will work (by default: 1.00).
+	#Range: 0.01 ~ 100.0
+	cagesSpeed = 1.0
+	#List of all entities blacklisted from use (in a modid:name format). Players will not be able to put entities from this list into cages nor sample them.
+	#To switch this list into a whitelist, set the 'entitiesListInWhitelistMode' value to true. 
+	#Example use: when 'entitiesList' contains ["minecraft:pig", "minecraft:cow","minecraft:rabbit"] vanilla pig, cow and rabbit will be blacklisted.
+	entitiesList = []
+	#Changes the entities list into a whitelist (only entities inside 'entitiesList' will be available). 
+	#Example use: when 'entitiesListInWhitelistMode' value is set to true and 'entitiesList' contains ["minecraft:pig", "minecraft:chicken"] all entities will be blacklisted except vanilla pig and chicken.
+	entitiesListInWhitelistMode = false
+	#List of all items blacklisted from use (in a modid:name format).
+	#Items in this list will not be able to be produced from cages, even if they are present in one or more recipes.
+	#To switch this list into a whitelist, set the 'itemsListInWhitelistMode' value to true. 
+	#Example use: when 'itemsList' contains ["minecraft:iron_ingot", "minecraft:gold_ingot", "minecraft:wither_rose"] iron ingot, gold ingot and wither rose will not drop from any cage recipe.
+	itemsList = []
+	#Changes the items list into a whitelist (only items inside 'itemsList' can drop from caged mobs). 
+	#Example use: when 'itemsListInWhitelistMode' value is set to true and 'itemsList' contains ["minecraft:iron_ingot"] only iron ingots could be obtained from caged entities.
+	itemsListInWhitelistMode = false
+

@@ -1,0 +1,23 @@
+{
+	version: 1
+	uuid: "65e094c9baef42779108d47c875f90bc"
+	name: "Falkaga"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: {
+		67EC9F81122A88AA: 1
+	}
+	started: {
+		0000000000000001: 1639299633213L
+		722D196796B4E27C: 1639299633213L
+		03175DD24C6EBF40: 1639299633213L
+		67EC9F81122A88AA: 1639299633213L
+	}
+	completed: {
+		03175DD24C6EBF40: 1639299633213L
+		67EC9F81122A88AA: 1639299633213L
+	}
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

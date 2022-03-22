@@ -1,0 +1,23 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "productivebees:honeycomb_cinnabar"
+  },
+  "result": [
+    {
+      "item": "emendatusenigmatica:cinnabar_dust",
+      "count": 3,
+      "chance": 1.0
+    },
+    {
+      "fluid": "cofh_core:honey",
+      "amount": 50
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ]
+}

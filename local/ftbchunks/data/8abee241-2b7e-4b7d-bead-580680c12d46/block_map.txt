@@ -1,0 +1,5 @@
+#52B53D minecraft:air
+#189B99 minecraft:barrel
+#0C0A23 botanypots:hopper_botany_pot
+#4A5E4E minecraft:obsidian
+#7CF074 projecte:transmutation_table

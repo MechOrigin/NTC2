@@ -1,0 +1,31 @@
+{
+    "controllerId": "steam_boiler",
+    "name": "Steam Boiler",
+    "ports": [
+      {
+        "type": "masterfulmachinery:fluids",
+        "name": "Steam Boiler Fluid",
+        "id": "small",
+        "data": {
+          "capacity": 10000
+        }
+      },
+      {
+        "type": "masterfulmachinery:mekanism_gas",
+        "name": "Steam Boiler Gas",
+        "id": "small",
+        "data": {
+          "capacity": 10000
+        }
+      },
+      {
+        "type": "masterfulmachinery:items",
+        "name": "Steam Boiler Item",
+        "id": "singlechest",
+        "data": {
+          "rows": 3,
+          "columns": 9
+        }
+      }
+    ]
+  }

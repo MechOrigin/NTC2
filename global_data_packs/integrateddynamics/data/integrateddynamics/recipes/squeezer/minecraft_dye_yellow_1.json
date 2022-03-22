@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "item": {
+    "item": "minecraft:dandelion"
+  },
+  "result": {
+    "fluid": {
+      "fluid": "thermal:latex",
+      "amount": 50
+    },
+    "items": [
+      {
+        "item": {
+          "item": "minecraft:yellow_dye",
+          "count": 4
+        }
+      }
+    ]
+  }
+}

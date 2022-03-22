@@ -1,0 +1,42 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:slice_n_splice",
+	"time": 100,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "betterendforge:eternal_crystal",
+			"amount": 4,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "tconstruct:enderman_head",
+			"amount": 1,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "emendatusenigmatica:enderium_ingot",
+			"amount": 4,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "tconstruct:soulsteel_ingot",
+			"amount": 2,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 20,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "enderioalloys:item_material_skull_ender_resonator",
+			"amount": 1,
+			"mode": "output"
+		}
+	]
+}

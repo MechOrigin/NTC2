@@ -1,0 +1,10 @@
+#33B projectvibrantjourneys:flooded_woodlands
+#7F2 minecraft:jungle_edge
+#472 projectvibrantjourneys:meadows
+#6CE projectvibrantjourneys:overgrown_spires
+#5A6 projectvibrantjourneys:prairie
+#5FF minecraft:river
+#76B terraforged:savanna_scrub
+#3A4 terraforged:shattered_savanna_scrub
+#4DC terraforged:warm_beach
+#029 projectvibrantjourneys:willow_wetlands

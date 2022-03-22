@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "minecraft:netherrack"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_gold",
+    "amount": 1000
+  },
+  "result": "minecraft:nether_gold_ore",
+  "cooling_time": 55
+}

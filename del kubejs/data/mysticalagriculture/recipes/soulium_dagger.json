@@ -1,0 +1,25 @@
+{
+  "type": "cucumber:shaped_transfer_damage",
+  "pattern": [
+    " D ",
+    "ISI",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "mysticalagriculture:soulium_dust"
+    },
+    "I": {
+      "item": "mysticalagriculture:soulium_ingot"
+    },
+    "S": {
+      "type": "forge:nbt",
+      "item": "tconstruct:sword",
+      "count": 1,
+      "nbt": "{tic_materials:[\"tconstruct:rose_gold\",\"tconstruct:rose_gold\",\"tconstruct:rose_gold\"],Damage:0}"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:soulium_dagger"
+  }
+}

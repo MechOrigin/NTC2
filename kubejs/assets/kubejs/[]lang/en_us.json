@@ -1,0 +1,9 @@
+{
+	"gas.kubejs.neutron_gas": "Neutron Gas",
+
+	"gas.kubejs.chloroethane_gas": "Chloroethane Gas",
+	"gas.kubejs.chloromethane_gas": "Chloromethane Gas",
+	"gas.kubejs.methane_gas": "Methane Gas",
+
+	"gas.kubejs.proton_gas": "Proton Gas"
+}

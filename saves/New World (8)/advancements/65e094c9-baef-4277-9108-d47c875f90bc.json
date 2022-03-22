@@ -1,0 +1,33 @@
+{
+  "projecte:recipes/projecte/interdiction_torch": {
+    "criteria": {
+      "has_philo_stone": "2022-02-13 09:10:14 -0800"
+    },
+    "done": true
+  },
+  "projecte:philosophers_stone": {
+    "criteria": {
+      "philosophers_stone": "2022-02-13 09:10:14 -0800"
+    },
+    "done": true
+  },
+  "nethers_exoticism:nethers_exoticism_adv": {
+    "criteria": {
+      "nethers_exoticism_adv": "2022-02-13 09:10:14 -0800"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2022-02-13 09:10:14 -0800"
+    },
+    "done": true
+  },
+  "projecte:recipes/projecte/transmutation_table": {
+    "criteria": {
+      "has_philo_stone": "2022-02-13 09:10:14 -0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

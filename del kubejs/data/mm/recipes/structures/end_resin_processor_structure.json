@@ -1,0 +1,33 @@
+{
+    "type": "masterfulmachinery:machine_structure",
+    "id": "end_resin_processor_structure",
+    "controllerId": "end_resin_processor",
+    "name": "End Resin Processor",
+    "layout": [
+      [
+        "BXXB",
+        "BXXB"
+      ],
+      [
+        "BBBB",
+        "IECO"
+      ]
+    ],
+    "legend": {
+      "I": {
+        "block": "masterfulmachinery:end_resin_processor_singlechest_port_items_input"
+      },
+      "X": {
+        "block": "masterfulmachinery:end_resin_processor_maximum_port_fluids_input"
+      },
+      "E": {
+        "block": "masterfulmachinery:end_resin_processor_maximum_port_energy_input"
+      },
+      "B": {
+        "block": "enderioalloys:block_alloy_crystalline_pink_slime"
+      },
+      "O": {
+        "block": "masterfulmachinery:end_resin_processor_singlechest_port_items_output"
+      }
+    }
+  }

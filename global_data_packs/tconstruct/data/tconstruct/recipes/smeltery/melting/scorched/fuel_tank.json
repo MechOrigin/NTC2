@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "type": "forge:nbt",
+    "item": "tconstruct:scorched_fuel_tank",
+    "count": 1
+  },
+  "result": {
+    "fluid": "tconstruct:scorched_stone",
+    "amount": 1152
+  },
+  "temperature": 1500,
+  "time": 150,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_quartz",
+      "amount": 144
+    }
+  ]
+}

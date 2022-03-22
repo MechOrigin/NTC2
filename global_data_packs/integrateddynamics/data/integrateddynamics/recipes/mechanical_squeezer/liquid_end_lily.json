@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "betterendforge:end_lily_leaf",
+  "result": {
+    "fluid": {
+      "fluid": "kubejs:liquid_end_lily",
+      "amount": 75
+    },
+    "items": [
+
+    ]
+  },
+  "duration": 15
+}
