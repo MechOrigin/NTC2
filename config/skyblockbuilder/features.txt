@@ -301,8 +301,8 @@ mekanism:ore_retrogen
 immersiveengineering:mineral_vein
 immersiveengineering:ie_ore
 immersiveengineering:ore_retro
-adlods:deposit_generator
 adlods:vanilla_controller
+adlods:deposit_generator
 terraforged:template
 terraforged:disk
 terraforged:freeze_top_layer
