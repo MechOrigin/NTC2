@@ -1,0 +1,7 @@
+natives
+logs
+*.log
+saves
+usercache.json
+usernamecache.json
+local

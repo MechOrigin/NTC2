@@ -123,7 +123,8 @@ onEvent(`recipes`, e => {
     `bat`,
     `cat`,
     `wolf`,
-    `parrot`
+    `parrot`,
+    `plastic`
   ], 1750, `prudentium`)
   //Tier 3 Crops
   tier([

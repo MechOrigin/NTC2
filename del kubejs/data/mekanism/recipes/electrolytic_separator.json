@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","result":{"item":"mekanism:electrolytic_separator"},"pattern":["IRI","A#A","IRI"],"key":{"I":{"tag":"forge:ingots/iron"},"R":{"tag":"forge:dusts/redstone"},"A":{"item":"extendedcrafting:crystaltine_component"},"#":{"item":"mekanism:electrolytic_core"}}}

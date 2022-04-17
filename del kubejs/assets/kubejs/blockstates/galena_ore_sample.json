@@ -1,9 +1,0 @@
-{
-  "variants": {
-    "": [
-      {
-        "model": "kubejs:block/galena_ore_sample"
-      }
-    ]
-  }
-}

@@ -1,8 +1,0 @@
-[08:50:55] [INFO ] Loaded script startup_scripts:AVSP/worldgen_remove.js in 0.951 s
-[08:50:55] [INFO ] Loaded script startup_scripts:item_registry.js in 0.045 s
-[08:50:55] [INFO ] Loaded script startup_scripts:block_registry.js in 0.014 s
-[08:50:55] [INFO ] Loaded script startup_scripts:mob_spawns.js in 0.001 s
-[08:50:55] [INFO ] Loaded script startup_scripts:fluid_registry.js in 0.116 s
-[08:50:55] [INFO ] Loaded script startup_scripts:gas_registry.js in 0.008 s
-[08:50:55] [INFO ] Loaded script startup_scripts:tools.js in 0.063 s
-[08:50:55] [INFO ] Loaded 7/7 KubeJS startup scripts in 2.282 s

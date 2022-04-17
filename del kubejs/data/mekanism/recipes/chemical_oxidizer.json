@@ -1,1 +1,0 @@
-{"type":"mekanism:mek_data","result":{"item":"mekanism:chemical_oxidizer"},"pattern":["ACA","P#T","ACA"],"key":{"T":{"item":"mekanism:basic_chemical_tank"},"C":{"item":"kubejs:basic_smd"},"A":{"item":"extendedcrafting:crystaltine_component"},"#":{"item":"mekanism:dynamic_tank"},"P":{"tag":"forge:chests/personal"}}}

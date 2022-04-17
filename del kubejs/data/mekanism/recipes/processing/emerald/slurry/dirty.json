@@ -1,1 +1,0 @@
-{"type":"mekanism:dissolution","itemInput":{"ingredient":{"tag":"forge:ores/emerald"}},"gasInput":{"amount":1,"gas":"mekanism:sulfuric_acid"},"output":{"slurry":"emendatusenigmatica:dirty_emerald","amount":1000,"chemicalType":"slurry"}}
