@@ -275,5 +275,16 @@
 				}
 			}]
 		}
+		{
+			x: 10.0d
+			y: 2.0d
+			dependencies: ["6BE563428B7219E3"]
+			id: "1742DFAB8F5074FE"
+			tasks: [{
+				id: "39AD831D023DC839"
+				type: "item"
+				item: "projectexpansion:final_star"
+			}]
+		}
 	]
 }

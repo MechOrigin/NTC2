@@ -52,6 +52,7 @@
 			x: -0.75d
 			y: -1.0d
 			subtitle: "{ntc2.optional.subtitle}"
+			description: ["These quests basically just explain what you're in for in this quest book."]
 			hide_dependency_lines: true
 			dependencies: ["5E2B93DCD6093AF1"]
 			size: 0.5d
@@ -61,6 +62,11 @@
 				type: "checkmark"
 				title: "Optional Quests"
 			}]
+			rewards: [{
+				id: "1873BBFA722A26AC"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+			}]
 		}
 		{
 			title: "{ntc2.main.title}"
@@ -68,6 +74,7 @@
 			x: 0.75d
 			y: -1.0d
 			subtitle: "{ntc2.main.subtitle}"
+			description: ["These quests basically just explain what you're in for in this quest book."]
 			hide_dependency_lines: true
 			dependencies: ["5E2B93DCD6093AF1"]
 			size: 0.5d
@@ -77,6 +84,11 @@
 				type: "checkmark"
 				title: "Main Quests"
 			}]
+			rewards: [{
+				id: "102B2AC64B2B7E58"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+			}]
 		}
 		{
 			title: "{ntc2.gotoquests.title}"
@@ -85,6 +97,7 @@
 			y: -1.75d
 			shape: "circle"
 			subtitle: "{ntc2.gotoquests.subtitle}"
+			description: ["These quests basically just explain what you're in for in this quest book."]
 			hide_dependency_lines: true
 			dependencies: ["5E2B93DCD6093AF1"]
 			size: 0.5d
@@ -93,6 +106,11 @@
 				id: "5BF70E9D4A666AF0"
 				type: "checkmark"
 				title: "Go To Quests"
+			}]
+			rewards: [{
+				id: "6B5BCC55061FE742"
+				type: "item"
+				item: "miniutilities:experience_pearl"
 			}]
 		}
 		{
@@ -335,12 +353,19 @@
 			x: -1.0d
 			y: 1.5d
 			subtitle: "{ntc2.clayball.subtitle}"
+			description: ["You get this from Clay Blocks initially"]
 			dependencies: ["5E2B93DCD6093AF1"]
 			id: "2EF155EDA52E2CF8"
 			tasks: [{
 				id: "6E348C6AD0B6BAE4"
 				type: "item"
 				item: "minecraft:clay_ball"
+			}]
+			rewards: [{
+				id: "38D9066BC9E92E38"
+				type: "item"
+				item: "minecraft:flint"
+				count: 32
 			}]
 		}
 		{
@@ -480,12 +505,19 @@
 			x: 1.0d
 			y: 1.5d
 			subtitle: "Use &4Dust&4"
+			description: ["Use the AE2 grinder to make dust from sand and then use the dust as usual with the Ex Nihilo barrel with water to make clay"]
 			dependencies: ["5E2B93DCD6093AF1"]
 			id: "63498EF395AB21EC"
 			tasks: [{
 				id: "02D3B5019B17C438"
 				type: "item"
 				item: "minecraft:clay"
+			}]
+			rewards: [{
+				id: "329DE87430BDCC6F"
+				type: "item"
+				item: "morecharcoal:carrot_charcoal"
+				count: 24
 			}]
 		}
 		{
@@ -524,6 +556,7 @@
 							level: 1s
 						}
 					]
+					HideFlags: 3
 					tic_materials: [
 						"tconstruct:manyullyn"
 						"tconstruct:manyullyn"
@@ -628,6 +661,11 @@
 			x: -1.0d
 			y: 5.5d
 			subtitle: "{ntc2.piston.subtitle}"
+			description: [
+				"The Iron Rod needed for this initially will be created using tinkers meltery"
+				""
+				"Many things require pistons, in addition to vanilla mechanics (move things via redstone). Pistons will be an integral part of thermal, and several other recipes"
+			]
 			dependencies: ["1D0D916082F247D9"]
 			id: "4B7AB392D0E3EBB2"
 			tasks: [{
@@ -665,6 +703,11 @@
 			x: 2.0d
 			y: 4.5d
 			subtitle: "{ntc2.hoppermobcage.subtitle}"
+			description: [
+				"A really crazy mob farm idea is a Vindicator. These entities drop emeralds at a fairly high rate when killed. Which are &eEMCable&r"
+				""
+				"Vindicators can be cycled with the Philosopher's Stone like normal mobs"
+			]
 			dependencies: ["40F0B4F60D6CEDF4"]
 			id: "133888F896D94C00"
 			tasks: [{
@@ -840,6 +883,7 @@
 			x: -2.0d
 			y: -5.5d
 			subtitle: "{ntc2.endportal.subtitle}"
+			description: ["The End portal frame can be broken with a silk touch pickaxe. Tinkers version of silk touch also works."]
 			hide_dependency_lines: true
 			dependencies: ["5E2B93DCD6093AF1"]
 			id: "1A1E79CAE911372A"
@@ -967,6 +1011,7 @@
 			x: 4.0d
 			y: -5.5d
 			subtitle: "{ntc2.emcable}"
+			description: ["Initially Ice can be a good way to get water early game. You can initially get Ice Chunks from completing quests in this chapter. 4 Ice chunks will complete to make an Ice Block which is &eEMCable&r"]
 			hide_dependency_lines: true
 			dependencies: ["5E2B93DCD6093AF1"]
 			optional: true
@@ -1854,7 +1899,19 @@
 			x: -4.0d
 			y: -2.5d
 			subtitle: "{ntc2.watercan.subtitle}"
-			description: ["{ntc2.watercan.desc1}"]
+			description: [
+				"{ntc2.watercan.desc1}"
+				""
+				"The watercan can be used in a dispenser"
+				""
+				"It can also be used to grow all kinds of flowers on grass for dyes"
+				""
+				"They do not consume the water source"
+				""
+				"They work on farmland and crops, etc as you would expect. The water capacity is as follows: Wood=1B, Stone=2B, Iron=4B, Gold=4B, Diamond=Infinite"
+				""
+				"The range on each tier increases as well, as well as the chance flowers/crops will grow, and how fast they grow"
+			]
 			hide_dependency_lines: true
 			dependencies: ["5E2B93DCD6093AF1"]
 			id: "6A0EB91B2378F0F7"
@@ -1964,6 +2021,11 @@
 		{
 			x: -2.0d
 			y: 1.5d
+			description: [
+				"Porcelain can be very useful early game!"
+				""
+				"Is needed to make Ex Nihilio porcelain dolls"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"2EF155EDA52E2CF8"
@@ -1975,6 +2037,20 @@
 				type: "item"
 				item: "ceramics:unfired_porcelain"
 			}]
+			rewards: [
+				{
+					id: "0AA33BDD3FD32EF6"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 4
+				}
+				{
+					id: "04E01DFBFC99F770"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 16
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -2282,9 +2358,8 @@
 		}
 		{
 			x: -7.0d
-			y: 2.0d
+			y: 2.5d
 			hide_dependency_lines: true
-			dependencies: ["6CB0E225FB375F3F"]
 			id: "2C630218D023D93D"
 			tasks: [{
 				id: "2E9E88AB897FA919"
@@ -2297,12 +2372,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "50167D63BE22C942"
+				type: "item"
+				item: "minecraft:rabbit_hide"
+				count: 16
+			}]
 		}
 		{
 			x: -8.0d
-			y: 2.0d
+			y: 2.5d
 			hide_dependency_lines: true
-			dependencies: ["6CB0E225FB375F3F"]
 			id: "0FF576403251CB09"
 			tasks: [{
 				id: "3328B9ED03C2E352"
@@ -2315,12 +2395,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "31F3DCC8AC10E403"
+				type: "item"
+				item: "minecraft:rabbit_hide"
+				count: 16
+			}]
 		}
 		{
 			x: -9.0d
-			y: 2.0d
+			y: 2.5d
 			hide_dependency_lines: true
-			dependencies: ["6CB0E225FB375F3F"]
 			id: "76F713BA115ED404"
 			tasks: [{
 				id: "42A6326E20968412"
@@ -2333,12 +2418,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3A7930C07E93D8E4"
+				type: "item"
+				item: "minecraft:rabbit_hide"
+				count: 16
+			}]
 		}
 		{
 			x: -10.0d
-			y: 2.0d
+			y: 2.5d
 			hide_dependency_lines: true
-			dependencies: ["6CB0E225FB375F3F"]
 			id: "3D4CF832944F2383"
 			tasks: [{
 				id: "5108FA28649F5831"
@@ -2351,10 +2441,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6A1D6908915F4A15"
+				type: "item"
+				item: "minecraft:rabbit_hide"
+				count: 16
+			}]
 		}
 		{
 			x: -7.0d
-			y: 3.0d
+			y: 3.5d
 			dependencies: ["2C630218D023D93D"]
 			id: "61AE05216328CE81"
 			tasks: [{
@@ -2371,7 +2467,7 @@
 		}
 		{
 			x: -8.0d
-			y: 3.0d
+			y: 3.5d
 			dependencies: ["0FF576403251CB09"]
 			id: "1D88B6CE8E91F947"
 			tasks: [{
@@ -2388,7 +2484,7 @@
 		}
 		{
 			x: -9.0d
-			y: 3.0d
+			y: 3.5d
 			dependencies: ["76F713BA115ED404"]
 			id: "2CAD67A4FFE95F49"
 			tasks: [{
@@ -2405,7 +2501,7 @@
 		}
 		{
 			x: -10.0d
-			y: 3.0d
+			y: 3.5d
 			dependencies: ["3D4CF832944F2383"]
 			id: "720F02F511C4B213"
 			tasks: [{
@@ -2422,7 +2518,7 @@
 		}
 		{
 			x: -7.0d
-			y: 4.0d
+			y: 4.5d
 			dependencies: ["61AE05216328CE81"]
 			id: "47F1407D1C8E6483"
 			tasks: [{
@@ -2439,7 +2535,7 @@
 		}
 		{
 			x: -8.0d
-			y: 4.0d
+			y: 4.5d
 			dependencies: ["1D88B6CE8E91F947"]
 			id: "059581B8AEB7D0E3"
 			tasks: [{
@@ -2456,7 +2552,7 @@
 		}
 		{
 			x: -9.0d
-			y: 4.0d
+			y: 4.5d
 			dependencies: ["2CAD67A4FFE95F49"]
 			id: "29EBD170762E7EFD"
 			tasks: [{
@@ -2473,7 +2569,7 @@
 		}
 		{
 			x: -10.0d
-			y: 4.0d
+			y: 4.5d
 			dependencies: ["720F02F511C4B213"]
 			id: "2F51EFAC5474478D"
 			tasks: [{
@@ -2490,7 +2586,7 @@
 		}
 		{
 			x: -7.0d
-			y: 5.0d
+			y: 5.5d
 			dependencies: ["47F1407D1C8E6483"]
 			id: "59D117A58B28E6DA"
 			tasks: [{
@@ -2507,7 +2603,7 @@
 		}
 		{
 			x: -8.0d
-			y: 5.0d
+			y: 5.5d
 			dependencies: ["059581B8AEB7D0E3"]
 			id: "722627CFF07D1300"
 			tasks: [{
@@ -2524,7 +2620,7 @@
 		}
 		{
 			x: -9.0d
-			y: 5.0d
+			y: 5.5d
 			dependencies: ["29EBD170762E7EFD"]
 			id: "75E56E625CE503DD"
 			tasks: [{
@@ -2541,7 +2637,7 @@
 		}
 		{
 			x: -10.0d
-			y: 5.0d
+			y: 5.5d
 			dependencies: ["2F51EFAC5474478D"]
 			id: "1C680A5F5338FBF9"
 			tasks: [{
@@ -2558,7 +2654,7 @@
 		}
 		{
 			x: -7.0d
-			y: 6.0d
+			y: 6.5d
 			dependencies: ["59D117A58B28E6DA"]
 			id: "5FAAD063FACD9CFF"
 			tasks: [{
@@ -2575,7 +2671,7 @@
 		}
 		{
 			x: -8.0d
-			y: 6.0d
+			y: 6.5d
 			dependencies: ["722627CFF07D1300"]
 			id: "0797D52D3D4C2D5A"
 			tasks: [{
@@ -2592,7 +2688,7 @@
 		}
 		{
 			x: -9.0d
-			y: 6.0d
+			y: 6.5d
 			dependencies: ["75E56E625CE503DD"]
 			id: "146A23721ED521EF"
 			tasks: [{
@@ -2609,7 +2705,7 @@
 		}
 		{
 			x: -10.0d
-			y: 6.0d
+			y: 6.5d
 			dependencies: ["1C680A5F5338FBF9"]
 			id: "0F73B05CC13236D5"
 			tasks: [{
@@ -2754,8 +2850,8 @@
 		{
 			title: "{ntc2.amourarmour.title}"
 			icon: "projectextended:red_matter_shield"
-			x: -7.0d
-			y: 1.0d
+			x: -11.0d
+			y: 2.5d
 			description: [
 				"{ntc2.amourarmour.desc1}"
 				""
@@ -3164,27 +3260,17 @@
 		}
 		{
 			title: "Headshots!"
-			x: -8.0d
-			y: 1.0d
+			icon: "minecraft:skeleton_skull"
+			x: -10.0d
+			y: 0.0d
 			subtitle: "Headshots are enabled."
 			description: ["Projectile Protection also plays a major role in your protection. If it is on your helmet, it can reduce the damage taken by a headshot."]
 			hide_dependency_lines: true
 			dependencies: ["5E2B93DCD6093AF1"]
 			id: "6DAD749335EF6E2B"
 			tasks: [{
-				id: "692B769651C4379D"
-				type: "item"
-				title: "Projectile Protection"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 1s
-							id: "minecraft:projectile_protection"
-						}]
-					}
-				}
+				id: "70CA73C1A129C01A"
+				type: "checkmark"
 			}]
 		}
 		{
@@ -3242,6 +3328,11 @@
 			y: -1.0d
 			shape: "square"
 			subtitle: "/skyblock create"
+			description: [
+				"Only necessary if you're on a server really..."
+				""
+				"These quests basically just explain what you're in for in this quest book."
+			]
 			dependencies: ["5E2B93DCD6093AF1"]
 			size: 0.8d
 			id: "7116D639D6D6EDE0"
@@ -3253,6 +3344,84 @@
 				id: "0A61A268948EF5E0"
 				type: "item"
 				item: "miniutilities:experience_pearl"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.5d
+			subtitle: "{ntc2.emcable}"
+			description: ["It's easy enough to transmute Iron Ingots into Ender Pearls"]
+			hide_dependency_lines: true
+			dependencies: ["03175DD24C6EBF40"]
+			id: "5DF69E730EE51F78"
+			tasks: [{
+				id: "4BE351E618517D29"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+			rewards: [{
+				id: "31283E816F3B74D9"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 4
+			}]
+		}
+		{
+			x: -10.0d
+			y: -7.5d
+			subtitle: "{ntc2.emcable}"
+			description: ["You can transmute Iron Ingots as well as Diamonds into Gold"]
+			hide_dependency_lines: true
+			dependencies: ["03175DD24C6EBF40"]
+			id: "3FDA3760F81DC0AA"
+			tasks: [{
+				id: "4D6BABAD888039F5"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [{
+				id: "31874035D856BD58"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.5d
+			subtitle: "{ntc2.emcable}"
+			description: ["You can transmute Gold Ingots as well as Emerald into Diamond"]
+			hide_dependency_lines: true
+			dependencies: ["03175DD24C6EBF40"]
+			id: "7B919F697EBE6E12"
+			tasks: [{
+				id: "174030B03D42789F"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "44168F0556747CDC"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -7.5d
+			subtitle: "{ntc2.emcable}"
+			description: ["It's easy enough to transmute Diamonds into Emeralds"]
+			hide_dependency_lines: true
+			dependencies: ["03175DD24C6EBF40"]
+			id: "08EA9DC55EA3B3A8"
+			tasks: [{
+				id: "089870792C75D22F"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			rewards: [{
+				id: "07B0CDD2E5AEC244"
+				type: "item"
+				item: "minecraft:emerald"
 			}]
 		}
 	]

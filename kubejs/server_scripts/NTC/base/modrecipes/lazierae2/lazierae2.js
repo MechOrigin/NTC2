@@ -1,10 +1,10 @@
 onEvent('recipes', event => {
 
     removeRecipeByID(event, [
-      'lazierae2:fluix_aggregator/resonating_gem',
+      'lazierae2:aggregator/resonating_gem',
       'appliedenergistics2:fluix_aggregator/fluix_crystal',
-      'lazierae2:fluix_aggregator/carb_fluix_dust',
-      'lazierae2:fluix_aggregator/fluix_steel_ingot'
+      'lazierae2:aggregator/carb_fluix_dust',
+      'lazierae2:aggregator/fluix_steel_ingot'
     ])
 
     data = {
@@ -47,7 +47,7 @@ onEvent('recipes', event => {
     data.recipes.forEach((recipe) => {
 
         event.custom({
-            type: 'lazierae2:fluix_aggregator',
+            type: 'lazierae2:aggregator',
             processing_time: recipe.time,
             output: {
                 item: recipe.item,

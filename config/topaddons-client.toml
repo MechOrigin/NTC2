@@ -33,7 +33,7 @@
 
 [storagedrawers]
 	#Always display the extended drawer info
-	alwaysDisplayExtended = false
+	alwaysDisplayExtended = true
 
 [industrialforegoing]
 	#Color the background of tiny progress bars with the GUI's progress bar color
@@ -42,5 +42,5 @@
 
 [thermal]
 	#Always show Flux Cell input/output rate (even when not extended)
-	alwaysShowCellIo = false
+	alwaysShowCellIo = true
 

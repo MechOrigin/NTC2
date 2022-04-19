@@ -1,11 +1,5 @@
 {
   "variants": {
-    "facing=down": {
-      "model": "masterfulmachinery:block/simpleitem_controller"
-    },
-    "facing=up": {
-      "model": "masterfulmachinery:block/simpleitem_controller"
-    },
     "facing=north": {
       "model": "masterfulmachinery:block/simpleitem_controller"
     },

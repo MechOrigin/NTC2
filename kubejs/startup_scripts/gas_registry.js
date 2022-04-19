@@ -7,6 +7,7 @@ onEvent('gas.registry', event => {
 
     event.create("proton_gas").color(14886251).displayName('Proton Gas')
     event.create("anti_hydrogen_gas").color(16777215).displayName('Anti Hydrogen Gas')
+    event.create("anti_positron_gas").color(8926717).displayName('Anti Positron Gas')
 
     event.create("secret_spices_gas").color(14286796).displayName('Secret Spices Gas')
 

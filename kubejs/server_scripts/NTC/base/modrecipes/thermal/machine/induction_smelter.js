@@ -107,6 +107,14 @@ onEvent('recipes', (event) => {
             {
                 inputs: [Item.of('emendatusenigmatica:coal_dust', 8), 'chemlib:compound_calcium_chloride'],
                 outputs: [Item.of('kubejs:activated_carbon', 8)]
+            },
+            {
+                inputs: ['#betternether:soul_ground', Ingredient.of('#forge:ingots/iron', 2), '#forge:ingots/cobalt'],
+                outputs: [Item.of('tconstruct:soulsteel_ingot', 4)]
+            },
+            {
+                inputs: ['minecraft:redstone_block', Ingredient.of('#forge:gems/silicon', 9)],
+                outputs: [Item.of('extendedcrafting:redstone_ingot_block', 1)]
             }
         ]
     };

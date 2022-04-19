@@ -2,9 +2,13 @@
 #Common Settings
 [common]
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = ["backpack:true", "iron_backpack:true", "gold_backpack:true", "diamond_backpack:true", "netherite_backpack:true", "pickup_upgrade:true", "advanced_pickup_upgrade:true", "filter_upgrade:true", "advanced_filter_upgrade:true", "advanced_magnet_upgrade:true", "feeding_upgrade:true", "advanced_feeding_upgrade:true", "compacting_upgrade:true", "advanced_compacting_upgrade:true", "void_upgrade:true", "advanced_void_upgrade:true", "advanced_restock_upgrade:true", "deposit_upgrade:true", "advanced_deposit_upgrade:true", "refill_upgrade:true", "inception_upgrade:true", "everlasting_upgrade:true", "smelting_upgrade:true", "auto_smelting_upgrade:true", "crafting_upgrade:true", "stonecutter_upgrade:true", "stack_upgrade_tier_1:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_4:true", "jukebox_upgrade:true", "tool_swapper_upgrade:true", "advanced_tool_swapper_upgrade:true", "tank_upgrade:true", "battery_upgrade:true", "pump_upgrade:true", "advanced_pump_upgrade:true", "xp_pump_upgrade:true", "upgrade_base:true", "magnet_upgrade:true", "restock_upgrade:true"]
+	enabledItems = ["backpack:true", "iron_backpack:true", "gold_backpack:true", "diamond_backpack:true", "netherite_backpack:true", "pickup_upgrade:true", "advanced_pickup_upgrade:true", "filter_upgrade:true", "advanced_filter_upgrade:true", "advanced_magnet_upgrade:true", "feeding_upgrade:true", "advanced_feeding_upgrade:true", "compacting_upgrade:true", "advanced_compacting_upgrade:true", "void_upgrade:true", "advanced_void_upgrade:true", "advanced_restock_upgrade:true", "deposit_upgrade:true", "advanced_deposit_upgrade:true", "refill_upgrade:true", "inception_upgrade:true", "everlasting_upgrade:true", "smelting_upgrade:true", "auto_smelting_upgrade:true", "crafting_upgrade:true", "stonecutter_upgrade:true", "stack_upgrade_tier_1:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_4:true", "jukebox_upgrade:true", "tool_swapper_upgrade:true", "advanced_tool_swapper_upgrade:true", "tank_upgrade:true", "battery_upgrade:true", "pump_upgrade:true", "advanced_pump_upgrade:true", "xp_pump_upgrade:true", "upgrade_base:true", "magnet_upgrade:true", "restock_upgrade:true", "auto_smoking_upgrade:true", "smoking_upgrade:true", "auto_blasting_upgrade:true", "blasting_upgrade:true"]
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = true
+	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
+	disallowedItems = []
+	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
+	itemFluidHandlerEnabled = true
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
@@ -307,4 +311,88 @@
 		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
 		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
 		playJukebox = true
+		#Chance of mob dropping backpack when killed by player
+		#Range: 0.0 ~ 1.0
+		backpackDropChance = 0.085
+		#Chance increase per looting level of mob dropping backpack
+		#Range: 0.0 ~ 0.2
+		lootingChanceIncreasePerLevel = 0.01
+
+	#Smoking Upgrade Settings
+	[common.smokingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+
+	#Blasting Upgrade Settings
+	[common.blastingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+
+	#Auto-Smoking Upgrade Settings
+	[common.autoSmokingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+		#Number of input filter slots
+		#Range: 1 ~ 20
+		inputFilterSlots = 8
+		#Number of input filter slots displayed in a row
+		#Range: 1 ~ 6
+		inputFilterSlotsInRow = 4
+		#Number of fuel filter slots
+		#Range: 1 ~ 20
+		fuelFilterSlots = 4
+		#Number of fuel filter slots displayed in a row
+		#Range: 1 ~ 6
+		fuelFilterSlotsInRow = 4
+
+	#Auto-Blasting Upgrade Settings
+	[common.autoBlastingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+		#Number of input filter slots
+		#Range: 1 ~ 20
+		inputFilterSlots = 8
+		#Number of input filter slots displayed in a row
+		#Range: 1 ~ 6
+		inputFilterSlotsInRow = 4
+		#Number of fuel filter slots
+		#Range: 1 ~ 20
+		fuelFilterSlots = 4
+		#Number of fuel filter slots displayed in a row
+		#Range: 1 ~ 6
+		fuelFilterSlotsInRow = 4
+
+	#Xp Pump Upgrade Settings
+	[common.xpPumpUpgrade]
+		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
+		mendingOn = true
+		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
+		#Range: 1 ~ 20
+		maxXpPointsPerMending = 5
+
+	[common.nerfs]
+		#Determines if too many backpacks in player's inventory cause slowness to the player
+		tooManyBackpacksSlowness = false
+		#Maximum number of backpacks in player's inventory that will not cause slowness
+		#Range: 1 ~ 27
+		maxNumberOfBackpacks = 3
+		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
+		#Range: 0.1 ~ 5.0
+		slownessLevelsPerAdditionalBackpack = 1.0
 

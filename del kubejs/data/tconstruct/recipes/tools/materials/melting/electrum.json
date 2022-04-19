@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "tconstruct:electrum",
-  "temperature": 1064,
-  "result": {
-    "fluid": "tconstruct:molten_electrum",
-    "amount": 144
-  }
-}

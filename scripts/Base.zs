@@ -296,47 +296,6 @@ craftingTable.addShaped("filters1", <item:kubejs:filters1> * 8, [
     [<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]
 ]);
 
-
-craftingTable.addShaped("block_alloy_crystalline_pink_slime", <item:enderioalloys:block_alloy_crystalline_pink_slime>, [
-    [<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>, <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>, <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>],
-    [<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>, <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>, <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>],
-    [<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>, <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>, <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime>]
-]);
-craftingTable.addShapeless("item_alloy_ingot_crystalline_pink_slime", <item:enderioalloys:item_alloy_ingot_crystalline_pink_slime> * 9, 
-[<item:enderioalloys:block_alloy_crystalline_pink_slime>]);
-
-craftingTable.addShaped("block_alloy_dark_steel", <item:enderioalloys:block_alloy_dark_steel> * 1, [
-    [<item:enderioalloys:item_alloy_ingot_dark_steel>, <item:enderioalloys:item_alloy_ingot_dark_steel>, <item:enderioalloys:item_alloy_ingot_dark_steel>],
-    [<item:enderioalloys:item_alloy_ingot_dark_steel>, <item:enderioalloys:item_alloy_ingot_dark_steel>, <item:enderioalloys:item_alloy_ingot_dark_steel>],
-    [<item:enderioalloys:item_alloy_ingot_dark_steel>, <item:enderioalloys:item_alloy_ingot_dark_steel>, <item:enderioalloys:item_alloy_ingot_dark_steel>]
-]);
-craftingTable.addShapeless("item_alloy_ingot_dark_steel", <item:enderioalloys:item_alloy_ingot_dark_steel> * 9, 
-[<item:enderioalloys:block_alloy_dark_steel>]);
-
-craftingTable.addShaped("block_alloy_end_steel", <item:enderioalloys:block_alloy_end_steel> * 1, [
-    [<item:enderioalloys:item_alloy_ingot_end_steel>, <item:enderioalloys:item_alloy_ingot_end_steel>, <item:enderioalloys:item_alloy_ingot_end_steel>],
-    [<item:enderioalloys:item_alloy_ingot_end_steel>, <item:enderioalloys:item_alloy_ingot_end_steel>, <item:enderioalloys:item_alloy_ingot_end_steel>],
-    [<item:enderioalloys:item_alloy_ingot_end_steel>, <item:enderioalloys:item_alloy_ingot_end_steel>, <item:enderioalloys:item_alloy_ingot_end_steel>]
-]);
-craftingTable.addShapeless("item_alloy_ingot_end_steel", <item:enderioalloys:item_alloy_ingot_end_steel> * 9, 
-[<item:enderioalloys:block_alloy_end_steel>]);
-
-craftingTable.addShaped("block_alloy_melodic_alloy", <item:enderioalloys:block_alloy_melodic_alloy> * 1, [
-    [<item:enderioalloys:item_alloy_ingot_melodic_alloy>, <item:enderioalloys:item_alloy_ingot_melodic_alloy>, <item:enderioalloys:item_alloy_ingot_melodic_alloy>],
-    [<item:enderioalloys:item_alloy_ingot_melodic_alloy>, <item:enderioalloys:item_alloy_ingot_melodic_alloy>, <item:enderioalloys:item_alloy_ingot_melodic_alloy>],
-    [<item:enderioalloys:item_alloy_ingot_melodic_alloy>, <item:enderioalloys:item_alloy_ingot_melodic_alloy>, <item:enderioalloys:item_alloy_ingot_melodic_alloy>]
-]);
-craftingTable.addShapeless("item_alloy_ingot_melodic_alloy", <item:enderioalloys:item_alloy_ingot_melodic_alloy> * 9, 
-[<item:enderioalloys:block_alloy_melodic_alloy>]);
-
-craftingTable.addShaped("block_alloy_stellar_alloy", <item:enderioalloys:block_alloy_stellar_alloy> * 1, [
-    [<item:enderioalloys:item_alloy_ingot_stellar_alloy>, <item:enderioalloys:item_alloy_ingot_stellar_alloy>, <item:enderioalloys:item_alloy_ingot_stellar_alloy>],
-    [<item:enderioalloys:item_alloy_ingot_stellar_alloy>, <item:enderioalloys:item_alloy_ingot_stellar_alloy>, <item:enderioalloys:item_alloy_ingot_stellar_alloy>],
-    [<item:enderioalloys:item_alloy_ingot_stellar_alloy>, <item:enderioalloys:item_alloy_ingot_stellar_alloy>, <item:enderioalloys:item_alloy_ingot_stellar_alloy>]
-]);
-craftingTable.addShapeless("item_alloy_ingot_stellar_alloy", <item:enderioalloys:item_alloy_ingot_stellar_alloy> * 9, 
-[<item:enderioalloys:block_alloy_stellar_alloy>]);
-
 /*
 // Crafting table one shots not done by kubejs
 */
@@ -451,4 +410,12 @@ craftingTable.addShaped("chemical_dissolver", <item:alchemistry:chemical_dissolv
 	[<item:emendatusenigmatica:osmium_plate>, <item:minecraft:piston>, <item:emendatusenigmatica:osmium_plate>], 
 	[<item:emendatusenigmatica:osmium_plate>, <item:mekanism:enriched_diamond>, <item:emendatusenigmatica:osmium_plate>], 
 	[<item:emendatusenigmatica:osmium_plate>, <item:minecraft:piston>, <item:emendatusenigmatica:osmium_plate>]
+]);
+
+
+//why was this deleted?
+craftingTable.addShaped("basic_crafter", <item:packagedexcrafting:basic_crafter>, [
+    [<item:extendedcrafting:black_iron_ingot>, <item:packagedauto:package_component>, <item:extendedcrafting:black_iron_ingot>],
+    [<item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:basic_auto_table>, <item:extendedcrafting:crystaltine_component>],
+    [<item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:redstone_catalyst>, <item:extendedcrafting:black_iron_ingot>]
 ]);

@@ -40,6 +40,7 @@
 		{
 			x: -4.0d
 			y: -3.5d
+			subtitle: "&6Amber Lands&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "02778EAF090A1D3C"
@@ -52,6 +53,7 @@
 		{
 			x: 0.0d
 			y: -3.5d
+			subtitle: "&9Foggy Mushroomland&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "216EDE2FE9E6D2D7"
@@ -64,6 +66,7 @@
 		{
 			x: -2.0d
 			y: -3.5d
+			subtitle: "&dBlossoming Spires&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "2C3C38698EE1F244"
@@ -76,6 +79,7 @@
 		{
 			x: 1.0d
 			y: -3.5d
+			subtitle: "&9Foggy Mushroomland&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "5012D373E9D3CB54"
@@ -101,6 +105,7 @@
 		{
 			x: -3.0d
 			y: -3.5d
+			subtitle: "&dBlossoming Spires&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "7BDF7BC9A7EA8A69"
@@ -113,6 +118,7 @@
 		{
 			x: 5.0d
 			y: -3.5d
+			subtitle: "&3Glowing Grasslands&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "62F86F3F976FC033"
@@ -125,6 +131,7 @@
 		{
 			x: -1.0d
 			y: -3.5d
+			subtitle: "&8Shadow Forest&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "6E622EA97AB15898"
@@ -137,6 +144,7 @@
 		{
 			x: 2.0d
 			y: -3.5d
+			subtitle: "&5Umbrella Jungle and Chorus Forest&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "17BCD08464A09D40"
@@ -149,6 +157,7 @@
 		{
 			x: 3.0d
 			y: -3.5d
+			subtitle: "&9Foggy Mushroomland&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "5005F362A26D12CB"
@@ -161,6 +170,7 @@
 		{
 			x: 4.0d
 			y: -3.5d
+			subtitle: "&6Amber Lands&r"
 			hide_dependency_lines: true
 			dependencies: ["19DCFE487AEA48EE"]
 			id: "7EA604621B91B917"
@@ -685,24 +695,6 @@
 				id: "790EAAC31BF0AEF6"
 				type: "item"
 				item: "betterendforge:raw_amber"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 1.0d
-			description: [
-				"{image:ntc2:textures/quests/better_end_cities.png width:800 height:300 align:1 fit:true}"
-				"End Cities that melds better with Better End"
-				""
-				"Shulker spawners with Strength and Regeneration. Phantoms and Shulker spawners in the air ships."
-				""
-				"There also more chest's with loot and the elytra is enchanted with Mending and Unbreaking III"
-			]
-			id: "706AEFDD933DA45E"
-			tasks: [{
-				id: "5275BDD65932F398"
-				type: "checkmark"
-				title: "Better End Cities"
 			}]
 		}
 	]

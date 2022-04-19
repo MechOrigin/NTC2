@@ -111,7 +111,7 @@ craftingTable.removeRecipe(<item:thermal:device_tree_extractor>);
 craftingTable.addShaped("device_tree_extractor", <item:thermal:device_tree_extractor>, [
     [<item:quark:blue_stained_planks>, <tag:items:forge:gears/iron>, <item:quark:blue_stained_planks>],
     [<tag:items:forge:glass>, <item:minecraft:bucket>, <tag:items:forge:glass>],
-    [<item:quark:blue_stained_planks>, <item:minecraft:string>, <item:quark:blue_stained_planks>]
+    [<item:quark:blue_stained_planks>, <item:thermal:redstone_servo>, <item:quark:blue_stained_planks>]
 ]);
 
 
@@ -282,3 +282,59 @@ craftingTable.addShapeless("rubber", <item:thermal:rubber> * 1,
 //target_chamber stuff handled by nucleosynthesizing.js
 
 // Enricher stuff handled by dissolution.js
+
+
+// <recipetype:thermal:centrifuge>.addRecipe(String name, MCWeightedItemStack[] outputs, IFluidStack outputFluid, IIngredient ingredient, int energy);
+// centrifuge - bonsai
+<recipetype:thermal:centrifuge>.addRecipe("basic_power_flower", [<item:projectexpansion:basic_compressed_collector> * 2, <item:projectexpansion:basic_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:basic_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("dark_power_flower", [<item:projectexpansion:dark_compressed_collector> * 2, <item:projectexpansion:dark_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:dark_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("red_power_flower", [<item:projectexpansion:red_compressed_collector> * 2, <item:projectexpansion:red_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:red_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("magenta_power_flower", [<item:projectexpansion:magenta_compressed_collector> * 2, <item:projectexpansion:magenta_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:magenta_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("pink_power_flower", [<item:projectexpansion:pink_compressed_collector> * 2, <item:projectexpansion:pink_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:pink_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("purple_power_flower", [<item:projectexpansion:purple_compressed_collector> * 2, <item:projectexpansion:purple_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:purple_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("violet_power_flower", [<item:projectexpansion:violet_compressed_collector> * 2, <item:projectexpansion:violet_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:violet_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("blue_power_flower", [<item:projectexpansion:blue_compressed_collector> * 2, <item:projectexpansion:blue_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:blue_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("cyan_power_flower", [<item:projectexpansion:cyan_compressed_collector> * 2, <item:projectexpansion:cyan_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:cyan_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("green_power_flower", [<item:projectexpansion:green_compressed_collector> * 2, <item:projectexpansion:green_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:green_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("lime_power_flower", [<item:projectexpansion:lime_compressed_collector> * 2, <item:projectexpansion:lime_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:lime_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("yellow_power_flower", [<item:projectexpansion:yellow_compressed_collector> * 2, <item:projectexpansion:yellow_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:yellow_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("orange_power_flower", [<item:projectexpansion:orange_compressed_collector> * 2, <item:projectexpansion:orange_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:orange_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("white_power_flower", [<item:projectexpansion:white_compressed_collector> * 2, <item:projectexpansion:white_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:white_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("fading_power_flower", [<item:projectexpansion:fading_compressed_collector> * 2, <item:projectexpansion:fading_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:fading_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("final_power_flower", [<item:projectexpansion:final_compressed_collector> * 2, <item:projectexpansion:final_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:final_power_flower>, 4000);
+
+//Relays back recipe - Thanks Dasffion
+<recipetype:thermal:centrifuge>.addRecipe("basic_relay", [<item:projecte:relay_mk1>], <fluid:minecraft:empty>, <item:projectexpansion:basic_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("dark_relay", [<item:projecte:relay_mk2>], <fluid:minecraft:empty>, <item:projectexpansion:dark_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("red_relay", [<item:projecte:relay_mk3>], <fluid:minecraft:empty>, <item:projectexpansion:red_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("magenta_relay", [<item:projectexpansion:red_relay>, <item:projectexpansion:magenta_matter>], <fluid:minecraft:empty>, <item:projectexpansion:magenta_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("pink_relay", [<item:projectexpansion:magenta_relay>, <item:projectexpansion:pink_matter>], <fluid:minecraft:empty>, <item:projectexpansion:pink_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("purple_relay", [<item:projectexpansion:pink_relay>, <item:projectexpansion:purple_matter>], <fluid:minecraft:empty>, <item:projectexpansion:purple_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("violet_relay", [<item:projectexpansion:purple_relay>, <item:projectexpansion:violet_matter>], <fluid:minecraft:empty>, <item:projectexpansion:violet_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("blue_relay", [<item:projectexpansion:violet_relay>, <item:projectexpansion:blue_matter>], <fluid:minecraft:empty>, <item:projectexpansion:blue_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("cyan_relay", [<item:projectexpansion:blue_relay>, <item:projectexpansion:cyan_matter>], <fluid:minecraft:empty>, <item:projectexpansion:cyan_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("green_relay", [<item:projectexpansion:cyan_relay>, <item:projectexpansion:green_matter>], <fluid:minecraft:empty>, <item:projectexpansion:green_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("lime_relay", [<item:projectexpansion:green_relay>, <item:projectexpansion:lime_matter>], <fluid:minecraft:empty>, <item:projectexpansion:lime_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("yellow_relay", [<item:projectexpansion:lime_relay>, <item:projectexpansion:yellow_matter>], <fluid:minecraft:empty>, <item:projectexpansion:yellow_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("orange_relay", [<item:projectexpansion:yellow_relay>, <item:projectexpansion:orange_matter>], <fluid:minecraft:empty>, <item:projectexpansion:orange_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("white_relay", [<item:projectexpansion:orange_relay>, <item:projectexpansion:white_matter>], <fluid:minecraft:empty>, <item:projectexpansion:white_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("fading_relay", [<item:projectexpansion:white_relay>, <item:projectexpansion:fading_matter>], <fluid:minecraft:empty>, <item:projectexpansion:fading_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("final_relay", [<item:projectexpansion:fading_relay>, <item:projectexpansion:final_star_shard>], <fluid:minecraft:empty>, <item:projectexpansion:final_relay>, 4000);
+
+//Collectors back recipe - Thanks Dasffion
+<recipetype:thermal:centrifuge>.addRecipe("final_collector", [<item:projectexpansion:fading_collector>, <item:projectexpansion:final_star_shard>], <fluid:minecraft:empty>, <item:projectexpansion:final_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("fading_collector", [<item:projectexpansion:white_collector>, <item:projectexpansion:fading_matter>], <fluid:minecraft:empty>, <item:projectexpansion:fading_collector>,4000);
+<recipetype:thermal:centrifuge>.addRecipe("white_collector", [<item:projectexpansion:orange_collector>, <item:projectexpansion:white_matter>], <fluid:minecraft:empty>, <item:projectexpansion:white_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("orange_collector", [<item:projectexpansion:yellow_collector>, <item:projectexpansion:orange_matter>], <fluid:minecraft:empty>, <item:projectexpansion:orange_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("yellow_collector", [<item:projectexpansion:lime_collector>, <item:projectexpansion:yellow_matter>], <fluid:minecraft:empty>, <item:projectexpansion:yellow_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("lime_collector", [<item:projectexpansion:green_collector>, <item:projectexpansion:lime_matter>], <fluid:minecraft:empty>, <item:projectexpansion:lime_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("green_collector", [<item:projectexpansion:cyan_collector>, <item:projectexpansion:green_matter>], <fluid:minecraft:empty>, <item:projectexpansion:green_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("cyan_collector", [<item:projectexpansion:blue_collector>, <item:projectexpansion:cyan_matter>], <fluid:minecraft:empty>, <item:projectexpansion:cyan_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("blue_collector", [<item:projectexpansion:violet_collector>, <item:projectexpansion:blue_matter>], <fluid:minecraft:empty>, <item:projectexpansion:blue_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("violet_collector", [<item:projectexpansion:purple_collector>, <item:projectexpansion:violet_matter>], <fluid:minecraft:empty>, <item:projectexpansion:violet_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("purple_collector", [<item:projectexpansion:pink_collector>, <item:projectexpansion:purple_matter>], <fluid:minecraft:empty>, <item:projectexpansion:purple_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("pink_collector", [<item:projectexpansion:magenta_collector>, <item:projectexpansion:pink_matter>], <fluid:minecraft:empty>, <item:projectexpansion:pink_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("magenta_collector", [<item:projectexpansion:red_collector>, <item:projectexpansion:magenta_matter>], <fluid:minecraft:empty>, <item:projectexpansion:magenta_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("red_collector", [<item:projecte:collector_mk3>], <fluid:minecraft:empty>, <item:projectexpansion:red_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("dark_collector", [<item:projecte:collector_mk2>], <fluid:minecraft:empty>, <item:projectexpansion:dark_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("basic_collector", [<item:projecte:collector_mk1>], <fluid:minecraft:empty>, <item:projectexpansion:basic_collector>, 4000);

@@ -1,0 +1,10 @@
+{
+  "name": "Orange Matter",
+  "colors": [
+    "ffa500",
+    "ffa500"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:orange_matter"
+  }
+}

@@ -12,6 +12,12 @@ onEvent('recipes', (event) => {
             fluid: Fluid.of('minecraft:water', 1000),
             output: 'buildinggadgets:construction_block_dense',
             id: `${id_prefix}construction_block_dense`
+        },
+        {
+            input: 'minecraft:iron_block',
+            fluid: Fluid.of('tconstruct:blazing_blood', 1125),
+            output: 'extendedcrafting:black_iron_block',
+            id: `${id_prefix}black_iron_block`
         }
     ];
 

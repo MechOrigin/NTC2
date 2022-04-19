@@ -142,7 +142,7 @@
     // By default it's the perfect range that each team has the same biomes
     // WARNING: Too small biome range will prevent some structures to generate, if structures are enabled, because some need a special biome! You may fix this by decreasing the "structureModifier"
     // Range: 64 - 29999900
-    "biomeRange": 8192,
+    "biomeRange": 16384,
     
     // Should the biomes repeat each x blocks? Disable to have normal vanilla biome generation. [default: true]
     "biomeRangeEnabled": true,

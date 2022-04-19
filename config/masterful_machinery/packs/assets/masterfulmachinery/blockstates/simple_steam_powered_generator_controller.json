@@ -1,11 +1,5 @@
 {
   "variants": {
-    "facing=down": {
-      "model": "masterfulmachinery:block/simple_steam_powered_generator_controller"
-    },
-    "facing=up": {
-      "model": "masterfulmachinery:block/simple_steam_powered_generator_controller"
-    },
     "facing=north": {
       "model": "masterfulmachinery:block/simple_steam_powered_generator_controller"
     },

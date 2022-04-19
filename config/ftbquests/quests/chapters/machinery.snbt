@@ -19,40 +19,27 @@
 			y: 0.0d
 			dependencies: ["78D1D66BEBB15FDA"]
 			id: "7B4094399A7578CF"
-			tasks: [
-				{
-					id: "68245FF9A4404A64"
-					type: "item"
-					title: "Slice'N'Splice"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:slice_n_splice"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:slice_n_splice"
-							}
-						}
+			tasks: [{
+				id: "68245FF9A4404A64"
+				type: "item"
+				title: "Slice'N'Splice"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:slice_n_splice"
 					}
 				}
-				{
-					id: "59A9319ECB8A8143"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
 							machine: "custommachinery:slice_n_splice"
 						}
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: 2.0d
@@ -107,80 +94,27 @@
 			x: -2.0d
 			y: 0.0d
 			id: "2B81C68E9776036B"
-			tasks: [
-				{
-					id: "728B5D001CF8B538"
-					type: "item"
-					title: "Assembler"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:assembler"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:assembler"
-							}
-						}
+			tasks: [{
+				id: "728B5D001CF8B538"
+				type: "item"
+				title: "Assembler"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:assembler"
 					}
 				}
-				{
-					id: "376CDC1227EFF423"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
 							machine: "custommachinery:assembler"
 						}
 					}
 				}
-			]
-		}
-		{
-			x: -4.0d
-			y: 0.0d
-			subtitle: "17x8x8 plastic cube - filters all pollutants"
-			id: "38B6A0CB7B548502"
-			tasks: [
-				{
-					id: "215404D63E7517E1"
-					type: "item"
-					title: "Clean Room"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:clean_room"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:clean_room"
-							}
-						}
-					}
-				}
-				{
-					id: "1F3C13A47C026709"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:clean_room"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -2.0d
@@ -243,374 +177,199 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 0.0d
-			id: "7267497655A697DB"
-			tasks: [
-				{
-					id: "2039F2D26A4E7D5C"
-					type: "item"
-					title: "Pollution Capture Facility"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:pollution_capture_plant"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:pollution_capture_plant"
-							}
-						}
-					}
-				}
-				{
-					id: "1738DEEB2C61D66D"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:pollution_capture_plant"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 4.0d
-			y: 0.0d
-			id: "64AB65F90AC573EF"
-			tasks: [
-				{
-					id: "68D172C32540BDEB"
-					type: "item"
-					item: "masterfulmachinery:steam_boiler_controller"
-				}
-				{
-					id: "62BF17CD407D882B"
-					type: "item"
-					item: "masterfulmachinery:steam_boiler_singlechest_port_items_input"
-				}
-				{
-					id: "635AB0B6AAD1FE43"
-					type: "item"
-					item: "masterfulmachinery:steam_boiler_small_port_fluids_input"
-				}
-				{
-					id: "1CE252948FB80B8A"
-					type: "item"
-					item: "masterfulmachinery:steam_boiler_small_port_mekanism_gas_output"
-				}
-				{
-					id: "123DE01F144D6870"
-					type: "item"
-					item: "engineersdecor:slag_brick_block"
-					count: 21L
-				}
-				{
-					id: "171D8589944862A2"
-					type: "item"
-					item: "mekanismgenerators:heat_generator"
-				}
-			]
-		}
-		{
-			x: 6.0d
-			y: 0.0d
-			id: "1739540B01B1CAA5"
-			tasks: [
-				{
-					id: "7D1C64A939E8A9B3"
-					type: "item"
-					item: "masterfulmachinery:simple_steam_powered_generator_controller"
-				}
-				{
-					id: "0273F1835A374F28"
-					type: "item"
-					item: "masterfulmachinery:simple_steam_powered_generator_small_port_fluids_output"
-				}
-				{
-					id: "02173B67E3BDBD96"
-					type: "item"
-					item: "masterfulmachinery:simple_steam_powered_generator_small_port_energy_output"
-				}
-				{
-					id: "47E07735C5C70955"
-					type: "item"
-					item: "masterfulmachinery:simple_steam_powered_generator_small_port_mekanism_gas_input"
-				}
-				{
-					id: "7E93BEB579A2E481"
-					type: "item"
-					item: "engineersdecor:slag_brick_block"
-					count: 35L
-				}
-				{
-					id: "76D0F819B0CE5EF8"
-					type: "item"
-					item: "engineersdecor:straight_pipe_valve"
-					count: 3L
-				}
-				{
-					id: "778489ACFF67A07F"
-					type: "item"
-					item: "immersiveengineering:dynamo"
-					count: 2L
-				}
-				{
-					id: "0CDA2B0A9796236F"
-					type: "item"
-					item: "engineersdecor:small_fluid_funnel"
-				}
-			]
-		}
-		{
 			x: -7.0d
 			y: -8.5d
 			id: "70A5CDEA1BB85AA1"
-			tasks: [
-				{
-					id: "740C249317D350BA"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
+			tasks: [{
+				id: "406F3D74488C2201"
+				type: "item"
+				title: "Chemical Mixer"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:chemical_mixer"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
 							machine: "custommachinery:chemical_mixer"
 						}
 					}
 				}
-				{
-					id: "406F3D74488C2201"
-					type: "item"
-					title: "Chemical Mixer"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:chemical_mixer"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:chemical_mixer"
-							}
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -5.0d
 			y: -8.5d
 			id: "3DC56C296D3F6789"
-			tasks: [
-				{
-					id: "5874136A1009601D"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
+			tasks: [{
+				id: "3B507DAA9C631F22"
+				type: "item"
+				title: "Chemical Reactor"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:chemical_reactor"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
 							machine: "custommachinery:chemical_reactor"
 						}
 					}
 				}
-				{
-					id: "3B507DAA9C631F22"
-					type: "item"
-					title: "Chemical Reactor"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:chemical_reactor"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:chemical_reactor"
-							}
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -3.0d
 			y: -8.5d
 			id: "55C640FB146AF7CA"
-			tasks: [
-				{
-					id: "41AC4D2DA3523540"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
+			tasks: [{
+				id: "312DC6C96D374BBB"
+				type: "item"
+				title: "Fluid Centrifuge"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:fluid_centrifuge"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
 							machine: "custommachinery:fluid_centrifuge"
 						}
 					}
 				}
-				{
-					id: "312DC6C96D374BBB"
-					type: "item"
-					title: "Fluid Centrifuge"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:fluid_centrifuge"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:fluid_centrifuge"
-							}
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -1.0d
 			y: -8.5d
 			id: "351943F2D9318D84"
-			tasks: [
-				{
-					id: "171BA586F4C7E2D0"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
+			tasks: [{
+				id: "02A5BD212722A260"
+				type: "item"
+				title: "Ore Leacher"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:ore_leacher"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
 							machine: "custommachinery:ore_leacher"
 						}
 					}
 				}
-				{
-					id: "02A5BD212722A260"
-					type: "item"
-					title: "Ore Leacher"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:ore_leacher"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:ore_leacher"
-							}
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 1.0d
 			y: -8.5d
 			id: "42944035F4957D24"
-			tasks: [
-				{
-					id: "02157DEDCE2B08F8"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
+			tasks: [{
+				id: "2D73B597CEADA48F"
+				type: "item"
+				title: "Collision Chamber"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:collision_chamber"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
 							machine: "custommachinery:collision_chamber"
 						}
 					}
 				}
-				{
-					id: "2D73B597CEADA48F"
-					type: "item"
-					title: "Collision Chamber"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:collision_chamber"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:collision_chamber"
-							}
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 3.0d
 			y: -8.5d
 			id: "19AB162EB9233DBD"
-			tasks: [
-				{
-					id: "0520785540F4692B"
-					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
+			tasks: [{
+				id: "3B3BD1D14AE590D1"
+				type: "item"
+				title: "Accelerator"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:accelerator"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
 							machine: "custommachinery:accelerator"
 						}
 					}
 				}
-				{
-					id: "3B3BD1D14AE590D1"
-					type: "item"
-					title: "Accelerator"
-					icon: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "custommachinery:accelerator"
-						}
-					}
-					item: {
-						id: "itemfilters:strong_nbt"
-						Count: 1b
-						tag: {
-							value: {
-								machine: "custommachinery:accelerator"
-							}
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
-			x: -8.0d
+			x: -4.0d
 			y: 0.0d
 			id: "5BE6B0EDA2C7CE75"
 			tasks: [{
 				id: "4533F56425E554D3"
 				type: "item"
 				item: "kubejs:upgrade_basic"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "17BB29CF5C4F0FC9"
+			tasks: [{
+				id: "017C1409A07FCBBC"
+				type: "item"
+				item: "enderioalloys:item_material_skull_zombie_electrode"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "4A61B1B09C4F9072"
+			tasks: [{
+				id: "41C4FDCF88B9AD76"
+				type: "item"
+				item: "enderioalloys:item_material_skull_zombie_controller"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "3411AF60C59AA659"
+			tasks: [{
+				id: "5FB78E7766C778EA"
+				type: "item"
+				item: "enderioalloys:item_material_skull_ender_resonator"
 			}]
 		}
 	]

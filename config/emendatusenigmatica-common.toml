@@ -1924,10 +1924,10 @@
 		generate_in_the_overworld = true
 		#Baseline Y-Level [Default: 10]
 		#Range: 0 ~ 256
-		overworld_base = 10
+		overworld_base = 0
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 10]
 		#Range: 0 ~ 256
-		overworld_spread = 10
+		overworld_spread = 94
 		#Average Ores per Chunk [Default: 2]
 		#Range: 0 ~ 64
 		overworld_count = 2
@@ -1944,7 +1944,7 @@
 
 	["Dimensional Shard Config"."The Nether"]
 		#Activate/Deactivate the Ore Gen in The Nether [Default: false]
-		generate_in_the_nether = true
+		generate_in_the_nether = false
 		#Baseline Y-Level [Default: 40]
 		#Range: 0 ~ 128
 		nether_base = 40
@@ -1967,7 +1967,7 @@
 
 	["Dimensional Shard Config"."The End"]
 		#Activate/Deactivate the Ore Gen in The End [Default: false]
-		generate_in_the_end = true
+		generate_in_the_end = false
 		#Baseline Y-Level [Default: 30]
 		#Range: 0 ~ 256
 		end_base = 30

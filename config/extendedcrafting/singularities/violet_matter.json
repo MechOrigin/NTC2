@@ -1,0 +1,10 @@
+{
+  "name": "Violet Matter",
+  "colors": [
+    "9400d3",
+    "9400d3"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:violet_matter"
+  }
+}

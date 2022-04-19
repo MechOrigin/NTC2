@@ -2,17 +2,12 @@
 [renderers]
 
 	[renderers.inventory_renderer]
-		#Exclude certain menus from showing active status effects. Useful when effect icons overlap with other screen elements.
-		menu_blacklist_raw = ["curios:curios_container"]
 		#Show a tooltip when hovering over an effect widget.
 		hovering_tooltip = true
 		#Maximum amount of status effects rendered in a single column.
 		#Range: 1 ~ 255
 		max_rows = 255
-		#Space between individual effect widgets.
-		#Range: > 0
-		widget_space = 1
-		#Print menu type to game chat whenever a new menu screen is opened. Only intended to find menu types to be added to "menuBlacklistRaw".
+		#Print menu type to game chat whenever a new menu screen is opened. Only intended to find menu types to be added to "menu_blacklist".
 		debug_container_types = false
 		#Render active status effects in every menu screen, not just in the player inventory.
 		effects_everywhere = true
@@ -31,16 +26,29 @@
 		#Range: 0.0 ~ 1.0
 		widget_alpha = 1.0
 		#Effect renderer to be used.
+		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
 		#Allowed Values: NONE, COMPACT, VANILLA
 		renderer_type = "COMPACT"
+		#Minimum screen border distance for effect widgets.
+		#Range: > 0
+		screen_border_distance = 3
+		#Space between individual effect widgets on y-axis.
+		#Range: > 0
+		widget_space_y = 1
+		#Space between individual effect widgets on x-axis.
+		#Range: > 0
+		widget_space_x = 1
+		#Respect vanilla's "hideParticles" flag which prevents a status effect from showing.
+		respect_hide_particles = false
+		#Exclude certain menus from showing active status effects. Useful when effect icons overlap with other screen elements.
+		menu_blacklist = ["curios:curios_container"]
+		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
+		allow_fallback = true
 
 	[renderers.hud_renderer]
 		#Maximum amount of status effects rendered in a single column.
 		#Range: 1 ~ 255
 		max_rows = 255
-		#Space between individual effect widgets.
-		#Range: > 0
-		widget_space = 1
 		#Offset on y-axis.
 		#Range: > 0
 		offset_y = 10
@@ -60,8 +68,19 @@
 		#Range: 0.0 ~ 1.0
 		widget_alpha = 0.8500000238418579
 		#Effect renderer to be used.
+		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
 		#Allowed Values: NONE, COMPACT, VANILLA
 		renderer_type = "COMPACT"
+		#Respect vanilla's "hideParticles" flag which prevents a status effect from showing.
+		respect_hide_particles = true
+		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
+		allow_fallback = false
+		#Space between individual effect widgets on y-axis.
+		#Range: > 0
+		widget_space_y = 1
+		#Space between individual effect widgets on x-axis.
+		#Range: > 0
+		widget_space_x = 1
 
 [widgets]
 

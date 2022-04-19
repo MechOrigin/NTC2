@@ -18,6 +18,18 @@ onEvent('recipes', (event) => {
             output: 'avaritia:pileof_neutrons',
             id: 'mekanism:crystallizing/neutrons'
         },
+        {
+            gas: 'kubejs:anti_hydrogen_gas',
+            amount: 1000,
+            output: 'mekanism:pellet_antimatter',
+            id: 'mekanism:crystallizing/antihydrogen_antimatter'
+        },
+        {
+            gas: 'kubejs:anti_positron_gas',
+            amount: 1000,
+            output: 'mekanism:pellet_antimatter',
+            id: 'mekanism:crystallizing/antipositron_antimatter'
+        },
         
         {
             gas: 'kubejs:bubbly_aluminum_gas',

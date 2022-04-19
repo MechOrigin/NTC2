@@ -1,0 +1,7 @@
+tickDelay = 20
+formatEMC = true
+fullNumberNames = true
+emcDisplay = false
+powerflowerMultiplier = 1
+notifyCommandChanges = true
+

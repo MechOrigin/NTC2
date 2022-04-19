@@ -8,9 +8,9 @@ setMode = (player) => {
     // }
 
     if (global.packmode == 'overworld') {
-        player.data.ftbquests.complete('07404B15BF6C0C9B'); //completes whole chapter
+        player.data.ftbquests.complete('1318FA1BAF48E3B4'); //completes whole chapter if overworld
     } else {
-        player.data.ftbquests.reset('07404B15BF6C0C9B');
+        player.data.ftbquests.reset('1318FA1BAF48E3B4');
     }
 };
 

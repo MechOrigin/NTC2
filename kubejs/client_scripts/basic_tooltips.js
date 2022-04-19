@@ -49,6 +49,12 @@ onEvent('item.tooltip', tooltip => {
     tooltip.add('ftb-power-pots:power_pot_mk3',['Items Per Output: 48'])
     tooltip.add('ftb-power-pots:power_pot_mk4',['Items Per Output: 64'])
 
+    tooltip.add('watercan:watercan_wood',['Radius: 1, Capacity: 1B, FlowerChance: 1x'])
+    tooltip.add('watercan:watercan_stone',['Radius: 3x3, Capacity: 2B, FlowerChance: 2x'])
+    tooltip.add('watercan:watercan_iron',['Radius: 3x3, Capacity: 4B, FlowerChance: 2x'])
+    tooltip.add('watercan:watercan_gold',['Radius: 3x3, Capacity: 4B, FlowerChance: 50x'])
+    tooltip.add('watercan:watercan_diamond',['Radius: 5x5, Capacity: Infinite, FlowerChance: 3x'])
+
     tooltip.add('minecraft:mushroom_stew',['Regeneration II'])
     tooltip.add('minecraft:rabbit_stew',['Jump Boost II'])
     tooltip.add('minecraft:beetroot_soup',['Health Boost'])
@@ -58,4 +64,6 @@ onEvent('item.tooltip', tooltip => {
     tooltip.add('minecraft:honey_bottle',['Instant Health'])
     tooltip.add('minecraft:dried_kelp',['Clears Blindness, Nausea and Poison'])
     tooltip.add('minecraft:cake',['Speed II'])
+
+    tooltip.add('miniutilities:unstable_ingot',[ Text.green('This WILL kill you, blow up, and lose all your crafting materials to make this if you hold this too long') ])
 })

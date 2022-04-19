@@ -108,10 +108,29 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		attack_damage = 1.0
 
+	[tools_and_abilities.earthbore_gauntlet]
+		#Multiply all damage done with the Earthbore Gauntlet by this amount.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		attack_multiplier = 1.0
+		#Set to true for the Earthbore Gauntlet to have limited durability.
+		#Prevents regeneration in inventory.
+		breakable = false
+		#Earthbore Gauntlet durability
+		#Range: > 1
+		durability = 400
+
+		[tools_and_abilities.earthbore_gauntlet.tool_config]
+			#Tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 6.0
+			#Tool attack speed
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_speed = 1.2000000476837158
+
 [mobs]
 
 	[mobs.frostmaw]
-		#Disable/enable Barako's boss health bar
+		#Disable/enable Frostmaw's boss health bar
 		has_boss_bar = true
 		#Disable/enable frostmaws healing while asleep
 		heals_out_of_battle = true
@@ -215,7 +234,7 @@
 			attack_multiplier = 1.0
 
 	[mobs.ferrous_wroughtnaut]
-		#Disable/enable Ferrous Wroughtnauts' boss health bars
+		#Disable/enable Ferrous Wroughtnaut's boss health bar
 		has_boss_bar = true
 		#Disable/enable Ferrous Wroughtnaut healing while not active
 		heals_out_of_battle = true
@@ -263,9 +282,6 @@
 			attack_multiplier = 1.0
 
 	[mobs.grottol]
-		#Scale mob health by this value
-		#Range: 0.0 ~ 1.7976931348623157E308
-		health_multiplier = 1.0
 
 		[mobs.grottol.biome_config]
 			#Each entry is a combination of allowed biome types.
@@ -315,10 +331,15 @@
 			#Names of structures this mob will avoid spawning near.
 			avoid_structures = []
 
+		[mobs.grottol.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
 	[mobs.lantern]
-		#Scale mob health by this value
-		#Range: 0.0 ~ 1.7976931348623157E308
-		health_multiplier = 1.0
 
 		[mobs.lantern.biome_config]
 			#Each entry is a combination of allowed biome types.
@@ -367,6 +388,14 @@
 			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
 			avoid_structures = []
+
+		[mobs.lantern.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
 
 	[mobs.barakoa]
 

@@ -5,7 +5,7 @@
 //             {
 //                 input: { amount: 1, fluid: 'kubejs:molten_blizz' },
 //                 output: { amount: 1, gas: 'mekanism:steam' },
-//                 efficiency: 4
+//                 efficiency: 6
 //             }
 //         ]
 //     };

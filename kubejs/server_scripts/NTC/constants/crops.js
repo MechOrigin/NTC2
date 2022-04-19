@@ -608,6 +608,12 @@ const cropRegistry = [
                 render: 'pamhc2crops:pamcantaloupecrop',
                 plant: 'pamhc2crops:cantaloupeitem',
                 substrate: 'dirt'
+            },
+            {
+                seed: 'pamhc2crops:cucumberseeditem',
+                render: 'pamhc2crops:pamcucumbercrop',
+                plant: 'pamhc2crops:cucumberitem',
+                substrate: 'dirt'
             }
         ]
     },

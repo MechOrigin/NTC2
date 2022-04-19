@@ -17,7 +17,7 @@ craftingTable.removeRecipe(<item:industrialforegoing:ore_laser_base>);
 
 craftingTable.removeRecipe(<item:industrialforegoing:fluid_laser_base>);
 
-//remove this to use thermals arboreal extractor
-craftingTable.removeRecipe(<item:industrialforegoing:fluid_extractor>);
+//you should use thermals arboreal extractor first, modify recipe with kubejs
+//craftingTable.removeRecipe(<item:industrialforegoing:fluid_extractor>);
 //remove this to use thermal for latex gathering
 craftingTable.removeRecipe(<item:industrialforegoing:latex_processing_unit>);

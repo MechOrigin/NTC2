@@ -27,6 +27,7 @@
 					level: 1s
 				}
 			]
+			HideFlags: 3
 			tic_materials: [
 				"tconstruct:wood"
 				"tconstruct:wood"
@@ -1213,6 +1214,55 @@
 			tasks: [{
 				id: "51F42D7A83DDD2E3"
 				type: "checkmark"
+			}]
+		}
+		{
+			title: "&dPowder&r&k!&r &bPuff&r&k!&r &aGirls&r&k!&r"
+			x: 3.0d
+			y: -5.5d
+			subtitle: "Readme"
+			description: [
+				"To get early game powders simply pour liquid XP over any variety of the following:"
+				""
+				"Sulfur Dust -> Blaze Powder"
+				""
+				"Potassium Nitrate Dust -> Blitz Powder"
+				""
+				"Snowball -> Blizz Powder"
+				""
+				"&9There is also a quest reward for each in the main chapter Not Too Complicated&r"
+			]
+			dependencies: ["41862929DC85BE7A"]
+			id: "6F211805B04D6A5B"
+			tasks: [{
+				id: "5ECF83830C559BC3"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:blaze_powder"
+								Count: 1b
+							}
+							{
+								id: "thermal:blitz_powder"
+								Count: 1b
+							}
+							{
+								id: "thermal:blizz_powder"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "060E3F55601447EB"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+				count: 32
 			}]
 		}
 	]

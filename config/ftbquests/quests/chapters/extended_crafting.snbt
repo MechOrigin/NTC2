@@ -190,7 +190,7 @@
 		}
 		{
 			x: -2.5d
-			y: -3.0d
+			y: -2.0d
 			id: "2E331EFE73F0E291"
 			tasks: [{
 				id: "32EE72A2B90A1B8C"
@@ -226,6 +226,16 @@
 				id: "6369B226C95A5555"
 				type: "item"
 				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			id: "6ED7DA78C4A4FE7D"
+			tasks: [{
+				id: "20C920380471C466"
+				type: "item"
+				item: "packagedexcrafting:basic_crafter"
 			}]
 		}
 	]

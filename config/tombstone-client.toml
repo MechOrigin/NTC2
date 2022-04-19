@@ -67,4 +67,9 @@
 	#Defines when to automatically equip your items [NEVER/GRAVE_RECOVERY/DEATH_RESPAWN/ALWAYS|default:ALWAYS]
 	#Allowed Values: NEVER, GRAVE_RECOVERY, DEATH_RESPAWN, ALWAYS
 	auto_equip_rule = "ALWAYS"
+	#Defines the type of marker when holding in hand some items like the Grave's Key [WING/SPARK/NOTE/BOX|default:WING]
+	#Allowed Values: WING, SPARK, NOTE, BOX
+	marker_type = "WING"
+	#Display an icon when fishing with the Rod of Misadventure showing if you're in openwater [false/true|default:true]
+	show_fishing_marker = true
 

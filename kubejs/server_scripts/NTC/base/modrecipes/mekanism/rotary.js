@@ -15,6 +15,12 @@ onEvent('recipes', (event) => {
                 fluidOutput: { amount: 1, fluid: 'kubejs:liquid_anti_hydrogen' }
             },
             {
+                fluidInput: { amount: 1, fluid: 'kubejs:liquid_anti_positron' },
+                gasOutput: { amount: 1, gas: 'kubejs:anti_positron_gas' },
+                gasInput: { amount: 1, gas: 'kubejs:anti_positron_gas' },
+                fluidOutput: { amount: 1, fluid: 'kubejs:liquid_anti_positron' }
+            },
+            {
                 fluidInput: { amount: 1, fluid: 'kubejs:liquid_secret_spices' },
                 gasOutput: { amount: 1, gas: 'kubejs:secret_spices_gas' },
                 gasInput: { amount: 1, gas: 'kubejs:secret_spices_gas' },

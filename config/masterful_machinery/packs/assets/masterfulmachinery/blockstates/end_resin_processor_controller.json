@@ -1,11 +1,5 @@
 {
   "variants": {
-    "facing=down": {
-      "model": "masterfulmachinery:block/end_resin_processor_controller"
-    },
-    "facing=up": {
-      "model": "masterfulmachinery:block/end_resin_processor_controller"
-    },
     "facing=north": {
       "model": "masterfulmachinery:block/end_resin_processor_controller"
     },

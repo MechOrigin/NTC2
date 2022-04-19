@@ -53,8 +53,12 @@
 		{
 			x: 0.0d
 			y: -3.0d
+			description: ["Requires an Iron Rod, which requires Tinkers Casting and being able to melt Iron (Blazing Blood @ 1538 degrees C)"]
 			hide_dependency_lines: true
-			dependencies: ["0CA5B6537B498DE0"]
+			dependencies: [
+				"0CA5B6537B498DE0"
+				"495CDB1D83742564"
+			]
 			id: "192F645228E68C8F"
 			tasks: [{
 				id: "047576189159652B"
@@ -111,6 +115,12 @@
 				type: "item"
 				item: "thermal:device_tree_extractor"
 			}]
+			rewards: [{
+				id: "2B5A85B07E3B90A4"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 12
+			}]
 		}
 		{
 			x: 4.0d
@@ -126,10 +136,8 @@
 		{
 			x: 5.0d
 			y: -3.0d
-			dependencies: [
-				"4004DE75611E9EA7"
-				"4C7CEC043A9DB3DE"
-			]
+			description: ["There are a few ways to get rubber. One way is through processing Propylene"]
+			dependencies: ["4004DE75611E9EA7"]
 			id: "0D5907D14BFD1EEB"
 			tasks: [{
 				id: "0A782549827BCB07"
@@ -149,8 +157,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -4.0d
+			x: 9.0d
+			y: -3.0d
+			subtitle: "The only way to get Plastic Sheets early game. Industrial foregoing rubber is disabled"
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
 			id: "7F1ACBA65BEDEEE9"
@@ -159,11 +168,17 @@
 				type: "item"
 				item: "thermal:machine_press"
 			}]
+			rewards: [{
+				id: "6A0FEEEAF80BCE2E"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 16
+			}]
 		}
 		{
 			title: "{ntc2.gotoindust.title}"
 			icon: "industrialforegoing:plastic"
-			x: 7.0d
+			x: 7.5d
 			y: -3.0d
 			shape: "circle"
 			dependencies: [
@@ -242,10 +257,11 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -5.0d
+			x: 10.0d
+			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
+			optional: true
 			id: "65AA909485E6A1E1"
 			tasks: [{
 				id: "24D924C8EFAF3872"
@@ -254,8 +270,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -5.0d
+			x: 10.0d
+			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
 			optional: true
@@ -267,8 +283,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -5.0d
+			x: 12.0d
+			y: -3.0d
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
 			optional: true
@@ -280,8 +296,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -6.0d
+			x: 11.0d
+			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
 			optional: true
@@ -293,8 +309,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -6.0d
+			x: 11.0d
+			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
 			optional: true
@@ -424,7 +440,7 @@
 		}
 		{
 			x: 3.0d
-			y: 2.0d
+			y: -1.0d
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
 			optional: true
@@ -463,7 +479,7 @@
 		}
 		{
 			x: 4.0d
-			y: 2.0d
+			y: -1.0d
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
 			optional: true
@@ -476,7 +492,7 @@
 		}
 		{
 			x: 5.0d
-			y: 2.0d
+			y: -1.0d
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
 			optional: true
@@ -516,6 +532,7 @@
 		{
 			x: -6.0d
 			y: -5.0d
+			description: ["Requires Potassium Nitrate which can be Pulverized from Sandstone, or get the powder directly from Blitz"]
 			hide_dependency_lines: true
 			dependencies: ["0CA5B6537B498DE0"]
 			id: "070567E71521E446"
@@ -526,9 +543,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -7.0d
+			x: 0.0d
+			y: -6.0d
 			subtitle: "{ntc2.thermalframe.subtitle}"
+			description: ["\"Yeah no kiddin chief\" -Direwolf20"]
 			dependencies: ["0A15033C254CE730"]
 			id: "15F5318E0AD4E67E"
 			tasks: [{
@@ -544,8 +562,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -7.0d
+			x: 0.0d
+			y: -8.0d
 			subtitle: "{ntc2.thermalframe.subtitle}"
 			dependencies: ["0A15033C254CE730"]
 			id: "68F1582CDA521BFD"
@@ -556,8 +574,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -7.0d
+			x: 0.0d
+			y: -9.0d
 			subtitle: "{ntc2.thermalframe.subtitle}"
 			dependencies: ["0A15033C254CE730"]
 			id: "5DB231964F021465"
@@ -613,6 +631,7 @@
 		{
 			x: -4.0d
 			y: -1.0d
+			subtitle: "Really good source of power production and pollution early game"
 			hide_dependency_lines: true
 			dependencies: ["2F2AB33F39B15105"]
 			optional: true
@@ -727,9 +746,10 @@
 		{
 			title: "Oil Sands"
 			icon: "emendatusenigmatica:bitumen_sand_ore"
-			x: 4.0d
-			y: 3.0d
-			dependencies: ["7A5182D4C4E4B04A"]
+			x: 5.0d
+			y: -9.0d
+			subtitle: "Opens the gates to more power production (more pollution), Plastics, and Chemicals"
+			description: ["Read Bitumen quest"]
 			id: "5903A25318FC763F"
 			tasks: [{
 				id: "0882EF261FFCB89F"
@@ -743,18 +763,42 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: 5.0d
+			y: -8.0d
+			subtitle: "Bitumen Chunk &eEMCable&r"
+			description: [
+				"There are many ways to get this product, use JEI to find out more"
+				""
+				"To get a bitumen gem you can process Crude Oil or simply break the Ore with a Pickaxe"
+				""
+				"To get Bitumen Chunk you can use a Silk Touch Pickaxe (Tinkers works too) on the ore and it will drop the Chunks. Which is &eEMCable&r"
+			]
+			dependencies: ["5903A25318FC763F"]
 			id: "61EAB55665E1602A"
-			tasks: [{
-				id: "17FAA432DC95FE14"
+			tasks: [
+				{
+					id: "17FAA432DC95FE14"
+					type: "item"
+					item: "emendatusenigmatica:bitumen_gem"
+				}
+				{
+					id: "657EAAB31958F671"
+					type: "item"
+					item: "emendatusenigmatica:bitumen_chunk"
+				}
+			]
+			rewards: [{
+				id: "6F52B3438977192B"
 				type: "item"
-				item: "emendatusenigmatica:bitumen_gem"
+				item: "emendatusenigmatica:bitumen_ore"
+				count: 8
 			}]
 		}
 		{
 			x: 2.0d
-			y: 0.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["5903A25318FC763F"]
 			id: "3D5A5C3FE4E4F606"
 			tasks: [{
 				id: "00D28CB6C9B101B3"
@@ -764,7 +808,9 @@
 		}
 		{
 			x: 3.0d
-			y: 0.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["5903A25318FC763F"]
 			id: "2DBE897F0B1EDEC4"
 			tasks: [{
 				id: "5E29917C6BE39342"
@@ -774,7 +820,9 @@
 		}
 		{
 			x: 8.0d
-			y: 0.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["5903A25318FC763F"]
 			id: "05A5AF0782E5368E"
 			tasks: [{
 				id: "3D4A7DEF7556296A"
@@ -784,7 +832,7 @@
 		}
 		{
 			x: 5.0d
-			y: 0.0d
+			y: -7.0d
 			hide_dependency_lines: true
 			dependencies: ["5903A25318FC763F"]
 			id: "193CAB26DEEF7838"
@@ -796,7 +844,7 @@
 		}
 		{
 			x: 4.0d
-			y: 0.0d
+			y: -7.0d
 			hide_dependency_lines: true
 			dependencies: ["5903A25318FC763F"]
 			id: "2B1EB11851101573"
@@ -808,7 +856,7 @@
 		}
 		{
 			x: 5.0d
-			y: -1.0d
+			y: -5.0d
 			dependencies: ["193CAB26DEEF7838"]
 			id: "4C7CEC043A9DB3DE"
 			tasks: [{
@@ -819,7 +867,7 @@
 		}
 		{
 			x: 4.0d
-			y: -1.0d
+			y: -6.0d
 			dependencies: ["2B1EB11851101573"]
 			id: "6014BA6650737BA3"
 			tasks: [{
@@ -832,7 +880,8 @@
 			title: "HDPE Pellet"
 			icon: "mekanism:hdpe_pellet"
 			x: 4.0d
-			y: -2.0d
+			y: -5.0d
+			subtitle: "Another way to make HDPE"
 			dependencies: ["6014BA6650737BA3"]
 			id: "34777B29F4E0FCBF"
 			tasks: [{
@@ -842,8 +891,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -6.0d
+			x: 1.0d
+			y: -9.0d
 			dependencies: ["5DB231964F021465"]
 			id: "48720DB168AC0544"
 			tasks: [{
@@ -864,10 +913,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "71727D609DB05DBF"
+				type: "item"
+				item: "thermal:fluid_cell_frame"
+				count: 3
+			}]
 		}
 		{
-			x: 3.0d
-			y: -6.0d
+			x: 1.0d
+			y: -8.0d
 			dependencies: ["68F1582CDA521BFD"]
 			id: "7AB639E7A3FF45D0"
 			tasks: [{
@@ -885,6 +940,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "296A1A903319B425"
+				type: "item"
+				item: "thermal:energy_cell_frame"
+				count: 3
 			}]
 		}
 		{
@@ -963,8 +1024,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 2.0d
+			x: 7.0d
+			y: -1.0d
 			dependencies: ["03BBA3D2C84A5E9F"]
 			id: "6838AFC4A8448B2E"
 			tasks: [{
@@ -974,8 +1035,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 2.0d
+			x: 8.0d
+			y: -1.0d
 			dependencies: ["6838AFC4A8448B2E"]
 			id: "5FB1A7168F4BD045"
 			tasks: [{
@@ -985,8 +1046,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 2.0d
+			x: 9.0d
+			y: -1.0d
 			dependencies: ["5FB1A7168F4BD045"]
 			id: "2171E29BD3021A21"
 			tasks: [{
@@ -997,7 +1058,9 @@
 		}
 		{
 			x: 6.0d
-			y: 0.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["5903A25318FC763F"]
 			id: "16FE80749FD09DF7"
 			tasks: [{
 				id: "15EC7C715289D8C3"
@@ -1007,7 +1070,9 @@
 		}
 		{
 			x: 7.0d
-			y: 0.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["5903A25318FC763F"]
 			id: "606EDC534EF2AF76"
 			tasks: [{
 				id: "7626D7FD93CC0113"
@@ -1016,8 +1081,10 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 3.0d
+			x: 5.0d
+			y: 1.0d
+			subtitle: "Requires a lot of flint"
+			description: ["You can actually burn flint to get small amounts of oxygen out of the molecular bonds, use a Pyrolyzer to do that"]
 			dependencies: ["03BBA3D2C84A5E9F"]
 			id: "68BAF29EC4C238FC"
 			tasks: [{
@@ -1027,8 +1094,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 3.0d
+			x: 6.0d
+			y: 1.0d
 			hide_dependency_lines: true
 			dependencies: ["03BBA3D2C84A5E9F"]
 			id: "7C115F01FCE8FDE8"
@@ -1036,6 +1103,29 @@
 				id: "5DF99D89E6A15188"
 				type: "item"
 				item: "chemlib:element_oxygen"
+			}]
+		}
+		{
+			title: "Dandelions!"
+			icon: "minecraft:dandelion"
+			x: 3.0d
+			y: -3.75d
+			subtitle: "Dandelions can also be squished to make small amounts of latex"
+			description: ["Use the Integrated Dynamics Squeezer (Mechanical also works)"]
+			hide_dependency_lines: true
+			dependencies: ["340DD6CDB02C5462"]
+			size: 0.5d
+			optional: true
+			id: "2C6C9C6766F6E321"
+			tasks: [{
+				id: "686C665ADE700379"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4BE014398751A756"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+				count: 8
 			}]
 		}
 	]

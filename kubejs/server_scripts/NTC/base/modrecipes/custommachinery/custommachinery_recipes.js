@@ -320,7 +320,7 @@ onEvent('recipes', event => {
     //Accelerator
     event.recipes.custommachinery.custom_machine("custommachinery:accelerator", 100)
     .requireFluid(Fluid.of("mekanism:hydrogen", 250))
-    .requireEnergy(5000)
+    .requireEnergyPerTick(50000)
     .produceFluid(Fluid.of("kubejs:liquid_proton", 250))
 
     //liquid proton to proton gas via condenser in rotary.js
@@ -328,6 +328,7 @@ onEvent('recipes', event => {
     //Collision Chamber
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
     .requireFluid(Fluid.of("kubejs:liquid_proton", 250))
+    .requireFluid(Fluid.of("mekanism:oxygen", 50))
     .requireEnergy(5000)
     .produceFluid(Fluid.of("kubejs:liquid_positron", 166))
     .produceFluid(Fluid.of("kubejs:liquid_electron_neutrino", 166))
@@ -341,11 +342,11 @@ onEvent('recipes', event => {
 
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
     .requireFluid(Fluid.of("kubejs:liquid_proton", 250))
-    .requireItem(Item.of("mekanism:ingot_lead", 1))
+    .requireFluid(Fluid.of("tconstruct:molten_lead", 144))
     .requireEnergy(5000)
     .produceFluid(Fluid.of("kubejs:liquid_proton", 50))
     .produceFluid(Fluid.of("kubejs:liquid_anti_positron", 50))
-    .produceItem(Item.of("mekanism:nugget_lead", 1))
+    .produceFluid(Fluid.of("tconstruct:molten_lead", 16))
 
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
     .requireFluid(Fluid.of("kubejs:liquid_positron", 250))

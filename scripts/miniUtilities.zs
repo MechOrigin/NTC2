@@ -3,7 +3,7 @@
 craftingTable.removeRecipe(<item:miniutilities:unstable_ingot>);
 craftingTable.addShaped("unstable_ingot", <item:miniutilities:unstable_ingot>, [
     [<item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>],
-    [<item:projectex:basic_collector>, <item:projectex:basic_collector>, <item:projectex:basic_collector>],
+    [<item:projectexpansion:basic_collector>, <item:projectexpansion:basic_collector>, <item:projectexpansion:basic_collector>],
     [<item:avaritia:crystal_matrix_ingot>, <item:avaritia:crystal_matrix_ingot>, <item:avaritia:crystal_matrix_ingot>]
 ]);
 

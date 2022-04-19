@@ -1,0 +1,27 @@
+events.listen('recipes', function (event) {
+//Thanks Dasffion
+//Compressed Collectors
+  event.shapeless(item.of('projectexpansion:basic_collector', 9), ['projectexpansion:basic_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:blue_collector', 9), ['projectexpansion:blue_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:cyan_collector', 9), ['projectexpansion:cyan_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:dark_collector', 9), ['projectexpansion:dark_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:fading_collector', 9), ['projectexpansion:fading_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:final_collector', 9), ['projectexpansion:final_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:green_collector', 9), ['projectexpansion:green_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:lime_collector', 9), ['projectexpansion:lime_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:magenta_collector', 9), ['projectexpansion:magenta_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:orange_collector', 9), ['projectexpansion:orange_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:pink_collector', 9), ['projectexpansion:pink_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:purple_collector', 9), ['projectexpansion:purple_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:red_collector', 9), ['projectexpansion:red_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:violet_collector', 9), ['projectexpansion:violet_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:white_collector', 9), ['projectexpansion:white_compressed_collector'])
+  event.shapeless(item.of('projectexpansion:yellow_collector', 9), ['projectexpansion:yellow_compressed_collector'])
+  // just handled it with thermal.zs
+  // event.shapeless(item.of('projecte:collector_mk1', 1), ['projectexpansion:basic_collector'])
+  // event.shapeless(item.of('projecte:collector_mk2', 1), ['projectexpansion:dark_collector'])
+  // event.shapeless(item.of('projecte:collector_mk3', 1), ['projectexpansion:red_collector'])
+  // event.shapeless(item.of('projecte:relay_mk1', 1), ['projectexpansion:basic_relay'])
+  // event.shapeless(item.of('projecte:relay_mk2', 1), ['projectexpansion:dark_relay'])
+  // event.shapeless(item.of('projecte:relay_mk3', 1), ['projectexpansion:red_relay'])
+})

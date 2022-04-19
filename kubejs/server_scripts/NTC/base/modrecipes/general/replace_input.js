@@ -80,4 +80,6 @@ event.replaceInput({}, 'mekanism:dust_sulfur', 'emendatusenigmatica:sulfur_dust'
 event.replaceInput({}, 'immersiveengineering:dust_sulfur', 'emendatusenigmatica:sulfur_dust');
 event.replaceInput({}, 'thermal:sulfur_dust', 'emendatusenigmatica:sulfur_dust');
 
+event.replaceInput({}, 'rftoolsbase:dimensionalshard', 'emendatusenigmatica:dimensional_gem');
+
 });

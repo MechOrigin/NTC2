@@ -41,6 +41,8 @@
 		no_slide = false
 		#If toasts show on the left of the screen.
 		start_left = false
+		#If toasts will come in from the top of the screen, rather than the side.
+		top_down = false
 
 	[client.debug]
 		#If toast classes are printed when they are shown.

@@ -599,8 +599,8 @@ helper.ui.dynamicvariabletextfield.variables.playeruuid = Player UUID
 helper.ui.dynamicvariabletextfield.variables.playeruuid.desc = Gets the player UUID.
 helper.ui.dynamicvariabletextfield.variables.mcversion = Minecraft Version
 helper.ui.dynamicvariabletextfield.variables.mcversion.desc = Gets the Minecraft version.
-helper.ui.dynamicvariabletextfield.variables.forgeversion = Forge Version
-helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = Gets the Forge version.
+helper.ui.dynamicvariabletextfield.variables.forgeversion = Mod Loader Version
+helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = Gets the mod loader version.
 helper.ui.dynamicvariabletextfield.variables.modversion = Mod Version
 helper.ui.dynamicvariabletextfield.variables.modversion.desc = Gets the version of a mod my its mod ID.%n%%n%Just replace '<modid>' in the placeholder%n%with an existing mod ID.
 helper.ui.dynamicvariabletextfield.variables.totalmods = Total Mods Count
@@ -883,5 +883,103 @@ fancymenu.helper.editor.layoutoptions.backgroundoptions.image.clear.btn.desc = R
 fancymenu.helper.editor.items.orientation.element.setidentifier = Set Element ID
 fancymenu.helper.editor.items.orientation.element.setidentifier.identifiernotfound = §c§lError!%n%%n%No element found with this element ID!%n%%n%%n%%n%
 fancymenu.helper.editor.items.orientation.element.btn.desc = Set the position of another element as%n%orientation origin point, so this element%n%will always move with its parent element.%n%%n%§cYou need the element ID%n%§cof the parent element here.%n%§cYou can get the element ID%n%§cwhen you right-click an element.
+
+fancymenu.helper.setupsharing.import.choosefromsaved = Choose From Saved Setups
+fancymenu.helper.setupsharing.import.choosefromsaved.btn.desc = Choose a setup from the saved setups.
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip = §6Setup Information:
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.datemodified = Modified: §7{}
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.mcversion = Minecraft Version: §7{}
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.fmversion = FancyMenu Version: §7{}
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.modloader = Mod Loader: §7{}
+fancymenu.helper.setupsharing.import.choosefrompath = Enter Path To Setup
+fancymenu.helper.setupsharing.import.choosefrompath.btn.desc = Enter a path to a setup folder.
+fancymenu.helper.setupsharing.import.enterpath = §lEnter path to setup folder:
+fancymenu.helper.setupsharing.import.differentmodloader = §c§lWarning!%n%%n%This setup was created in §c{}§r, but you're using §c{}§r!%n%%n%The setup could be §cincompatible§r.%n%%n%§6Do you want to import it?%n%%n%%n%
+fancymenu.helper.setupsharing.import.differentmcversion = §c§lWarning!%n%%n%This setup was created in Minecraft §c{}§r,%n%but you're using Minecraft §c{}§r!%n%%n%The setup could be §cincompatible§r.%n%%n%§6Do you want to import it?%n%%n%%n%
+fancymenu.helper.setupsharing.import.differentfmversion = §c§lWarning!%n%%n%This setup was created with FancyMenu §c{}§r,%n%but you're using FancyMenu §c{}§r!%n%%n%The setup could be §cincompatible§r.%n%%n%§6Do you want to import it?%n%%n%%n%
+fancymenu.helper.setupsharing.import.invalididentifiers = §c§lWarning!%n%%n%Layouts with invalid menu identifiers found!%n%%n%This can happen when a layout was made in another%n%version of MC or with another mod launcher.%n%It can also happen when a layout was made for%n%a mod menu, but the mod isn't installed anymore.%n%%n%FancyMenu can try to fix identifiers for vanilla menus.%n%%n%§6Should FancyMenu try to fix the identifiers?%n%%n%%n%
+fancymenu.helper.setupsharing.import.success = §a§lSuccess!%n%%n%Setup successfully imported!%n%%n%Please §6restart §rthe game to finish the process!%n%%n%%n%
+fancymenu.helper.setupsharing.import.error = §c§lError!%n%%n%There was a problem while trying to import the setup!%n%%n%Please send your log to the mod author!%n%%n%%n%
+fancymenu.helper.setupsharing.import.confirm = §c§lAre you sure?%n%%n%Importing a setup will §coverride §ryour current one!%n%%n%A backup of your current FancyMenu setup will be made, but%n%please §cmake a manual full backup §rof your Minecraft instance!%n%%n%You can §6restore §rthe automatic backup in the §6Setup §rtab of the menu bar.%n%%n%§c§lDo you want to override your setup now?%n%%n%%n%
+fancymenu.helper.setupsharing.import.importingsetup = §lImporting setup, please wait..
+fancymenu.helper.setupsharing.import.preparing = §lPreparing setup, please wait..
+fancymenu.helper.setupsharing.import.invalidsetup = §c§lError!%n%%n%This folder is not a valid FancyMenu setup!%n%%n%%n%
+fancymenu.helper.setupsharing.export.entername = §lEnter setup name:
+fancymenu.helper.setupsharing.export.error = §c§lError!%n%%n%There was a problem while trying to export the setup!%n%%n%§cPlease send your log to the mod author!%n%%n%%n%
+fancymenu.helper.setupsharing.export.confirm = §c§lAre you sure?%n%%n%Exporting a setup will export your config, all of your layouts,%n%animations, resources and more, so you can share it with others.%n%%n%§6Do you want to export your setup now?%n%%n%%n%
+fancymenu.helper.setupsharing.export.unabletoexport = §c§lWarning!%n%%n%Your setup got exported, but §c{} elements §rcould%n%§cnot get exported§r!%n%%n%You will need to §cmanually copy §rthese elements!%n%%n%Do you want to see a list of the failed elements?%n%%n%%n%
+fancymenu.helper.setupsharing.export.success = §a§lSuccess!%n%%n%Setup successfully exported!%n%%n%§6Do you want to open the setups folder?%n%%n%%n%
+fancymenu.helper.setupsharing.import.exportingsetup = §lExporting setup, please wait..
+fancymenu.helper.setupsharing.restore.confirm = §c§lAre you sure?%n%%n%Restoring a backup will §coverride §ryour current FancyMenu setup!%n%%n%§cPlease make a manual full backup of your Minecraft instance!%n%%n%§c§lDo you want to restore the backup now?%n%%n%%n%
+fancymenu.helper.setupsharing.restore.success = §a§lSuccess!%n%%n%Setup backup successfully restored!%n%%n%Please §6restart §rthe game to finish the process!%n%%n%%n%
+fancymenu.helper.setupsharing.restore.error = §c§lError!%n%%n%There was an error while trying to restore the backup!%n%%n%§6Don't worry§r, your backup should be fine.%n%You can try to §6manually restore it§r.%n%%n%§6Do you want to open the backup folder?%n%%n%%n%
+fancymenu.helper.setupsharing.restore.backingup = §lBacking up setup, please wait..
+fancymenu.helper.setupsharing.restore.restoring = §lRestoring backup, please wait..
+
+fancymenu.helper.ui.setup = Setup
+fancymenu.helper.ui.setup.import = Import
+fancymenu.helper.ui.setup.import.btn.desc = Import a saved setup.%n%%n%§c§lThis will override all of your%n%§c§lFancyMenu settings!
+fancymenu.helper.ui.setup.export = Export
+fancymenu.helper.ui.setup.export.btn.desc = Export your current setup.%n%%n%This includes your config, layouts,%n%animations, resources and more.
+fancymenu.helper.ui.setup.restore = Restore Backup
+fancymenu.helper.ui.setup.restore.btn.desc = Restore a setup backup.%n%%n%Backups are made before%n%importing a new setup.
+fancymenu.helper.ui.setup.restore.entry.btn.desc = Left-click to restore backup.
+
+fancymenu.commands.openguiscreen.error = An error happened while trying to open the GUI.
+fancymenu.commands.openguiscreen.cannotopen = Unable to open GUI! The GUI you want to open either does not exist or isn't supported! If this is a vanilla GUI, please contact the developer of FancyMenu to add support for it.
+
+helper.creator.custombutton.config.actiontype.copytoclipboard.desc = Copy text to the clipboard.
+helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value = Text
+helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value.example = This text got copied to your clipboard!
+
+fancymenu.config.forcefullscreen = Force Fullscreen
+fancymenu.config.forcefullscreen.desc = Forces the window to fullscreen on start.%n%Users will still be able to%n%go out of fullscreen later.
+
+helper.creator.custombutton.config.actiontype.mimicbutton.desc = Execute the button action of a vanilla button.
+helper.creator.custombutton.config.actiontype.mimicbutton.desc.value = menu_identifier:button_id
+helper.creator.custombutton.config.actiontype.mimicbutton.desc.value.example = some.menu.identifier:505280
+
+fancymenu.custombutton.action.mimicbutton.unabletoexecute = §c§lError!%n%%n%Unable to execute button action!%n%%n%Invalid button locator or unable to%n%open parent screen of button.%n% %n% %n% %n%
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel = Vanilla Button Label
+fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel.desc = Get the label of a vanilla button.%n%%n%§cReplace "<button_locator>" with%n%§cthe correct button locator%n%§cof the target button.%n%%n%The button locator is a combination%n%of the menu identifier of the menu%n%the button is in and the %n%ID of the button, separated%n%by a colon.%n%%n%Example Button Locator:%n%some.menu.identifier:505280
+
+fancymenu.helper.editor.windowsizerestrictions.reset = Reset Window Size Restrictions
+fancymenu.helper.editor.windowsizerestrictions.reset.btn.desc = Reset/remove all window size restrictions.
+fancymenu.helper.editor.windowsizerestrictions.btn.desc = Set the layout to only load%n%at specific window sizes.%n%%n%§cIt's recommended to only use%n%§cwidth OR height, not both at%n%§cthe same time!
+
+fancymenu.config.categories.multiplayer_screen = MULTIPLAYER MENU
+fancymenu.config.categories.singleplayer_screen = SINGLEPLAYER MENU
+
+fancymenu.config.show_server_icons = Show Server Icons
+fancymenu.config.show_server_icons.desc = If the server icons should be visible.
+fancymenu.config.show_world_icons = Show World Icons
+fancymenu.config.show_world_icons.desc = If the world icons should be visible.
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line1 = Server MOTD Line 1
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line1.desc = Gets the first line of the MOTD of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%servermotd_line1:gommehd.net%
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line2 = Server MOTD Line 2
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line2.desc = Gets the second line of the MOTD of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%servermotd_line2:gommehd.net%
+
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations = §cYou need to enable customizations%n%§cfor the current menu, to use this tool!
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line1 = §lWarning!
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line2 = You need to enable customizations for
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line3 = the current menu before using the §lButton Info §rtool!
+
+fancymenu.helper.editor.items.visibilityrequirements.guiscale = Is GUI Scale
+fancymenu.helper.editor.items.visibilityrequirements.guiscale.desc = Check if the current GUI scale is X.%n%%n%You can check for bigger than ('>'),%n%smaller than ('<') and equals X.%n%%n%For example, if you want to check%n%if the scale is smaller than 3.20,%n%type '<3.20' (without the '').%n%To check if the scale is equal to 1.0,%n%just type '1.0' (without the '').%n%When checking if the scale is bigger than 2.20,%n%type '>2.20' (without the '').%n%%n%You can separate multiple values by comma,%n%to check for more than one scale%n%at once.
+fancymenu.helper.editor.items.visibilityrequirements.guiscale.valuename = GUI Scale Condition(s) (Separate Values By Comma)
+
+fancymenu.helper.editor.backgrounds.choose = Choose Background
+
+fancymenu.helper.editor.backgrounds.image.desc = A static image.%n%%n%Only JPG/JPEG and PNG are supported.
+fancymenu.helper.editor.backgrounds.animation.desc = An animation. Like a video, but not, you know?%n%%n%Please visit the wiki (fm.keksuccino.de)%n%for how to make your own animations.
+fancymenu.helper.editor.backgrounds.panorama.desc = A spinning cubic panorama like%n%the one in the vanilla main menu.%n%%n%Please visit the wiki (fm.keksuccino.de)%n%for how to make your own panoramas.
+fancymenu.helper.editor.backgrounds.slideshow.desc = A slideshow that shows a set of images.%n%%n%Please visit the wiki (fm.keksuccino.de)%n%for how to make your own slideshows.
+
+fancymenu.helper.editor.backgrounds.custom.choosefile = Choose File
+fancymenu.helper.editor.backgrounds.custom.setbackground = Set Background
+fancymenu.helper.editor.backgrounds.custom.clearbackground = Clear
+fancymenu.helper.editor.backgrounds.custom.clearbackground.desc = Clear the currently active background of this type.
 
 
