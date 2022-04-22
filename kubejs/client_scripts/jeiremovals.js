@@ -207,6 +207,7 @@ onEvent('jei.hide.items', event => {
 
   onEvent('jei.add.items', jei => {
     jei.add(Item.of('appliedenergistics2:facade', {item:"minecraft:stone"}))
+    jei.add(Item.of('tconstruct:tinkers_anvil', {texture:"emendatusenigmatica:bronze_block"}))
     jei.add('immersiveengineering:metal_press')
     jei.add('immersiveengineering:assembler')
     jei.add('immersiveengineering:squeezer')

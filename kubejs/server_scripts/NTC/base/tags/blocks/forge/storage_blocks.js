@@ -6,4 +6,6 @@ onEvent('block.tags', (event) => {
 
     event.add('chisel:basalt', ['minecraft:basalt']);
     event.add('chisel:marble', ['quark:marble']);
+
+    event.add('chisel:charcoal', ['morecharcoal:charcoal_block']);
 });

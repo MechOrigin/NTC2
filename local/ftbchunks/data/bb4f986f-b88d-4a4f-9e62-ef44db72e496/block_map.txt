@@ -1,6 +1,7 @@
 #52B53D minecraft:air
 #D2A467 betternether:anchor_tree_bark
 #2B448B betternether:anchor_tree_leaves
+#DBECBF minecraft:anvil
 #12E847 emendatusenigmatica:apatite_netherrack_ore
 #F19CB5 emendatusenigmatica:apatite_soul_soil_ore
 #67CD27 mekanismmatter:arc_furnace
@@ -28,6 +29,7 @@
 #207534 minecraft:brown_mushroom
 #3AE802 minecraft:brown_mushroom_block
 #149368 infernalexp:buried_bone
+#82ED4F appliedenergistics2:cable_bus
 #3A85AD emendatusenigmatica:certus_quartz_basalt_ore
 #81F45E emendatusenigmatica:certus_quartz_blackstone_ore
 #318F47 emendatusenigmatica:certus_quartz_netherrack_ore
@@ -49,8 +51,11 @@
 #720E7D kubejs:cobalt_ore_sample
 #D18130 emendatusenigmatica:cobalt_soul_soil_ore
 #8B8A11 minecraft:cobweb
+#8E5D6D appliedenergistics2:controller
 #116FF5 minecraft:cracked_polished_blackstone_bricks
+#4D293F appliedenergistics2:crafting_accelerator
 #468304 minecraft:crafting_table
+#751DFA appliedenergistics2:creative_energy_cell
 #DFC019 mekanism:creative_energy_cube
 #6B35EC mekanism:creative_fluid_tank
 #FDCD6A custommachinery:custom_machine_block
@@ -58,6 +63,7 @@
 #FB5542 emendatusenigmatica:diamond_blackstone_ore
 #AAF02B emendatusenigmatica:diamond_netherrack_ore
 #2EB2EB infernalexp:dimstone
+#46935B appliedenergistics2:drive
 #DBE342 infernalexp:dullstone
 #FB1469 betternether:egg_plant
 #063FFF mekanism:energized_smelter
@@ -83,6 +89,7 @@
 #C8225D emendatusenigmatica:gold_soul_soil_ore
 #88BAFA minecraft:gravel
 #042D62 tconstruct:ichor_congealed_slime
+#85670A appliedenergistics2:interface
 #E1B49D emendatusenigmatica:iron_basalt_ore
 #182B4E emendatusenigmatica:iron_blackstone_ore
 #87558F emendatusenigmatica:iron_gravel_ore
@@ -102,6 +109,7 @@
 #0D5C9E betternether:lumabus_vine
 #81978F infernalexp:luminous_fungus
 #083550 thermal:machine_crucible
+#F136BC rftoolsbase:machine_infuser
 #DE9468 minecraft:magma_block
 #388A2B betternether:magma_flower
 #16E42F tconstruct:magma_fluid
@@ -123,6 +131,7 @@
 #7D89BC betternether:nether_ruby_ore
 #4D1A85 betternether:nether_sakura_leaves
 #6B6354 minecraft:nether_wart_block
+#B7AD5D metalbarrels:netherite_barrel
 #454322 minecraft:netherrack
 #61394A betternether:netherrack_moss
 #9182A4 quark:netherrack_speleothem
@@ -156,6 +165,7 @@
 #F68259 minecraft:shroomlight
 #1A216D infernalexp:shroomlight_fungus
 #7760DE minecraft:skeleton_skull
+#31A081 minecraft:smithing_table
 #B88B9B betternether:smoker
 #A0B4F5 minecraft:soul_fire
 #F8BF22 betternether:soul_grass

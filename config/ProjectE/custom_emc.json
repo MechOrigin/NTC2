@@ -390,7 +390,7 @@
     },
     {
       "item": "fluxnetworks:flux_dust",
-      "emc": 512
+      "emc": 64
     },
     {
       "item": "betterendforge:crystal_grass",

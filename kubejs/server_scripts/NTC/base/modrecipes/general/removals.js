@@ -194,6 +194,12 @@ events.listen('recipes', e => {
         'mysticalagriculture:essence/mekanism/refined_glowstone_ingot',
         'mysticalagriculture:essence/mekanism/refined_obsidian_ingot',
 
+        'chisel:charcoal/raw',
+        'mekanism:storage_blocks/charcoal',
+        'thermal:storage/charcoal_block',
+        'quark:building/crafting/compressed/charcoal_block',
+        //'morecharcoal:charcoal_block',
+        'minecraft:bone_meal',
         /*
         'mysticalagriculture:essence/thermal/basalz_rod',
         'mysticalagriculture:essence/thermal/blitz_rod',

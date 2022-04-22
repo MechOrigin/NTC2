@@ -1,0 +1,37 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "end_resin_processor_structure",
+    "controllerId": "end_resin_processor",
+    "ticks": 100,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:fluids",
+            "data": {
+                "fluid": "kubejs:liquid_lumecorn",
+                "amount": 4500
+            }
+        },
+        {
+            "type": "masterfulmachinery:items",
+            "data": {
+                "item": "enderioalloys:item_alloy_block_melodic_alloy",
+                "count": 1
+            }
+        },
+        {
+            "type": "masterfulmachinery:energy",
+            "data": {
+                "amount": 216000
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "type": "masterfulmachinery:items",
+            "data": {
+                "item": "enderioalloys:item_alloy_block_stellar_alloy",
+                "count": 1
+            }
+        }
+    ]
+}

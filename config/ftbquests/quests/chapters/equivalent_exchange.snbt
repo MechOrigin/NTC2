@@ -1568,6 +1568,7 @@
 			}]
 		}
 		{
+			title: "All the fuels"
 			x: 3.5d
 			y: 1.5d
 			hide_dependency_lines: false
@@ -1632,6 +1633,7 @@
 			]
 		}
 		{
+			title: "All the links"
 			x: -1.5d
 			y: 5.5d
 			dependencies: ["53A0E950A9928DD7"]

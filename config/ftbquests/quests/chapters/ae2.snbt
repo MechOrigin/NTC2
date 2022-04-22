@@ -2177,9 +2177,9 @@
 			dependencies: ["0864DB2B1B7F1A27"]
 			id: "1864DB83ACA386B1"
 			tasks: [{
-				id: "17945925AA449646"
+				id: "51AAE8FB9D125472"
 				type: "item"
-				item: "lazierae2:carb_fluix_dust"
+				item: "lazierae2:carbonic_fluix_dust"
 			}]
 		}
 		{
@@ -2256,9 +2256,9 @@
 			dependencies: ["3C1C044C71139DA3"]
 			id: "10280C1DAD0038D6"
 			tasks: [{
-				id: "619396E4D82B3869"
+				id: "2816E39614F9411C"
 				type: "item"
-				item: "lazierae2:fluix_aggregator"
+				item: "lazierae2:aggregator"
 			}]
 		}
 		{
@@ -2304,9 +2304,9 @@
 			dependencies: ["3C1C044C71139DA3"]
 			id: "6218AE6E49B9A553"
 			tasks: [{
-				id: "38C0766E205F4399"
+				id: "2A2E9C00D5CB2C84"
 				type: "item"
-				item: "lazierae2:circuit_etcher"
+				item: "lazierae2:etcher"
 			}]
 		}
 		{
@@ -2341,9 +2341,9 @@
 			size: 0.5d
 			id: "2DEAAA2A7A5B92C0"
 			tasks: [{
-				id: "51003593802FD831"
+				id: "5FB65E342BB4A1D7"
 				type: "item"
-				item: "lazierae2:spec_core_1"
+				item: "lazierae2:speculation_core_1"
 			}]
 		}
 		{
@@ -2353,9 +2353,9 @@
 			size: 0.5d
 			id: "057BB656C042F267"
 			tasks: [{
-				id: "1601BBEEC8471D98"
+				id: "355B65A9396FA2AF"
 				type: "item"
-				item: "lazierae2:spec_core_2"
+				item: "lazierae2:speculation_core_2"
 			}]
 		}
 		{
@@ -2365,9 +2365,9 @@
 			size: 0.5d
 			id: "1128E8D880776BF2"
 			tasks: [{
-				id: "3244AC3DF716A84F"
+				id: "7171BA785FC16CC3"
 				type: "item"
-				item: "lazierae2:spec_core_4"
+				item: "lazierae2:speculation_core_4"
 			}]
 		}
 		{
@@ -2377,9 +2377,9 @@
 			size: 0.5d
 			id: "5C4226975EA0333A"
 			tasks: [{
-				id: "31444BE6A55B11A6"
+				id: "4769FF63D1179C44"
 				type: "item"
-				item: "lazierae2:spec_core_8"
+				item: "lazierae2:speculation_core_8"
 			}]
 		}
 		{
@@ -2389,9 +2389,9 @@
 			size: 0.5d
 			id: "40DA48B2AE4D6B88"
 			tasks: [{
-				id: "186C1CE560F09A09"
+				id: "19D7B33B2875C7C4"
 				type: "item"
-				item: "lazierae2:spec_core_16"
+				item: "lazierae2:speculation_core_16"
 			}]
 		}
 		{
@@ -2401,9 +2401,9 @@
 			size: 0.5d
 			id: "1C6DBE8E0EA21FA5"
 			tasks: [{
-				id: "3ABC7762E6C65720"
+				id: "38637A6195B35029"
 				type: "item"
-				item: "lazierae2:spec_core_32"
+				item: "lazierae2:speculation_core_32"
 			}]
 		}
 		{
@@ -2413,9 +2413,9 @@
 			size: 0.5d
 			id: "13A69DCA0A0D75B4"
 			tasks: [{
-				id: "42C0F5755DB83275"
+				id: "4DA3306C2569C90B"
 				type: "item"
-				item: "lazierae2:spec_core_64"
+				item: "lazierae2:speculation_core_64"
 			}]
 		}
 		{
@@ -2434,9 +2434,9 @@
 			dependencies: ["3C1C044C71139DA3"]
 			id: "21F2493A04095F7C"
 			tasks: [{
-				id: "06843204A7E18E0B"
+				id: "0ACE3A58C4E11CA5"
 				type: "item"
-				item: "lazierae2:crystal_energizer"
+				item: "lazierae2:energizer"
 			}]
 		}
 		{
@@ -2454,9 +2454,96 @@
 			dependencies: ["3C1C044C71139DA3"]
 			id: "07AF2BEDB5E45D4E"
 			tasks: [{
-				id: "25C5ECDC59123DA2"
+				id: "409A0D71E0CFFA75"
 				type: "item"
-				item: "lazierae2:pulse_centrifuge"
+				item: "lazierae2:centrifuge"
+			}]
+		}
+		{
+			title: "A different Wireless Terminal"
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["448C7D79A66DD627"]
+			id: "29B87968D5F05216"
+			tasks: [{
+				id: "02AAFEBE63834766"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ae2wtlib:wireless_crafting_terminal"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "ae2wtlib:wireless_pattern_terminal"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "ae2wtlib:wireless_interface_terminal"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "ae2wtlib:wireless_universal_terminal"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["29B87968D5F05216"]
+			id: "6CF2607CA5F35B7E"
+			tasks: [{
+				id: "5FCAB88B71DFFA9C"
+				type: "item"
+				item: "ae2wtlib:infinity_booster_card"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["29B87968D5F05216"]
+			id: "4B9CA47973A0CF44"
+			tasks: [{
+				id: "1289F5250DD5B76B"
+				type: "item"
+				item: "ae2wtlib:magnet_card"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["29B87968D5F05216"]
+			id: "5253BE35AF6410FE"
+			tasks: [{
+				id: "2F1CC4FAF65B6F0A"
+				type: "item"
+				item: "aeinfinitybooster:infinity_card"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["29B87968D5F05216"]
+			id: "77A4725770D52670"
+			tasks: [{
+				id: "1A66108DC3B5858F"
+				type: "item"
+				item: "aeinfinitybooster:dimension_card"
 			}]
 		}
 	]

@@ -24,6 +24,8 @@ import mods.exnihilosequentia.ZenFluidItemRecipe;
 
 <recipetype:exnihilosequentia:sieve>.removeRecipe(<item:appliedenergistics2:fluix_dust>);
 <recipetype:exnihilosequentia:sieve>.removeRecipe(<item:appliedenergistics2:sky_dust>);
+<recipetype:exnihilosequentia:sieve>.removeRecipe(<item:appliedenergistics2:certus_quartz_crystal>);
+<recipetype:exnihilosequentia:sieve>.removeRecipe(<item:appliedenergistics2:charged_certus_quartz_crystal>);
 
 <recipetype:exnihilosequentia:sieve>.removeRecipe(<item:thermal:cinnabar>);
 <recipetype:exnihilosequentia:sieve>.removeRecipe(<item:thermal:sulfur>);
@@ -169,6 +171,16 @@ craftingTable.removeRecipe(<item:exnihilosequentia:end_cake>);
 <recipetype:exnihilosequentia:sieve>.create("sieve_33").setInput(<item:betterendforge:endstone_dust>)
 .addDrop(<item:betterendforge:bulb_vine_seed>)
 .addRoll("string", 0.01).addRoll("flint", 0.02).addRoll("iron", 0.3).addRoll("diamond", 0.4).addRoll("emerald", 0.5).addRoll("netherite", 0.6);
+
+
+<recipetype:exnihilosequentia:sieve>.create("certus_quartz_gem").setInput(<item:exnihiloae:crushed_skystone>)
+.addDrop(<item:emendatusenigmatica:certus_quartz_gem>)
+.addRoll("iron", 0.7).addRoll("diamond", 0.8).addRoll("emerald", 0.8).addRoll("netherite", 0.8);
+
+<recipetype:exnihilosequentia:sieve>.create("charged_certus_quartz_gem").setInput(<item:exnihiloae:crushed_skystone>)
+.addDrop(<item:emendatusenigmatica:charged_certus_quartz_gem>)
+.addRoll("diamond", 0.1).addRoll("emerald", 0.1).addRoll("netherite", 0.1);
+
 
 <recipetype:exnihilosequentia:sieve>.create("soulium_dust").setInput(<item:minecraft:soul_soil>).addDrop(<item:mysticalagriculture:soulium_dust>).addRoll("string", 0.01).addRoll("flint", 0.02).addRoll("iron", 0.03).addRoll("diamond", 0.1).addRoll("emerald", 0.15).addRoll("netherite", 0.16);
 <recipetype:exnihilosequentia:sieve>.create("soul_dust").setInput(<item:minecraft:soul_soil>).addDrop(<item:mysticalagriculture:soul_dust>).addRoll("string", 0.01).addRoll("flint", 0.02).addRoll("iron", 0.03).addRoll("diamond", 0.1).addRoll("emerald", 0.15).addRoll("netherite", 0.16);

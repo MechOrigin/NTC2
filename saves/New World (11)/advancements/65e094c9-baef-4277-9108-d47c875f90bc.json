@@ -1001,6 +1001,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/interface": {
+    "criteria": {
+      "certus": "2022-04-21 22:21:36 -0700"
+    },
+    "done": true
+  },
   "ceramics:recipes/ceramics/brown_porcelain": {
     "criteria": {
       "has_the_recipe": "2022-04-14 08:23:17 -0700"
@@ -9075,6 +9081,12 @@
     },
     "done": true
   },
+  "ae2wtlib:recipes/wireless_universal_terminal/ip": {
+    "criteria": {
+      "has_wpt": "2022-04-21 21:00:49 -0700"
+    },
+    "done": true
+  },
   "emendatusenigmatica:recipes/emendatusenigmatica/ore_from_chunk_stonecutting/diamond/byg_ether_stone": {
     "criteria": {
       "has_stone": "2022-04-18 06:40:04 -0700"
@@ -9351,6 +9363,12 @@
     },
     "done": true
   },
+  "ae2wtlib:recipes/wireless_universal_terminal/ci": {
+    "criteria": {
+      "has_wct": "2022-04-21 21:00:26 -0700"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/virid_jadestone_bricks_stairs_from_virid_jadestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2022-04-14 08:23:18 -0700"
@@ -9396,6 +9414,12 @@
   "inspirations:recipes/building_blocks/cauldron/bottle/terracotta/white": {
     "criteria": {
       "has_the_recipe": "2022-04-14 08:23:26 -0700"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/cp": {
+    "criteria": {
+      "has_wct": "2022-04-21 21:00:26 -0700"
     },
     "done": true
   },
@@ -10146,6 +10170,12 @@
   "betterendforge:recipes/betterendforge/terminite_anvil": {
     "criteria": {
       "has_the_recipe": "2022-04-14 08:23:15 -0700"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_crafting": {
+    "criteria": {
+      "has_wct": "2022-04-21 21:00:26 -0700"
     },
     "done": true
   },
@@ -11424,6 +11454,12 @@
   "storagedrawers:recipes/storagedrawers/drawer_key": {
     "criteria": {
       "has_the_recipe": "2022-04-14 08:23:27 -0700"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/pattern_terminal": {
+    "criteria": {
+      "certus": "2022-04-21 22:22:27 -0700"
     },
     "done": true
   },
@@ -13695,6 +13731,12 @@
     },
     "done": true
   },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_pattern": {
+    "criteria": {
+      "has_wpt": "2022-04-21 21:00:49 -0700"
+    },
+    "done": true
+  },
   "emendatusenigmatica:recipes/emendatusenigmatica/ore_from_chunk_stonecutting/redstone/byg_ether_stone": {
     "criteria": {
       "has_stone": "2022-04-18 06:40:05 -0700"
@@ -15144,6 +15186,12 @@
   "rftoolsutility:recipes/rftoolsutility/simple_dialer": {
     "criteria": {
       "has_the_recipe": "2022-04-14 08:23:23 -0700"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/crafting_terminal": {
+    "criteria": {
+      "certus": "2022-04-21 22:22:26 -0700"
     },
     "done": true
   },
@@ -17895,6 +17943,12 @@
     },
     "done": true
   },
+  "tconstruct:smeltery/tinkers_anvil": {
+    "criteria": {
+      "crafted_overworld": "2022-04-21 21:42:06 -0700"
+    },
+    "done": true
+  },
   "emendatusenigmatica:recipes/emendatusenigmatica/ore_from_chunk_stonecutting/osmium/minecraft_granite": {
     "criteria": {
       "has_stone": "2022-04-18 06:40:02 -0700"
@@ -17994,6 +18048,12 @@
   "emendatusenigmatica:recipes/emendatusenigmatica/ore_from_chunk_stonecutting/cobalt/minecraft_basalt": {
     "criteria": {
       "has_stone": "2022-04-18 06:40:03 -0700"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/crafting_cpu": {
+    "criteria": {
+      "c64k": "2022-04-21 22:23:57 -0700"
     },
     "done": true
   },
@@ -27393,6 +27453,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/controller": {
+    "criteria": {
+      "certus": "2022-04-21 22:21:52 -0700"
+    },
+    "done": true
+  },
   "emendatusenigmatica:recipes/emendatusenigmatica/block_from_gem/fluix": {
     "criteria": {
       "has_the_recipe": "2022-04-14 08:23:31 -0700"
@@ -30081,6 +30147,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/storage_cell": {
+    "criteria": {
+      "c64k": "2022-04-21 22:22:42 -0700"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/umbralith_pillar": {
     "criteria": {
       "has_the_recipe": "2022-04-14 08:23:30 -0700"
@@ -31440,6 +31512,12 @@
   "emendatusenigmatica:recipes/emendatusenigmatica/ore_from_chunk_stonecutting/iron/minecraft_blackstone": {
     "criteria": {
       "has_stone": "2022-04-18 06:40:04 -0700"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_interface": {
+    "criteria": {
+      "has_wit": "2022-04-21 21:00:53 -0700"
     },
     "done": true
   },

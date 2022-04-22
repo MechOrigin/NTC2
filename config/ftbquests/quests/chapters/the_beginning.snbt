@@ -1290,6 +1290,7 @@
 			x: 4.0d
 			y: 6.5d
 			subtitle: "{ntc2.oakbarrel.subtitle}"
+			description: ["Captures rain. If it don't rain, use a crucible."]
 			dependencies: ["716041F628587458"]
 			id: "09ED23FEA2D632D5"
 			tasks: [{
@@ -1587,6 +1588,12 @@
 			icon: "exnihilosequentia:crucible_wood"
 			x: 5.0d
 			y: 5.5d
+			subtitle: "Use &aLeaves&r to make water"
+			description: [
+				"and other things..."
+				""
+				"Saplings and other organic stuff will work; god forbid you spawn in a desert biome or something."
+			]
 			hide_dependency_lines: true
 			dependencies: ["716041F628587458"]
 			id: "1B694F0072CB35BC"
@@ -3422,6 +3429,37 @@
 				id: "07B0CDD2E5AEC244"
 				type: "item"
 				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			subtitle: "&aQuantum entanglement&r without all the hoo-haa!"
+			description: [
+				"&bEntangled&r gives you the materials needed to bind two blocks together, allowing you to interact with either one as if they were the same block! This will allow you to transfer items, energy, fluids or whatever you want instantly, you can have more than six sides to work with or you could just hide your messy cables, the possibilities are endless!"
+				""
+				"&aStep-by-step Guide:&r"
+				""
+				"Binding an Entangled Block"
+				"&b1.&r Craft an Entangled Block and an Entangled Binder"
+				"&b2.&r Place down your Entangled Block"
+				"&b3.&r Right-Click on the block you want to bind with the Entangled Binder"
+				"&b4.&r Right-Click on your Entangled Block with the Entangled Binder"
+			]
+			id: "5847A0EC631F99AA"
+			tasks: [{
+				id: "7B2429069473230C"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "019A4B909554E952"
+				type: "item"
+				item: "miniutilities:experience_pearl_1x"
 			}]
 		}
 	]
