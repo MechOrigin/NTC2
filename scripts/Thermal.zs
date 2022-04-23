@@ -128,7 +128,8 @@ craftingTable.addShaped("device_tree_extractor", <item:thermal:device_tree_extra
 <recipetype:thermal:refinery>.addRecipe("refinery_propylene", <item:minecraft:air>, [<fluid:kubejs:liquid_propylene> *50], <fluid:kubejs:liquid_propane> *100, 500); // assuming hydrogenation using hydrogen gas in presence of nickel or palladium catalyst
 
 <recipetype:thermal:bottler>.addRecipe("ethylene_to_hdpe", <item:mekanism:hdpe_pellet> *1, <item:chemlib:element_oxygen>, <fluid:mekanism:ethene> *50, 500);
-<recipetype:thermal:bottler>.addRecipe("propylene_to_rubber", <item:thermal:rubber> *3, <item:emendatusenigmatica:charcoal_dust>, <fluid:kubejs:liquid_propylene> *50, 500);
+<recipetype:thermal:bottler>.addRecipe("propylene_to_rubber", <item:thermal:rubber> *3, <tag:items:forge:dusts/charcoal>, <fluid:kubejs:liquid_propylene> *50, 500);
+
 
 //<recipetype:thermal:press>.addRecipe("hdpe_sheet", [<item:mekanism:hdpe_sheet> % 100], <fluid:minecraft:empty>, [<item:mekanism:hdpe_pellet> *3], 500);
 
