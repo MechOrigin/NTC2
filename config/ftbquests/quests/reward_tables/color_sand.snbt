@@ -1,0 +1,23 @@
+{
+	id: "7701729761D97702"
+	order_index: 2
+	title: "color_sand"
+	loot_size: 6
+	rewards: [
+		{ item: "biomesoplenty:orange_sand", count: 64 }
+		{ item: "minecraft:red_sand", count: 64 }
+		{ item: "biomesoplenty:white_sand", count: 64 }
+		{ item: "biomesoplenty:black_sand", count: 64 }
+		{ item: "atmospheric:red_arid_sand", count: 64 }
+		{ item: "atmospheric:arid_sand", count: 64 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "color_sand"
+	}
+}

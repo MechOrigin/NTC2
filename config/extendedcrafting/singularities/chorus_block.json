@@ -1,0 +1,10 @@
+{
+  "name": "Crystalized Chorus Block",
+  "colors": [
+    "f765e9",
+    "f765e9"
+  ],
+  "ingredient": {
+    "item": "integrateddynamics:crystalized_chorus_block"
+  }
+}

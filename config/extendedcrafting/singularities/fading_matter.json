@@ -1,0 +1,10 @@
+{
+  "name": "Fading Matter",
+  "colors": [
+    "696969",
+    "696969"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:fading_matter"
+  }
+}

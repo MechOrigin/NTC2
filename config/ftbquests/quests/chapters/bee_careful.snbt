@@ -1,0 +1,1037 @@
+{
+	id: "21E2ADC5F2D02006"
+	group: "3584F5F5EDA97E25"
+	order_index: 7
+	filename: "bee_careful"
+	title: "{ntc2.bees.chapter}"
+	icon: "productivebees:honey_treat"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{ntc2.prodbees.title}"
+			icon: "productivebees:honey_treat"
+			x: 0.44999999999999996d
+			y: 0.6d
+			subtitle: "{ntc2.prodbees.subtitle}"
+			description: ["{ntc2.prodbees.desc1}"]
+			dependencies: ["2F9F90A4BE55C186"]
+			size: 1.5d
+			optional: true
+			id: "505E18A9E7CCB3BE"
+			tasks: [{
+				id: "5074EC7E20A80759"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "51C4226EEED36C29"
+				type: "item"
+				item: "exnihilosequentia:beehive_frame"
+				count: 32
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{ntc2.prodbees.treat.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "49FD70AD89BD9699"
+			tasks: [{
+				id: "30F3259396569C89"
+				type: "item"
+				item: "productivebees:honey_treat"
+			}]
+		}
+		{
+			x: -1.8d
+			y: 4.8d
+			subtitle: "Requires Piston to \"smush\" bees into the top"
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "1314CBB918D92343"
+			tasks: [{
+				id: "7A0D1B93D02CBBBA"
+				type: "item"
+				item: "productivebees:bottler"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.8d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "16576DB8159FED05"
+			tasks: [{
+				id: "16A7777933EA56CB"
+				type: "item"
+				item: "productivebees:powered_centrifuge"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.3d
+			subtitle: "{ntc2.prodbees.babee.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "6E54C8EE440519B6"
+			tasks: [{
+				id: "37CE014933E3D534"
+				type: "item"
+				item: "productivebees:incubator"
+			}]
+		}
+		{
+			title: "Sieve Sawdust Block"
+			icon: "thermal:sawdust_block"
+			x: 0.9d
+			y: -2.1d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "51331882B6E1B7B7"
+			tasks: [{
+				id: "35A9941E75D8B3F4"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.1d
+			y: -2.1d
+			dependencies: ["51331882B6E1B7B7"]
+			optional: true
+			id: "7DECD9C6A154E7D9"
+			tasks: [{
+				id: "7DC57FF10DFF65ED"
+				type: "item"
+				item: "productivebees:spawn_egg_resin_bee"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.8d
+			dependencies: ["51331882B6E1B7B7"]
+			optional: true
+			id: "43FE2FD846D29845"
+			tasks: [{
+				id: "677378CD6F420CE8"
+				type: "item"
+				item: "productivebees:spawn_egg_blue_banded_bee"
+			}]
+		}
+		{
+			x: 0.9d
+			y: -3.5d
+			dependencies: ["51331882B6E1B7B7"]
+			optional: true
+			id: "691725D59AEC5B10"
+			tasks: [{
+				id: "20CD2F2262707F38"
+				type: "item"
+				item: "productivebees:spawn_egg_yellow_black_carpenter_bee"
+			}]
+		}
+		{
+			x: 1.3d
+			y: -2.8d
+			dependencies: ["51331882B6E1B7B7"]
+			optional: true
+			id: "2384EBBD34342E14"
+			tasks: [{
+				id: "6B9D03E7162930BE"
+				type: "item"
+				item: "productivebees:spawn_egg_neon_cuckoo_bee"
+			}]
+		}
+		{
+			x: -0.3d
+			y: -2.8d
+			dependencies: ["51331882B6E1B7B7"]
+			optional: true
+			id: "12C707323B2BC3FA"
+			tasks: [{
+				id: "311384F7FB8BDBBF"
+				type: "item"
+				item: "productivebees:spawn_egg_green_carpenter_bee"
+			}]
+		}
+		{
+			title: "Sieve Sugar Cane Block"
+			icon: "quark:sugar_cane_block"
+			x: -0.8d
+			y: -2.0d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "18FC6752CD604E25"
+			tasks: [{
+				id: "07AE77613DD683BF"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.2d
+			y: -2.7d
+			dependencies: ["18FC6752CD604E25"]
+			optional: true
+			id: "3A1DA95D1BF33ED8"
+			tasks: [{
+				id: "708B623BBC17623C"
+				type: "item"
+				item: "productivebees:spawn_egg_mason_bee"
+			}]
+		}
+		{
+			title: "Sieve Gravel"
+			icon: "minecraft:gravel"
+			x: 2.3d
+			y: -1.4d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "50A7B0ED7BF77A9A"
+			tasks: [{
+				id: "1EF1B6F76CD1E1D9"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.1d
+			y: -2.8d
+			dependencies: ["50A7B0ED7BF77A9A"]
+			optional: true
+			id: "621E78988172180A"
+			tasks: [{
+				id: "7049B828FF0288DB"
+				type: "item"
+				item: "productivebees:spawn_egg_reed_bee"
+			}]
+		}
+		{
+			x: 2.7d
+			y: -2.1d
+			dependencies: ["50A7B0ED7BF77A9A"]
+			optional: true
+			id: "4687426116E02502"
+			tasks: [{
+				id: "0728E46392FCB53F"
+				type: "item"
+				item: "productivebees:spawn_egg_digger_bee"
+			}]
+		}
+		{
+			title: "Sieve Coarse Dirt"
+			icon: "minecraft:coarse_dirt"
+			x: 3.1d
+			y: -1.4d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "0B9193E18D68BCAF"
+			tasks: [{
+				id: "2E4FEE6A90F5B672"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.9d
+			y: -2.8d
+			dependencies: ["0B9193E18D68BCAF"]
+			optional: true
+			id: "25A0D641416A6ADF"
+			tasks: [{
+				id: "331788F68E7BCF12"
+				type: "item"
+				item: "productivebees:spawn_egg_nomad_bee"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.1d
+			dependencies: ["0B9193E18D68BCAF"]
+			optional: true
+			id: "48BCC0B5916C0DC7"
+			tasks: [{
+				id: "4B5009F9E050ED4C"
+				type: "item"
+				item: "productivebees:spawn_egg_leafcutter_bee"
+			}]
+		}
+		{
+			x: 4.3d
+			y: -2.1d
+			dependencies: ["0B9193E18D68BCAF"]
+			optional: true
+			id: "298A6FD1C66EFF3F"
+			tasks: [{
+				id: "576A5F5792130881"
+				type: "item"
+				item: "productivebees:spawn_egg_chocolate_mining_bee"
+			}]
+		}
+		{
+			x: 3.9d
+			y: -1.4d
+			dependencies: ["0B9193E18D68BCAF"]
+			optional: true
+			id: "454DC42A0BCEE9BA"
+			tasks: [{
+				id: "7ECBA54C44B5CD2F"
+				type: "item"
+				item: "productivebees:spawn_egg_ashy_mining_bee"
+			}]
+		}
+		{
+			title: "Sieve Slime Block"
+			icon: "minecraft:slime_block"
+			x: 2.7d
+			y: -0.6d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "3820A1E73D79A4AB"
+			tasks: [{
+				id: "178D8EB58FFAE720"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sieve Glowstone"
+			icon: "minecraft:glowstone"
+			x: 2.3d
+			y: 0.1d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "1F57C58C0B9C1221"
+			tasks: [{
+				id: "03B1E494CF2C4EA1"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.4d
+			y: -0.6d
+			dependencies: ["3820A1E73D79A4AB"]
+			optional: true
+			id: "5C7D5F96CB227AF7"
+			tasks: [{
+				id: "3D90EAAA616E4498"
+				type: "item"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:slimy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.7d
+			y: 0.8d
+			dependencies: ["1F57C58C0B9C1221"]
+			optional: true
+			id: "6FB9219C8FDA1806"
+			tasks: [{
+				id: "2674F5201759D1E9"
+				type: "item"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:glowing"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Sieve Soul Sand"
+			icon: "minecraft:soul_sand"
+			x: 2.3d
+			y: 1.7d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "49A3A093B270AB30"
+			tasks: [{
+				id: "02E63DD79C2AC78E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sieve Nether Quartz Ore"
+			icon: "minecraft:nether_quartz_ore"
+			x: 1.9d
+			y: 2.4000000000000004d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "30D1BF1D80130849"
+			tasks: [{
+				id: "0AA2F2AB2155C9DD"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sieve Nether Gold Ore"
+			icon: "minecraft:nether_gold_ore"
+			x: -1.7d
+			y: -1.8d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "65EE3725A4DAC3CD"
+			tasks: [{
+				id: "1769A81EE14EE3B8"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.7d
+			dependencies: ["49A3A093B270AB30"]
+			optional: true
+			id: "3ED10F84A2E99FCD"
+			tasks: [{
+				id: "4EC95B8ACE1698EC"
+				type: "item"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:ghostly"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.3d
+			y: 3.0999999999999996d
+			dependencies: ["30D1BF1D80130849"]
+			optional: true
+			id: "5C003B901B80EC62"
+			tasks: [{
+				id: "133036FBEFA6FC21"
+				type: "item"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:crystalline"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Sieve Snow"
+			icon: "minecraft:snow"
+			x: -2.1d
+			y: -1.1d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "758AEF2F923AF68E"
+			tasks: [{
+				id: "3AFAA8D6874DB7FE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sieve Magma Block"
+			icon: "minecraft:magma_block"
+			x: -1.7d
+			y: -0.4d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "44E1A6B6A7A801C8"
+			tasks: [{
+				id: "4FBC6BAC236AC3E9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sieve Crushed End Stone"
+			icon: "exnihilosequentia:crushed_end_stone"
+			x: -1.7d
+			y: 1.0d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "2DA362220920B1E7"
+			tasks: [{
+				id: "4428C1B8C6B94FA4"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -2.1d
+			y: -2.5d
+			dependencies: ["65EE3725A4DAC3CD"]
+			optional: true
+			id: "42F702AC8F33139E"
+			tasks: [{
+				id: "7925A470EEED3ED6"
+				type: "item"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.9d
+			y: -1.1d
+			dependencies: ["758AEF2F923AF68E"]
+			optional: true
+			id: "738847335546300F"
+			tasks: [{
+				id: "2B3D84CC22B827FB"
+				type: "item"
+				item: "productivebees:spawn_egg_sweaty_bee"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.4d
+			dependencies: ["44E1A6B6A7A801C8"]
+			optional: true
+			id: "656BFE5406807C38"
+			tasks: [{
+				id: "4794831DF59244B3"
+				type: "item"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:magmatic"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Sieve Obsidian"
+			icon: "minecraft:obsidian"
+			x: -1.3d
+			y: 1.7d
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "68B6E4C6B2F8235A"
+			tasks: [{
+				id: "4019BC12B95A962E"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["2DA362220920B1E7"]
+			optional: true
+			id: "0321F6D996C60927"
+			tasks: [{
+				id: "062E8C1CD8DDE54A"
+				type: "item"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.1d
+			y: 1.7d
+			dependencies: ["68B6E4C6B2F8235A"]
+			optional: true
+			id: "0A2EFFF800BAA508"
+			tasks: [{
+				id: "356CE0603F9175A6"
+				type: "item"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:draconic"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.3d
+			y: -2.8d
+			dependencies: ["3B5AD2850EB3EE8E"]
+			optional: true
+			id: "0A289C675CF5EE71"
+			tasks: [{
+				id: "49CE47CE060328A1"
+				type: "item"
+				item: "productivebees:spawn_egg_bumble_bee"
+			}]
+		}
+		{
+			title: "Sieve Dirt"
+			icon: "minecraft:dirt"
+			x: 1.9d
+			y: -2.1d
+			shape: "hexagon"
+			subtitle: "{ntc2.prodbees.sieving.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["6E54C8EE440519B6"]
+			optional: true
+			id: "3B5AD2850EB3EE8E"
+			tasks: [{
+				id: "145A6176F6F50F40"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.65d
+			y: 2.7d
+			subtitle: "{ntc2.prodbees.hive.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "23C0B44687CD606A"
+			tasks: [{
+				id: "421EFA26247FE789"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 3.4d
+			subtitle: "{ntc2.prodbees.frame.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "1C529ACD3983BF61"
+			tasks: [{
+				id: "5769AFA992A1AE8E"
+				type: "item"
+				item: "exnihilosequentia:beehive_frame"
+			}]
+		}
+		{
+			title: "Advanced Beehive"
+			x: -4.4d
+			y: 2.7d
+			subtitle: "{ntc2.prodbees.advhive.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "036C49F888089A02"
+			tasks: [{
+				id: "10A5F7AE44AE448F"
+				type: "item"
+				title: "Any #productivebees:advanced_beehives"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.prodbees.harvest.title}"
+			x: -4.0d
+			y: 2.0d
+			description: [
+				"{ntc2.prodbees.harvest.desc1}"
+				""
+				"{ntc2.prodbees.harvest.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "49D9C5A6466498C7"
+			tasks: [{
+				id: "0C27F7D24A91DFB5"
+				type: "checkmark"
+				icon: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.prodbees.bottle.title}"
+			x: -4.05d
+			y: 3.4d
+			description: ["{ntc2.prodbees.bottle.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "00340ABAD57E2A37"
+			tasks: [{
+				id: "1156078EB0160904"
+				type: "checkmark"
+				icon: "minecraft:glass_bottle"
+			}]
+		}
+		{
+			x: -3.65d
+			y: 4.1d
+			subtitle: "{ntc2.prodbees.fabric.subtitle}"
+			description: [
+				"{ntc2.prodbees.fabric.desc1}"
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "3B5CE0ABAD0B3804"
+			tasks: [{
+				id: "4382A98BC0A85338"
+				type: "item"
+				item: "thermal:beekeeper_fabric"
+			}]
+		}
+		{
+			x: -3.3d
+			y: 4.8d
+			hide_dependency_lines: true
+			dependencies: ["3B5CE0ABAD0B3804"]
+			optional: true
+			id: "6D0393BCA6A98BDD"
+			tasks: [{
+				id: "2F6B916943EC820A"
+				type: "item"
+				item: {
+					id: "thermal:beekeeper_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.05d
+			y: 4.8d
+			hide_dependency_lines: true
+			dependencies: ["3B5CE0ABAD0B3804"]
+			optional: true
+			id: "1234D0D9C0BF5842"
+			tasks: [{
+				id: "5A7B072C144B5BC1"
+				type: "item"
+				item: {
+					id: "thermal:beekeeper_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.8d
+			y: 4.8d
+			hide_dependency_lines: true
+			dependencies: ["3B5CE0ABAD0B3804"]
+			optional: true
+			id: "6BEF032DD29F9F7C"
+			tasks: [{
+				id: "3655E055CE77034F"
+				type: "item"
+				item: {
+					id: "thermal:beekeeper_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.55d
+			y: 4.8d
+			hide_dependency_lines: true
+			dependencies: ["3B5CE0ABAD0B3804"]
+			optional: true
+			id: "1F1857C644B2D71D"
+			tasks: [{
+				id: "3A8B3CEB408D4505"
+				type: "item"
+				item: {
+					id: "thermal:beekeeper_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.2d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "4FD64708944784AB"
+			tasks: [{
+				id: "3F3B5F4CA0D1BF81"
+				type: "item"
+				item: "productivebees:bee_cage"
+			}]
+		}
+		{
+			title: "{ntc2.prodbees.book.title}"
+			x: 0.9d
+			y: 1.5d
+			subtitle: "{ntc2.prodbees.book.subtitle}"
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "353B2315BC427E05"
+			tasks: [{
+				id: "01FF17E25D6BAA84"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.75d
+			y: 4.75d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "334811F7B5684A1E"
+			tasks: [{
+				id: "39DA60A1D20BFC3E"
+				type: "item"
+				item: "productivebees:upgrade_productivity"
+			}]
+		}
+		{
+			x: 2.6d
+			y: 4.75d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "5C943C1A26EFEDA8"
+			tasks: [{
+				id: "7056AFAE6F8C3A74"
+				type: "item"
+				item: "productivebees:upgrade_time"
+			}]
+		}
+		{
+			x: 3.4d
+			y: 4.75d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "69BA1ED4B3FCBF65"
+			tasks: [{
+				id: "50F2A2D04109B0CC"
+				type: "item"
+				item: "productivebees:upgrade_breeding"
+			}]
+		}
+		{
+			x: 2.2d
+			y: 5.45d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "30D29C69A1A11724"
+			tasks: [{
+				id: "34EFF672C3F946D6"
+				type: "item"
+				item: "productivebees:upgrade_comb_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.45d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "4236D6DD2A3B7A22"
+			tasks: [{
+				id: "636C3DD97D50426C"
+				type: "item"
+				item: "productivebees:upgrade_anti_teleport"
+			}]
+		}
+		{
+			x: 3.8d
+			y: 5.45d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "44D46B78203FB53F"
+			tasks: [{
+				id: "497E5CCB8196E57E"
+				type: "item"
+				item: "productivebees:upgrade_range"
+			}]
+		}
+		{
+			x: 2.6d
+			y: 6.15d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "79203E9C5E5407AC"
+			tasks: [{
+				id: "60E8F6AD8599B9C0"
+				type: "item"
+				item: "productivebees:upgrade_filter"
+			}]
+		}
+		{
+			x: 3.4d
+			y: 6.15d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "49BF2002A347E550"
+			tasks: [{
+				id: "2B9014FC89988276"
+				type: "item"
+				item: "productivebees:upgrade_bee_sampler"
+			}]
+		}
+		{
+			x: -0.2d
+			y: 6.2d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "21B43F085AC6E65F"
+			tasks: [{
+				id: "3D9F2CC625DBBDC3"
+				type: "item"
+				item: {
+					id: "productivebees:treat_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.4d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "28069B8E4A0F435B"
+			tasks: [{
+				id: "7784DAAA9BEABE93"
+				type: "item"
+				item: "productivebees:catcher"
+			}]
+		}
+		{
+			x: -0.6d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "2B6D95128ABF3EE4"
+			tasks: [{
+				id: "27FC9F32A13BEB2A"
+				type: "item"
+				item: "productivebees:feeder"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.2d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "1D17B91F5B5A8890"
+			tasks: [{
+				id: "143DE827957AC41B"
+				type: "item"
+				item: "productivebees:gene_indexer"
+			}]
+		}
+		{
+			x: 0.6d
+			y: 6.2d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "011F9A512F288BF6"
+			tasks: [{
+				id: "1A3791C7AB060D03"
+				type: "item"
+				item: {
+					id: "productivebees:nest_locator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.8d
+			y: 6.2d
+			hide_dependency_lines: true
+			dependencies: ["505E18A9E7CCB3BE"]
+			optional: true
+			id: "3731E7FD9E1465D8"
+			tasks: [{
+				id: "79E6685D0FDF2209"
+				type: "item"
+				item: "productivebees:honey_generator"
+			}]
+		}
+	]
+}

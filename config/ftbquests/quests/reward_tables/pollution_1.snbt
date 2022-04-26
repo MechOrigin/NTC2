@@ -1,0 +1,24 @@
+{
+	id: "2748DFE1398ED9F1"
+	order_index: 0
+	title: "pollution_1"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:orange_concrete", count: 64 }
+		{ item: "minecraft:white_concrete", count: 64 }
+		{ item: "minecraft:magenta_concrete", count: 64 }
+		{ item: "minecraft:light_blue_concrete", count: 64 }
+		{ item: "minecraft:yellow_concrete", count: 64 }
+		{ item: "minecraft:lime_concrete", count: 64 }
+		{ item: "minecraft:pink_concrete", count: 64 }
+		{ item: "minecraft:gray_concrete", count: 64 }
+		{ item: "minecraft:light_gray_concrete", count: 64 }
+		{ item: "minecraft:cyan_concrete", count: 64 }
+		{ item: "minecraft:purple_concrete", count: 64 }
+		{ item: "minecraft:blue_concrete", count: 64 }
+		{ item: "minecraft:brown_concrete", count: 64 }
+		{ item: "minecraft:green_concrete", count: 64 }
+		{ item: "minecraft:red_concrete", count: 64 }
+		{ item: "minecraft:black_concrete", count: 64 }
+	]
+}

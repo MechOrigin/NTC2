@@ -1,0 +1,435 @@
+{
+	"mod": "minecraft",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"water_creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"dolphin": {
+						// Do not edit this name
+						"name": "dolphin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"squid": {
+						// Do not edit this name
+						"name": "squid",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"bat": {
+						// Do not edit this name
+						"name": "bat",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"zombie_horse": {
+						// Do not edit this name
+						"name": "zombie_horse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"chicken": {
+						// Do not edit this name
+						"name": "chicken",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"panda": {
+						// Do not edit this name
+						"name": "panda",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"bee": {
+						// Do not edit this name
+						"name": "bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"turtle": {
+						// Do not edit this name
+						"name": "turtle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"wolf": {
+						// Do not edit this name
+						"name": "wolf",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"skeleton_horse": {
+						// Do not edit this name
+						"name": "skeleton_horse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"trader_llama": {
+						// Do not edit this name
+						"name": "trader_llama",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"donkey": {
+						// Do not edit this name
+						"name": "donkey",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"wandering_trader": {
+						// Do not edit this name
+						"name": "wandering_trader",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"cow": {
+						// Do not edit this name
+						"name": "cow",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"ocelot": {
+						// Do not edit this name
+						"name": "ocelot",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"fox": {
+						// Do not edit this name
+						"name": "fox",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"pig": {
+						// Do not edit this name
+						"name": "pig",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"polar_bear": {
+						// Do not edit this name
+						"name": "polar_bear",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"strider": {
+						// Do not edit this name
+						"name": "strider",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"horse": {
+						// Do not edit this name
+						"name": "horse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"llama": {
+						// Do not edit this name
+						"name": "llama",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"mule": {
+						// Do not edit this name
+						"name": "mule",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"cat": {
+						// Do not edit this name
+						"name": "cat",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"rabbit": {
+						// Do not edit this name
+						"name": "rabbit",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"mooshroom": {
+						// Do not edit this name
+						"name": "mooshroom",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"parrot": {
+						// Do not edit this name
+						"name": "parrot",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"sheep": {
+						// Do not edit this name
+						"name": "sheep",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"pufferfish": {
+						// Do not edit this name
+						"name": "pufferfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"salmon": {
+						// Do not edit this name
+						"name": "salmon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"cod": {
+						// Do not edit this name
+						"name": "cod",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"tropical_fish": {
+						// Do not edit this name
+						"name": "tropical_fish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"ravager": {
+						// Do not edit this name
+						"name": "ravager",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"zoglin": {
+						// Do not edit this name
+						"name": "zoglin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"magma_cube": {
+						// Do not edit this name
+						"name": "magma_cube",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"slime": {
+						// Do not edit this name
+						"name": "slime",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pillager": {
+						// Do not edit this name
+						"name": "pillager",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"skeleton": {
+						// Do not edit this name
+						"name": "skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"husk": {
+						// Do not edit this name
+						"name": "husk",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"zombified_piglin": {
+						// Do not edit this name
+						"name": "zombified_piglin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"blaze": {
+						// Do not edit this name
+						"name": "blaze",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"hoglin": {
+						// Do not edit this name
+						"name": "hoglin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"piglin": {
+						// Do not edit this name
+						"name": "piglin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"endermite": {
+						// Do not edit this name
+						"name": "endermite",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"silverfish": {
+						// Do not edit this name
+						"name": "silverfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"zombie": {
+						// Do not edit this name
+						"name": "zombie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"giant": {
+						// Do not edit this name
+						"name": "giant",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"drowned": {
+						// Do not edit this name
+						"name": "drowned",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"guardian": {
+						// Do not edit this name
+						"name": "guardian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"ghast": {
+						// Do not edit this name
+						"name": "ghast",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"illusioner": {
+						// Do not edit this name
+						"name": "illusioner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"stray": {
+						// Do not edit this name
+						"name": "stray",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"shulker": {
+						// Do not edit this name
+						"name": "shulker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"vex": {
+						// Do not edit this name
+						"name": "vex",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wither_skeleton": {
+						// Do not edit this name
+						"name": "wither_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"zombie_villager": {
+						// Do not edit this name
+						"name": "zombie_villager",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"piglin_brute": {
+						// Do not edit this name
+						"name": "piglin_brute",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"elder_guardian": {
+						// Do not edit this name
+						"name": "elder_guardian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"vindicator": {
+						// Do not edit this name
+						"name": "vindicator",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"phantom": {
+						// Do not edit this name
+						"name": "phantom",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"ender_dragon": {
+						// Do not edit this name
+						"name": "ender_dragon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"evoker": {
+						// Do not edit this name
+						"name": "evoker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"cave_spider": {
+						// Do not edit this name
+						"name": "cave_spider",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"witch": {
+						// Do not edit this name
+						"name": "witch",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"spider": {
+						// Do not edit this name
+						"name": "spider",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wither": {
+						// Do not edit this name
+						"name": "wither",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"creeper": {
+						// Do not edit this name
+						"name": "creeper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"enderman": {
+						// Do not edit this name
+						"name": "enderman",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

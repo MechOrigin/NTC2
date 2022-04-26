@@ -1,0 +1,19 @@
+{
+	"mod": "avaritia",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"black_hole": {
+						// Do not edit this name
+						"name": "black_hole",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

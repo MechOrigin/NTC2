@@ -1,0 +1,4 @@
+#What color the damage bar of a potion bundle should have. -1 means don't display a damage bar.
+#Range: -1 ~ 16777215
+durabilityBarColor = 221
+

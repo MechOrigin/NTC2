@@ -1,0 +1,157 @@
+{
+	"mod": "productivebees",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"sweaty_bee": {
+						// Do not edit this name
+						"name": "sweaty_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"leafcutter_bee": {
+						// Do not edit this name
+						"name": "leafcutter_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"ashy_mining_bee": {
+						// Do not edit this name
+						"name": "ashy_mining_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"mason_bee": {
+						// Do not edit this name
+						"name": "mason_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"rancher_bee": {
+						// Do not edit this name
+						"name": "rancher_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"cupid_bee": {
+						// Do not edit this name
+						"name": "cupid_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"chocolate_mining_bee": {
+						// Do not edit this name
+						"name": "chocolate_mining_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"bumble_bee": {
+						// Do not edit this name
+						"name": "bumble_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"hoarder_bee": {
+						// Do not edit this name
+						"name": "hoarder_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"farmer_bee": {
+						// Do not edit this name
+						"name": "farmer_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"resin_bee": {
+						// Do not edit this name
+						"name": "resin_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"configurable_bee": {
+						// Do not edit this name
+						"name": "configurable_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"creeper_bee": {
+						// Do not edit this name
+						"name": "creeper_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"blue_banded_bee": {
+						// Do not edit this name
+						"name": "blue_banded_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dye_bee": {
+						// Do not edit this name
+						"name": "dye_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"yellow_black_carpenter_bee": {
+						// Do not edit this name
+						"name": "yellow_black_carpenter_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"quarry_bee": {
+						// Do not edit this name
+						"name": "quarry_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"nomad_bee": {
+						// Do not edit this name
+						"name": "nomad_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"reed_bee": {
+						// Do not edit this name
+						"name": "reed_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"green_carpenter_bee": {
+						// Do not edit this name
+						"name": "green_carpenter_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"digger_bee": {
+						// Do not edit this name
+						"name": "digger_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"neon_cuckoo_bee": {
+						// Do not edit this name
+						"name": "neon_cuckoo_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"collector_bee": {
+						// Do not edit this name
+						"name": "collector_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"lumber_bee": {
+						// Do not edit this name
+						"name": "lumber_bee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

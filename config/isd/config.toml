@@ -1,0 +1,14 @@
+
+#Change initial spawn settings. Settings such as spawnDimension has to be modid:dimension. (javd:void, minecraft:overworld)
+[initial-spawn-settings]
+	#The decimal value in which you will spawn on X-axis. [default: 1.5]
+	setX = 1.5
+	#The decimal value in which you will spawn on Y-axis. [default: 69.0]
+	setY = 69.0
+	#The decimal value in which you will spawn on Z-axis. [default: 1.5]
+	setZ = 1.5
+
+	[initial-spawn-settings.spawn]
+		#The dimension the islands will be generated in.
+		dimension = "minecraft:overworld"
+

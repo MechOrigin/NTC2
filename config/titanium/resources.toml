@@ -1,0 +1,21 @@
+
+[modules]
+
+	[modules.resources]
+		enabled = true
+
+		[modules.resources.gold]
+
+			[modules.resources.gold.gear]
+				enabled = false
+
+		[modules.resources.iron]
+
+			[modules.resources.iron.gear]
+				enabled = false
+
+		[modules.resources.diamond]
+
+			[modules.resources.diamond.gear]
+				enabled = false
+

@@ -1,0 +1,10 @@
+{
+  "name": "Magenta Matter",
+  "colors": [
+    "fe4eda",
+    "fe4eda"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:magenta_matter"
+  }
+}

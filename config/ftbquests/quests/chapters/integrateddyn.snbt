@@ -1,0 +1,1123 @@
+{
+	id: "4BD850656FB0F5B9"
+	group: "3584F5F5EDA97E25"
+	order_index: 1
+	filename: "integrateddyn"
+	title: "{ntc2.intdyn.chapter}"
+	icon: "integratedterminals:part_terminal_storage"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{ntc2.stringetc.title}"
+			icon: "minecraft:string"
+			x: -3.25d
+			y: -0.5d
+			subtitle: "{ntc2.stringetc.subtitle}"
+			description: [
+				"{ntc2.stringetc.desc1}"
+				""
+				"{ntc2.stringetc.desc2}"
+				""
+				"{ntc2.stringetc.desc3}"
+				""
+				"{ntc2.stringetc.desc4}"
+				""
+				"{ntc2.stringetc.desc5}"
+				""
+				"{ntc2.stringetc.desc6}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["18D6A0633B3420CB"]
+			size: 0.5d
+			optional: true
+			min_width: 300
+			id: "7BB987936565CE54"
+			tasks: [{
+				id: "758D2B3B63EFA12F"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			subtitle: "{ntc2.intbook.subtitle}"
+			description: [
+				"{ntc2.intbook.desc1}"
+				""
+				"{ntc2.intbook.desc2}"
+				""
+				"{ntc2.intbook.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["16DFEE511554F77D"]
+			id: "18D6A0633B3420CB"
+			tasks: [{
+				id: "76A014D84A9EFC6F"
+				type: "item"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+			}]
+			rewards: [
+				{
+					id: "16B1617757DD19A5"
+					type: "item"
+					item: "upgrade_aquatic:squid_bucket"
+				}
+				{
+					id: "19B92574C48FE2F1"
+					type: "item"
+					item: "minecraft:ink_sac"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "{ntc2.menrilchunk.title}"
+			icon: "integrateddynamics:menril_sapling"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "{ntc2.menrilchunk.subtitle}"
+			description: [
+				"{ntc2.menrilchunk.desc1}"
+				""
+				"{ntc2.menrilchunk.desc2}"
+				""
+				"{ntc2.menrilchunk.desc3}"
+			]
+			dependencies: ["297EDEBCEF2710D2"]
+			id: "16DFEE511554F77D"
+			tasks: [
+				{
+					id: "7D84BFA3884D2E78"
+					type: "item"
+					item: "integrateddynamics:menril_log"
+				}
+				{
+					id: "52D0E2B2726FD4A6"
+					type: "item"
+					item: "integrateddynamics:menril_berries"
+				}
+				{
+					id: "6892150C4F4851F5"
+					type: "item"
+					item: "integrateddynamics:crystalized_menril_chunk"
+				}
+			]
+			rewards: [{
+				id: "0B418282D8E05FEF"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+				count: 8
+			}]
+		}
+		{
+			title: "{ntc2.idsqueezer.title}"
+			x: -2.5d
+			y: -3.5d
+			subtitle: "{ntc2.idsqueezer.subtitle}"
+			description: [
+				"{ntc2.idsqueezer.desc1}"
+				""
+				"{ntc2.idsqueezer.desc2}"
+				""
+				"{ntc2.idsqueezer.desc3}"
+			]
+			dependencies: ["16DFEE511554F77D"]
+			id: "7CFAC107058B164D"
+			tasks: [{
+				id: "19DB3E4EF7D94E7F"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}]
+			rewards: [{
+				id: "0E53C81BA8AB0B27"
+				type: "item"
+				item: "integrateddynamics:menril_log"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "{ntc2.mechanicalsqueezer.subtitle}"
+			description: [
+				"{ntc2.mechanicalsqueezer.desc1}"
+				""
+				"{ntc2.mechanicalsqueezer.desc2}"
+				""
+				"{ntc2.mechanicalsqueezer.desc3}"
+			]
+			dependencies: ["7CFAC107058B164D"]
+			id: "163F6555F12EFE56"
+			tasks: [{
+				id: "73A9F288F4B44FC1"
+				type: "item"
+				item: "integrateddynamics:mechanical_squeezer"
+			}]
+			rewards: [{
+				id: "07DE2A100CB4D010"
+				type: "item"
+				item: "emendatusenigmatica:coal_chunk"
+				count: 8
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			subtitle: "{ntc2.idwrench.subtitle}"
+			description: [
+				"{ntc2.idwrench.desc1}"
+				""
+				"{ntc2.idwrench.desc2}"
+			]
+			dependencies: ["7CFAC107058B164D"]
+			id: "29FBB7E5F46EE772"
+			tasks: [{
+				id: "17AD58027B6F4EAF"
+				type: "item"
+				item: "integrateddynamics:wrench"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -3.5d
+			subtitle: "{ntc2.labeller.subtitle}"
+			description: ["{ntc2.labeller.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["16DFEE511554F77D"]
+			size: 0.5d
+			id: "4D708E83DC6DC3EB"
+			tasks: [{
+				id: "7CFD787C6810678E"
+				type: "item"
+				item: "integrateddynamics:labeller"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			subtitle: "{ntc2.dryingbasin.subtitle}"
+			description: [
+				"{ntc2.dryingbasin.desc1}"
+				""
+				"{ntc2.dryingbasin.desc2}"
+			]
+			dependencies: ["7CFAC107058B164D"]
+			id: "58BFA314B7F7564D"
+			tasks: [{
+				id: "36608F93533DB801"
+				type: "item"
+				item: "integrateddynamics:drying_basin"
+			}]
+			rewards: [
+				{
+					id: "1385318D050D2948"
+					type: "item"
+					item: "integrateddynamics:crystalized_menril_block"
+				}
+				{
+					id: "58754678A503A353"
+					type: "item"
+					item: "emendatusenigmatica:redstone_chunk"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			subtitle: "{ntc2.mechdrybas.subtitle}"
+			description: [
+				"{ntc2.mechdrybas.desc1}"
+				""
+				"{ntc2.mechdrybas.desc2}"
+			]
+			dependencies: ["58BFA314B7F7564D"]
+			id: "58F2BD431B55BDB1"
+			tasks: [{
+				id: "5A13F63AE006E6F0"
+				type: "item"
+				item: "integrateddynamics:mechanical_drying_basin"
+			}]
+			rewards: [{
+				id: "67DDD6E708692904"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 16
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.5d
+			subtitle: "{ntc2.logiccable.subtitle}"
+			description: ["{ntc2.logiccable.desc}"]
+			dependencies: ["58BFA314B7F7564D"]
+			id: "74CC0234B0F5C450"
+			tasks: [{
+				id: "30A53C10C012C5BF"
+				type: "item"
+				item: "integrateddynamics:cable"
+			}]
+			rewards: [{
+				id: "3E72DD09A798BB92"
+				type: "item"
+				item: "integrateddynamics:cable"
+				count: 32
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.5d
+			subtitle: "{ntc2.variablecard.subtitle}"
+			description: [
+				"{ntc2.variablecard.desc1}"
+				""
+				"{ntc2.variablecard.desc2}"
+				""
+				"{ntc2.variablecard.desc3}"
+				""
+				"{ntc2.variablecard.desc4}"
+				""
+				"{ntc2.variablecard.desc5}"
+			]
+			dependencies: ["74CC0234B0F5C450"]
+			min_width: 250
+			id: "788EE5BCC4690C99"
+			tasks: [{
+				id: "3889571B62B61579"
+				type: "item"
+				item: "integrateddynamics:variable"
+			}]
+		}
+		{
+			title: "{ntc2.idfacade.title}"
+			x: -4.5d
+			y: -5.5d
+			subtitle: "{ntc2.idfacade.subtitle}"
+			description: [
+				"{ntc2.idfacade.desc1}"
+				""
+				"{ntc2.idfacade.desc2}"
+			]
+			dependencies: ["58BFA314B7F7564D"]
+			id: "5C5A343BE2DF6D93"
+			tasks: [{
+				id: "357705063EF52CDF"
+				type: "item"
+				item: "integrateddynamics:facade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			subtitle: "{ntc2.monoconn.subtitle}"
+			description: [
+				"{ntc2.monoconn.desc1}"
+				""
+				"{ntc2.monoconn.desc2}"
+				""
+				"{image:ntc2:textures/quests/mono_directional.png width:200 height:109 anchor:center}"
+			]
+			dependencies: ["74CC0234B0F5C450"]
+			id: "0FA4FAC9A73E1336"
+			tasks: [{
+				id: "13A8D0D552E4BF4F"
+				type: "item"
+				item: "integrateddynamics:part_connector_mono_directional"
+			}]
+			rewards: [{
+				id: "2B4999E056C285AA"
+				type: "item"
+				item: "integrateddynamics:part_connector_mono_directional"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			subtitle: "{ntc2.omnicon.subtitle}"
+			description: [
+				"{ntc2.omnicon.desc1}"
+				""
+				"{ntc2.omnicon.desc2}"
+			]
+			dependencies: ["0FA4FAC9A73E1336"]
+			id: "53178D11682C7A3C"
+			tasks: [{
+				id: "796285590717E880"
+				type: "item"
+				item: "integrateddynamics:part_connector_omni_directional"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -8.5d
+			subtitle: "{ntc2.displaypanel.subtitle}"
+			description: [
+				"{ntc2.displaypanel.desc1}"
+				""
+				"{ntc2.displaypanel.desc2}"
+				""
+				"{image:ntc2:textures/quests/display_panel.png width:250 height:125 anchor:center}"
+			]
+			dependencies: ["788EE5BCC4690C99"]
+			min_width: 275
+			id: "7C3C614896435DB7"
+			tasks: [{
+				id: "25FE4C03C4CEB3AB"
+				type: "item"
+				item: "integrateddynamics:part_display_panel"
+			}]
+		}
+		{
+			title: "{ntc2.redstoneio.title}"
+			icon: "integrateddynamics:part_redstone_reader"
+			x: 0.5d
+			y: -8.5d
+			subtitle: "{ntc2.redstoneio.subtitle}"
+			description: [
+				"{ntc2.redstoneio.desc1}"
+				""
+				"{ntc2.redstoneio.desc2}"
+				""
+				"{ntc2.redstoneio.desc3}"
+				"{image:ntc2:textures/quests/redstone_reader.png width:200 height:47 anchor:center}"
+				"{ntc2.redstoneio.desc4}"
+				""
+				"{ntc2.redstoneio.desc5}"
+				"{image:ntc2:textures/quests/redstone_writer.png width:200 height:24 anchor:center}"
+			]
+			dependencies: ["788EE5BCC4690C99"]
+			min_width: 275
+			id: "1E04C0695371B43A"
+			tasks: [
+				{
+					id: "4015DACA4754536E"
+					type: "item"
+					item: "integrateddynamics:part_redstone_reader"
+				}
+				{
+					id: "3C9079856C2F66AB"
+					type: "item"
+					item: "integrateddynamics:part_redstone_writer"
+				}
+			]
+		}
+		{
+			icon: "integrateddynamics:part_inventory_reader"
+			x: 1.5d
+			y: -8.5d
+			subtitle: "{ntc2.readers.subtitle}"
+			description: [
+				"{ntc2.readers.desc1}"
+				""
+				"{ntc2.readers.desc2}"
+				""
+				"{ntc2.readers.desc3}"
+				""
+				"{ntc2.readers.desc4}"
+				""
+				"{ntc2.readers.desc5}"
+			]
+			dependencies: ["788EE5BCC4690C99"]
+			min_width: 250
+			id: "777C5CA83792935A"
+			tasks: [{
+				id: "4E654F815883BC2E"
+				type: "item"
+				title: "{ntc2.readers.title}"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "integrateddynamics"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "reader"
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "integrateddynamics:part_audio_writer"
+			x: 2.5d
+			y: -8.5d
+			subtitle: "{ntc2.writers.subtitle}"
+			description: [
+				"{ntc2.writers.desc1}"
+				""
+				"{ntc2.writers.desc2}"
+				""
+				"{ntc2.writers.desc3}"
+				""
+				"{ntc2.writers.desc4}"
+			]
+			dependencies: ["777C5CA83792935A"]
+			min_width: 275
+			id: "1EA3A579183DF1A2"
+			tasks: [{
+				id: "065A6CA158670E8F"
+				type: "item"
+				title: "{ntc2.writers.title}"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "integrateddynamics"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "writer"
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.logprogram.title}"
+			icon: "integrateddynamics:logic_programmer"
+			x: -2.5d
+			y: -10.5d
+			subtitle: "{ntc2.logprogram.subtitle}"
+			description: [
+				"{ntc2.logprogram.desc1}"
+				""
+				"{ntc2.logprogram.desc2}"
+				""
+				"{ntc2.logprogram.desc3}"
+				""
+				"{ntc2.logprogram.desc4}"
+				""
+				"{ntc2.logprogram.desc5}"
+				""
+				"{ntc2.logprogram.desc6}"
+				""
+				"{ntc2.logprogram.desc7}"
+			]
+			dependencies: ["788EE5BCC4690C99"]
+			min_width: 300
+			id: "3038CAA5081AEF3F"
+			tasks: [
+				{
+					id: "6FA988A165AA163F"
+					type: "item"
+					title: "{ntc2.logprogram.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "integrateddynamics:logic_programmer"
+									Count: 1b
+								}
+								{
+									id: "integrateddynamics:portable_logic_programmer"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "10409B70C4659396"
+					type: "item"
+					item: "integrateddynamics:variablestore"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -10.5d
+			subtitle: "{ntc2.proxies.subtitle}"
+			description: [
+				"{ntc2.proxies.desc1}"
+				""
+				"{ntc2.proxies.desc2}"
+				""
+				"{ntc2.proxies.desc3}"
+			]
+			dependencies: ["3038CAA5081AEF3F"]
+			id: "3460E5B95FFD20E0"
+			tasks: [{
+				id: "69FE55BB0C634931"
+				type: "item"
+				item: "integrateddynamics:proxy"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			subtitle: "{ntc2.delayer.subtitle}"
+			description: [
+				"{ntc2.delayer.desc1}"
+				""
+				"{ntc2.delayer.desc2}"
+				""
+				"{ntc2.delayer.desc3}"
+				""
+				"{ntc2.delayer.desc4}"
+			]
+			dependencies: ["3038CAA5081AEF3F"]
+			id: "3E85F29BA045DDEC"
+			tasks: [{
+				id: "15B2B3D1E2A42E9B"
+				type: "item"
+				item: "integrateddynamics:delay"
+			}]
+		}
+		{
+			title: "{ntc2.materializer.title}"
+			x: -2.5d
+			y: -11.5d
+			subtitle: "{ntc2.materializer.subtitle}"
+			description: [
+				"{ntc2.materializer.desc1}"
+				""
+				"{ntc2.materializer.desc2}"
+				""
+				"{ntc2.materializer.desc3}"
+				""
+				"{ntc2.materializer.desc4}"
+				""
+				"{ntc2.materializer.desc5}"
+				""
+				"{ntc2.materializer.desc6}"
+			]
+			dependencies: ["3038CAA5081AEF3F"]
+			min_width: 300
+			id: "614D04B1E904F693"
+			tasks: [{
+				id: "7C2CA5765E84943E"
+				type: "item"
+				item: "integrateddynamics:materializer"
+			}]
+		}
+		{
+			title: "{ntc2.integratedtunnels.title}"
+			icon: "integratedtunnels:part_exporter_item"
+			x: -3.5d
+			y: -7.5d
+			subtitle: "{ntc2.integratedtunnels.subtitle}"
+			description: [
+				"{ntc2.integratedtunnels.desc1}"
+				""
+				"{ntc2.integratedtunnels.desc2}"
+				""
+				"{ntc2.integratedtunnels.desc3}"
+				""
+				"{ntc2.integratedtunnels.desc4}"
+				""
+				"{ntc2.integratedtunnels.desc5}"
+			]
+			dependencies: ["788EE5BCC4690C99"]
+			min_width: 300
+			id: "6CC59D2008F9ABB7"
+			tasks: [
+				{
+					id: "54F2FA19F5034944"
+					type: "item"
+					item: "integratedtunnels:part_interface_item"
+				}
+				{
+					id: "1F7B1994E66CCD17"
+					type: "item"
+					item: "integratedtunnels:part_importer_item"
+				}
+				{
+					id: "6C82A3B38051E3BF"
+					type: "item"
+					item: "integratedtunnels:part_exporter_item"
+				}
+			]
+		}
+		{
+			title: "{ntc2.itwhitelist.title}"
+			icon: "minecraft:white_dye"
+			x: -8.5d
+			y: -7.5d
+			subtitle: "{ntc2.itwhitelist.subtitle}"
+			description: [
+				"{ntc2.itwhitelist.desc1}"
+				""
+				"{ntc2.itwhitelist.desc2}"
+				""
+				"{ntc2.itwhitelist.desc3}"
+				""
+				"{ntc2.itwhitelist.desc4}"
+				""
+				"{ntc2.itwhitelist.desc5}"
+			]
+			dependencies: ["6CC59D2008F9ABB7"]
+			min_width: 275
+			id: "4FF4DBC11DEFF15A"
+			tasks: [{
+				id: "2F76D5648E77F797"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{ntc2.itnonitems.title}"
+			icon: "integratedtunnels:part_importer_fluid"
+			x: -5.5d
+			y: -7.5d
+			subtitle: "{ntc2.itnonitems.subtitle}"
+			description: ["{ntc2.itnonitems.desc}"]
+			dependencies: ["6CC59D2008F9ABB7"]
+			id: "2B984F96CE3596DC"
+			tasks: [{
+				id: "7D80D52DF274054F"
+				type: "item"
+				title: "{ntc2.itnonitems.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integratedtunnels:part_interface_energy"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_importer_energy"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_exporter_energy"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_interface_fluid"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_importer_fluid"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_exporter_fluid"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.worldints.title}"
+			icon: "integratedtunnels:part_exporter_world_item"
+			x: -6.5d
+			y: -7.5d
+			subtitle: "{ntc2.worldints.subtitle}"
+			description: [
+				"{ntc2.worldints.desc1}"
+				""
+				"{ntc2.worldints.desc2}"
+				""
+				"{ntc2.worldints.desc3}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["6CC59D2008F9ABB7"]
+			id: "7A692ACC005E67DF"
+			tasks: [
+				{
+					id: "0B897556185B2986"
+					type: "item"
+					title: "{ntc2.worldints.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "integratedtunnels:part_importer_world_energy"
+									Count: 1b
+								}
+								{
+									id: "integratedtunnels:part_importer_world_item"
+									Count: 1b
+								}
+								{
+									id: "integratedtunnels:part_importer_world_fluid"
+									Count: 1b
+								}
+								{
+									id: "integratedtunnels:part_importer_world_block"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "54422CA297A1AA1F"
+					type: "item"
+					title: "{ntc2.worldints.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "integratedtunnels:part_exporter_world_energy"
+									Count: 1b
+								}
+								{
+									id: "integratedtunnels:part_exporter_world_item"
+									Count: 1b
+								}
+								{
+									id: "integratedtunnels:part_exporter_world_fluid"
+									Count: 1b
+								}
+								{
+									id: "integratedtunnels:part_exporter_world_block"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -7.5d
+			subtitle: "{ntc2.playersim.subtitle}"
+			description: [
+				"{ntc2.playersim.desc1}"
+				""
+				"{ntc2.playersim.desc2}"
+				""
+				"{ntc2.playersim.desc3}"
+			]
+			dependencies: ["7A692ACC005E67DF"]
+			id: "4C1BC84923D020A2"
+			tasks: [{
+				id: "1B80380B245E460D"
+				type: "item"
+				item: "integratedtunnels:part_player_simulator"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			subtitle: "{ntc2.energybattery.subtitle}"
+			description: [
+				"{ntc2.energybattery.desc1}"
+				""
+				"{ntc2.energybattery.desc2}"
+				""
+				"{ntc2.energybattery.desc3}"
+			]
+			dependencies: ["58BFA314B7F7564D"]
+			min_width: 275
+			id: "0CB985B934700B25"
+			tasks: [{
+				id: "1FE5A3A2091CD466"
+				type: "item"
+				item: {
+					id: "integrateddynamics:energy_battery"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			subtitle: "{ntc2.storageterminal.subtitle}"
+			description: [
+				"{ntc2.storageterminal.desc1}"
+				""
+				"{ntc2.storageterminal.desc2}"
+				""
+				"{ntc2.storageterminal.desc3}"
+				""
+				"{ntc2.storageterminal.desc4}"
+				""
+				"{ntc2.storageterminal.desc5}"
+			]
+			dependencies: ["6CC59D2008F9ABB7"]
+			min_width: 275
+			id: "0C7306E40F86D7E8"
+			tasks: [{
+				id: "08E72DAB7D626D0C"
+				type: "item"
+				item: "integratedterminals:part_terminal_storage"
+			}]
+			rewards: [{
+				id: "24D6E3A44D99E8F1"
+				type: "item"
+				item: "integratedtunnels:part_interface_item"
+				count: 6
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			subtitle: "{ntc2.craftjob.subtitle}"
+			description: [
+				"{ntc2.craftjob.desc1}"
+				""
+				"{ntc2.craftjob.desc2}"
+			]
+			dependencies: [
+				"0C7306E40F86D7E8"
+				"43F5886906F44484"
+			]
+			id: "71E4827D34069D53"
+			tasks: [{
+				id: "572E8280E3C1C998"
+				type: "item"
+				item: "integratedterminals:part_terminal_crafting_job"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			subtitle: "{ntc2.intcrafting.subtitle}"
+			description: [
+				"{ntc2.intcrafting.desc1}"
+				""
+				"{ntc2.intcrafting.desc2}"
+				""
+				"{ntc2.intcrafting.desc3}"
+				"{image:ntc2:textures/quests/integrated_crafting.png width:150 height:141 anchor:center}"
+				""
+				"{ntc2.intcrafting.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["788EE5BCC4690C99"]
+			min_width: 300
+			id: "43F5886906F44484"
+			tasks: [{
+				id: "4B626AB5E0D93FD2"
+				type: "item"
+				item: "integratedcrafting:part_interface_crafting"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -6.5d
+			subtitle: "{ntc2.craftwriter.subtitle}"
+			description: [
+				"{ntc2.craftwriter.desc1}"
+				""
+				"{ntc2.craftwriter.desc2}"
+				""
+				"{ntc2.craftwriter.desc3}"
+				"{ntc2.craftwriter.desc4}"
+				"{ntc2.craftwriter.desc5}"
+				"{ntc2.craftwriter.desc6}"
+				"{ntc2.craftwriter.desc7}"
+				""
+				"{ntc2.craftwriter.desc8}"
+			]
+			dependencies: ["43F5886906F44484"]
+			min_width: 275
+			id: "70CB73AD77085F92"
+			tasks: [{
+				id: "4474D2E362E619AC"
+				type: "item"
+				item: "integratedcrafting:part_crafting_writer"
+			}]
+		}
+		{
+			title: "{ntc2.ictips.title}"
+			x: -6.5d
+			y: -5.75d
+			subtitle: "{ntc2.ictips.subtitle}"
+			description: [
+				"{ntc2.ictips.desc1}"
+				""
+				"{ntc2.ictips.desc2}"
+			]
+			dependencies: ["43F5886906F44484"]
+			size: 0.5d
+			id: "35840A9DE1927266"
+			tasks: [{
+				id: "5F865DCB1C262692"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{ntc2.integratedids.title}"
+			icon: "minecraft:barrier"
+			x: -3.25d
+			y: -9.25d
+			subtitle: "{ntc2.integratedids.subtitle}"
+			description: [
+				"{ntc2.integratedids.desc1}"
+				""
+				"{ntc2.integratedids.desc2}"
+				""
+				"{ntc2.integratedids.desc3}"
+				""
+				"{ntc2.integratedids.desc4}"
+				""
+				"{ntc2.integratedids.desc5}"
+				"{image:ntc2:textures/quests/variable_id_1.png width:125 height:64 anchor:center}"
+				""
+				"{ntc2.integratedids.desc6}"
+				"{image:ntc2:textures/quests/variable_id_2.png width:94 height:64 anchor:center}"
+				""
+				"{ntc2.integratedids.desc7}"
+				"{image:ntc2:textures/quests/variable_id_3.png width:120 height:64 anchor:center}"
+			]
+			dependencies: ["788EE5BCC4690C99"]
+			size: 0.5d
+			min_width: 275
+			id: "6757FE8CCE3A78E0"
+			tasks: [{
+				id: "3C29514909CE7E13"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			subtitle: "{ntc2.magma.subtitle}"
+			description: ["{ntc2.magma.desc1}"]
+			dependencies: ["58F2BD431B55BDB1"]
+			id: "2C8510F70C62D754"
+			tasks: [{
+				id: "41CF66FC10D365E1"
+				type: "item"
+				item: "minecraft:magma_block"
+			}]
+			rewards: [{
+				id: "64AD89FD690FEF0C"
+				type: "item"
+				item: "minecraft:magma_block"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			subtitle: "{ntc2.netherrack.subtitle}"
+			description: ["{ntc2.netherrack.desc1}"]
+			dependencies: ["2C8510F70C62D754"]
+			id: "0AE00234D1AF01C7"
+			tasks: [{
+				id: "57B86CE12DAE25DF"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+			rewards: [{
+				id: "413279297A50035E"
+				type: "item"
+				item: "minecraft:netherrack"
+				count: 8
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			subtitle: "{ntc2.netherbrick.subtitle}"
+			description: ["{ntc2.netherbrick.desc1}"]
+			dependencies: ["0AE00234D1AF01C7"]
+			id: "39638C2E39974694"
+			tasks: [{
+				id: "6C75FDF11366311D"
+				type: "item"
+				item: "minecraft:nether_brick"
+			}]
+			rewards: [{
+				id: "6ECAB7FF95274190"
+				type: "item"
+				item: "minecraft:nether_brick"
+				count: 8
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.5d
+			subtitle: "{ntc2.dispenser.subtitle}"
+			description: ["{ntc2.dispenser.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["18D6A0633B3420CB"]
+			id: "4CFC1B55F6BBB1B5"
+			tasks: [{
+				id: "1B2F6E204A1B6383"
+				type: "item"
+				item: "minecraft:dispenser"
+			}]
+			rewards: [{
+				id: "1CD8C4D010EF9DD7"
+				type: "item"
+				item: "integrateddynamics:variable_transformer_output"
+				count: 6
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			subtitle: "{ntc2.collector.subtitle}"
+			description: ["{ntc2.collector.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["18D6A0633B3420CB"]
+			id: "02BB5F0C0CCEA836"
+			tasks: [{
+				id: "5FD9B36A01C9865C"
+				type: "item"
+				item: "inspirations:collector"
+			}]
+			rewards: [{
+				id: "2DF5C7F0C678B811"
+				type: "item"
+				item: "integrateddynamics:variable_transformer_input"
+				count: 6
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			subtitle: "It generates a bit of energy at the expense of fuel."
+			dependencies: ["0CB985B934700B25"]
+			id: "7D2EB1338DF33BD4"
+			tasks: [{
+				id: "76A644DDB0A6C865"
+				type: "item"
+				item: "integrateddynamics:coal_generator"
+			}]
+		}
+		{
+			title: "{ntc2.fluxnetworks.title}"
+			icon: "fluxnetworks:flux_dust"
+			x: -5.5d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["0CB985B934700B25"]
+			id: "27E97524EE1B5DFB"
+			tasks: [{
+				id: "438A95E63FF28765"
+				type: "checkmark"
+			}]
+		}
+	]
+}

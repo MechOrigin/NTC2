@@ -1,0 +1,10 @@
+{
+  "name": "Lime Matter",
+  "colors": [
+    "00ff00",
+    "00ff00"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:lime_matter"
+  }
+}

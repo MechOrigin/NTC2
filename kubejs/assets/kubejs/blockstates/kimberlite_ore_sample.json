@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "kubejs:block/kimberlite_ore_sample"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "controllerId": "end_resin_processor",
+    "name": "End Resin Processor",
+    "ports": [
+      {
+        "type": "masterfulmachinery:fluids",
+        "name": "End Resin Processor Fluid",
+        "id": "maximum",
+        "data": {
+          "capacity": 250000
+        }
+      },
+      {
+        "type": "masterfulmachinery:energy",
+        "name": "End Resin Processor Energy",
+        "id": "maximum",
+        "data": {
+          "capacity": 250000
+        }
+      },
+      {
+        "type": "masterfulmachinery:items",
+        "name": "End Resin Processor Item",
+        "id": "singlechest",
+        "data": {
+          "rows": 3,
+          "columns": 9
+        }
+      }
+    ]
+  }

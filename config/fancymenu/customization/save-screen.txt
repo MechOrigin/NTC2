@@ -1,0 +1,141 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  baseheight = 768
+  action = autoscale
+  basewidth = 1024
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398338%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -8
+}
+
+customization {
+  identifier = %id=400290%
+  orientation = mid-centered
+  x = 106
+  action = movebutton
+  y = -56
+}
+
+customization {
+  identifier = %id=504290%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374338%
+  orientation = mid-centered
+  x = -125
+  action = movebutton
+  y = -8
+}
+
+customization {
+  identifier = %id=8755%
+  orientation = top-centered
+  x = -124
+  action = movebutton
+  y = 136
+}
+
+customization {
+  identifier = %id=8755%
+  width = 19
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398290%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504338%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -8
+}
+
+customization {
+  identifier = %id=8955%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 136
+}
+
+customization {
+  identifier = %id=8955%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398362%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=398242%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -104
+}
+
+customization {
+  identifier = %id=398314%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=504266%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -80
+}
+
+customization {
+  identifier = %id=5042901%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -56
+}
+
+customization {
+  identifier = %id=398266%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -80
+}
+

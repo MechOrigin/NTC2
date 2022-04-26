@@ -1,0 +1,290 @@
+{
+	id: "1BA7EFD319E8519F"
+	group: "000A286551FED281"
+	order_index: 2
+	filename: "end_game"
+	title: "End Game"
+	icon: "avaritia:endest_pearl"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "3D628EC1BE05D68E"
+			tasks: [{
+				id: "784816DCFBFE65E5"
+				type: "item"
+				item: "avaritia:pileof_neutrons"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["3D628EC1BE05D68E"]
+			id: "20A2346FCAFEBCA9"
+			tasks: [{
+				id: "25F7D022D531151E"
+				type: "item"
+				item: "avaritia:neutronium_nugget"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["20A2346FCAFEBCA9"]
+			id: "66AFF7CF4542B3D8"
+			tasks: [{
+				id: "018E91835E3A5F82"
+				type: "item"
+				item: "avaritia:neutronium_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: [
+				"66AFF7CF4542B3D8"
+				"46D05509BFF6EB1E"
+			]
+			id: "6C125A8516381B6A"
+			tasks: [{
+				id: "2FC4F85B6D45DC9E"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["6C125A8516381B6A"]
+			id: "03499907EC9E7147"
+			tasks: [{
+				id: "03392EECA91BD0E6"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "46D05509BFF6EB1E"
+			tasks: [{
+				id: "0D456469D19AF076"
+				type: "item"
+				item: "avaritia:endest_pearl"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			id: "47CD080A22E92083"
+			tasks: [{
+				id: "70BAAFDC2DCB6255"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			id: "3C6CA023E11F5063"
+			tasks: [{
+				id: "5238F733E17B6A84"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			id: "3475879E314E8BC0"
+			tasks: [{
+				id: "40E3BB4BE49FDE58"
+				type: "item"
+				item: "thermal:rf_coil_creative_augment"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			id: "3734905E2EBAFC5A"
+			tasks: [{
+				id: "114F03B81F27EC1B"
+				type: "item"
+				item: "thermal:fluid_tank_creative_augment"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			id: "565D1A50B8BA12E3"
+			tasks: [{
+				id: "4FBDA325242311E0"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			id: "2AAD29BBE0909A26"
+			tasks: [{
+				id: "3628D3FE4DEC7405"
+				type: "item"
+				item: "thermal:machine_catalyst_creative_augment"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			id: "51D0BA7BBE294E3A"
+			tasks: [{
+				id: "7EFCE176264C00E0"
+				type: "item"
+				item: {
+					id: "ironjetpacks:creative_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			id: "29357AE73DC54BEE"
+			tasks: [{
+				id: "745E04C227C03CA8"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			id: "207C7B082E25D02B"
+			tasks: [{
+				id: "03FEF00D10B6B99D"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			id: "22F913A47611F7AB"
+			tasks: [{
+				id: "35CE9C17FAE80493"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:creative_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			id: "3ED2CD9AD3F3A5FA"
+			tasks: [{
+				id: "3E43830AE8645D20"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.0d
+			id: "428C1A3D0EF0B201"
+			tasks: [{
+				id: "4493A70D38E617FD"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 7.0d
+			id: "3DE7DA52116B07E3"
+			tasks: [{
+				id: "2CA5AE42E693374B"
+				type: "item"
+				item: {
+					id: "avaritia:infinity_armor_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.0d
+			id: "40DE66FCAEA7BAE4"
+			tasks: [{
+				id: "790F7E62248D25CB"
+				type: "item"
+				item: {
+					id: "avaritia:infinity_armor_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			id: "41A8278C75354210"
+			tasks: [{
+				id: "3E8D18995F28EA73"
+				type: "item"
+				item: {
+					id: "avaritia:infinity_armor_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 7.0d
+			id: "0F9C7F7410853244"
+			tasks: [{
+				id: "482C8373C1E5F086"
+				type: "item"
+				item: {
+					id: "avaritia:infinity_armor_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			dependencies: ["6BE563428B7219E3"]
+			id: "1742DFAB8F5074FE"
+			tasks: [{
+				id: "39AD831D023DC839"
+				type: "item"
+				item: "projectexpansion:final_star"
+			}]
+		}
+	]
+}

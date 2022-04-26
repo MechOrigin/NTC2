@@ -1,0 +1,18 @@
+{
+    "primaryColor": "#e9edf3",
+    "secondaryColor": "#bdccd9",
+    "particleColor": "#ffd86f",
+    "description": "productivebees.ingredient.description.only_spawnegg",
+    "createComb": false,
+    "beeTexture": "productivebees:textures/entity/bee/blitz/bee",
+    "flowerBlock": "emendatusenigmatica:potassium_nitrate_block",
+    "attributes": {
+        "weather_tolerance": 2
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}

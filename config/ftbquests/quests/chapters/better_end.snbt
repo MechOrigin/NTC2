@@ -1,0 +1,701 @@
+{
+	id: "503F075FEC5EB3E4"
+	group: "13D6AB3C70A1EE2A"
+	order_index: 5
+	filename: "better_end"
+	title: "Better End"
+	icon: "betterendforge:eternal_crystal"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "betterendforge:eternal_crystal"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "You can either go to the &bEnd&r and gather these yourself in the &bEnd&r or use machines"
+			id: "6A9C87DC91AEEFB4"
+			tasks: [{
+				id: "0AFE4B18D307D3A8"
+				type: "checkmark"
+				title: "Welcome To Better End"
+			}]
+			rewards: [{
+				id: "1850DA01944D02F7"
+				type: "item"
+				item: "betterendforge:guidebook"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Sift sift sift"
+			dependencies: ["6A9C87DC91AEEFB4"]
+			id: "19DCFE487AEA48EE"
+			tasks: [{
+				id: "0AE3294B7C6F7F9F"
+				type: "item"
+				item: "betterendforge:endstone_dust"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			subtitle: "&6Amber Lands&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "02778EAF090A1D3C"
+			tasks: [{
+				id: "4A1028E084EFDC4D"
+				type: "item"
+				item: "betterendforge:amber_root_seed"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			subtitle: "&9Foggy Mushroomland&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "216EDE2FE9E6D2D7"
+			tasks: [{
+				id: "2901EC8A9579C571"
+				type: "item"
+				item: "betterendforge:end_lily_seed"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			subtitle: "&dBlossoming Spires&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "2C3C38698EE1F244"
+			tasks: [{
+				id: "7FE593720F06343F"
+				type: "item"
+				item: "betterendforge:blossom_berry_seed"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "&9Foggy Mushroomland&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "5012D373E9D3CB54"
+			tasks: [{
+				id: "0363840F4E785012"
+				type: "item"
+				item: "betterendforge:end_lotus_seed"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			optional: true
+			id: "7B07CF3B91552ECB"
+			tasks: [{
+				id: "524B482BC7F5801D"
+				type: "item"
+				item: "betterendforge:lanceleaf_seed"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			subtitle: "&dBlossoming Spires&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "7BDF7BC9A7EA8A69"
+			tasks: [{
+				id: "6B07F03EFC5CA3F1"
+				type: "item"
+				item: "betterendforge:bulb_vine_seed"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			subtitle: "&3Glowing Grasslands&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "62F86F3F976FC033"
+			tasks: [{
+				id: "06DCB60A2A11C06C"
+				type: "item"
+				item: "betterendforge:lumecorn_seed"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			subtitle: "&8Shadow Forest&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "6E622EA97AB15898"
+			tasks: [{
+				id: "56C157CC4C2ABE52"
+				type: "item"
+				item: "betterendforge:shadow_berry"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			subtitle: "&5Umbrella Jungle and Chorus Forest&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "17BCD08464A09D40"
+			tasks: [{
+				id: "5E2BD0FA027198D0"
+				type: "item"
+				item: "betterendforge:chorus_mushroom_seed"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			subtitle: "&9Foggy Mushroomland&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "5005F362A26D12CB"
+			tasks: [{
+				id: "1F8C97F638572C0D"
+				type: "item"
+				item: "betterendforge:blue_vine_seed"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			subtitle: "&6Amber Lands&r"
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "7EA604621B91B917"
+			tasks: [{
+				id: "0496A647D842A947"
+				type: "item"
+				item: "betterendforge:glowing_pillar_seed"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: ["62F86F3F976FC033"]
+			id: "73F7310EF1A09391"
+			tasks: [{
+				id: "734B4F42DC37DB25"
+				type: "item"
+				item: "betterendforge:lumecorn_rod"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			subtitle: "You're crafting this for Mystical Agriculture progression."
+			dependencies: ["73F7310EF1A09391"]
+			id: "7D4FE1B223C26836"
+			tasks: [{
+				id: "50EB058C5BAD0503"
+				type: "item"
+				item: "betterendforge:gold_chandelier"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["7EA604621B91B917"]
+			id: "48B8E0B7295F6B78"
+			tasks: [{
+				id: "2FB803887C2E2D56"
+				type: "item"
+				item: "betterendforge:glowing_pillar_luminophor"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["5005F362A26D12CB"]
+			id: "567E5AEDF8AB3926"
+			tasks: [{
+				id: "22BE86EADC9FE467"
+				type: "item"
+				item: "betterendforge:blue_vine_lantern"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["17BCD08464A09D40"]
+			id: "430D1E5F2DDFA372"
+			tasks: [{
+				id: "7EA50FBDF59E9830"
+				type: "item"
+				item: "betterendforge:chorus_mushroom_raw"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["6E622EA97AB15898"]
+			id: "365C1C343D3DB5BC"
+			tasks: [{
+				id: "5F7617C9C805466D"
+				type: "item"
+				item: "betterendforge:shadow_berry_raw"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: ["02778EAF090A1D3C"]
+			id: "13AB2A3D6AB895EB"
+			tasks: [{
+				id: "5DA0E53F34FD141E"
+				type: "item"
+				item: "betterendforge:amber_root_raw"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["2C3C38698EE1F244"]
+			id: "26EB312AAD62CA2E"
+			tasks: [{
+				id: "4C24B319A9982547"
+				type: "item"
+				item: "betterendforge:blossom_berry"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["7BDF7BC9A7EA8A69"]
+			id: "2CA5D08675D83F0E"
+			tasks: [{
+				id: "03B2F88F2AADF054"
+				type: "item"
+				item: "betterendforge:glowing_bulb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["5012D373E9D3CB54"]
+			id: "6838AE30F388F6CA"
+			tasks: [{
+				id: "31F1B75B988ADBD5"
+				type: "item"
+				item: "betterendforge:end_lotus_stem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["216EDE2FE9E6D2D7"]
+			id: "47587A15679FCCE1"
+			tasks: [{
+				id: "24CD83339DE4C16A"
+				type: "item"
+				item: "betterendforge:end_lily_leaf"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["3D160264E46B6DDB"]
+			id: "1E3E86210A63E46D"
+			tasks: [{
+				id: "5C7E095688F11AF1"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["69432A44DEAADE46"]
+			id: "284E6B3D74D05292"
+			tasks: [{
+				id: "78188D172F6018A6"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["2E8ED4E6461F24B7"]
+			id: "4F73CE20F46F8176"
+			tasks: [{
+				id: "6EF865B5138294D9"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["320FAFE7895A5848"]
+			id: "25C5E46D7086DB68"
+			tasks: [{
+				id: "4A2CB9FFFBD3D424"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["1AE0B5B690D8391F"]
+			id: "3D160264E46B6DDB"
+			tasks: [{
+				id: "012F8138AEE6C44B"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["2E67B61880218F3E"]
+			id: "69432A44DEAADE46"
+			tasks: [{
+				id: "722440AAE65E1651"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["59E5D9F1733AA464"]
+			id: "2E8ED4E6461F24B7"
+			tasks: [{
+				id: "0924743E1266EEC2"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["35F38E58337941D0"]
+			id: "320FAFE7895A5848"
+			tasks: [{
+				id: "53E2D1BB88C0B377"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["6A9C87DC91AEEFB4"]
+			id: "4E347EC877CAC91B"
+			tasks: [{
+				id: "0D9F7A77712E963E"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "1AE0B5B690D8391F"
+			tasks: [{
+				id: "573D8B4C2E79CFCD"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "2E67B61880218F3E"
+			tasks: [{
+				id: "521970865E9618C3"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "59E5D9F1733AA464"
+			tasks: [{
+				id: "0BDAB9DF602F43BD"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "35F38E58337941D0"
+			tasks: [{
+				id: "04CFC92604D4A378"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			dependencies: ["13AB2A3D6AB895EB"]
+			id: "6D63DEB735C36298"
+			tasks: [{
+				id: "15CCD898BC7E521A"
+				type: "item"
+				item: "kubejs:liquid_amber_root_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["47587A15679FCCE1"]
+			id: "47024BE00AE0CF8F"
+			tasks: [{
+				id: "6AA90CD7B53CDF95"
+				type: "item"
+				item: "kubejs:liquid_end_lily_bucket"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["26EB312AAD62CA2E"]
+			id: "5C481A073F8AC44C"
+			tasks: [{
+				id: "026E72E1EB436FBC"
+				type: "item"
+				item: "kubejs:liquid_blossom_berry_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["6838AE30F388F6CA"]
+			id: "4F52B4A80F2EACFF"
+			tasks: [{
+				id: "19EBC23AC35C1B8C"
+				type: "item"
+				item: "kubejs:liquid_end_lotus_bucket"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["567E5AEDF8AB3926"]
+			id: "21703B0DB380D2EC"
+			tasks: [{
+				id: "54F8918F6641A5BD"
+				type: "item"
+				item: "kubejs:liquid_blue_vine_bucket"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["2CA5D08675D83F0E"]
+			id: "6A9E0F32D518F411"
+			tasks: [{
+				id: "6F58D1F12E539B7E"
+				type: "item"
+				item: "kubejs:liquid_bulb_vine_bucket"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["365C1C343D3DB5BC"]
+			id: "5AA4061D9FF1B8D9"
+			tasks: [{
+				id: "3BFDDE5E1A9B38BE"
+				type: "item"
+				item: "kubejs:liquid_shadow_berry_bucket"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["430D1E5F2DDFA372"]
+			id: "5FE2E9B741DC65CC"
+			tasks: [{
+				id: "2F1EF13F6D03BFE7"
+				type: "item"
+				item: "kubejs:liquid_chorus_mushroom_bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.5d
+			dependencies: ["48B8E0B7295F6B78"]
+			id: "49E3BA093454640A"
+			tasks: [{
+				id: "404EE017022143F6"
+				type: "item"
+				item: "kubejs:liquid_glowing_pillar_bucket"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			dependencies: ["73F7310EF1A09391"]
+			id: "0364AAE6F0054EAC"
+			tasks: [{
+				id: "6598099CB60E5736"
+				type: "item"
+				item: "kubejs:liquid_lumecorn_bucket"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.5d
+			dependencies: [
+				"6D63DEB735C36298"
+				"5C481A073F8AC44C"
+				"6A9E0F32D518F411"
+				"5AA4061D9FF1B8D9"
+			]
+			id: "08A89A1E7E981E85"
+			tasks: [{
+				id: "679C17697705ECD8"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.5d
+			dependencies: [
+				"47024BE00AE0CF8F"
+				"4F52B4A80F2EACFF"
+				"08A89A1E7E981E85"
+			]
+			id: "6A9307D7F546ACD9"
+			tasks: [{
+				id: "096599C93C82AB43"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_end_steel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			dependencies: [
+				"5FE2E9B741DC65CC"
+				"21703B0DB380D2EC"
+				"49E3BA093454640A"
+				"6A9307D7F546ACD9"
+			]
+			id: "3B771912FFB3CE45"
+			tasks: [{
+				id: "0A564A0D303A2A4C"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_melodic_alloy"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			dependencies: [
+				"0364AAE6F0054EAC"
+				"3B771912FFB3CE45"
+			]
+			id: "51BDF0DE22BFFCF9"
+			tasks: [{
+				id: "72FE7AFD926BD919"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["19DCFE487AEA48EE"]
+			id: "1DA7BDDD8CE5DFD6"
+			tasks: [{
+				id: "790EAAC31BF0AEF6"
+				type: "item"
+				item: "betterendforge:raw_amber"
+			}]
+		}
+	]
+}

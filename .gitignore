@@ -1,0 +1,35 @@
+# Ignore the natives
+natives
+
+# Ignore Crashes
+crash-reports
+crash-reports/
+
+# Ignore Dumps
+dumps
+dumps/
+
+# Ignore Logs
+logs
+*.log
+logs/
+
+# Ignore saves
+saves
+saves/
+
+# Ignore Misc stuff
+emojiful/
+fancymenu_setups/
+not-enough-crashes/
+patchouli_books/
+screenshots/
+shaderpacks/
+skyblock_exports/
+tconplanner/
+DiscordIntegration-Data/
+downloads/
+usercache.json
+usernamecache.json
+local/
+.mixin.out

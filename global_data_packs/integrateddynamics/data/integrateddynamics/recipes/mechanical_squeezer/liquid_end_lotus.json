@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "betterendforge:end_lotus_stem",
+  "result": {
+    "fluid": {
+      "fluid": "kubejs:liquid_end_lotus",
+      "amount": 125
+    },
+    "items": [
+
+    ]
+  },
+  "duration": 15
+}

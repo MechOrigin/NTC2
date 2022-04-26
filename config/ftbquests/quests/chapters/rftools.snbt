@@ -1,0 +1,1253 @@
+{
+	id: "570A6811AF534176"
+	group: "13D6AB3C70A1EE2A"
+	order_index: 4
+	filename: "rftools"
+	title: "{ntc2.rftools.chapter}"
+	icon: "rftoolsutility:crafter2"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -2.5d
+		y: -1.25d
+		width: 0.5d
+		height: 0.5d
+		rotation: 0.0d
+		image: "ftbteams:textures/accept.png"
+		hover: [
+			"{ntc2.endergeniclink.title}"
+			"{ntc2.endergeniclink.subtitle}"
+		]
+		click: "https://ftb.fandom.com/wiki/Endergenic_Power_Generation#Example_Generator_Design"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "{ntc2.rftcoalgen.title}"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "{ntc2.rftcoalgen.subtitle}"
+			description: [
+				"{ntc2.rftcoalgen.desc1}"
+				""
+				"{ntc2.rftcoalgen.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			id: "3F163758DA1AB348"
+			tasks: [{
+				id: "74B32F43FBAE70A9"
+				type: "item"
+				item: "rftoolspower:coalgenerator"
+			}]
+			rewards: [{
+				id: "5F393B68556B3A21"
+				type: "item"
+				item: "minecraft:coal"
+				count: 32
+			}]
+		}
+		{
+			icon: "rftoolspower:endergenic"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "{ntc2.endergenic.subtitle}"
+			description: [
+				"{ntc2.endergenic.desc1}"
+				""
+				"{ntc2.endergenic.desc2}"
+				""
+				"{ntc2.endergenic.desc3}"
+				""
+				"{ntc2.endergenic.desc4}"
+				""
+				"{ntc2.endergenic.desc5}"
+				""
+				"{ntc2.endergenic.desc6}"
+				""
+				"{ntc2.endergenic.desc7}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 375
+			id: "165E25335FD2F4E2"
+			tasks: [
+				{
+					id: "6E731ABCCB41237F"
+					type: "item"
+					item: "rftoolspower:endergenic"
+				}
+				{
+					id: "6AE4796F55D35E54"
+					type: "item"
+					item: "rftoolspower:pearl_injector"
+				}
+				{
+					id: "1B393D6D9CF93AC1"
+					type: "item"
+					item: "rftoolspower:ender_monitor"
+				}
+			]
+		}
+		{
+			icon: "rftoolspower:dimensionalcell"
+			x: 2.5d
+			y: -0.5d
+			subtitle: "{ntc2.dimcells.subtitle}"
+			description: [
+				"{ntc2.dimcells.desc1}"
+				""
+				"{ntc2.dimcells.desc2}"
+				""
+				"{ntc2.dimcells.desc3}"
+				""
+				"{ntc2.dimcells.desc4}"
+				""
+				"{ntc2.dimcells.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 300
+			id: "7E3EA85F58D69C38"
+			tasks: [
+				{
+					id: "6525E267B1E547EE"
+					type: "item"
+					title: "{ntc2.dimcells.title}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "rftoolspower:dimensionalcell"
+									Count: 1b
+								}
+								{
+									id: "rftoolspower:dimensionalcell_advanced"
+									Count: 1b
+								}
+								{
+									id: "rftoolspower:dimensionalcell_simple"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "2A88D682E629D3FA"
+					type: "item"
+					item: "rftoolspower:powercell_card"
+				}
+			]
+			rewards: [{
+				id: "195214F278938B22"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_advanced"
+			}]
+		}
+		{
+			title: "{ntc2.rftpowercell.title}"
+			icon: "rftoolspower:cell2"
+			x: 1.5d
+			y: -0.5d
+			subtitle: "{ntc2.rftpowercell.subtitle}"
+			description: [
+				"{ntc2.rftpowercell.desc1}"
+				""
+				"{ntc2.rftpowercell.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			id: "776898DBA9C7500C"
+			tasks: [{
+				id: "3DD251B45DC6674F"
+				type: "item"
+				title: "{ntc2.rftpowercell.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "rftoolspower:cell1"
+								Count: 1b
+							}
+							{
+								id: "rftoolspower:cell2"
+								Count: 1b
+							}
+							{
+								id: "rftoolspower:cell3"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "352BE7E0A9B9F683"
+				type: "item"
+				item: "rftoolspower:cell2"
+				count: 4
+			}]
+		}
+		{
+			title: "{ntc2.blazagi.title}"
+			icon: "rftoolspower:blazing_generator"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "{ntc2.blazagi.subtitle}"
+			description: [
+				"{ntc2.blazagi.desc1}"
+				""
+				"{ntc2.blazagi.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			id: "79D3B8AE64D1D944"
+			tasks: [
+				{
+					id: "429CC88DDB911F07"
+					type: "item"
+					item: "rftoolspower:blazing_agitator"
+				}
+				{
+					id: "01FB56014D0CA058"
+					type: "item"
+					item: "rftoolspower:blazing_generator"
+				}
+			]
+			rewards: [{
+				id: "280296E63E4719AF"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 16
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.25d
+			subtitle: "{ntc2.blazinf.subtitle}"
+			description: [
+				"{ntc2.blazinf.desc1}"
+				""
+				"{ntc2.blazinf.desc2}"
+			]
+			dependencies: ["79D3B8AE64D1D944"]
+			size: 0.5d
+			id: "2FDECB8B0238C861"
+			tasks: [{
+				id: "792599759F1AF808"
+				type: "item"
+				item: "rftoolspower:blazing_infuser"
+			}]
+		}
+		{
+			title: "{ntc2.rftteleporter.title}"
+			icon: "rftoolsutility:matter_receiver"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "{ntc2.rftteleporter.subtitle}"
+			description: [
+				"{ntc2.rftteleporter.desc1}"
+				""
+				"{ntc2.rftteleporter.desc2}"
+				""
+				"{ntc2.rftteleporter.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 275
+			id: "4326D9D5DC2ADFEE"
+			tasks: [
+				{
+					id: "0883EBF8707C31F7"
+					type: "item"
+					item: "rftoolsutility:matter_transmitter"
+				}
+				{
+					id: "207F5051D73C364A"
+					type: "item"
+					item: "rftoolsutility:dialing_device"
+				}
+				{
+					id: "391854B57F295BBD"
+					type: "item"
+					item: "rftoolsutility:matter_receiver"
+				}
+			]
+		}
+		{
+			title: "{ntc2.rftporter.title}"
+			x: -1.25d
+			y: 0.25d
+			subtitle: "{ntc2.rftporter.subtitle}"
+			description: [
+				"{ntc2.rftporter.desc1}"
+				""
+				"{ntc2.rftporter.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4326D9D5DC2ADFEE"]
+			size: 0.5d
+			id: "2724372DA1051FC6"
+			tasks: [{
+				id: "7E2FD905E6BB21E8"
+				type: "item"
+				item: {
+					id: "rftoolsutility:charged_porter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.rftporter2.title}"
+			x: -1.75d
+			y: 0.25d
+			subtitle: "{ntc2.rftporter2.subtitle}"
+			description: ["{ntc2.rftporter2.desc}"]
+			dependencies: ["2724372DA1051FC6"]
+			size: 0.5d
+			id: "4C9B1EF7AB016FF7"
+			tasks: [{
+				id: "059E9D65C2CB6FB2"
+				type: "item"
+				item: {
+					id: "rftoolsutility:advanced_charged_porter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.rftmatboost.title}"
+			x: -1.75d
+			y: 0.75d
+			subtitle: "{ntc2.rftmatboost.subtitle}"
+			description: [
+				"{ntc2.rftmatboost.desc1}"
+				""
+				"{ntc2.rftmatboost.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4326D9D5DC2ADFEE"]
+			size: 0.5d
+			id: "73B67C12EFE9EA34"
+			tasks: [{
+				id: "6BECCB6DE71C919D"
+				type: "item"
+				item: "rftoolsutility:matter_booster"
+			}]
+		}
+		{
+			title: "{ntc2.rftdestanal.title}"
+			x: -1.25d
+			y: 0.75d
+			subtitle: "{ntc2.rftdestanal.subtitle}"
+			description: [
+				"{ntc2.rftdestanal.desc1}"
+				""
+				"{ntc2.rftdestanal.desc2}"
+				""
+				"{ntc2.rftdestanal.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4326D9D5DC2ADFEE"]
+			size: 0.5d
+			id: "542B6870947A6EEC"
+			tasks: [{
+				id: "7FD0079CE59CF84E"
+				type: "item"
+				item: "rftoolsutility:destination_analyzer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			subtitle: "{ntc2.rftcrafter1.subtitle}"
+			description: [
+				"{ntc2.rftcrafter1.desc1}"
+				""
+				"{ntc2.rftcrafter1.desc2}"
+				""
+				"{ntc2.rftcrafter1.desc3}"
+				""
+				"{ntc2.rftcrafter1.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 275
+			id: "62A95E92A6E68980"
+			tasks: [{
+				id: "17E348037D386AFC"
+				type: "item"
+				item: "rftoolsutility:crafter1"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "{ntc2.rftcrafter2.subtitle}"
+			description: ["{ntc2.rftcrafter2.desc}"]
+			dependencies: ["62A95E92A6E68980"]
+			id: "540FE0CE8AB88C1D"
+			tasks: [{
+				id: "6AD8777FDF52B63A"
+				type: "item"
+				item: "rftoolsutility:crafter2"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			subtitle: "{ntc2.rftcrafter3.subtitle}"
+			description: ["{ntc2.rftcrafter3.desc}"]
+			dependencies: ["540FE0CE8AB88C1D"]
+			id: "0BA2CCA808CDB5EE"
+			tasks: [{
+				id: "620014CC171AE5CF"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+		}
+		{
+			title: "{ntc2.rftwire.title}"
+			x: -0.5d
+			y: 1.5d
+			subtitle: "{ntc2.rftwire.subtitle}"
+			description: ["{ntc2.rftwire.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			id: "10BCF8170B30EFFE"
+			tasks: [{
+				id: "3AE76616A1F922FD"
+				type: "item"
+				item: "rftoolsutility:wire"
+			}]
+			rewards: [{
+				id: "5CDCE2347384FA56"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+				count: 6
+			}]
+		}
+		{
+			title: "{ntc2.rftanalog.title}"
+			x: -1.25d
+			y: 1.25d
+			subtitle: "{ntc2.rftanalog.subtitle}"
+			description: [
+				"{ntc2.rftanalog.desc1}"
+				""
+				"{ntc2.rftanalog.desc2}"
+				""
+				"{ntc2.rftanalog.desc3}"
+				""
+				"{ntc2.rftanalog.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			size: 0.5d
+			min_width: 275
+			id: "4C3F6382B0C3ACFC"
+			tasks: [{
+				id: "42AEC595265BEE52"
+				type: "item"
+				item: "rftoolsutility:analog"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 1.25d
+			subtitle: "{ntc2.rftcounter.subtitle}"
+			description: [
+				"{ntc2.rftcounter.desc1}"
+				""
+				"{ntc2.rftcounter.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			size: 0.5d
+			id: "30CCAFD3EB084883"
+			tasks: [{
+				id: "71DC8A7C091D029F"
+				type: "item"
+				item: "rftoolsutility:counter"
+			}]
+		}
+		{
+			title: "{ntc2.rftdigit.title}"
+			x: -2.75d
+			y: 1.75d
+			subtitle: "{ntc2.rftdigit.subtitle}"
+			description: [
+				"{ntc2.rftdigit.desc1}"
+				""
+				"{ntc2.rftdigit.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			size: 0.5d
+			id: "52593F4CBCC184AF"
+			tasks: [{
+				id: "15D4306D776DBFB5"
+				type: "item"
+				item: "rftoolsutility:digit"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 1.75d
+			subtitle: "{ntc2.rftinvcheck.subtitle}"
+			description: [
+				"{ntc2.rftinvcheck.desc1}"
+				""
+				"{ntc2.rftinvcheck.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			size: 0.5d
+			id: "6A7C5625374C555C"
+			tasks: [{
+				id: "6358065683A740FE"
+				type: "item"
+				item: "rftoolsutility:invchecker"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 1.75d
+			subtitle: "{ntc2.rftsensor.subtitle}"
+			description: [
+				"{ntc2.rftsensor.desc1}"
+				""
+				"{ntc2.rftsensor.desc2}"
+				""
+				"{ntc2.rftsensor.desc3}"
+				""
+				"{ntc2.rftsensor.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			size: 0.5d
+			min_width: 250
+			id: "5C70B1A1AD483642"
+			tasks: [{
+				id: "29F2F22619344E9E"
+				type: "item"
+				item: "rftoolsutility:sensor"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 1.25d
+			subtitle: "{ntc2.rftseq.subtitle}"
+			description: [
+				"{ntc2.rftseq.desc1}"
+				""
+				"{ntc2.rftseq.desc2}"
+				""
+				"{ntc2.rftseq.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			size: 0.5d
+			min_width: 250
+			id: "31BF87FBDA8323D9"
+			tasks: [{
+				id: "7282CA94C60DC1D2"
+				type: "item"
+				item: "rftoolsutility:sequencer"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 1.25d
+			subtitle: "{ntc2.rfttimer.subtitle}"
+			description: ["{ntc2.rfttimer.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			size: 0.5d
+			id: "2CCF2CEBC2C11AB0"
+			tasks: [{
+				id: "7753FD26D8D07C5C"
+				type: "item"
+				item: "rftoolsutility:timer"
+			}]
+		}
+		{
+			title: "{ntc2.rftlogicgate.title}"
+			x: -2.25d
+			y: 1.75d
+			subtitle: "{ntc2.rftlogicgate.subtitle}"
+			description: ["{ntc2.rftlogicgate.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			size: 0.5d
+			id: "62E5C30AD1AC39E4"
+			tasks: [{
+				id: "7BC248CCB8E5EF98"
+				type: "item"
+				item: "rftoolsutility:logic"
+			}]
+		}
+		{
+			title: "{ntc2.rftwirelessredstone.title}"
+			icon: "rftoolsutility:redstone_transmitter"
+			x: -3.5d
+			y: 1.5d
+			subtitle: "{ntc2.rftwirelessredstone.subtitle}"
+			description: [
+				"{ntc2.rftwirelessredstone.desc1}"
+				""
+				"{ntc2.rftwirelessredstone.desc2}"
+				""
+				"{ntc2.rftwirelessredstone.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 275
+			id: "1C06A0AD45181BA6"
+			tasks: [
+				{
+					id: "26773CEED1EAF9B5"
+					type: "item"
+					item: "rftoolsutility:redstone_transmitter"
+				}
+				{
+					id: "09A53A936755431A"
+					type: "item"
+					item: "rftoolsutility:redstone_receiver"
+				}
+			]
+		}
+		{
+			icon: "rftoolsutility:screen"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "{ntc2.rftscreens.subtitle}"
+			description: [
+				"{ntc2.rftscreens.desc1}"
+				""
+				"{ntc2.rftscreens.desc2}"
+				""
+				"{ntc2.rftscreens.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 275
+			id: "7B4FF469B0EE419D"
+			tasks: [
+				{
+					id: "7F9F5B28689FAAD0"
+					type: "item"
+					item: "rftoolsutility:screen"
+				}
+				{
+					id: "46B9B7E76392F825"
+					type: "item"
+					item: "rftoolsutility:screen_controller"
+				}
+			]
+		}
+		{
+			icon: "rftoolsutility:spawner"
+			x: -0.5d
+			y: 2.5d
+			subtitle: "{ntc2.rftspawner.subtitle}"
+			description: [
+				"{ntc2.rftspawner.desc1}"
+				""
+				"{ntc2.rftspawner.desc2}"
+				""
+				"{ntc2.rftspawner.desc3}"
+				""
+				"{ntc2.rftspawner.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 275
+			id: "56D1DB0BF10FBF13"
+			tasks: [
+				{
+					id: "3B5BF6254F5D8E39"
+					type: "item"
+					item: "rftoolsutility:spawner"
+				}
+				{
+					id: "6E6C072848ACF52C"
+					type: "item"
+					item: "rftoolsutility:syringe"
+				}
+				{
+					id: "0D7FAD7431768854"
+					type: "item"
+					item: "rftoolsutility:matter_beamer"
+				}
+			]
+		}
+		{
+			title: "{ntc2.modularstorage.title}"
+			icon: "rftoolsstorage:modular_storage"
+			x: 1.5d
+			y: 2.5d
+			subtitle: "{ntc2.modularstorage.subtitle}"
+			description: [
+				"{ntc2.modularstorage.desc1}"
+				""
+				"{ntc2.modularstorage.desc2}"
+				""
+				"{ntc2.modularstorage.desc3}"
+				""
+				"{ntc2.modularstorage.desc4}"
+				""
+				"{ntc2.modularstorage.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 275
+			id: "6F6534043194590D"
+			tasks: [
+				{
+					id: "2EBC7B1373F6B0AB"
+					type: "item"
+					item: "rftoolsstorage:modular_storage"
+				}
+				{
+					id: "79A90C8A872B98D0"
+					type: "item"
+					title: "{ntc2.modularstorage.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "rftoolsstorage:storage_module0"
+									Count: 1b
+								}
+								{
+									id: "rftoolsstorage:storage_module1"
+									Count: 1b
+								}
+								{
+									id: "rftoolsstorage:storage_module2"
+									Count: 1b
+								}
+								{
+									id: "rftoolsstorage:storage_module3"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6153D10EC64AA6D7"
+				type: "item"
+				item: "rftoolsstorage:storage_module3"
+			}]
+		}
+		{
+			title: "{ntc2.storagescanner.title}"
+			x: 2.5d
+			y: 2.5d
+			subtitle: "{ntc2.storagescanner.subtitle}"
+			description: [
+				"{ntc2.storagescanner.desc1}"
+				""
+				"{ntc2.storagescanner.desc2}"
+				""
+				"{ntc2.storagescanner.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 275
+			id: "1B063BB5CDDB3FE6"
+			tasks: [{
+				id: "315696314935C9D8"
+				type: "item"
+				item: "rftoolsstorage:storage_scanner"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			subtitle: "{ntc2.rftshapecard.subtitle}"
+			description: [
+				"{ntc2.rftshapecard.desc1}"
+				""
+				"{ntc2.rftshapecard.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			id: "5493D5471ECD29CF"
+			tasks: [{
+				id: "73A50DAB16AA3518"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_def"
+			}]
+		}
+		{
+			title: "{ntc2.rftbuilder.title}"
+			x: -2.5d
+			y: 4.0d
+			subtitle: "{ntc2.rftbuilder.subtitle}"
+			description: [
+				"{ntc2.rftbuilder.desc1}"
+				""
+				"{ntc2.rftbuilder.desc2}"
+			]
+			dependencies: ["5493D5471ECD29CF"]
+			id: "7AE96E45A5C48A48"
+			tasks: [{
+				id: "7585E01702CE2297"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+		}
+		{
+			title: "{ntc2.shieldprojector.title}"
+			icon: "rftoolsbuilder:blue_shield_template_block"
+			x: -0.5d
+			y: 4.0d
+			subtitle: "{ntc2.shieldprojector.subtitle}"
+			description: [
+				"{ntc2.shieldprojector.desc1}"
+				""
+				"{ntc2.shieldprojector.desc2}"
+				"{image:ntc2:textures/quests/rft_shield.png width:250 height:81 anchor:center}"
+				""
+				"{ntc2.shieldprojector.desc3}"
+				""
+				"{ntc2.shieldprojector.desc4}"
+				""
+				"{ntc2.shieldprojector.desc5}"
+				""
+				"{ntc2.shieldprojector.desc6}"
+				"{image:ntc2:textures/quests/shield_rules.png width:100 height:80 anchor:center}"
+				""
+				"{ntc2.shieldprojector.desc7}"
+				""
+				"{ntc2.shieldprojector.desc8}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 300
+			id: "2802ECD11118AA52"
+			tasks: [
+				{
+					id: "3106E007BDA9B449"
+					type: "item"
+					title: "{ntc2.shieldprojector.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "rftoolsbuilder:shield_block1"
+									Count: 1b
+								}
+								{
+									id: "rftoolsbuilder:shield_block2"
+									Count: 1b
+								}
+								{
+									id: "rftoolsbuilder:shield_block3"
+									Count: 1b
+								}
+								{
+									id: "rftoolsbuilder:shield_block4"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "02FF512E6B5E615E"
+					type: "item"
+					title: "{ntc2.shieldprojector.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "rftoolsbuilder:blue_shield_template_block"
+									Count: 1b
+								}
+								{
+									id: "rftoolsbuilder:red_shield_template_block"
+									Count: 1b
+								}
+								{
+									id: "rftoolsbuilder:green_shield_template_block"
+									Count: 1b
+								}
+								{
+									id: "rftoolsbuilder:yellow_shield_template_block"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6FC196D2D7231FFE"
+				type: "item"
+				item: {
+					id: "immersiveengineering:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							Size: 2
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.rftquarry.title}"
+			icon: "rftoolsbuilder:shape_card_quarry_clear"
+			x: -2.5d
+			y: 5.0d
+			subtitle: "{ntc2.rftquarry.subtitle}"
+			description: [
+				"{ntc2.rftquarry.desc1}"
+				""
+				"{ntc2.rftquarry.desc2}"
+				""
+				"{ntc2.rftquarry.desc3}"
+				""
+				"{ntc2.rftquarry.desc4}"
+			]
+			dependencies: ["7AE96E45A5C48A48"]
+			min_width: 275
+			id: "36A7C053868EF40B"
+			tasks: [{
+				id: "216DE0B045651AB1"
+				type: "item"
+				title: "{ntc2.rftquarry.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "rftoolsbuilder:shape_card_quarry"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:shape_card_quarry_clear"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.rftquarryupgrades.title}"
+			icon: "rftoolsbuilder:shape_card_quarry_clear_silk"
+			x: -1.5d
+			y: 5.0d
+			subtitle: "{ntc2.rftquarryupgrades.subtitle}"
+			description: [
+				"{ntc2.rftquarryupgrades.desc1}"
+				""
+				"{ntc2.rftquarryupgrades.desc2}"
+			]
+			dependencies: ["36A7C053868EF40B"]
+			id: "4BA40BAF7760EEA5"
+			tasks: [{
+				id: "57F04814DB924FFE"
+				type: "item"
+				title: "{ntc2.rftquarryupgrades.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:shape_card_quarry_clear_silk"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:shape_card_quarry_fortune"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:shape_card_quarry_silk"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{ntc2.rftvoidcard.title}"
+			x: -0.5d
+			y: 5.0d
+			subtitle: "{ntc2.rftvoidcard.subtitle}"
+			description: ["{ntc2.rftvoidcard.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["7AE96E45A5C48A48"]
+			id: "5158516420857968"
+			tasks: [{
+				id: "32B43FE9C3FD441A"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_void"
+			}]
+		}
+		{
+			title: "{ntc2.rftpump.title}"
+			icon: "rftoolsbuilder:shape_card_pump_clear"
+			x: -2.5d
+			y: 6.0d
+			subtitle: "{ntc2.rftpump.subtitle}"
+			description: [
+				"{ntc2.rftpump.desc1}"
+				""
+				"{ntc2.rftpump.desc2}"
+			]
+			dependencies: ["7AE96E45A5C48A48"]
+			id: "31D52F608948BE15"
+			tasks: [{
+				id: "346ADC4B6F3C259D"
+				type: "item"
+				title: "{ntc2.rftpump.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "rftoolsbuilder:shape_card_pump"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:shape_card_pump_clear"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			subtitle: "{ntc2.rftplacingfluids.subtitle}"
+			description: ["{ntc2.rftplacingfluids.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["7AE96E45A5C48A48"]
+			id: "3BAF324A04BE8110"
+			tasks: [{
+				id: "768FE63F4AA4C33B"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_liquid"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			subtitle: "{ntc2.rftbook.subtitle}"
+			description: [
+				"{ntc2.rftbook.desc1}"
+				""
+				"{ntc2.rftbook.desc2}"
+			]
+			id: "5606F925AE88F7E5"
+			tasks: [{
+				id: "77CFB59AC256DFD8"
+				type: "item"
+				item: "rftoolsbase:manual"
+			}]
+		}
+		{
+			title: "{ntc2.smartwrench.title}"
+			x: 0.5d
+			y: -2.5d
+			subtitle: "{ntc2.smartwrench.subtitle}"
+			description: [
+				"{ntc2.smartwrench.desc1}"
+				""
+				"{ntc2.smartwrench.desc2}"
+				""
+				"{ntc2.smartwrench.desc3}"
+			]
+			dependencies: ["5606F925AE88F7E5"]
+			id: "0EA8B622F502969A"
+			tasks: [{
+				id: "6DCCA7AAE27D30F5"
+				type: "item"
+				item: "rftoolsbase:smartwrench"
+			}]
+		}
+		{
+			title: "{ntc2.rftenviro.title}"
+			icon: "rftoolsutility:environmental_controller"
+			x: -1.5d
+			y: 2.5d
+			subtitle: "{ntc2.rftenviro.subtitle}"
+			description: [
+				"{ntc2.rftenviro.desc1}"
+				""
+				"{ntc2.rftenviro.desc2}"
+				""
+				"{ntc2.rftenviro.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5606F925AE88F7E5"]
+			min_width: 275
+			id: "7C8A582148E7A27A"
+			tasks: [
+				{
+					id: "1CDB1FACB67CDBA4"
+					type: "item"
+					item: "rftoolsutility:environmental_controller"
+				}
+				{
+					id: "0BE7953EFD300470"
+					type: "item"
+					item: "rftoolsutility:syringe"
+				}
+				{
+					id: "57BF25CE50CC3749"
+					type: "item"
+					title: "{ntc2.rftenviro.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "rftoolsutility:featherfalling_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:featherfallingplus_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:haste_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:hasteplus_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:flight_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:glowing_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:luck_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:nightvision_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:peaceful_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:regeneration_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:regenerationplus_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:saturation_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:saturationplus_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:speed_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:speedplus_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:waterbreathing_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:blindness_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:noteleport_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:poison_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:slowness_module"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:weakness_module"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2FD381D1E77AB13F"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+				count: 32
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["5606F925AE88F7E5"]
+			id: "423E20D4960F73A2"
+			tasks: [{
+				id: "4FC950C5C4B40FDC"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "3584F5F5EDA97E25", title: "&2Tier 1&r" }
+		{ id: "13D6AB3C70A1EE2A", title: "&9Tier 2&r" }
+		{ id: "000A286551FED281", title: "&5Tier 3&r" }
+	]
+}

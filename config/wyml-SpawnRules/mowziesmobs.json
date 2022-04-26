@@ -1,0 +1,102 @@
+{
+	"mod": "mowziesmobs",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"lantern": {
+						// Do not edit this name
+						"name": "lantern",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"barakoa_sunblocker": {
+						// Do not edit this name
+						"name": "barakoa_sunblocker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"barakoana": {
+						// Do not edit this name
+						"name": "barakoana",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"frostmaw": {
+						// Do not edit this name
+						"name": "frostmaw",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"barakoan_barakoana": {
+						// Do not edit this name
+						"name": "barakoan_barakoana",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"baby_foliaath": {
+						// Do not edit this name
+						"name": "baby_foliaath",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"ferrous_wroughtnaut": {
+						// Do not edit this name
+						"name": "ferrous_wroughtnaut",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"barakoa_sunblocker_player": {
+						// Do not edit this name
+						"name": "barakoa_sunblocker_player",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"barako": {
+						// Do not edit this name
+						"name": "barako",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"foliaath": {
+						// Do not edit this name
+						"name": "foliaath",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"barakoan_player": {
+						// Do not edit this name
+						"name": "barakoan_player",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"grottol": {
+						// Do not edit this name
+						"name": "grottol",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"naga": {
+						// Do not edit this name
+						"name": "naga",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"barakoaya": {
+						// Do not edit this name
+						"name": "barakoaya",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

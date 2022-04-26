@@ -1,0 +1,93 @@
+{
+  "name": "Accelerator",
+  "appearance": {
+    "lightmode": "running",
+    "lightlevel": 7,
+    "model": "testresourcepack:machine/stone_generator_model"
+  },
+  "components": [
+    {
+      "capacity": 100000,
+      "type": "custommachinery:energy",
+      "maxOutput": 0
+    },
+    {
+      "mode": "input",
+      "id": "input1",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "output",
+      "id": "output1",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade",
+      "filter": ["kubejs:upgrade_basic"],
+      "whitelist": true,
+      "mode": "upgrade",
+      "variant": "custommachinery:upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 47,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "x": 67,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "input1"
+    },
+    {
+      "x": 139,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "output1"
+    },
+    {
+      "x": 107,
+      "y": 30,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Accelerator",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "id": "upgrade",
+      "x": 200,
+      "y": 5,
+      "type": "custommachinery:slot"
+    },
+    {
+      "text": "Upgrade:",
+      "x": 150,
+      "y": 5,
+      "type": "custommachinery:text"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "tconstruct:enderman_head"
+  },
+  "result": {
+    "fluid": "thermal:ender",
+    "amount": 500
+  },
+  "temperature": 1757,
+  "time": 91
+}

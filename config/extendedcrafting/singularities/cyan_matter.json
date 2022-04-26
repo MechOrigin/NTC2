@@ -1,0 +1,10 @@
+{
+  "name": "Cyan Matter",
+  "colors": [
+    "00ffff",
+    "00ffff"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:cyan_matter"
+  }
+}

@@ -1,0 +1,16 @@
+15 possible world types found:
+- default
+- flat
+- large_biomes
+- amplified
+- single_biome_surface
+- single_biome_caves
+- single_biome_floating_islands
+- debug_all_block_states
+- minecraft.biomesoplenty
+- infernalexp.compat_world_type
+- betterendforge.world_type
+- skyblockbuilder.custom_skyblock
+- terraforged.terraforged
+- quark.realistic
+- quark.realistic_large_biomes

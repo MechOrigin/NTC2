@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "tconstruct:molten_cobalt",
+      "amount": 144
+    },
+    {
+      "tag": "tconstruct:molten_gold",
+      "amount": 144
+    },
+    {
+      "tag": "forge:magma",
+      "amount": 250
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_queens_slime",
+    "amount": 288
+  },
+  "temperature": 1495
+}

@@ -1,0 +1,12 @@
+{
+	"item": "kubejs:upgrade_basic",
+	"machines": ["custommachinery:accelerator", "custommachinery:chemical_mixer", "custommachinery:chemical_reactor", "custommachinery:collision_chamber", "custommachinery:fluid_centrifuge", "custommachinery:ore_leacher"],
+	"modifiers": [
+		{
+			"requirement": "custommachinery:speed",
+			"mode": "input",
+			"operation": "multiplication",
+			"modifier": 0.5
+		}
+	]
+}

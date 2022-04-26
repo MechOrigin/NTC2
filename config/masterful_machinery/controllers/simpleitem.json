@@ -1,0 +1,15 @@
+{
+    "controllerId": "simpleitem",
+    "name": "Simple Items",
+    "ports": [
+      {
+        "type": "masterfulmachinery:items",
+        "name": "Simple Item",
+        "id": "doublechest",
+        "data": {
+          "rows": 6,
+          "columns": 9
+        }
+      }
+    ]
+  }

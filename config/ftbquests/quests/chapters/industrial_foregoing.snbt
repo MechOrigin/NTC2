@@ -1,0 +1,563 @@
+{
+	id: "5212E5AA4540B9B8"
+	group: "13D6AB3C70A1EE2A"
+	order_index: 1
+	filename: "industrial_foregoing"
+	title: "Industrial Foregoing"
+	icon: "industrialforegoing:pink_slime_ingot"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["3ADCA435306D7E03"]
+			id: "473BA804793E1727"
+			tasks: [{
+				id: "72846232F737EEAC"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+			rewards: [{
+				id: "68DE16BCCDFDF9F5"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 32
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "5B3829F7C93FFCAC"
+			tasks: [{
+				id: "647621B47D618A3E"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B6132C541B7414B"
+				type: "item"
+				item: "mysticalagriculture:experience_droplet"
+				count: 8
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["473BA804793E1727"]
+			id: "5762BFDFE96CB357"
+			tasks: [{
+				id: "2CC0435927760525"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [{
+				id: "751264B5FAB3796B"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["5762BFDFE96CB357"]
+			id: "53EB3F343E61466F"
+			tasks: [{
+				id: "77ECD240B169EA23"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["5762BFDFE96CB357"]
+			id: "39C843BB13D8C888"
+			tasks: [{
+				id: "6CE0CDA99C6C7467"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["53EB3F343E61466F"]
+			id: "78D28E0460676168"
+			tasks: [{
+				id: "1981AE3D9A450C2B"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["39C843BB13D8C888"]
+			id: "634D61E369DA7D21"
+			tasks: [{
+				id: "4FFBDCCB696548CA"
+				type: "item"
+				item: "industrialforegoing:pink_slime_ingot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["78D28E0460676168"]
+			id: "5922FCE68463E719"
+			tasks: [{
+				id: "4A51D2F99BB481DE"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			dependencies: ["5922FCE68463E719"]
+			id: "7654E1071FF01391"
+			tasks: [{
+				id: "0F4E9EA38905701C"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			optional: true
+			id: "266C41220CE3B9E3"
+			tasks: [{
+				id: "6C49FF2E6946A2CD"
+				type: "item"
+				item: "industrialforegoing:item_transporter_type"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["5762BFDFE96CB357"]
+			optional: true
+			id: "3CEDEEC9A1EEC266"
+			tasks: [{
+				id: "27A23061652BB94F"
+				type: "item"
+				item: "industrialforegoing:fluid_transporter_type"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["5762BFDFE96CB357"]
+			optional: true
+			id: "46D515A57DD35B3C"
+			tasks: [{
+				id: "1E79328B34C556BF"
+				type: "item"
+				item: "industrialforegoing:world_transporter_type"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "1340EDB16B980713"
+			tasks: [{
+				id: "7B9F38C3D7A6C147"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "1699C9B579D6ECB8"
+			tasks: [{
+				id: "7512931D716212C4"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "2C43C92964D4DB64"
+			tasks: [{
+				id: "7E349D5B11622C3B"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 2.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "2AD0BC534BDE2AF6"
+			tasks: [{
+				id: "2C5F20C83A263FBF"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "61E13A3324491A3D"
+			tasks: [{
+				id: "3C4287FC985DBF6E"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "1961E8443D5FBCDF"
+			tasks: [{
+				id: "7370D829D1975ADB"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "678437366EC0414E"
+			tasks: [{
+				id: "0FC4ABDDC978E0EF"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "71D37CE7C0ACD871"
+			tasks: [{
+				id: "4A76168F5F64D881"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			optional: true
+			id: "7A16A23B3650B682"
+			tasks: [{
+				id: "684A6CBB154CCCD4"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["678437366EC0414E"]
+			id: "077660F35377C657"
+			tasks: [{
+				id: "38D9D42A70A1D6EC"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_unit"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["077660F35377C657"]
+			id: "7FC28A61E83DC1C0"
+			tasks: [{
+				id: "362D0E0C35B5949A"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["7FC28A61E83DC1C0"]
+			id: "3F01CF1AA508C698"
+			tasks: [{
+				id: "52B74C74DB8D4D9C"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["71D37CE7C0ACD871"]
+			id: "4CED91BE83F9F8DE"
+			tasks: [{
+				id: "0547D364D3ED5FEC"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["4CED91BE83F9F8DE"]
+			id: "70DD773F6EEB859B"
+			tasks: [{
+				id: "7174052A2BD25E56"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["70DD773F6EEB859B"]
+			id: "755FA7F68421C388"
+			tasks: [{
+				id: "0E6B51033345044A"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["5922FCE68463E719"]
+			id: "5986799C86AA16E9"
+			tasks: [{
+				id: "5F3717FA41A6ED0D"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["78D28E0460676168"]
+			id: "041395A1070A973D"
+			tasks: [{
+				id: "492EA3BCAA6B9479"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["5922FCE68463E719"]
+			id: "19043455E8453AFF"
+			tasks: [{
+				id: "233771D7BE030520"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["5922FCE68463E719"]
+			id: "271EB4B01C8FA83A"
+			tasks: [{
+				id: "42EE8C25CDE14A4C"
+				type: "item"
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			dependencies: ["0F8CBB9FA2A51DF6"]
+			id: "791C61E20CBD41EF"
+			tasks: [{
+				id: "7535E9FF3C3F9CF9"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+		}
+		{
+			title: "Witherproof Blocks"
+			x: -4.0d
+			y: -5.0d
+			optional: true
+			id: "276C5B5DC1E8FD4E"
+			tasks: [{
+				id: "4589890E2C3EB99C"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mysticalagriculture:witherproof_block"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:witherproof_bricks"
+								Count: 1b
+							}
+							{
+								id: "mysticalagriculture:witherproof_glass"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B8950F10A1672E3"
+				type: "item"
+				item: "mysticalagriculture:witherproof_block"
+				count: 16
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			id: "0F8CBB9FA2A51DF6"
+			tasks: [{
+				id: "3AFC2DE03E9D6988"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["271EB4B01C8FA83A"]
+			id: "4BA2B4A37F26809F"
+			tasks: [{
+				id: "00BE6C3F00BAC6AC"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["5922FCE68463E719"]
+			id: "5BE1C3E16A08E7E6"
+			tasks: [{
+				id: "7510AF96A1949A8B"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["473BA804793E1727"]
+			id: "5D58212492E366B2"
+			tasks: [{
+				id: "1E5DB6DED039D802"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Gotta put all that sludge somewhere"
+			dependencies: ["5762BFDFE96CB357"]
+			optional: true
+			id: "0E12BD08A85BAC0E"
+			tasks: [{
+				id: "41A920B7FCC73DFA"
+				type: "item"
+				item: "industrialforegoing:sludge_refiner"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			subtitle: "Harvest at the speed of light!"
+			description: ["Industrial Integration isn't in 1.16.5 yet so this doesn't work on most crops. But it does work on tree's n' such."]
+			dependencies: ["5762BFDFE96CB357"]
+			optional: true
+			id: "2C30401A45308F53"
+			tasks: [{
+				id: "36358A885C58A4EE"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+		}
+	]
+}

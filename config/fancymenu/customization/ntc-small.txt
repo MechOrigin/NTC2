@@ -1,0 +1,355 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = ntc_animation
+  action = animatebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 1147
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = 163
+  action = movebutton
+  y = -145
+}
+
+customization {
+  identifier = %id=400322%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=400322%
+  path = config\fancymenu\ntc_resources\WW_menu\WW_MainMenu_Cursor.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400322%
+  path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 163
+  action = movebutton
+  y = -97
+}
+
+customization {
+  identifier = %id=502382%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=502382%
+  path = config\fancymenu\ntc_resources\WW_menu\WW_PauseMenu_Save_No.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=502382%
+  path = config/fancymenu/ntc_resources/WW_menu/WW_PauseMenu_Quit.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=5023461%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -230
+  action = movebutton
+  y = -145
+}
+
+customization {
+  identifier = %id=400298%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=400298%
+  path = config\fancymenu\ntc_resources\WW_menu\WW_MainMenu_Cursor.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400298%
+  path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=8755%
+  orientation = bottom-right
+  x = -122
+  action = movebutton
+  y = -43
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-left
+  x = 23
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = A
+}
+
+customization {
+  identifier = %id=604382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -230
+  action = movebutton
+  y = -97
+}
+
+customization {
+  identifier = %id=400382%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=400382%
+  path = config\fancymenu\ntc_resources\WW_menu\WW_Textbox_Open.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400382%
+  path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-left
+  x = 45
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = L
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=8955%
+  orientation = bottom-right
+  x = -102
+  action = movebutton
+  y = -43
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = 163
+  action = movebutton
+  y = -123
+}
+
+customization {
+  identifier = %id=400346%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=400346%
+  path = config\fancymenu\ntc_resources\WW_menu\WW_MainMenu_Cursor.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400346%
+  path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  path = config/fancymenu/ntc_resources/ntc2logo.png
+  orientation = top-centered
+  x = -42
+  width = 100
+  action = addtexture
+  actionid = 78f4e64c-c9fd-4664-a7e5-99cd8d2d7a261626236157463
+  y = 42
+  height = 100
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  label = Discord
+  loopbackgroundanimations = true
+  x = -57
+  width = 56
+  actionid = a6e6893a-6e36-4c3d-a605-01d106f0b2c21629083517996
+  action = addbutton
+  y = 60
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+  value = https://discord.gg/ts6RHUn
+  height = 20
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\ntc_resources\horizontal_dark_text.png
+  label = 
+  loopbackgroundanimations = true
+  x = -53
+  width = 50
+  actionid = 07732181-a4bc-4de4-bccd-0a65190c872f1629083518047
+  action = addbutton
+  y = 8
+  backgroundnormal = config\fancymenu\ntc_resources\horizontal_dark_text.png
+  value = https://bisecthosting.com/SecretAsain
+  height = 50
+}
+
+customization {
+  hoversound = config/fancymenu/ntc_resources/WW_menu/WW_MainMenu_Cursor.wav
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  label = Get a server!
+  clicksound = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
+  loopbackgroundanimations = true
+  x = -230
+  width = 90
+  actionid = 20728720-6e2f-4754-b16d-4349435282881629083518097
+  action = addbutton
+  y = -123
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+  value = https://bisecthosting.com/SecretAsain
+  height = 20
+}
+

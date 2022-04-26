@@ -1,0 +1,170 @@
+{
+	id: "233262A9E1DDA923"
+	group: "3584F5F5EDA97E25"
+	order_index: 11
+	filename: "pollution"
+	title: "Pollution"
+	icon: "adpother:sulfur"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["467A5D35EF1DFFE6"]
+			id: "3BCDFC62C5CBB780"
+			tasks: [
+				{
+					id: "6F3785A1D400E718"
+					type: "item"
+					item: "adchimneys:cobblestone_pump"
+				}
+				{
+					id: "785DE71696E703D9"
+					type: "item"
+					item: "adchimneys:cobblestone_vent"
+				}
+				{
+					id: "67364737A8CF1BE8"
+					type: "item"
+					item: "adchimneys:cobblestone_chimney"
+				}
+			]
+			rewards: [{
+				id: "51BB6F85621CCD75"
+				type: "choice"
+				icon: "minecraft:white_concrete"
+				table_id: 2830758524228655601L
+			}]
+		}
+		{
+			title: "Pollution"
+			x: -3.0d
+			y: 0.0d
+			description: ["Hint: You should probably start building some pollution infrastructure to house your coke ovens and blast furnaces"]
+			dependencies: ["1601B076F5082E19"]
+			id: "467A5D35EF1DFFE6"
+			tasks: [{
+				id: "6F2DE77651ECA041"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["{image:ntc2:textures/quests/adpother_filters.png width:200 height:100 align:1}"]
+			dependencies: ["467A5D35EF1DFFE6"]
+			id: "042CE4EDFE3F092B"
+			tasks: [
+				{
+					id: "086ECCCA95833A68"
+					type: "item"
+					item: "adpother:iron_filter_frame"
+				}
+				{
+					id: "7BDC80D89B5864DD"
+					type: "item"
+					item: "adpother:gold_filter_frame"
+				}
+				{
+					id: "0E5C5AE56A83FE3B"
+					type: "item"
+					item: "adpother:diamond_filter_frame"
+				}
+			]
+			rewards: [
+				{
+					id: "54F7CC5575C19E77"
+					type: "item"
+					item: "mysticalagriculture:experience_droplet"
+					count: 32
+				}
+				{
+					id: "0920C872C4FBC965"
+					type: "item"
+					item: "kubejs:filters1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Carbon Filter"
+			x: -2.25d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["467A5D35EF1DFFE6"]
+			size: 0.5d
+			id: "0A530F9A6535D58E"
+			tasks: [{
+				id: "3F4450B2945473B7"
+				type: "item"
+				title: "Any #minecraft:leaves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+			}]
+		}
+		{
+			title: "Sulfur Filter"
+			x: -3.0d
+			y: 1.75d
+			hide_dependency_lines: true
+			dependencies: ["467A5D35EF1DFFE6"]
+			size: 0.5d
+			id: "568239F253F1824F"
+			tasks: [{
+				id: "4FF219D8C3C1737F"
+				type: "item"
+				title: "Any #minecraft:wool"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+			}]
+		}
+		{
+			title: "Dust Filter"
+			x: -3.75d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["467A5D35EF1DFFE6"]
+			size: 0.5d
+			id: "660C755E8565A18E"
+			tasks: [{
+				id: "5B4B51CF6DA60443"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["467A5D35EF1DFFE6"]
+			id: "43B4ABB1F65A01CF"
+			tasks: [{
+				id: "5459CB1160C4E651"
+				type: "item"
+				item: "kubejs:filters1"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["43B4ABB1F65A01CF"]
+			id: "7506090051339FE6"
+			tasks: [{
+				id: "37439340E9C8CCA5"
+				type: "item"
+				item: "kubejs:sludge_dust"
+			}]
+		}
+	]
+}

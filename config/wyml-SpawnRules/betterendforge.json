@@ -1,0 +1,59 @@
+{
+	"mod": "betterendforge",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"dragonfly": {
+						// Do not edit this name
+						"name": "dragonfly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"silk_moth": {
+						// Do not edit this name
+						"name": "silk_moth",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"cubozoa": {
+						// Do not edit this name
+						"name": "cubozoa",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"end_fish": {
+						// Do not edit this name
+						"name": "end_fish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"shadow_walker": {
+						// Do not edit this name
+						"name": "shadow_walker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"end_slime": {
+						// Do not edit this name
+						"name": "end_slime",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

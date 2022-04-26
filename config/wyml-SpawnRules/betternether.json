@@ -1,0 +1,54 @@
+{
+	"mod": "betternether",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"firefly": {
+						// Do not edit this name
+						"name": "firefly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"flying_pig": {
+						// Do not edit this name
+						"name": "flying_pig",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"hydrogen_jellyfish": {
+						// Do not edit this name
+						"name": "hydrogen_jellyfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"jungle_skeleton": {
+						// Do not edit this name
+						"name": "jungle_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"skull": {
+						// Do not edit this name
+						"name": "skull",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"naga": {
+						// Do not edit this name
+						"name": "naga",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

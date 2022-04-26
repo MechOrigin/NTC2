@@ -1,0 +1,46 @@
+{
+    "type": "masterfulmachinery:machine_structure",
+    "id": "simple_steam_powered_generator_structure",
+    "controllerId": "simple_steam_powered_generator",
+    "name": "Simple Steam Powered Generator",
+    "layout": [
+    [
+        ")))))",
+        ")))))",
+        ")))))"
+        ],
+        [
+        ")///)",
+        "+,-,.",
+        ")*)C)"
+        ],
+        [
+        ")))))",
+        ")))))",
+        ")))))"
+        ]
+    ],
+    "legend": {
+        ")": {
+        "block": "engineersdecor:slag_brick_block"
+        },
+        "*": {
+        "block": "masterfulmachinery:simple_steam_powered_generator_small_port_energy_output"
+        },
+        "+": {
+        "block": "masterfulmachinery:simple_steam_powered_generator_small_port_fluids_output"
+        },
+        ",": {
+        "block": "immersiveengineering:dynamo"
+        },
+        "-": {
+        "block": "engineersdecor:small_fluid_funnel"
+        },
+        ".": {
+        "block": "masterfulmachinery:simple_steam_powered_generator_small_port_mekanism_gas_input"
+        },
+        "/": {
+        "block": "engineersdecor:straight_pipe_valve"
+        }
+    }
+  }

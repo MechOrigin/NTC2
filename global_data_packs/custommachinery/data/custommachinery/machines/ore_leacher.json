@@ -1,0 +1,149 @@
+{
+  "name": "Ore Leacher",
+  "appearance": {
+    "lightmode": "running",
+    "lightlevel": 7,
+    "model": "testresourcepack:machine/stone_generator_model"
+  },
+  "components": [
+    {
+      "capacity": 100000,
+      "type": "custommachinery:energy",
+      "maxOutput": 0
+    },
+    {
+      "mode": "input",
+      "id": "input1",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "input",
+      "id": "input2",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "input",
+      "id": "input3",
+      "capacity": 100000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "input",
+      "id": "input4",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output1",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output3",
+      "type": "custommachinery:item"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade",
+      "filter": ["kubejs:upgrade_basic"],
+      "whitelist": true,
+      "mode": "upgrade",
+      "variant": "custommachinery:upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 47,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "x": 67,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "input1"
+    },
+    {
+      "x": 87,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "input2"
+    },
+    {
+      "x": 107,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "input3"
+    },
+    {
+      "id": "input4",
+      "x": 127,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output1",
+      "x": 179,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output2",
+      "x": 199,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output3",
+      "x": 219,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 147,
+      "y": 30,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Ore Leacher",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "id": "upgrade",
+      "x": 200,
+      "y": 5,
+      "type": "custommachinery:slot"
+    },
+    {
+      "text": "Upgrade:",
+      "x": 150,
+      "y": 5,
+      "type": "custommachinery:text"
+    }
+  ]
+}

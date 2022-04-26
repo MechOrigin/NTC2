@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:flower_pot"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_clay",
+    "amount": 750
+  },
+  "temperature": 1780,
+  "time": 96
+}

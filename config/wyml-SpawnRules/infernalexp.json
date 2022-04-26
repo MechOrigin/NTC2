@@ -1,0 +1,72 @@
+{
+	"mod": "infernalexp",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"IECREATURE": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"basalt_giant": {
+						// Do not edit this name
+						"name": "basalt_giant",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"glowsquito": {
+						// Do not edit this name
+						"name": "glowsquito",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"glowsilk_moth": {
+						// Do not edit this name
+						"name": "glowsilk_moth",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"warpbeetle": {
+						// Do not edit this name
+						"name": "warpbeetle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"shroomloin": {
+						// Do not edit this name
+						"name": "shroomloin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"blackstone_dwarf": {
+						// Do not edit this name
+						"name": "blackstone_dwarf",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"voline": {
+						// Do not edit this name
+						"name": "voline",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"blindsight": {
+						// Do not edit this name
+						"name": "blindsight",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"embody": {
+						// Do not edit this name
+						"name": "embody",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

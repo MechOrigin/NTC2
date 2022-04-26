@@ -1,0 +1,50 @@
+
+#Potion Stacker Settings
+[settings]
+
+	[settings.allowForAllEffectSources]
+		#Should effects from any source stack or just for potions that players drink
+		#Set to true and effects from any source will stack, i.e. potions/splash/lingering/arrows/beacons/from mobs hits like hunger from husks etc..
+		#and will apply to any entity that the potion effect can be applied to if allowAllEntities=true.
+		#Set to false to only allow effect stacking from potions that players drink.
+		allowForAllEffectSources = true
+		#Should effects stack on all entities or just players
+		#Set to 'false' to only allow stacking on players
+		#If allowForAllEffectSources=false this has no effect
+		allowAllEntities = true
+		#Should ambient effects stack
+		#This is area effects like beacons
+		#If allowForAllEffectSources=false this has no effect
+		allowAmbient = false
+		#Minimum effect duration able to stack
+		#This is useful to only allow stacking if the effects duration is above this amount
+		#Example: If a modded armor adds a 15 second permanent effect set this to 16 seconds (640) to not stack the effects on the armor
+		#Any effect that has a lower duration than this will not stack, so this will affect splash potions as there duration depends on how much of the splash you get
+		#If allowForAllEffectSources=false this has no effect
+		#Range: 0 ~ 24000
+		minDurationStackValue = 40
+
+	#Potion Effect Blacklist
+	[settings.potionEffectsBlacklist]
+		#A list of effects to blacklist from stacking.
+		#Format: modid:potion_effect_name, Example: ["minecraft:slowness", "minecraft:mining_fatigue", "minecraft:nausea"]
+		potionEffectsBlacklist = ["minecraft:slowness", "minecraft:nausea", "minecraft:mining_fatigue"]
+
+	#Potion Effect Caps
+	[settings.potionEffectCaps]
+		#A list of effects max amplifier & duration caps.
+		#Default max amplifier is 50 & duration is 30000 (25m).
+		#Format: modid:potion_effect_name|amplifier_cap|duration_cap, Example: ["minecraft:jump_boost|94|24000", "minecraft:speed|200|72000"]
+		potionEffectCaps = ["minecraft:speed|200|72000", "minecraft:jump_boost|94|24000"]
+
+	#Notes:
+	[settings.notes]
+		#By default minecraft's inventory gui will only display the effect level up to 10 (X) and after that will just have the effect name,
+		#The duration will only show up to 27:17 and after that will just display xx:xx
+		#So I have added a keybinding to display a player message with the current effects info, by default the button is 'n' but can be set in options controls.
+		#Some effects just don't work or have odd behaviour above a certain level, for instance jump boost in sp above level 128 you can no longer jump, in server same happens if above around level 94.
+		#Slowness above level 6 & you can no longer move, figured this could easily be used to grief players so would probably want to blacklist or set the amplifier cap & duration cap.
+		#So you will most likely want to test any effects and figure out what amplifier caps to set & what to blacklist.
+		#I have only allowed for hours/minutes/seconds for the duration so if you go above 23:59:59 I'm not sure what that will look like.
+		notes = "notes"
+

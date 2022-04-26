@@ -1,0 +1,30 @@
+{
+    "controllerId": "simple_steam_powered_generator",
+    "name": "Simple Steam Powered Generator",
+    "ports": [
+      {
+        "type": "masterfulmachinery:fluids",
+        "name": "Simple Steam Powered Generator Fluid",
+        "id": "small",
+        "data": {
+          "capacity": 10000
+        }
+      },
+      {
+        "type": "masterfulmachinery:mekanism_gas",
+        "name": "Simple Steam Powered Generator Gas",
+        "id": "small",
+        "data": {
+          "capacity": 10000
+        }
+      },
+      {
+        "type": "masterfulmachinery:energy",
+        "name": "Simple Steam Powered Generator Energy",
+        "id": "small",
+        "data": {
+          "capacity": 1000000
+        }
+      }
+    ]
+  }

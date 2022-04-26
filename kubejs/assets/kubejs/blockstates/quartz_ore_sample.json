@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "kubejs:block/quartz_ore_sample"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+	id: "3F8BC4F6F1BD19D3"
+	group: "3584F5F5EDA97E25"
+	order_index: 14
+	filename: "mob_stuff"
+	title: "Mob Stuff"
+	icon: "alexsmobs:mimicream"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "63E09E400E8DA83E"
+			tasks: [{
+				id: "286078777E1A3F55"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "44733EFFA9D242C8"
+			tasks: [{
+				id: "5E800FDD171FFBB3"
+				type: "item"
+				item: "alexsmobs:straddlite"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "0E930998F6267EB7"
+			tasks: [{
+				id: "77EA70CCA945C4EE"
+				type: "item"
+				item: "alexsmobs:soul_heart"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "477BD77C1D1092CA"
+			tasks: [{
+				id: "1EF8863A1C72EF8E"
+				type: "item"
+				item: "alexsmobs:tarantula_hawk_wing"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "5679019D490E6EE8"
+			tasks: [{
+				id: "00BD9F5E4932F464"
+				type: "item"
+				item: "alexsmobs:void_worm_eye"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "34811F61F0640FDD"
+			tasks: [{
+				id: "465A41A294598898"
+				type: "item"
+				item: "alexsmobs:mimicream"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "35109104E13FF8B5"
+			tasks: [{
+				id: "2695ABBBC6AE80B4"
+				type: "item"
+				item: "alexsmobs:hemolymph_sac"
+			}]
+		}
+	]
+}

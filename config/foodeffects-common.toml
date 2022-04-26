@@ -1,0 +1,79 @@
+
+[General]
+	#Determines if Sweet Berries and Cookies should be eaten as fast as Dried Kelp
+	eat_cookies_berries_fast = true
+
+[Effects]
+	#Determines what effect consuming Pufferfish will give (in addition to existing effects)
+	pufferfish_effect = "minecraft:water_breathing"
+	#Determines how long (in seconds) the Pufferfish Food Effect will last
+	#Range: 0.0 ~ 1000000.0
+	pufferfish_effect_duration = 10.0
+	#Determines what level the Pufferfish Food Effect will be (starting at 0 as level 1)
+	#Range: 0 ~ 255
+	pufferfish_effect_amplifier = 0
+	#Determines what effect consuming Mushroom Stew will give
+	mushroom_stew_effect = "minecraft:regeneration"
+	#Determines how long (in seconds) the Mushroom Stew Food Effect will last
+	#Range: 0.0 ~ 1000000.0
+	mushroom_stew_effect_duration = 5.0
+	#Determines what level the Mushroom Stew Food Effect will be (starting at 0 as level 1)
+	#Range: 0 ~ 255
+	mushroom_stew_effect_amplifier = 1
+	#Determines what effect consuming Rabbit Stew will give
+	rabbit_stew_effect = "minecraft:jump_boost"
+	#Determines how long (in seconds) the Rabbit Stew Food Effect will last
+	#Range: 0.0 ~ 1000000.0
+	rabbit_stew_effect_duration = 10.0
+	#Determines what level the Rabbit Stew Food Effect will be (starting at 0 as level 1)
+	#Range: 0 ~ 255
+	rabbit_stew_effect_amplifier = 1
+	#Determines what effect consuming Beetroot Soup will give
+	beetroot_soup_effect = "minecraft:health_boost"
+	#Determines how long (in seconds) the Beetroot Soup Food Effect will last
+	#Range: 0.0 ~ 1000000.0
+	beetroot_soup_effect_duration = 30.0
+	#Determines what level the Beetroot Soup Food Effect will be (starting at 0 as level 1)
+	#Range: 0 ~ 255
+	beetroot_soup_effect_amplifier = 0
+	#Determines what effect consuming Cookies will give
+	cookie_effect = "minecraft:speed"
+	#Determines how long (in seconds) the Cookie Food Effect will last
+	#Range: 0.0 ~ 1000000.0
+	cookie_effect_duration = 10.0
+	#Determines what level the Cookie Food Effect will be (starting at 0 as level 1)
+	#Range: 0 ~ 255
+	cookie_effect_amplifier = 0
+	#Determines what effect consuming Pumpkin Pie will give
+	pumpkin_pie_effect = "minecraft:haste"
+	#Determines how long (in seconds) the Pumpkin Pie Food Effect will last
+	#Range: 0.0 ~ 1000000.0
+	pumpkin_pie_effect_duration = 15.0
+	#Determines what level the Pumpkin Pie Food Effect will be (starting at 0 as level 1)
+	#Range: 0 ~ 255
+	pumpkin_pie_effect_amplifier = 1
+	#Determines what effect consuming Honey Bottles will give
+	honey_bottle_effect = "minecraft:instant_health"
+	#Determines how long (in seconds) the Honey Bottle Food Effect will last
+	#Range: 0.0 ~ 1000000.0
+	honey_bottle_effect_duration = 0.05
+	#Determines what level the Honey Bottle Food Effect will be (starting at 0 as level 1)
+	#Range: 0 ~ 255
+	honey_bottle_effect_amplifier = 0
+	#Determines what effect consuming Baked Potatoes will give
+	baked_potato_effect = "minecraft:strength"
+	#Determines how long (in seconds) the Baked Potatoes Food Effect will last
+	#Range: 0.0 ~ 1000000.0
+	baked_potato_effect_duration = 10.0
+	#Determines what level the Baked Potato Food Effect will be (starting at 0 as level 1)
+	#Range: 0 ~ 255
+	baked_potato_effect_amplifier = 0
+	#Determines what effect consuming a slice of Cake will give
+	cake_effect = "minecraft:speed"
+	#Determines how long (in seconds) the Cake Food Effect will last
+	#Range: 0.0 ~ 1000000.0
+	cake_effect_duration = 20.0
+	#Determines what level the Cake Food Effect will be (starting at 0 as level 1)
+	#Range: 0 ~ 255
+	cake_effect_amplifier = 1
+

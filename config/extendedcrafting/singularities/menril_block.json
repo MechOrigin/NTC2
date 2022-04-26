@@ -1,0 +1,10 @@
+{
+  "name": "Crystalized Menril Block",
+  "colors": [
+    "4acfff",
+    "4acfff"
+  ],
+  "ingredient": {
+    "item": "integrateddynamics:crystalized_menril_block"
+  }
+}

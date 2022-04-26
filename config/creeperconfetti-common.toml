@@ -1,0 +1,8 @@
+
+[General]
+	#Confetti Explosions Damage Players [false/true|default:false]
+	damagePlayers = false
+	#The %chance that any given creeper will explode into confetti  [0..100|default:100]
+	#Range: 0 ~ 100
+	confettiChance = 100
+

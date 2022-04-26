@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "betterendforge:chorus_mushroom_raw",
+  "result": {
+    "fluid": {
+      "fluid": "kubejs:liquid_chorus_mushroom",
+      "amount": 50
+    },
+    "items": [
+
+    ]
+  },
+  "duration": 15
+}

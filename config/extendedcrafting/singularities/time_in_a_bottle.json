@@ -1,0 +1,10 @@
+{
+  "name": "Time in a Bottle",
+  "colors": [
+    "fcc203",
+    "fcc203"
+  ],
+  "ingredient": {
+    "tag": "forge:tools/time_in_a_bottle"
+  }
+}

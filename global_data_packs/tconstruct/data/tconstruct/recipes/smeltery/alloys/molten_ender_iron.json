@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "thermal:ender",
+      "amount": 250
+    },
+    {
+      "name": "tconstruct:molten_iron",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "kubejs:molten_ender_iron",
+    "amount": 288
+  },
+  "temperature": 1600
+}

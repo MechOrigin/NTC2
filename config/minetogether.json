@@ -1,0 +1,20 @@
+{
+  "curseProjectID": "Insert curse project ID here",
+  "promoCode": "Insert Promo Code here",
+  "creeperhostEnabled": true,
+  "mpMenuEnabled": false,
+  "mainMenuEnabled": true,
+  "serverHostButtonImage": true,
+  "serverHostMenuImage": true,
+  "sivIntegration": true,
+  "serverListEnabled": true,
+  "chatEnabled": true,
+  "autoMT": true,
+  "enableFriendOnlineToasts": true,
+  "enableMainMenuFriends": true,
+  "replaceRealms": true,
+  "issueTrackerUrl": "https://pste.ch/",
+  "firstConnect": "",
+  "debugMode": false,
+  "pregenDiameter": 120
+}

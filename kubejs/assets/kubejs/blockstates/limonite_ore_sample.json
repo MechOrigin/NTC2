@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "kubejs:block/limonite_ore_sample"
+      }
+    ]
+  }
+}

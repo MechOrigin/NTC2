@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:sheetmetals/hepatizon",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:sheetmetals/hepatizon"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_hepatizon",
+    "amount": 144
+  },
+  "temperature": 2072,
+  "time": 78
+}

@@ -1,0 +1,17 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "tconstruct:ender_slime_sapling",
+  "result": {
+    "fluid": {
+      "fluid": "tconstruct:ender_slime",
+      "amount": 50
+    },
+    "items": [
+      {
+        "item": "tconstruct:ender_slime_ball",
+        "count": 2
+      }
+    ]
+  },
+  "duration": 40
+}

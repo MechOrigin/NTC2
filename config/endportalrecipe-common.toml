@@ -1,0 +1,7 @@
+
+[General]
+	#If enabled, players can only break portal frames if they have silk touch on their pickaxe.
+	mustHaveSilkTouchToBreakPortal = true
+	#If enabled, add portal frames directly to the player's inventory to lower the chance of them being destroyed. Still drops the item entity if the inventory is full.
+	addBrokenPortalFramesToInventory = true
+

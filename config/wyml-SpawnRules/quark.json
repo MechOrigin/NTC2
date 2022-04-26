@@ -1,0 +1,72 @@
+{
+	"mod": "quark",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"frog": {
+						// Do not edit this name
+						"name": "frog",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"shiba": {
+						// Do not edit this name
+						"name": "shiba",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"toretoise": {
+						// Do not edit this name
+						"name": "toretoise",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"stoneling": {
+						// Do not edit this name
+						"name": "stoneling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"foxhound": {
+						// Do not edit this name
+						"name": "foxhound",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"crab": {
+						// Do not edit this name
+						"name": "crab",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"wraith": {
+						// Do not edit this name
+						"name": "wraith",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"forgotten": {
+						// Do not edit this name
+						"name": "forgotten",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wrapped": {
+						// Do not edit this name
+						"name": "wrapped",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"mod": "projectvibrantjourneys",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"pvj_water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"ocean_starfish": {
+						// Do not edit this name
+						"name": "ocean_starfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"clam": {
+						// Do not edit this name
+						"name": "clam",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"pvj_night_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"night_bat": {
+						// Do not edit this name
+						"name": "night_bat",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"firefly": {
+						// Do not edit this name
+						"name": "firefly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"pvj_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"snail": {
+						// Do not edit this name
+						"name": "snail",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"fly": {
+						// Do not edit this name
+						"name": "fly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"frog": {
+						// Do not edit this name
+						"name": "frog",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"small_spider": {
+						// Do not edit this name
+						"name": "small_spider",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"starfish": {
+						// Do not edit this name
+						"name": "starfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"slug": {
+						// Do not edit this name
+						"name": "slug",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

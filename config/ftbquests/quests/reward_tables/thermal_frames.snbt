@@ -1,0 +1,11 @@
+{
+	id: "3510F423674EF95A"
+	order_index: 4
+	title: "thermal_frames"
+	icon: "thermal:upgrade_augment_1"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:machine_speed_augment", count: 2 }
+		{ item: "thermal:upgrade_augment_1" }
+	]
+}

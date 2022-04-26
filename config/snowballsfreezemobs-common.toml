@@ -1,0 +1,6 @@
+
+[General]
+	#The amount of time in ms the mob hit will be frozen for.
+	#Range: 0 ~ 3600000
+	freezeTimeMs = 5000
+

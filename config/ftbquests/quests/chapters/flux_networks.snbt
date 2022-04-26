@@ -1,0 +1,123 @@
+{
+	id: "2ECC2E89B8509A54"
+	group: "3584F5F5EDA97E25"
+	order_index: 12
+	filename: "flux_networks"
+	title: "Flux Networks"
+	icon: "fluxnetworks:flux_core"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Flux Networks"
+			icon: "fluxnetworks:admin_configurator"
+			x: 0.0d
+			y: 0.0d
+			description: ["Wireless Cross-Dimensional Transfer    Automatic Energy Conversion    Unlimited Transfer Rates    Support for Forge Energy, EU, AE2 and IE    Cross-dimensional inventory charging     Encrypt your networks with password protection    Organise the priorities of your network"]
+			dependencies: ["27E97524EE1B5DFB"]
+			id: "001B70B9B136387C"
+			tasks: [{
+				id: "330478583D42486C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6BE06AB2F7CBD269"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["001B70B9B136387C"]
+			id: "508F18815ECB8767"
+			tasks: [{
+				id: "094691BB5DF10686"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["7F61C2C94EDC436D"]
+			id: "7CEA0F93DE2D0655"
+			tasks: [{
+				id: "1BDA9F64A9E3D30F"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["7F61C2C94EDC436D"]
+			id: "5C291EDA6C2AB721"
+			tasks: [{
+				id: "64E25FCB1EBFA663"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["508F18815ECB8767"]
+			id: "7F61C2C94EDC436D"
+			tasks: [{
+				id: "4EB4CB51EA55E1DC"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["7F61C2C94EDC436D"]
+			id: "55C996D0640046CA"
+			tasks: [{
+				id: "042C5A5ACA430E3D"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["508F18815ECB8767"]
+			id: "580B52388B398C57"
+			tasks: [
+				{
+					id: "6C77778C212DC16F"
+					type: "item"
+					item: "fluxnetworks:basic_flux_storage"
+				}
+				{
+					id: "568746217378DF95"
+					type: "item"
+					item: "fluxnetworks:herculean_flux_storage"
+				}
+				{
+					id: "5038DCD9AF8499AD"
+					type: "item"
+					item: "fluxnetworks:gargantuan_flux_storage"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.75d
+			dependencies: ["001B70B9B136387C"]
+			size: 0.5d
+			id: "5456A51EFD11E293"
+			tasks: [{
+				id: "3A7F7488FD675F8B"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+		}
+	]
+}
