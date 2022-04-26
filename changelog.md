@@ -794,3 +794,29 @@ dirty lump -> clean lump via ore leacher (aquaregia but with sulfuric acid as we
 
 mekanism: clean lump -> clean slurry 200mb
 
+
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [Unreleased]
+- All changes in 1.4.1
+
+## [1.4.1]
+
+### Added Mods
+- 
+
+### Changed Mods
+
+### Deprecated
+
+### Removed Mods
+
+### Fixed
+
+<!-- * Important -->
+<!-- ! Alert -->
+<!-- ? IDK I'm blue -->
+<!-- TODO: To do's -->
