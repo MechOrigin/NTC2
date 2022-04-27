@@ -93,7 +93,7 @@ onEvent('recipes', (event) => {
             gasInput: { amount: 1000, gas: 'kubejs:tbu_depleted_gas' },
             duration: 600,
             itemOutput: { item: 'kubejs:tbu_depleted' },
-            gasOutput: { gas: 'mekanism:spent_nuclear_waste', amount: 1000 },
+            gasOutput: { gas: 'mekanism:nuclear_waste', amount: 1000 },
             id: 'mekanism:reaction/tbu_depleted'
         },
         {
@@ -102,7 +102,7 @@ onEvent('recipes', (event) => {
             gasInput: { amount: 1000, gas: 'kubejs:233_leu_depleted_gas' },
             duration: 600,
             itemOutput: { item: 'kubejs:233_leu_depleted' },
-            gasOutput: { gas: 'mekanism:spent_nuclear_waste', amount: 1000 },
+            gasOutput: { gas: 'mekanism:nuclear_waste', amount: 1000 },
             id: 'mekanism:reaction/233_leu_depleted'
         },
         {
@@ -111,7 +111,7 @@ onEvent('recipes', (event) => {
             gasInput: { amount: 1000, gas: 'kubejs:235_leu_depleted_gas' },
             duration: 600,
             itemOutput: { item: 'kubejs:235_leu_depleted' },
-            gasOutput: { gas: 'mekanism:spent_nuclear_waste', amount: 1000 },
+            gasOutput: { gas: 'mekanism:nuclear_waste', amount: 1000 },
             id: 'mekanism:reaction/235_leu_depleted'
         },
         {
@@ -120,7 +120,7 @@ onEvent('recipes', (event) => {
             gasInput: { amount: 1000, gas: 'kubejs:241_hep_depleted_gas' },
             duration: 600,
             itemOutput: { item: 'kubejs:241_hep_depleted' },
-            gasOutput: { gas: 'mekanism:spent_nuclear_waste', amount: 1000 },
+            gasOutput: { gas: 'mekanism:nuclear_waste', amount: 1000 },
             id: 'mekanism:reaction/241_hep_depleted'
         },
         {
@@ -129,7 +129,7 @@ onEvent('recipes', (event) => {
             gasInput: { amount: 1000, gas: 'kubejs:241_mox_depleted_gas' },
             duration: 600,
             itemOutput: { item: 'kubejs:241_mox_depleted' },
-            gasOutput: { gas: 'mekanism:spent_nuclear_waste', amount: 1000 },
+            gasOutput: { gas: 'mekanism:nuclear_waste', amount: 1000 },
             id: 'mekanism:reaction/241_mox_depleted'
         },
         {
@@ -138,7 +138,7 @@ onEvent('recipes', (event) => {
             gasInput: { amount: 1000, gas: 'kubejs:239_mox_depleted_gas' },
             duration: 600,
             itemOutput: { item: 'kubejs:239_mox_depleted' },
-            gasOutput: { gas: 'mekanism:spent_nuclear_waste', amount: 1000 },
+            gasOutput: { gas: 'mekanism:nuclear_waste', amount: 1000 },
             id: 'mekanism:reaction/239_mox_depleted'
         },
         {
@@ -147,7 +147,7 @@ onEvent('recipes', (event) => {
             gasInput: { amount: 1000, gas: 'kubejs:247_lecm_depleted_gas' },
             duration: 600,
             itemOutput: { item: 'kubejs:247_lecm_depleted' },
-            gasOutput: { gas: 'mekanism:spent_nuclear_waste', amount: 1000 },
+            gasOutput: { gas: 'mekanism:nuclear_waste', amount: 1000 },
             id: 'mekanism:reaction/247_lecm_depleted'
         },
         {
@@ -156,7 +156,7 @@ onEvent('recipes', (event) => {
             gasInput: { amount: 1000, gas: 'kubejs:243_lecm_depleted_gas' },
             duration: 600,
             itemOutput: { item: 'kubejs:243_lecm_depleted' },
-            gasOutput: { gas: 'mekanism:spent_nuclear_waste', amount: 1000 },
+            gasOutput: { gas: 'mekanism:nuclear_waste', amount: 1000 },
             id: 'mekanism:reaction/243_lecm_depleted'
         },
         {
@@ -165,7 +165,7 @@ onEvent('recipes', (event) => {
             gasInput: { amount: 1000, gas: 'kubejs:249_hecf_depleted_gas' },
             duration: 600,
             itemOutput: { item: 'kubejs:249_hecf_depleted' },
-            gasOutput: { gas: 'mekanism:spent_nuclear_waste', amount: 1000 },
+            gasOutput: { gas: 'mekanism:nuclear_waste', amount: 1000 },
             id: 'mekanism:reaction/249_hecf_depleted'
         }
         // {

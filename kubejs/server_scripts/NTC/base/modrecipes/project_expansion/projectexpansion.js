@@ -42,6 +42,7 @@ events.listen('recipes', function (event) {
     '/emc_link/white/',
     '/emc_link/fading/',
     '/emc_link/final/',
+    '/star/final_star/'
   ])
 
   //Thanks Kithi
@@ -176,5 +177,10 @@ events.listen('recipes', function (event) {
     K: 'projecte:relay_mk3',
     S: Item.of('extendedcrafting:singularity', {Id:"extendedcrafting:time_in_a_bottle"})
   })
+
+  event.shaped('1x projectexpansion:final_star', ['LLL', 'LML', 'LLL'], {
+    L: 'projectexpansion:final_power_flower',
+    M: 'extendedcrafting:ultimate_singularity'
+  }).id(`ntc2:projectexpansion/final_star`)
 
 })

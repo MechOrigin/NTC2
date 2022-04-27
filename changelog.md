@@ -719,6 +719,7 @@ Fixed Omega star recipes to reflect the changes to fuel/matter
 Added WoFT recipe
 Quest Witherproof Block should have an OR condition for mysticalagriculture:witherproof_block and mysticalagriculture:witherproof_glass and bricks
 Added menril and chorus singularity
+Changed nuclear fuels to output non spent nuclear waste instead
 
 
 remove mekanism matter and remake everyting in kubejs

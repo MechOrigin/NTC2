@@ -18,6 +18,10 @@ logs/
 saves
 saves/
 
+# Ignores Backups
+backups
+backups/
+
 # Ignore Misc stuff
 emojiful/
 fancymenu_setups/
