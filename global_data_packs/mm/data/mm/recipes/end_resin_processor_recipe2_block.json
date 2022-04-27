@@ -21,7 +21,7 @@
         {
             "type": "masterfulmachinery:items",
             "data": {
-                "item": "enderioalloys:item_alloy_block_dark_steel",
+                "item": "enderioalloys:block_alloy_dark_steel",
                 "count": 1
             }
         },
@@ -36,7 +36,7 @@
         {
             "type": "masterfulmachinery:items",
             "data": {
-                "item": "enderioalloys:item_alloy_block_end_steel",
+                "item": "enderioalloys:block_alloy_end_steel",
                 "count": 1
             }
         }

@@ -28,7 +28,7 @@
         {
             "type": "masterfulmachinery:items",
             "data": {
-                "item": "enderioalloys:item_alloy_block_end_steel",
+                "item": "enderioalloys:block_alloy_end_steel",
                 "count": 1
             }
         },
@@ -43,7 +43,7 @@
         {
             "type": "masterfulmachinery:items",
             "data": {
-                "item": "enderioalloys:item_alloy_block_melodic_alloy",
+                "item": "enderioalloys:block_alloy_melodic_alloy",
                 "count": 1
             }
         }

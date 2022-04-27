@@ -1,0 +1,10 @@
+{
+  "name": "Californium-250",
+  "colors": [
+    "9f878b",
+    "9f878b"
+  ],
+  "ingredient": {
+    "item": "kubejs:250_californium"
+  }
+}

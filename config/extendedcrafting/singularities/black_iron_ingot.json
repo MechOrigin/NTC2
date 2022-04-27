@@ -1,0 +1,10 @@
+{
+  "name": "Black Iron Ingot",
+  "colors": [
+    "919191",
+    "919191"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:black_iron_ingot"
+  }
+}

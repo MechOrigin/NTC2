@@ -720,6 +720,11 @@ Added WoFT recipe
 Quest Witherproof Block should have an OR condition for mysticalagriculture:witherproof_block and mysticalagriculture:witherproof_glass and bricks
 Added menril and chorus singularity
 Changed nuclear fuels to output non spent nuclear waste instead
+Added a bunch of ingot singularities and uumatter, antimatter, californium-250
+Fixed block recipes for end resin processor
+Changed final star and final star shard recipe
+
+
 
 
 remove mekanism matter and remake everyting in kubejs

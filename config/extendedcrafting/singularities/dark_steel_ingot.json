@@ -1,0 +1,10 @@
+{
+  "name": "Dark Steel Ingot",
+  "colors": [
+    "9c9c9c",
+    "9c9c9c"
+  ],
+  "ingredient": {
+    "item": "enderioalloys:item_alloy_ingot_dark_steel"
+  }
+}

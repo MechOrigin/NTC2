@@ -1,0 +1,10 @@
+{
+  "name": "Stellar Alloy Ingot",
+  "colors": [
+    "fdfed3",
+    "fdfed3"
+  ],
+  "ingredient": {
+    "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Fluix Steel Ingot",
+  "colors": [
+    "a19bb5",
+    "a19bb5"
+  ],
+  "ingredient": {
+    "item": "lazierae2:fluix_steel_ingot"
+  }
+}

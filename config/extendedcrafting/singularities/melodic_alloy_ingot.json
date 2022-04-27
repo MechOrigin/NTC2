@@ -1,0 +1,10 @@
+{
+  "name": "Melodic Alloy Ingot",
+  "colors": [
+    "d0b8d0",
+    "d0b8d0"
+  ],
+  "ingredient": {
+    "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
+  }
+}

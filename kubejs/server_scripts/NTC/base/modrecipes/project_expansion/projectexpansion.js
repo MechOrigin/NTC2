@@ -1,4 +1,12 @@
 events.listen('recipes', function (event) {
+
+  /*
+   ? "basic", "dark", "red", "magenta",
+   ? "pink", "purple", "violet", "blue",
+   ? "cyan", "green", "lime", "yellow",
+   ? "orange", "white", "fading", "final"
+  */
+
 //Thanks Dasffion
 //Compressed Collectors
   event.shapeless(item.of('projectexpansion:basic_collector', 9), ['projectexpansion:basic_compressed_collector'])
@@ -74,26 +82,26 @@ events.listen('recipes', function (event) {
     T: 'projectexpansion:magenta_matter',
     C: 'projectexpansion:red_emc_link'
   }).id(`kubejs:projectexpansion/magenta_emc_link`)
-  event.shaped('1x projectexpansion:purple_emc_link', ['LMH', 'TCT', 'HML'], {
-    L: 'projecte:low_covalence_dust',
-    M: 'projecte:medium_covalence_dust',
-    H: 'projecte:high_covalence_dust',
-    T: 'projectexpansion:purple_matter',
-    C: 'projectexpansion:magenta_emc_link'
-  }).id(`kubejs:projectexpansion/purple_emc_link`)
   event.shaped('1x projectexpansion:pink_emc_link', ['LMH', 'TCT', 'HML'], {
     L: 'projecte:low_covalence_dust',
     M: 'projecte:medium_covalence_dust',
     H: 'projecte:high_covalence_dust',
     T: 'projectexpansion:pink_matter',
-    C: 'projectexpansion:purple_emc_link'
+    C: 'projectexpansion:magenta_emc_link'
   }).id(`kubejs:projectexpansion/pink_emc_link`)
+  event.shaped('1x projectexpansion:purple_emc_link', ['LMH', 'TCT', 'HML'], {
+    L: 'projecte:low_covalence_dust',
+    M: 'projecte:medium_covalence_dust',
+    H: 'projecte:high_covalence_dust',
+    T: 'projectexpansion:purple_matter',
+    C: 'projectexpansion:pink_emc_link'
+  }).id(`kubejs:projectexpansion/purple_emc_link`)
   event.shaped('1x projectexpansion:violet_emc_link', ['LMH', 'TCT', 'HML'], {
     L: 'projecte:low_covalence_dust',
     M: 'projecte:medium_covalence_dust',
     H: 'projecte:high_covalence_dust',
     T: 'projectexpansion:violet_matter',
-    C: 'projectexpansion:pink_emc_link'
+    C: 'projectexpansion:purple_emc_link'
   }).id(`kubejs:projectexpansion/violet_emc_link`)
   event.shaped('1x projectexpansion:blue_emc_link', ['LMH', 'TCT', 'HML'], {
     L: 'projecte:low_covalence_dust',
@@ -181,6 +189,11 @@ events.listen('recipes', function (event) {
   event.shaped('1x projectexpansion:final_star', ['LLL', 'LML', 'LLL'], {
     L: 'projectexpansion:final_power_flower',
     M: 'extendedcrafting:ultimate_singularity'
+  }).id(`ntc2:projectexpansion/final_star`)
+
+  event.shaped('1x projectexpansion:final_star_shard', ['LLL', 'LML', 'LLL'], {
+    L: 'projectexpansion:colossal_star_omega',
+    M: 'extendedcrafting:the_ultimate_block'
   }).id(`ntc2:projectexpansion/final_star`)
 
 })

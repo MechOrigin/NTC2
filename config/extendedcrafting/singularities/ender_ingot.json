@@ -1,0 +1,10 @@
+{
+  "name": "Ender Ingot",
+  "colors": [
+    "8dbdb5",
+    "8dbdb5"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:ender_ingot"
+  }
+}

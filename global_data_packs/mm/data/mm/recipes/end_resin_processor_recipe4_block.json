@@ -14,7 +14,7 @@
         {
             "type": "masterfulmachinery:items",
             "data": {
-                "item": "enderioalloys:item_alloy_block_melodic_alloy",
+                "item": "enderioalloys:block_alloy_melodic_alloy",
                 "count": 1
             }
         },
@@ -29,7 +29,7 @@
         {
             "type": "masterfulmachinery:items",
             "data": {
-                "item": "enderioalloys:item_alloy_block_stellar_alloy",
+                "item": "enderioalloys:block_alloy_stellar_alloy",
                 "count": 1
             }
         }

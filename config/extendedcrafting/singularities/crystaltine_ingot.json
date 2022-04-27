@@ -1,0 +1,10 @@
+{
+  "name": "Crystaltine Ingot",
+  "colors": [
+    "a3d1e1",
+    "a3d1e1"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:crystaltine_ingot"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Redstone Ingot",
+  "colors": [
+    "d48780",
+    "d48780"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:redstone_ingot"
+  }
+}

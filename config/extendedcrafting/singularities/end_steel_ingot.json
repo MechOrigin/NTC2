@@ -1,0 +1,10 @@
+{
+  "name": "End Steel Ingot",
+  "colors": [
+    "f9f6dc",
+    "f9f6dc"
+  ],
+  "ingredient": {
+    "item": "enderioalloys:item_alloy_ingot_end_steel"
+  }
+}

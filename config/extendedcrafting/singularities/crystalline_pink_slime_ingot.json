@@ -1,0 +1,10 @@
+{
+  "name": "Crystalline Pink Slime",
+  "colors": [
+    "c8a9c3",
+    "c8a9c3"
+  ],
+  "ingredient": {
+    "item": "enderioalloys:item_alloy_ingot_crystalline_pink_slime"
+  }
+}

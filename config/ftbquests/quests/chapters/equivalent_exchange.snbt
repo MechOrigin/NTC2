@@ -1760,5 +1760,22 @@
 				item: "projectexpansion:final_power_flower"
 			}]
 		}
+		{
+			x: 6.0d
+			y: 5.5d
+			id: "09F60579F1EA7C36"
+			tasks: [{
+				id: "24B484B28DC556D4"
+				type: "item"
+				item: {
+					id: "projecte:watch_of_flowing_time"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
 	]
 }
