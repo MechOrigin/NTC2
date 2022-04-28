@@ -10,6 +10,9 @@ onEvent('fluid.registry', event => {
 
     event.create('molten_ender_iron').textureThick(0x1b7a6a).bucketColor(0x1b7a6a).displayName('Molten Ender Iron')
 
+    event.create('molten_energetic_alloy').textureThick(0xff8000).bucketColor(0xff8000).displayName('Molten Energetic Alloy')
+    event.create('molten_vibrant_alloy').textureThick(0x80ff00).bucketColor(0x80ff00).displayName('Molten Vibrant Alloy')
+
     //better end fluids
     event.create('liquid_amber_root').displayName('Liquid Amber Root Resin').textureStill('kubejs:block/liquid_amber_root_still').textureFlowing('kubejs:block/liquid_amber_root_flow').bucketColor(0xf2ab4a)
 

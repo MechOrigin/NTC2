@@ -84,6 +84,30 @@ onEvent('recipes', (event) => {
             temperature: 1710,
             time: 316,
             id: `${id_prefix}molten_glass_from_creeper_head`
+        },
+        {
+            ingredient: {
+                item: 'minecraft:glowstone_dust'
+            },
+            result: {
+                fluid: 'thermal:glowstone',
+                amount: 250
+            },
+            temperature: 1710,
+            time: 316,
+            id: `${id_prefix}thermal_glowstone_from_dust`
+        },
+        {
+            ingredient: {
+                item: 'minecraft:glowstone'
+            },
+            result: {
+                fluid: 'thermal:glowstone',
+                amount: 1000
+            },
+            temperature: 1710,
+            time: 316,
+            id: `${id_prefix}thermal_glowstone_from_block`
         }
     ];
 
