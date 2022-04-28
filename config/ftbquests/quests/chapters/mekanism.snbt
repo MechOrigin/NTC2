@@ -2748,6 +2748,8 @@
 				"{ntc2.mektanks.desc2}"
 				""
 				"{ntc2.mektanks.desc3}"
+				""
+				"Tiers after basic don't have a crafting recipe but can be upgraded via Tier Installers"
 			]
 			id: "77E9AE09E64F3B26"
 			tasks: [{

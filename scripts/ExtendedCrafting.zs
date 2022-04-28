@@ -37,6 +37,12 @@ mods.extendedcrafting.EnderCrafting.addShaped("pulsating_crystal", <item:enderio
 	[<item:extendedcrafting:ender_nugget>, <item:extendedcrafting:ender_nugget>, <item:extendedcrafting:ender_nugget>]
 ]);
 
+mods.extendedcrafting.EnderCrafting.addShaped("vibrant_crystal", <item:enderioalloys:item_material_vibrant_crystal>, [
+	[<item:enderioalloys:item_alloy_nugget_vibrant_alloy>, <item:enderioalloys:item_alloy_nugget_vibrant_alloy>, <item:enderioalloys:item_alloy_nugget_vibrant_alloy>], 
+	[<item:enderioalloys:item_alloy_nugget_vibrant_alloy>, <item:minecraft:emerald>, <item:enderioalloys:item_alloy_nugget_vibrant_alloy>], 
+	[<item:enderioalloys:item_alloy_nugget_vibrant_alloy>, <item:enderioalloys:item_alloy_nugget_vibrant_alloy>, <item:enderioalloys:item_alloy_nugget_vibrant_alloy>]
+]);
+
 craftingTable.removeRecipe(<item:projecte:condenser_mk2>);
 mods.extendedcrafting.TableCrafting.addShaped("condenser_mk2", 3, <item:projecte:condenser_mk2>, [
 	[<item:tconstruct:soulsteel_ingot>, <item:tconstruct:soulsteel_ingot>, <item:tconstruct:soulsteel_ingot>, <item:tconstruct:soulsteel_ingot>, <item:tconstruct:soulsteel_ingot>, <item:tconstruct:soulsteel_ingot>, <item:tconstruct:soulsteel_ingot>], 

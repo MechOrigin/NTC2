@@ -113,6 +113,8 @@ events.listen('recipes', e => {
         'thermal:lumium_dust_4',
         'thermal:enderium_dust_2',
 
+        'thermal:machine/smelter/smelter_alloy_netherite',
+
         'immersiveengineering:crafting/ingot_copper_to_storage_copper',
         'immersiveengineering:crafting/ingot_aluminum_to_storage_aluminum',
         'immersiveengineering:crafting/ingot_lead_to_storage_lead',

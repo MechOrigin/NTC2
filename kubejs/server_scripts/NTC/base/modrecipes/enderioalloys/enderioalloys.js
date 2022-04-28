@@ -25,6 +25,16 @@ const enderioAlloys = [
         nugget: 'enderioalloys:item_alloy_nugget_crystalline_pink_slime',
         ingot: 'enderioalloys:item_alloy_ingot_crystalline_pink_slime',
         block: 'enderioalloys:block_alloy_crystalline_pink_slime'
+    },
+    {
+        nugget: 'enderioalloys:item_alloy_nugget_vibrant_alloy',
+        ingot: 'enderioalloys:item_alloy_ingot_vibrant_alloy',
+        block: 'enderioalloys:block_alloy_vibrant_alloy'
+    },
+    {
+        nugget: 'enderioalloys:item_alloy_nugget_energetic_alloy',
+        ingot: 'enderioalloys:item_alloy_ingot_energetic_alloy',
+        block: 'enderioalloys:block_alloy_energetic_alloy'
     }
 ];
 

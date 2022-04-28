@@ -469,6 +469,8 @@ const cropRegistry = [
                 seed: 'minecraft:chorus_flower',
                 render: 'minecraft:chorus_flower',
                 plant: 'minecraft:chorus_fruit',
+                plantSecondary: 'betterendforge:ender_shard',
+                plantSecondaryRate: 'high',
                 substrate: 'end_stone'
             },
             {

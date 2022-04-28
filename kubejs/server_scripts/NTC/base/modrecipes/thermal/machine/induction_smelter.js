@@ -42,7 +42,7 @@ onEvent('recipes', (event) => {
                 ]
             },
             {
-                inputs: [Item.of('minecraft:netherite_scrap', 4), Item.of('minecraft:gold_ingot', 2)],
+                inputs: [Item.of('minecraft:netherite_scrap', 4), Item.of('minecraft:gold_ingot', 4)],
                 outputs: ['minecraft:netherite_ingot']
             },
             {
@@ -115,7 +115,15 @@ onEvent('recipes', (event) => {
             {
                 inputs: ['minecraft:redstone_block', Ingredient.of('#forge:gems/silicon', 9)],
                 outputs: [Item.of('extendedcrafting:redstone_ingot_block', 1)]
-            }
+            },
+            {
+                inputs: ['#forge:ingots/gold', Ingredient.of('#forge:dusts/redstone', 1), '#forge:storage_blocks/glowstone'],
+                outputs: [Item.of('enderioalloys:item_alloy_ingot_energetic_alloy', 1)]
+            },
+            {
+                inputs: ['enderioalloys:item_alloy_ingot_energetic_alloy', Ingredient.of('#forge:gems/ender', 1)],
+                outputs: [Item.of('enderioalloys:item_alloy_ingot_vibrant_alloy', 1)]
+            },
         ]
     };
 

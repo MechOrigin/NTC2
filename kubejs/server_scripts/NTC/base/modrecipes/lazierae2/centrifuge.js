@@ -29,6 +29,20 @@ onEvent('recipes', event => {
             item: 'emendatusenigmatica:ender_dust',
             count: 2,
             input: 'minecraft:ender_pearl'
+          },
+          {
+            time: 180,
+            energy: 2000,
+            item: 'betterendforge:crystal_shards',
+            count: 2,
+            input: 'betterendforge:crystal_shards'
+          },
+          {
+            time: 180,
+            energy: 20000,
+            item: 'betterendforge:ender_shard',
+            count: 32,
+            input: 'enderioalloys:item_material_ender_crystal'
           }
       ]
     };

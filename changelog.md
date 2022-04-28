@@ -722,11 +722,19 @@ Added menril and chorus singularity
 Changed nuclear fuels to output non spent nuclear waste instead
 Added a bunch of ingot singularities and uumatter, antimatter, californium-250
 Fixed block recipes for end resin processor
-Changed final star and final star shard recipe
+Changed final star and final star shard 
+fixed antimatter pellets amounts given by antimatter gas
+machine tier installer works on mek tanks, make a note of that in quest book
+increase power consumption for custom machine antimatter stuff
+fixed netherite induction smelter recipe
+added another way to get betterendforge:ender_shard via botany pots with chorus flower
+added another way to get betterendforge:crystal_shards via pulse centrifuge
+Added new chain of enderio alloys and crystals: vibrant crystal, vibrant alloy, energetic alloy, ender crystal
 
-
-
-
+fix tinkers tool parts that dont work
+antimatter synth turns 1 antimatter pellet into uu matter, add a reverse recipe
+write kubejs script for final star to dupe anything
+disable copper cans in mechanical squeezer
 remove mekanism matter and remake everyting in kubejs
 
 

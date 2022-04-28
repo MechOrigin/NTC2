@@ -63,6 +63,12 @@ onEvent('recipes', event => {
     .requireEnergyPerTick(20)
     .produceItem(Item.of("enderioalloys:item_material_skull_zombie_electrode", 1))
 
+    event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 100)
+    .requireItem(Item.of("enderioalloys:item_material_vibrant_crystal", 4))
+    .requireItem(Item.of("tconstruct:enderman_head", 4))
+    .requireEnergyPerTick(20)
+    .produceItem(Item.of("enderioalloys:item_material_ender_crystal", 1))
+
     /* -=-=-=-=-=-=-=-=- 6,7,8x Ore Processing -=-=-=-=-=-=-=-=- */
 
     /* -=-=-=-=-=-=-=-=- aromatic acrobatics -=-=-=-=-=-=-=-=- */
@@ -329,7 +335,7 @@ onEvent('recipes', event => {
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
     .requireFluid(Fluid.of("kubejs:liquid_proton", 250))
     .requireFluid(Fluid.of("mekanism:oxygen", 50))
-    .requireEnergy(5000)
+    .requireEnergyPerTick(50000)
     .produceFluid(Fluid.of("kubejs:liquid_positron", 166))
     .produceFluid(Fluid.of("kubejs:liquid_electron_neutrino", 166))
     .produceFluid(Fluid.of("mekanismgenerators:deuterium", 166))
@@ -337,13 +343,13 @@ onEvent('recipes', event => {
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
     .requireFluid(Fluid.of("kubejs:liquid_positron", 250))
     .requireFluid(Fluid.of("kubejs:liquid_electron_neutrino", 250))
-    .requireEnergy(5000)
+    .requireEnergyPerTick(50000)
     .produceFluid(Fluid.of("kubejs:liquid_tau", 250))
 
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
     .requireFluid(Fluid.of("kubejs:liquid_proton", 250))
     .requireFluid(Fluid.of("tconstruct:molten_lead", 144))
-    .requireEnergy(5000)
+    .requireEnergyPerTick(50000)
     .produceFluid(Fluid.of("kubejs:liquid_proton", 50))
     .produceFluid(Fluid.of("kubejs:liquid_anti_positron", 50))
     .produceFluid(Fluid.of("tconstruct:molten_lead", 16))
@@ -351,7 +357,7 @@ onEvent('recipes', event => {
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
     .requireFluid(Fluid.of("kubejs:liquid_positron", 250))
     .requireFluid(Fluid.of("kubejs:liquid_anti_positron", 250))
-    .requireEnergy(5000)
+    .requireEnergyPerTick(50000)
     .produceFluid(Fluid.of("kubejs:liquid_anti_hydrogen", 250))
 
     /* -=-=-=-=-=-=-=-=- prereqs added -=-=-=-=-=-=-=-=- */
