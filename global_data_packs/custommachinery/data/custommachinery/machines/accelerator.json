@@ -15,13 +15,18 @@
       "mode": "input",
       "id": "input1",
       "capacity": 100000,
-      "type": "custommachinery:fluid"
+      "type": "custommachinery:fluid",
+      "filter": ["mekanism:hydrogen"],
+      "whitelist": true
+
     },
     {
       "mode": "output",
       "id": "output1",
       "capacity": 100000,
-      "type": "custommachinery:fluid"
+      "type": "custommachinery:fluid",
+      "filter": ["kubejs:liquid_proton"],
+      "whitelist": true
     },
     {
       "type": "custommachinery:item",

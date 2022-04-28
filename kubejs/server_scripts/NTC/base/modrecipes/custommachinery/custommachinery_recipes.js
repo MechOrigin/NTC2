@@ -333,12 +333,12 @@ onEvent('recipes', event => {
 
     //Collision Chamber
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
-    .requireFluid(Fluid.of("kubejs:liquid_proton", 250))
-    .requireFluid(Fluid.of("mekanism:oxygen", 50))
+    .requireFluid(Fluid.of("kubejs:liquid_proton", 300))
+    //.requireFluid(Fluid.of("mekanism:oxygen", 50))
     .requireEnergyPerTick(50000)
-    .produceFluid(Fluid.of("kubejs:liquid_positron", 166))
-    .produceFluid(Fluid.of("kubejs:liquid_electron_neutrino", 166))
-    .produceFluid(Fluid.of("mekanismgenerators:deuterium", 166))
+    .produceFluid(Fluid.of("kubejs:liquid_positron", 100))
+    .produceFluid(Fluid.of("kubejs:liquid_electron_neutrino", 100))
+    .produceFluid(Fluid.of("mekanismgenerators:deuterium", 100))
 
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
     .requireFluid(Fluid.of("kubejs:liquid_positron", 250))
@@ -351,12 +351,12 @@ onEvent('recipes', event => {
     .requireFluid(Fluid.of("tconstruct:molten_lead", 144))
     .requireEnergyPerTick(50000)
     .produceFluid(Fluid.of("kubejs:liquid_proton", 50))
-    .produceFluid(Fluid.of("kubejs:liquid_anti_positron", 50))
+    .produceFluid(Fluid.of("kubejs:liquid_anti_proton", 50))
     .produceFluid(Fluid.of("tconstruct:molten_lead", 16))
 
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
-    .requireFluid(Fluid.of("kubejs:liquid_positron", 250))
-    .requireFluid(Fluid.of("kubejs:liquid_anti_positron", 250))
+    .requireFluid(Fluid.of("kubejs:liquid_positron", 125))
+    .requireFluid(Fluid.of("kubejs:liquid_anti_proton", 125))
     .requireEnergyPerTick(50000)
     .produceFluid(Fluid.of("kubejs:liquid_anti_hydrogen", 250))
 

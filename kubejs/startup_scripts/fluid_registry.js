@@ -97,10 +97,14 @@ onEvent('fluid.registry', event => {
     // particle physics (without all the physics?)
     event.create('liquid_anti_hydrogen').textureThin(0xffffff).bucketColor(0xffffff).displayName('Anti-Hydrogen Fluid')
     event.create('liquid_proton').textureThin(0xE3256B).bucketColor(0xE3256B).displayName('Proton Fluid')
-    event.create('liquid_anti_positron').textureThin(0x8835fd).bucketColor(0x8835fd).displayName('Anti-Positron Fluid')
+    event.create('liquid_anti_proton').textureThin(0x8835fd).bucketColor(0x8835fd).displayName('Anti-Proton Fluid')
     event.create('liquid_positron').textureThin(0x1e80c7).bucketColor(0x1e80c7).displayName('Positron Fluid')
     event.create('liquid_electron_neutrino').textureThin(0x819293).bucketColor(0x819293).displayName('Electron Neutrino Fluid')
     event.create('liquid_tau').textureThin(0xbf6e1d).bucketColor(0xbf6e1d).displayName('Tau Fluid')
+
+    event.create('liquid_anti_deuterium').textureThin(0x00FF80).bucketColor(0x00FF80).displayName('Anti-Deuterium Fluid')
+    event.create('liquid_anti_tritium').textureThin(0x80FF80).bucketColor(0x80FF80).displayName('Anti-Tritium Fluid')
+    event.create('liquid_anti_helium_3').textureThin(0xFFFF80).bucketColor(0xFFFF80).displayName('Anti-Helium-3 Fluid')
 
     //terpentine from pine
     event.create('liquid_pine_resin').textureThin(0xFFBF00).bucketColor(0xFFBF00).displayName('Liquid Pine Resin')
@@ -109,8 +113,8 @@ onEvent('fluid.registry', event => {
     event.create('liquid_refined_glue').textureThin(0xfff1d9).bucketColor(0xfff1d9).displayName('Liquid Refined Glue')
 
     //aeternium (better end)
-    event.create('molten_aeternium').textureThin(0x2b5f47).bucketColor(0x2b5f47).displayName('Molten Aeternium')
-    event.create('molten_terminite').textureThin(0x42d7c5).bucketColor(0x42d7c5).displayName('Molten Terminite')
+    //event.create('molten_aeternium').textureThin(0x2b5f47).bucketColor(0x2b5f47).displayName('Molten Aeternium')
+    //event.create('molten_terminite').textureThin(0x42d7c5).bucketColor(0x42d7c5).displayName('Molten Terminite')
 
     //sugar
     event.create('molten_sugar').textureThick(0xf6d193).bucketColor(0xf6d193).displayName('Molten Sugar')

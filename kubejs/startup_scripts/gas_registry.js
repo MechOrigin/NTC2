@@ -7,7 +7,11 @@ onEvent('gas.registry', event => {
 
     event.create("proton_gas").color(14886251).displayName('Proton Gas')
     event.create("anti_hydrogen_gas").color(16777215).displayName('Anti Hydrogen Gas')
-    event.create("anti_positron_gas").color(8926717).displayName('Anti Positron Gas')
+    event.create("anti_proton_gas").color(8926717).displayName('Anti Proton Gas')
+
+    event.create("anti_deuterium_gas").color(65408).displayName('Anti Deuterium Gas')
+    event.create("anti_tritium_gas").color(8454016).displayName('Anti Tritium Gas')
+    event.create("anti_helium_3_gas").color(16777088).displayName('Anti Helium-3 Gas')
 
     event.create("secret_spices_gas").color(14286796).displayName('Secret Spices Gas')
 

@@ -50,6 +50,12 @@
       "type": "custommachinery:item"
     },
     {
+      "text": "Upgrade:",
+      "x": 150,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
       "type": "custommachinery:item",
       "id": "upgrade",
       "filter": ["kubejs:upgrade_basic"],

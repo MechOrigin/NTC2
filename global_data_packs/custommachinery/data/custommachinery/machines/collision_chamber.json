@@ -15,13 +15,17 @@
       "mode": "input",
       "id": "input1",
       "capacity": 100000,
-      "type": "custommachinery:fluid"
+      "type": "custommachinery:fluid",
+      "filter": ["kubejs:liquid_proton", "kubejs:liquid_positron"],
+      "whitelist": true
     },
     {
       "mode": "input",
       "id": "input2",
       "capacity": 100000,
-      "type": "custommachinery:fluid"
+      "type": "custommachinery:fluid",
+      "filter": ["tconstruct:molten_lead", "kubejs:liquid_electron_neutrino", "kubejs:liquid_anti_proton"],
+      "whitelist": true
     },
     {
       "mode": "input",

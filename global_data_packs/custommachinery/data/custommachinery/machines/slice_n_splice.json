@@ -9,8 +9,7 @@
       "texture": "custommachinery:textures/gui/base_background.png",
       "x": 0,
       "y": 0,
-      "type": "custommachinery:texture",
-      "maxOutput": 0
+      "type": "custommachinery:texture"
     },
     {
       "x": 47,
@@ -87,12 +86,16 @@
       "type": "custommachinery:text"
     },
     {
-      "type": "custommachinery:item",
       "id": "upgrade",
-      "filter": ["kubejs:upgrade_basic"],
-      "whitelist": true,
-      "mode": "upgrade",
-      "variant": "custommachinery:upgrade"
+      "x": 200,
+      "y": 5,
+      "type": "custommachinery:slot"
+    },
+    {
+      "text": "Upgrade:",
+      "x": 150,
+      "y": 5,
+      "type": "custommachinery:text"
     }
   ],
   "components": [
@@ -139,7 +142,8 @@
     },
     {
       "capacity": 60000,
-      "type": "custommachinery:energy"
+      "type": "custommachinery:energy",
+      "maxOutput": 0
     },
     {
     	"type": "custommachinery:redstone",
@@ -150,6 +154,14 @@
       "x": 150,
       "y": 5,
       "type": "custommachinery:text"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade",
+      "filter": ["kubejs:upgrade_basic"],
+      "whitelist": true,
+      "mode": "upgrade",
+      "variant": "custommachinery:upgrade"
     }
   ]
 }

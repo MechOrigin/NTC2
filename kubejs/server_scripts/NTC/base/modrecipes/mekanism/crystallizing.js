@@ -20,13 +20,13 @@ onEvent('recipes', (event) => {
         },
         {
             gas: 'kubejs:anti_hydrogen_gas',
-            amount: 800,
+            amount: 500,
             output: 'mekanism:pellet_antimatter',
             id: 'mekanism:crystallizing/antihydrogen_antimatter'
         },
         {
             gas: 'kubejs:anti_positron_gas',
-            amount: 900,
+            amount: 1000,
             output: 'mekanism:pellet_antimatter',
             id: 'mekanism:crystallizing/antipositron_antimatter'
         },
