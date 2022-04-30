@@ -30,7 +30,13 @@ onEvent('recipes', (event) => {
             output: 'mekanism:pellet_antimatter',
             id: 'mekanism:crystallizing/antipositron_antimatter'
         },
-        
+        {
+            gas: 'kubejs:universal_mass_gas',
+            amount: 1,
+            output: 'kubejs:uu_matter_2',
+            id: 'mekanism:crystallizing/universal_mass_gas_uumatter'
+        },
+
         {
             gas: 'kubejs:bubbly_aluminum_gas',
             amount: 100,

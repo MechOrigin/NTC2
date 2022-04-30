@@ -6,7 +6,7 @@
 			"requirement": "custommachinery:speed",
 			"mode": "input",
 			"operation": "multiplication",
-			"modifier": 0.5
+			"modifier": 0.10
 		}
 	]
 }

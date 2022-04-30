@@ -13,6 +13,8 @@ onEvent('gas.registry', event => {
     event.create("anti_tritium_gas").color(8454016).displayName('Anti Tritium Gas')
     event.create("anti_helium_3_gas").color(16777088).displayName('Anti Helium-3 Gas')
 
+    event.create("universal_mass_gas").color(10389149).displayName('Universal Mass Gas')
+
     event.create("secret_spices_gas").color(14286796).displayName('Secret Spices Gas')
 
     event.create("dip_gas").color(3407667).displayName('Dip Gas')

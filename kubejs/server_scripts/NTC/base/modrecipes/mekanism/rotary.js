@@ -27,6 +27,12 @@ onEvent('recipes', (event) => {
                 fluidOutput: { amount: 1, fluid: 'kubejs:liquid_secret_spices' }
             },
             {
+                fluidInput: { amount: 1, fluid: 'kubejs:liquid_universal_mass' },
+                gasOutput: { amount: 1, gas: 'kubejs:universal_mass_gas' },
+                gasInput: { amount: 1, gas: 'kubejs:universal_mass_gas' },
+                fluidOutput: { amount: 1, fluid: 'kubejs:liquid_universal_mass' }
+            },
+            {
                 fluidInput: { amount: 1, fluid: 'kubejs:liquid_dip' },
                 gasOutput: { amount: 1, gas: 'kubejs:dip_gas' },
                 gasInput: { amount: 1, gas: 'kubejs:dip_gas' },

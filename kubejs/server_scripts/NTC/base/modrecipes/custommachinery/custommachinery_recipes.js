@@ -360,6 +360,30 @@ onEvent('recipes', event => {
     .requireEnergyPerTick(50000)
     .produceFluid(Fluid.of("kubejs:liquid_anti_hydrogen", 250))
 
+
+    // Mass Fabricator
+
+    event.recipes.custommachinery.custom_machine("custommachinery:mekanism_matter/mass_fabricator", 20)
+    .requireItem(Item.of("appliedenergistics2:singularity", 1), "input1")
+    .requireEnergyPerTick(50000)
+    .produceItem(Item.of("kubejs:uu_matter_2", 1))
+
+    event.recipes.custommachinery.custom_machine("custommachinery:mekanism_matter/mass_fabricator", 100)
+    .requireItem(Item.of("appliedenergistics2:matter_ball", 1), "input1")
+    .requireEnergyPerTick(150000)
+    .produceItem(Item.of("kubejs:uu_matter_2", 1))
+
+    event.recipes.custommachinery.custom_machine("custommachinery:mekanism_matter/mass_fabricator", 400)
+    .requireEnergyPerTick(200000)
+    .produceItem(Item.of("kubejs:uu_matter_2", 1))
+
+    // Antimatter Synthesizer
+    event.recipes.custommachinery.custom_machine("custommachinery:mekanism_matter/antimatter_synthesizer", 100)
+    .requireItem(Item.of("mekanism:pellet_antimatter", 1), "input1")
+    .requireEnergyPerTick(50000)
+    .produceFluid(Fluid.of("kubejs:liquid_universal_mass", 1000))
+
+
     /* -=-=-=-=-=-=-=-=- prereqs added -=-=-=-=-=-=-=-=- */
     //Chemical Reactor
     event.recipes.custommachinery.custom_machine("custommachinery:chemical_reactor", 100)

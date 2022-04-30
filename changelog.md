@@ -710,7 +710,7 @@ Removed the ae2 ender dust recipe from the pulse centrifuge and fixed the duplic
 updated lazierae2 to fix a couple bugs: recipe output amount not being correctly serialized, insertion/extraction not correctly respecting the side configuration
 updated projectexpansion
 updated spark
-added upgrade slots for assembler and slice'n'splice
+added upgrade slots for assembler and slice'n'splice, and fixed ore leacher
 fixed centrifuge recipes not giving back correct emc links
 Added time in a bottle singularity for WoFT recipe
 fixed custom machine pollution showing recipes for machine blocks
@@ -723,7 +723,7 @@ Changed nuclear fuels to output non spent nuclear waste instead
 Added a bunch of ingot singularities and uumatter, antimatter, californium-250
 Fixed block recipes for end resin processor
 Changed final star and final star shard 
-fixed antimatter pellets amounts given by antimatter gas
+fixed antimatter pellets amounts given by antimatter gas from anti protons and anti hydrogen
 machine tier installer works on mek tanks, make a note of that in quest book
 increase power consumption for custom machine antimatter stuff
 fixed netherite induction smelter recipe
@@ -732,14 +732,17 @@ added another way to get betterendforge:crystal_shards via pulse centrifuge
 Added new chain of enderio alloys and crystals: vibrant crystal, vibrant alloy, energetic alloy, ender crystal
 fix slice n splice gui error
 Added fluid filter tags to Accelerator and Collision Chamber
+Reworked antihydrogen, and added antideuterium, antitritium, antihelium-3
+added tags to custom machine input and outputs so that fluid filters dont get garbled
+
+
+
 
 fix tinkers tool parts that dont work
-antimatter synth turns 1 antimatter pellet into uu matter, add a reverse recipe
 write kubejs script for final star to dupe anything
 disable copper cans in mechanical squeezer
 remove mekanism matter and remake everyting in kubejs
-add tags to custom machine input and outputs so that fluid filters dont get garbled
-antihydrogen, antideuterium, antitritium, antihelium-3
+
 
 
 

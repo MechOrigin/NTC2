@@ -106,6 +106,8 @@ onEvent('fluid.registry', event => {
     event.create('liquid_anti_tritium').textureThin(0x80FF80).bucketColor(0x80FF80).displayName('Anti-Tritium Fluid')
     event.create('liquid_anti_helium_3').textureThin(0xFFFF80).bucketColor(0xFFFF80).displayName('Anti-Helium-3 Fluid')
 
+    event.create('liquid_universal_mass').textureThin(0x9e869d).bucketColor(0x9e869d).displayName('Universal Mass Fluid')
+
     //terpentine from pine
     event.create('liquid_pine_resin').textureThin(0xFFBF00).bucketColor(0xFFBF00).displayName('Liquid Pine Resin')
 

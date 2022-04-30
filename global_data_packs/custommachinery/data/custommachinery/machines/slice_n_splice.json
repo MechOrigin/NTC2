@@ -96,6 +96,11 @@
       "x": 150,
       "y": 5,
       "type": "custommachinery:text"
+    },
+    {
+      "type": "custommachinery:reset",
+      "x": 200,
+      "y": 5
     }
   ],
   "components": [
@@ -135,12 +140,6 @@
       "type": "custommachinery:item"
     },
     {
-      "mode": "input",
-      "id": "upgrade",
-      "type": "custommachinery:item",
-      "variant": "custommachinery:upgrade"
-    },
-    {
       "capacity": 60000,
       "type": "custommachinery:energy",
       "maxOutput": 0
@@ -148,12 +147,6 @@
     {
     	"type": "custommachinery:redstone",
     	"poweroutput": 15
-    },
-    {
-      "text": "Upgrade:",
-      "x": 150,
-      "y": 5,
-      "type": "custommachinery:text"
     },
     {
       "type": "custommachinery:item",

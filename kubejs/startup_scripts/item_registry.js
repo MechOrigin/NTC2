@@ -49,6 +49,11 @@ onEvent('item.registry', event => {
     //event.create('calcium_carbonate').displayName('Calcium Carbonate')
     event.create('calcium_acetate').displayName('Calcium Acetate')
 
+    //Custom built mekanism matter stuff
+    event.create('uu_matter_2').displayName('Universal Mass')
+    event.create('scrap_2').displayName('Scrap') //not going to use--use matter ball instead
+    event.create('scrap_box_2').displayName('Scrapbox') //not going to use--use singularity instead
+
     const generalItems = [];
 
     // Used for custom 8x, 16x, 32x ore processing

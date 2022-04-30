@@ -5,6 +5,7 @@
     "value": {
       "biome_provider": {
         "seed": 3164228973398333521,
+        "settings": "minecraft:overworld",
         "game_data": {},
         "generator_settings": {
           "miscellaneous": {

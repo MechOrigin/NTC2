@@ -1,41 +1,26 @@
 {
-  "name": "Chemical Mixer",
+  "name": "Antimatter Synthesizer",
   "appearance": {
     "lightmode": "running",
     "lightlevel": 7,
-    "model": "testresourcepack:machine/stone_generator_model"
+    "model": "testresourcepack:machine/antimatter_synthesizer"
   },
   "components": [
     {
-      "capacity": 100000,
+      "capacity": 1000000,
       "type": "custommachinery:energy",
       "maxOutput": 0
     },
     {
       "mode": "input",
       "id": "input1",
-      "capacity": 100000,
-      "type": "custommachinery:fluid"
-    },
-    {
-      "mode": "input",
-      "id": "input2",
-      "capacity": 100000,
-      "type": "custommachinery:fluid"
+      "type": "custommachinery:item"
     },
     {
       "mode": "output",
       "id": "output1",
       "capacity": 100000,
       "type": "custommachinery:fluid"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "upgrade",
-      "filter": ["kubejs:upgrade_basic"],
-      "whitelist": true,
-      "mode": "upgrade",
-      "variant": "custommachinery:upgrade"
     }
   ],
   "gui": [
@@ -56,19 +41,13 @@
       "type": "custommachinery:energy"
     },
     {
-      "x": 67,
-      "y": 30,
-      "type": "custommachinery:fluid",
-      "id": "input1"
+      "id": "input1",
+      "x": 107,
+      "y": 56,
+      "type": "custommachinery:slot"
     },
     {
-      "x": 87,
-      "y": 30,
-      "type": "custommachinery:fluid",
-      "id": "input2"
-    },
-    {
-      "x": 137,
+      "x": 139,
       "y": 30,
       "type": "custommachinery:fluid",
       "id": "output1"
@@ -84,20 +63,8 @@
       "type": "custommachinery:status"
     },
     {
-      "text": "Chemical Mixer",
+      "text": "Antimatter Synthesizer",
       "x": 7,
-      "y": 5,
-      "type": "custommachinery:text"
-    },
-    {
-      "id": "upgrade",
-      "x": 200,
-      "y": 5,
-      "type": "custommachinery:slot"
-    },
-    {
-      "text": "Upgrade:",
-      "x": 150,
       "y": 5,
       "type": "custommachinery:text"
     },
@@ -106,6 +73,5 @@
       "x": 200,
       "y": 5
     }
-    
   ]
 }
