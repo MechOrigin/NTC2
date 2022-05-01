@@ -167,6 +167,12 @@ onEvent('jei.hide.items', event => {
 
         'avaritia:neutron_collector',
         'avaritia:neutronium_compressor',
+        'avaritia:record_fragment',
+        'avaritia:\\w+/_singularity/',
+        'avaritia:ultimate_stew',
+        'avaritia:cosmic_meatballs',
+        'avaritia:\\w+/_crafting_table',
+
 
         'immersiveengineering:coke',
         'immersiveengineering:ingot_constantan',

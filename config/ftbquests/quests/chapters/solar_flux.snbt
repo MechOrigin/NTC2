@@ -159,6 +159,12 @@
 				type: "item"
 				item: "solarflux:sp_3"
 			}]
+			rewards: [{
+				id: "24F9130F78B2BF76"
+				type: "item"
+				item: "solarflux:sp_3"
+				count: 4
+			}]
 		}
 		{
 			x: 3.0d
@@ -169,6 +175,12 @@
 				id: "7A2DC863D8C96950"
 				type: "item"
 				item: "solarflux:sp_4"
+			}]
+			rewards: [{
+				id: "756767F3090FF1E0"
+				type: "item"
+				item: "solarflux:sp_4"
+				count: 4
 			}]
 		}
 		{
@@ -181,6 +193,12 @@
 				type: "item"
 				item: "solarflux:sp_5"
 			}]
+			rewards: [{
+				id: "53ECDEC34F004EE8"
+				type: "item"
+				item: "solarflux:sp_5"
+				count: 4
+			}]
 		}
 		{
 			x: 5.0d
@@ -191,6 +209,12 @@
 				id: "6615BE5E34AF1BE5"
 				type: "item"
 				item: "solarflux:sp_6"
+			}]
+			rewards: [{
+				id: "101627AEC4972BE8"
+				type: "item"
+				item: "solarflux:sp_6"
+				count: 4
 			}]
 		}
 		{
@@ -203,6 +227,12 @@
 				type: "item"
 				item: "solarflux:sp_7"
 			}]
+			rewards: [{
+				id: "09EB48E723206C00"
+				type: "item"
+				item: "solarflux:sp_7"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d
@@ -213,6 +243,12 @@
 				id: "32D705FD3F3808D5"
 				type: "item"
 				item: "solarflux:sp_8"
+			}]
+			rewards: [{
+				id: "3176DE65ADC5F66A"
+				type: "item"
+				item: "solarflux:sp_8"
+				count: 4
 			}]
 		}
 		{

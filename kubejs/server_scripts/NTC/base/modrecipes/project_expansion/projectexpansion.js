@@ -194,6 +194,6 @@ events.listen('recipes', function (event) {
   event.shaped('1x projectexpansion:final_star_shard', ['LLL', 'LML', 'LLL'], {
     L: 'projectexpansion:colossal_star_omega',
     M: 'extendedcrafting:the_ultimate_block'
-  }).id(`ntc2:projectexpansion/final_star`)
+  }).id(`ntc2:projectexpansion/final_star_shard`)
 
 })

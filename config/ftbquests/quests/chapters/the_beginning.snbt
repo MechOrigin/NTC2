@@ -883,7 +883,7 @@
 			x: -2.0d
 			y: -5.5d
 			subtitle: "{ntc2.endportal.subtitle}"
-			description: ["The End portal frame can be broken with a silk touch pickaxe. Tinkers version of silk touch also works."]
+			description: ["The End portal frame can be broken with a silk touch pickaxe. There's a silky cloth recipe for a special pickaxe: &bCincinnasite-Diamond Pickaxe&r"]
 			hide_dependency_lines: true
 			dependencies: ["5E2B93DCD6093AF1"]
 			id: "1A1E79CAE911372A"

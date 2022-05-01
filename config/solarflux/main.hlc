@@ -17,74 +17,74 @@
   +F:Pickup Energy Loss=5.0
 
   +C:Solar Panel 1={
-    +L:Capacity=25000
+    +L:Capacity=2500000
 
-    +L:Generation Rate=1
+    +L:Generation Rate=100
 
-    +L:Transfer Rate=8
+    +L:Transfer Rate=800
 
   }
 
   +C:Solar Panel 2={
-    +L:Capacity=125000
+    +L:Capacity=12500000
 
-    +L:Generation Rate=8
+    +L:Generation Rate=800
 
-    +L:Transfer Rate=64
+    +L:Transfer Rate=6400
 
   }
 
   +C:Solar Panel 3={
-    +L:Capacity=425000
+    +L:Capacity=42500000
 
-    +L:Generation Rate=32
+    +L:Generation Rate=3200
 
-    +L:Transfer Rate=256
+    +L:Transfer Rate=25600
 
   }
 
   +C:Solar Panel 4={
-    +L:Capacity=2000000
+    +L:Capacity=200000000
 
-    +L:Generation Rate=128
+    +L:Generation Rate=12800
 
-    +L:Transfer Rate=1024
+    +L:Transfer Rate=102400
 
   }
 
   +C:Solar Panel 5={
-    +L:Capacity=8000000
+    +L:Capacity=800000000
 
-    +L:Generation Rate=512
+    +L:Generation Rate=51200
 
-    +L:Transfer Rate=4096
+    +L:Transfer Rate=409600
 
   }
 
   +C:Solar Panel 6={
-    +L:Capacity=32000000
+    +L:Capacity=3200000000
 
-    +L:Generation Rate=2048
+    +L:Generation Rate=204800
 
-    +L:Transfer Rate=16348
+    +L:Transfer Rate=1634800
 
   }
 
   +C:Solar Panel 7={
-    +L:Capacity=64000000
+    +L:Capacity=6400000000
 
-    +L:Generation Rate=8192
+    +L:Generation Rate=819200
 
-    +L:Transfer Rate=65536
+    +L:Transfer Rate=6553600
 
   }
 
   +C:Solar Panel 8={
-    +L:Capacity=128000000
+    +L:Capacity=12800000000
 
-    +L:Generation Rate=32768
+    +L:Generation Rate=3276800
 
-    +L:Transfer Rate=262144
+    +L:Transfer Rate=26214400
 
   }
 

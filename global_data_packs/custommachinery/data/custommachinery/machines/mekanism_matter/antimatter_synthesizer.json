@@ -70,8 +70,8 @@
     },
     {
       "type": "custommachinery:reset",
-      "x": 200,
-      "y": 5
+      "x": 5,
+      "y": 60
     }
   ]
 }

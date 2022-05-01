@@ -730,18 +730,19 @@ fixed netherite induction smelter recipe
 added another way to get betterendforge:ender_shard via botany pots with chorus flower
 added another way to get betterendforge:crystal_shards via pulse centrifuge
 Added new chain of enderio alloys and crystals: vibrant crystal, vibrant alloy, energetic alloy, ender crystal
-fix slice n splice gui error
+fix slice n splice gui error and several other gui QOL's
 Added fluid filter tags to Accelerator and Collision Chamber
-Reworked antihydrogen, and added antideuterium, antitritium, antihelium-3
+Reworked antihydrogen, and added antideuterium, antitritium, antihelium-3 for later
 added tags to custom machine input and outputs so that fluid filters dont get garbled
-
-
+removed mekanism matter and remade everyting necessary in kubejs
+Added some end game stuff, mek creative cube, fluid tank, gas tank
 
 
 fix tinkers tool parts that dont work
 write kubejs script for final star to dupe anything
 disable copper cans in mechanical squeezer
-remove mekanism matter and remake everyting in kubejs
+
+
 
 
 

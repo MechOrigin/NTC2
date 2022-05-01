@@ -154,6 +154,7 @@
 		{
 			x: 9.0d
 			y: 4.0d
+			subtitle: "&bCraftable&r"
 			id: "29357AE73DC54BEE"
 			tasks: [{
 				id: "745E04C227C03CA8"
@@ -164,6 +165,7 @@
 		{
 			x: 9.0d
 			y: 5.0d
+			subtitle: "&bCraftable&r"
 			id: "207C7B082E25D02B"
 			tasks: [{
 				id: "03FEF00D10B6B99D"
@@ -188,6 +190,7 @@
 		{
 			x: 0.0d
 			y: 4.0d
+			subtitle: "&bCraftable&r"
 			id: "3ED2CD9AD3F3A5FA"
 			tasks: [{
 				id: "3E43830AE8645D20"
@@ -278,12 +281,65 @@
 		{
 			x: 10.0d
 			y: 2.0d
+			subtitle: "&bDoesn't do much yet, but expect to dupe infinitely&r"
 			dependencies: ["6BE563428B7219E3"]
 			id: "1742DFAB8F5074FE"
 			tasks: [{
 				id: "39AD831D023DC839"
 				type: "item"
 				item: "projectexpansion:final_star"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.0d
+			id: "267F11EE3C6F2965"
+			tasks: [{
+				id: "6706C67BC79C9B42"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "abilities"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			id: "6E36F3649D6B47D6"
+			tasks: [{
+				id: "612CF28C154154EB"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "souls"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			id: "7E5540FCCF52CFCC"
+			tasks: [{
+				id: "144A71403B51869F"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 5.0d
+			id: "23F5AB6DB96EB8B2"
+			tasks: [{
+				id: "2AA7FCE928A4A8C4"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
 			}]
 		}
 	]
