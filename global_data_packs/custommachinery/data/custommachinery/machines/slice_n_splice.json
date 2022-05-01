@@ -140,7 +140,7 @@
       "type": "custommachinery:item"
     },
     {
-      "capacity": 60000,
+      "capacity": 1000000,
       "type": "custommachinery:energy",
       "maxOutput": 0
     },

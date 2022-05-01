@@ -301,8 +301,8 @@ mekanism:ore_retrogen
 immersiveengineering:mineral_vein
 immersiveengineering:ie_ore
 immersiveengineering:ore_retro
-adlods:deposit_generator
 adlods:vanilla_controller
+adlods:deposit_generator
 terraforged:template
 terraforged:disk
 terraforged:freeze_top_layer
@@ -402,7 +402,6 @@ upgrade_aquatic:driftwood
 upgrade_aquatic:dunes
 upgrade_aquatic:river_tree
 appliedenergistics2:charged_quartz_ore
-mekanismmatter:naquadah_ore
 mysticalagriculture:soulstone
 tconstruct:slime_tree
 tconstruct:slime_fungus

@@ -7,7 +7,7 @@
   },
   "components": [
     {
-      "capacity": 100000,
+      "capacity": 1000000,
       "type": "custommachinery:energy",
       "maxOutput": 0
     },

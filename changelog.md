@@ -736,6 +736,7 @@ Reworked antihydrogen, and added antideuterium, antitritium, antihelium-3 for la
 added tags to custom machine input and outputs so that fluid filters dont get garbled
 removed mekanism matter and remade everyting necessary in kubejs
 Added some end game stuff, mek creative cube, fluid tank, gas tank
+Changed energy buffer in custom machines to 1mill (1000000)
 
 
 fix tinkers tool parts that dont work

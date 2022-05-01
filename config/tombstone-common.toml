@@ -207,6 +207,9 @@
 	undead_boss_life_for_drop = 200
 	#Entities that can't found as loot in a Familiar Receptacle
 	unhandled_tameable_entities = []
+	#Maximum xp rewarded with a Lost Page of ErdÃ¶s [1..200000|default:2000]
+	#Range: 1 ~ 200000
+	max_xp_lost_page = 2000
 
 #Allows to enable some features related to others mods
 [compatibility]
