@@ -1190,5 +1190,28 @@
 				count: 8
 			}]
 		}
+		{
+			x: -7.0d
+			y: -8.0d
+			dependencies: ["7E536A7208CA67AD"]
+			id: "71ED6FE0D85E6E49"
+			tasks: [{
+				id: "34BEE397B0EAE8E5"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_energetic_alloy"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -8.0d
+			hide_dependency_lines: false
+			dependencies: ["71ED6FE0D85E6E49"]
+			id: "14D81444EC867C13"
+			tasks: [{
+				id: "2E7E6E0C7C00FE9E"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vibrant_alloy"
+			}]
+		}
 	]
 }

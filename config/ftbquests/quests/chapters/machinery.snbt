@@ -17,6 +17,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			subtitle: "&bLook in JEI&r"
 			dependencies: ["78D1D66BEBB15FDA"]
 			id: "7B4094399A7578CF"
 			tasks: [{
@@ -93,6 +94,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
+			subtitle: "&bLook in JEI&r"
 			id: "2B81C68E9776036B"
 			tasks: [{
 				id: "728B5D001CF8B538"
@@ -179,6 +181,7 @@
 		{
 			x: -7.0d
 			y: -8.5d
+			subtitle: "&bLook in JEI&r"
 			id: "70A5CDEA1BB85AA1"
 			tasks: [{
 				id: "406F3D74488C2201"
@@ -205,6 +208,7 @@
 		{
 			x: -5.0d
 			y: -8.5d
+			subtitle: "&bLook in JEI&r"
 			id: "3DC56C296D3F6789"
 			tasks: [{
 				id: "3B507DAA9C631F22"
@@ -231,6 +235,7 @@
 		{
 			x: -3.0d
 			y: -8.5d
+			subtitle: "&bLook in JEI&r"
 			id: "55C640FB146AF7CA"
 			tasks: [{
 				id: "312DC6C96D374BBB"
@@ -257,6 +262,7 @@
 		{
 			x: -1.0d
 			y: -8.5d
+			subtitle: "&bLook in JEI&r"
 			id: "351943F2D9318D84"
 			tasks: [{
 				id: "02A5BD212722A260"
@@ -283,6 +289,7 @@
 		{
 			x: 1.0d
 			y: -8.5d
+			subtitle: "&bLook in JEI&r"
 			id: "42944035F4957D24"
 			tasks: [{
 				id: "2D73B597CEADA48F"
@@ -309,6 +316,7 @@
 		{
 			x: 3.0d
 			y: -8.5d
+			subtitle: "&bLook in JEI&r"
 			id: "19AB162EB9233DBD"
 			tasks: [{
 				id: "3B3BD1D14AE590D1"
@@ -370,6 +378,85 @@
 				id: "5FB78E7766C778EA"
 				type: "item"
 				item: "enderioalloys:item_material_skull_ender_resonator"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "&bLook in JEI&r"
+			id: "2AF48CA4A99C1BA9"
+			tasks: [{
+				id: "1CDEA58489004FF7"
+				type: "item"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:mekanism_matter/mass_fabricator"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							machine: "custommachinery:mekanism_matter/mass_fabricator"
+						}
+						display: {
+							Name: "{\"text\":\"Mass Fabricator\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "&bLook in JEI&r"
+			id: "08FDADF6D323C3D5"
+			tasks: [{
+				id: "3B97E28EEE1F986B"
+				type: "item"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:mekanism_matter/antimatter_synthesizer"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							machine: "custommachinery:mekanism_matter/antimatter_synthesizer"
+						}
+						display: {
+							Name: "{\"text\":\"Antimatter Synthesizer\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["2AF48CA4A99C1BA9"]
+			id: "446945164E3E0A0A"
+			tasks: [{
+				id: "2CB89F8C409FFD82"
+				type: "item"
+				item: "kubejs:uu_matter_2"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "2E58D83B56BB8144"
+			tasks: [{
+				id: "296A2F9D90F9C773"
+				type: "item"
+				item: "enderioalloys:item_material_ender_crystal"
 			}]
 		}
 	]

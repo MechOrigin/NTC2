@@ -116,7 +116,7 @@
 		}
 		{
 			x: 2.5d
-			y: -3.0d
+			y: -2.5d
 			dependencies: ["5C6AE715D8C5367C"]
 			id: "0EA4232AA319EE24"
 			tasks: [{
@@ -127,7 +127,8 @@
 		}
 		{
 			x: 3.5d
-			y: -3.0d
+			y: -2.5d
+			hide_dependency_lines: true
 			dependencies: ["5C6AE715D8C5367C"]
 			id: "0C013DEBF85EB6D6"
 			tasks: [{
@@ -138,7 +139,8 @@
 		}
 		{
 			x: 4.5d
-			y: -3.0d
+			y: -2.5d
+			hide_dependency_lines: true
 			dependencies: ["5C6AE715D8C5367C"]
 			id: "78D1D66BEBB15FDA"
 			tasks: [{
@@ -236,6 +238,17 @@
 				id: "20C920380471C466"
 				type: "item"
 				item: "packagedexcrafting:basic_crafter"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["5C6AE715D8C5367C"]
+			id: "461D75E058FDBA8C"
+			tasks: [{
+				id: "0885946F1322E832"
+				type: "item"
+				item: "enderioalloys:item_material_vibrant_crystal"
 			}]
 		}
 	]

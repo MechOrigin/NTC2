@@ -5,7 +5,7 @@ mods.jei.JEI.addInfo(<item:quark:biotite>, ["Gems that can be harvested from Bio
 
 mods.jei.JEI.addInfo(<item:minecraft:mycelium>, ["Can be obtained by using Ancient Spores on Dirt."]);
 
-mods.jei.JEI.addInfo(<item:mekanismmatter:naquadah_ore>, ["Can be obtained in the End."]);
+//mods.jei.JEI.addInfo(<item:mekanismmatter:naquadah_ore>, ["Can be obtained in the End."]);
 
 mods.jei.JEI.addInfo(<item:quark:sturdy_stone>, ["Stronger material that can't be pushed by a piston. Crafted by arranging any Stone and any Cobblestone."]);
 

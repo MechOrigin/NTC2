@@ -737,6 +737,7 @@ added tags to custom machine input and outputs so that fluid filters dont get ga
 removed mekanism matter and remade everyting necessary in kubejs
 Added some end game stuff, mek creative cube, fluid tank, gas tank
 Changed energy buffer in custom machines to 1mill (1000000)
+Basically 100x all solar flux panels, and recipes now output 4 panels
 
 
 fix tinkers tool parts that dont work
