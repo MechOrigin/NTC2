@@ -750,6 +750,7 @@ Fixed Collison chamber
 fix tinkers tool parts that dont work
 write kubejs script for final star to dupe anything
 disable copper cans in mechanical squeezer
+make questnotes for pollution in depth
 
 
 
