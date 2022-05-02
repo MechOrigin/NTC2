@@ -75,7 +75,7 @@ onEvent('recipes', event => {
 
     //fluid centrifuge
     event.recipes.custommachinery.custom_machine("custommachinery:fluid_centrifuge", 100)
-    .requireFluid(Fluid.of("thermal:heavy_oil", 1000))
+    .requireFluid(Fluid.of("thermal:heavy_oil", 1000), "input1")
     .requireEnergy(5000)
     .produceFluid(Fluid.of("kubejs:liquid_benzene", 250))
     .produceFluid(Fluid.of("kubejs:liquid_toluene", 250))
