@@ -17,13 +17,13 @@ onEvent('recipes', e => {
 
 
   //mass fabricator
-  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:mekanism_matter/mass_fabricator"}'), 1,
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:mekanism_matter/mass_fabricator"}'),
   ['ABA', 'CDC', 'ABA'], {
     A: 'mekanism:alloy_atomic',
     B: 'mekanism:ultimate_control_circuit',
     C: 'mekanism:steel_casing',
     D: 'mekanism:antiprotonic_nucleosynthesizer'
-  }).id(`custommachinery:mekanism_matter/mass_fabricator`)
+  }).id(`ntc2:mass_fabricator`)
 
   //antimatter synthesizer
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:mekanism_matter/antimatter_synthesizer"}'),
@@ -33,7 +33,7 @@ onEvent('recipes', e => {
     C: 'mekanism:steel_casing',
     D: 'mekanism:pellet_antimatter',
     E: 'kubejs:uu_matter_2'
-  }).id(`custommachinery:mekanism_matter/antimatter_synthesizer`)
+  }).id(`ntc2:antimatter_synthesizer`)
 
   // uu matter
   e.shaped(Item.of('minecraft:bone', 32), ['A  ', 'AA ', 'A  '], {
