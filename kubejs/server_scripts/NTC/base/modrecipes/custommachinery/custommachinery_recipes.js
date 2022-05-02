@@ -334,7 +334,6 @@ onEvent('recipes', event => {
     //Collision Chamber
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
     .requireFluid(Fluid.of("kubejs:liquid_proton", 300))
-    //.requireFluid(Fluid.of("mekanism:oxygen", 50))
     .requireEnergyPerTick(50000)
     .produceFluid(Fluid.of("kubejs:liquid_positron", 100))
     .produceFluid(Fluid.of("kubejs:liquid_electron_neutrino", 100))

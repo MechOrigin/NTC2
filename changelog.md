@@ -740,6 +740,13 @@ Changed energy buffer in custom machines to 1mill (1000000)
 Basically 100x all solar flux panels, and recipes now output 4 panels
 
 
+
+1.4.2:
+Fixed new custom machine recipes not showing
+Fixed Collison chamber
+
+
+
 fix tinkers tool parts that dont work
 write kubejs script for final star to dupe anything
 disable copper cans in mechanical squeezer
