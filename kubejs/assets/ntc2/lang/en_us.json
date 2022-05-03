@@ -22,7 +22,7 @@
     "ntc2.gotoquests.title":"&4Go To&r Quests",
     "ntc2.gotoquests.subtitle":"&6Round quests&r will take you to another page.",
 
-    "ntc2.stone.subtitle":"&eEMCable&4",
+    "ntc2.stone.subtitle":"&eEMCable&r",
     "ntc2.stone.desc1":"Gather Stone to make Sturdy Stone",
     "ntc2.stone.desc2":"&oThe reward is String",
 
@@ -35,7 +35,7 @@
 
     "ntc2.inksac.desc1": "After completing &bOn the Dynamics of Integration&r Guide book, you will get a squid and some ink.",
 
-    "ntc2.cobble.subtitle":"&eEMCable&4",
+    "ntc2.cobble.subtitle":"&eEMCable&r",
     "ntc2.cobble.desc1":"Gather Cobblestone to make Sturdy Stone",
 
 
@@ -57,9 +57,9 @@
     "ntc2.sturdy.subtitle":"Stone that makes sense",
 
     "ntc2.furnace.subtitle":"&n&o&2The Staple of Smelting&r",
-    "ntc2.quartz.subtitle":"&eEMCable&4",
+    "ntc2.quartz.subtitle":"&eEMCable&r",
     "ntc2.redstoneingot.subtitle":"Required to make Piston and progress in automation",
-    "ntc2.clayball.subtitle":"&eEMCable&4",
+    "ntc2.clayball.subtitle":"&eEMCable&r",
     "ntc2.netherquartz.desc1":"Try sieving soul sand with a flint mesh",
     "ntc2.terracottaplate.subtitle":"Can be used to make early game plate casts",
     "ntc2.cocoabeans.subtitle":"Sieve Sand to get Cocoa Beans",
@@ -74,7 +74,7 @@
     "ntc2.grindstone.desc2":"Simply insert the items you wish to crush into the left slots, place a &bCrank&r on top of the block, and then hold right-click on the Crank.",
     "ntc2.grindstone.desc3":"This will slowly grind the blocks, turning them to dust. If there are no inputs, this has a chance of destroying the Crank.",
 
-    "ntc2.sand.subtitle":"&eEMCable&4",
+    "ntc2.sand.subtitle":"&eEMCable&r",
     "ntc2.sand.desc1":"Place Cobblestone down and right click with the Philosophers Stone to make it into Sand.",
     "ntc2.sand.desc2":"Craft 4 Sand together to make Sandstone.",
 
@@ -88,7 +88,7 @@
     "ntc2.flint.desc1":"Maybe you'll get lucky and break a gravel and get some flint",
 
     "ntc2.plank.title":"Any Planks",
-    "ntc2.plank.subtitle":"&eEMCable&4",
+    "ntc2.plank.subtitle":"&eEMCable&r",
     "ntc2.plank.desc1":"Gather Wood",
 
     "ntc2.craftingtable.subtitle":"&n&o&2The Staple of Crafting&r",
@@ -145,7 +145,7 @@
     "ntc2.stonebarrel.subtitle":"Required for molten fluids",
 
     "ntc2.redstone.desc1":"Redstone Chunks can be awarded from completing the Drying Basin. Congratulations on getting redstone, this will bring you to automation!",
-    "ntc2.redstone.desc2":"Redstone can also be aquired from sifting Dust with an Iron Mesh.",
+    "ntc2.redstone.desc2":"Redstone can also be acquired from sifting Dust with an Iron Mesh.",
 
     "ntc2.akashic.subtitle":"All in one place",
     "ntc2.akashic.desc1":"A place to store all your books and wrenches.",
@@ -167,7 +167,7 @@
     "ntc2.mushrooms.desc5":"Bonemealing Mycelium will yield red/brown mushrooms.",
     "ntc2.mushrooms.desc6":"Agricraft, crop mutation between potatoes and carrots.",
 
-    "ntc2.rabbit.desc1":"Rabbit hide can be aquired from the paper quest.",
+    "ntc2.rabbit.desc1":"Rabbit hide can be acquired from the paper quest.",
 
     "ntc2.lava.subtitle":"Place Obsidian down and right click with the Philosophers Stone to make it into lava. Make sure you have a bucket handy to pick it up right away!",
     "ntc2.lava.desc1":"If you use this method, it should go without saying you should probably not build your platform out of wood.",
