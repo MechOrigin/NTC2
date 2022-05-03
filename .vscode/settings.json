@@ -1,0 +1,5 @@
+{
+    "discord-chat.hideMutedServers": true,
+    "discord-chat.hideMutedChannels": true,
+    "discord-chat.hideEmptyTree": true
+}
