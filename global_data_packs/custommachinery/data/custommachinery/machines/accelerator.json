@@ -98,6 +98,12 @@
       "type": "custommachinery:reset",
       "x": 5,
       "y": 60
-    }
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 20,
+      "y": 20,
+      "id": "tank1"
+  }
   ]
 }
