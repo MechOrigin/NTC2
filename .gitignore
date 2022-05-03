@@ -37,3 +37,5 @@ usercache.json
 usernamecache.json
 local/
 .mixin.out
+.vscode/
+.vscode/settings.json
