@@ -205,7 +205,7 @@ onEvent('recipes', (event) => {
                 '#forge:glass_panes', // top 
                 '#forge:glass_panes', // top right
                 '#forge:glass_panes', // left
-                '#forge:dyes/grey', // right
+                '#forge:dyes/gray', // right
             ],
             inputFluid: 'thermal:latex',
             inputFluidAmount: 250,
@@ -220,7 +220,7 @@ onEvent('recipes', (event) => {
                 '#forge:glass_panes', // top 
                 '#forge:glass_panes', // top right
                 '#forge:glass_panes', // left
-                '#forge:dyes/light_grey', // right
+                '#forge:dyes/light_gray', // right
             ],
             inputFluid: 'thermal:latex',
             inputFluidAmount: 250,

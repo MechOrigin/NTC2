@@ -19,7 +19,7 @@
     {
       "mode": "output",
       "id": "output1",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid"
     }
   ],

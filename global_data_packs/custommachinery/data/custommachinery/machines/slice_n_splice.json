@@ -64,12 +64,6 @@
       "type": "custommachinery:slot"
     },
     {
-      "id": "upgrade",
-      "x": 116,
-      "y": 50,
-      "type": "custommachinery:slot"
-    },
-    {
       "x": 116,
       "y": 30,
       "type": "custommachinery:progress"
