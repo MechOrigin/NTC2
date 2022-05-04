@@ -336,6 +336,22 @@ onEvent('recipes', (event) => {
                 ]
             }
         ],
+        end_resin_processor: [
+            {
+                type: 'compactcrafting:mixed',
+                pattern: [
+                    ["P", "P", "P", "P"],
+                    ["O", "C", "E", "I"]
+                ]
+            },
+            {
+                type: 'compactcrafting:mixed',
+                pattern: [
+                    ["P", "F", "F", "P"],
+                    ["P", "F", "F", "P"]
+                ]
+            }
+        ],
         seven_by_seven: [
             {
                 type: 'compactcrafting:mixed',
@@ -658,6 +674,47 @@ onEvent('recipes', (event) => {
         outputs: [{
             id: 'thermal:energy_cell_frame',
             Count: 1
+        }]
+    },
+
+    {
+        //end resin processor
+        recipeSize: 4,
+        layers: machineShapes.end_resin_processor,
+        catalyst: {
+            id: 'minecraft:ender_pearl',
+            Count: 1
+        },
+        components: {
+            'P': {
+                type: 'compactcrafting:block',
+                block: 'enderioalloys:block_alloy_crystalline_pink_slime'
+            },
+            'F': {
+                type: 'compactcrafting:block',
+                block: 'masterfulmachinery:end_resin_processor_maximum_port_fluids_input'
+            },
+            'E': {
+                type: 'compactcrafting:block',
+                block: 'masterfulmachinery:end_resin_processor_maximum_port_energy_input'
+            },
+            'I': {
+                type: 'compactcrafting:block',
+                block: 'masterfulmachinery:end_resin_processor_singlechest_port_items_input'
+            },
+            'O': {
+                type: 'compactcrafting:block',
+                block: 'masterfulmachinery:end_resin_processor_singlechest_port_items_output'
+            },
+            'C': {
+                type: 'compactcrafting:block',
+                block: 'masterfulmachinery:end_resin_processor_controller'
+            }
+        },
+        outputs: [{
+            id: 'custommachinery:custom_machine_item',
+            Count: 1,
+            tag: {machine:"custommachinery:end_resin_processor"}
         }]
     }
 

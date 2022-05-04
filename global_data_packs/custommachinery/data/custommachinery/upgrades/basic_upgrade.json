@@ -1,6 +1,6 @@
 {
 	"item": "kubejs:upgrade_basic",
-	"machines": ["custommachinery:accelerator", "custommachinery:chemical_mixer", "custommachinery:chemical_reactor", "custommachinery:collision_chamber", "custommachinery:fluid_centrifuge", "custommachinery:ore_leacher", "custommachinery:slice_n_splice"],
+	"machines": ["custommachinery:accelerator", "custommachinery:chemical_mixer", "custommachinery:chemical_reactor", "custommachinery:collision_chamber", "custommachinery:fluid_centrifuge", "custommachinery:ore_leacher", "custommachinery:slice_n_splice", "custommachinery:end_resin_processor"],
 	"modifiers": [
 		{
 			"requirement": "custommachinery:speed",
