@@ -66,4 +66,5 @@ onEvent('item.tooltip', tooltip => {
     tooltip.add('minecraft:cake',['Speed II'])
 
     tooltip.add('miniutilities:unstable_ingot',[ Text.green('This WILL kill you, blow up, and lose all your crafting materials to make this if you hold this too long') ])
+    tooltip.add('avaritia:endest_pearl',[ Text.red('Warning: Dont right click this unless you like losing all your stuff! -Direwolf20') ])
 })

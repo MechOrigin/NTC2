@@ -114,4 +114,20 @@ onEvent('recipes', e => {
     A: 'kubejs:uu_matter_2'
   }).id(`kubejs:uu_matter_white_wool`)
 
+//Heads
+  e.shaped(Item.of('minecraft:husk_head', 1), ['BBB', 'BAB', 'BBB'], {
+    A: 'minecraft:zombie_head',
+    B: 'mysticalagriculture:dirt_essence'
+  }).id(`kubejs:husk_head`)
+
+  e.shaped(Item.of('minecraft:drowned_head', 1), ['BBB', 'BAB', 'BBB'], {
+    A: 'minecraft:zombie_head',
+    B: 'mysticalagriculture:water_essence'
+  }).id(`kubejs:drowned_head`)
+  
+  e.shaped(Item.of('minecraft:enderman_head', 1), ['BBB', 'BAB', 'BBB'], {
+    A: 'mysticalagriculture:blank_skull',
+    B: 'mysticalagriculture:enderman_essence'
+  }).id(`kubejs:enderman_head`)
+
 })
