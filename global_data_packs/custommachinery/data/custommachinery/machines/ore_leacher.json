@@ -135,7 +135,7 @@
     },
     {
       "id": "upgrade",
-      "x": 200,
+      "x": 205,
       "y": 5,
       "type": "custommachinery:slot"
     },
@@ -155,9 +155,27 @@
       "texture": "ftblibrary:textures/icons/close.png",
       "width": 8,
       "height": 8,
-      "x": 70,
-      "y": 15,
+      "x": 72,
+      "y": 18,
       "id": "input1"
-  }
+    },
+    {
+      "type": "custommachinery:dump",
+      "texture": "ftblibrary:textures/icons/close.png",
+      "width": 8,
+      "height": 8,
+      "x": 92,
+      "y": 18,
+      "id": "input2"
+    },
+    {
+      "type": "custommachinery:dump",
+      "texture": "ftblibrary:textures/icons/close.png",
+      "width": 8,
+      "height": 8,
+      "x": 112,
+      "y": 18,
+      "id": "input3"
+    }
   ]
 }
