@@ -1,3 +1,7 @@
+// ! Thanks mathgeniuszach on curseforge for this customization
+// ? https://www.curseforge.com/minecraft/customization/unifytags/files
+
+
 // Whether or not to unify items in inventory
 global["INVENTORY_UNIFY"] = true
 // Whether or not to unify items in world
@@ -18,11 +22,16 @@ global["unifypriorities"] = [
     "chemlib",
     "immersiveengineering"
 ]
+// Items to exclude (will not be unified)
+global["unifyexclude"] = new Set([
+    // "minecraft:stone"
+])
 
 // Add oredictionary tags here to unify (or use javascript to generate it!)
 var tags = [
-    //"forge:plates/iron",
-    //"forge:gears/iron",
+    // "forge:plates/iron",
+    // "forge:gears/iron",
+    "forge:silicon"
 ]
 // Block tags for ore gen unification (an equal item tag is required for this to work, which is the case with ores normally)
 /*var btags = [
@@ -100,40 +109,51 @@ for (let line of tagGen) {
     }
 }
 
+function tryTag(tag) {
+    try {
+        return Ingredient.of("#" + tag)
+    } catch (err) {
+        return null
+    }
+}
+
 // Replace input and output of recipes (and iterate over tags!)
 onEvent("recipes", event => {
     // Iterate over tags (they should be loaded)
     var tagitems = new Map()
     tagLoop:
-    for (let tag of tags) {
-        let ingr = Ingredient.of("#"+tag)
-        if (ingr) {
-            let stacks = ingr.getStacks().toArray()
-            for (let mod of global["unifypriorities"]) {
-                for (let stack of stacks) {
-                    if (stack.getMod() == mod) {
-                        tagitems[tag] = stack.getId()
-                        continue tagLoop
+        for (let tag of tags) {
+            let ingr = tryTag(tag)
+            if (ingr) {
+                let stacks = ingr.getStacks().toArray()
+                for (let mod of global["unifypriorities"]) {
+                    for (let stack of stacks) {
+                        if (stack.getMod() == mod) {
+                            if (!global["unifyexclude"].has(stack.getId())) tagitems[tag] = stack.getId()
+                            continue tagLoop
+                        }
                     }
                 }
+                if (stacks.length > 0) tagitems[tag] = stacks[0].getId()
             }
-            if (stacks.length > 0) tagitems[tag] = stacks[0].getId()
         }
-    }
     // Update tags
     global["unifytags"] = tags
     global["tagitems"] = tagitems
-    
+
     // Unify the rest
     if (global["RECIPE_UNIFY"]) {
         for (let tag of global["unifytags"]) {
-            let ingr = Ingredient.of("#"+tag)
+            let ingr = tryTag(tag)
             if (ingr) {
                 let stacks = ingr.getStacks().toArray()
                 let oItem = global["tagitems"][tag]
                 for (let tItem of stacks) {
-                    event.replaceInput({}, tItem.getId(), "#"+tag)
-                    event.replaceOutput({}, tItem.getId(), oItem)
+                    let itemId = tItem.getId()
+                    if (global["unifyexclude"].has(itemId)) continue
+
+                    event.replaceInput({}, itemId, "#" + tag)
+                    event.replaceOutput({}, itemId, oItem)
                 }
             }
         }
@@ -146,14 +166,17 @@ onEvent("player.inventory.changed", event => {
     if (global["INVENTORY_UNIFY"] && event.getEntity().getOpenInventory().getClass().getName() == "net.minecraft.inventory.container.PlayerContainer") {
         // Get held item
         var heldItem = event.getItem()
+        var itemId = heldItem.getId()
+        // Check if item is excluded
+        if (global["unifyexclude"].has(itemId)) return
 
         // Check for every tag in the list
         for (let tag of global["unifytags"]) {
-            let ingr = Ingredient.of("#"+tag)
-            if (ingr.test(heldItem)) {
+            let ingr = tryTag(tag)
+            if (ingr && ingr.test(heldItem)) {
                 // If item is in tag, determine if it needs to be changed
                 let tItem = global["tagitems"][tag]
-                if (tItem != heldItem.getId()) {
+                if (tItem != itemId) {
                     // Fix slot number
                     let slot = event.getSlot()
                     if (slot <= 5) slot += 36
@@ -174,16 +197,22 @@ onEvent("entity.spawned", event => {
         var entity = event.getEntity()
         if (entity.getType() == "minecraft:item") {
             var gItem = entity.getItem()
-            // Check for every tag in the list
-            for (let tag of global["unifytags"]) {
-                let ingr = Ingredient.of("#"+tag)
-                if (ingr && ingr.test(gItem)) {
-                    // If item is in tag, determine if it needs to be changed
-                    let tItem = global["tagitems"][tag]
-                    if (tItem != gItem.getId()) {
-                        entity.setItem(Item.of(tItem, gItem.getCount()))
+            if (gItem) {
+                var itemId = gItem.getId()
+                // Check if item is excluded
+                if (global["unifyexclude"].has(itemId)) return
+
+                // Check for every tag in the list
+                for (let tag of global["unifytags"]) {
+                    let ingr = tryTag(tag)
+                    if (ingr && ingr.test(gItem)) {
+                        // If item is in tag, determine if it needs to be changed
+                        let tItem = global["tagitems"][tag]
+                        if (tItem != itemId) {
+                            entity.setItem(Item.of(tItem, gItem.getCount()))
+                        }
+                        break
                     }
-                    break
                 }
             }
         }
