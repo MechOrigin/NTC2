@@ -352,89 +352,89 @@ onEvent('recipes', (event) => {
                 ]
             }
         ],
-        seven_by_seven: [
+        compact_crafter: [
             {
                 type: 'compactcrafting:mixed',
                 pattern: [
-                    ['A', 'A', 'A', 'A', 'A', 'A', 'A'],
-                    ['A', 'B', 'B', 'B', 'B', 'B', 'A'],
-                    ['A', 'B', 'C', 'C', 'C', 'B', 'A'],
-                    ['A', 'B', 'C', 'B', 'C', 'B', 'A'],
-                    ['A', 'B', 'C', 'C', 'C', 'B', 'A'],
-                    ['A', 'B', 'B', 'B', 'B', 'B', 'A'],
-                    ['A', 'A', 'A', 'A', 'A', 'A', 'A']
+                    ['D', '-', '-', '-', '-', '-', 'D'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['E', '-', '-', '-', '-', '-', 'D']
                 ]
             },
             {
                 type: 'compactcrafting:mixed',
                 pattern: [
-                    ['A', 'B', 'B', 'B', 'B', 'B', 'A'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['A', 'B', 'B', 'B', 'B', 'B', 'A']
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', 'B', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', 'C', '-', '-', '-', 'F', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', 'B', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-']
                 ]
             },
             {
                 type: 'compactcrafting:mixed',
                 pattern: [
-                    ['A', 'B', 'C', 'C', 'C', 'B', 'A'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['C', 'D', 'D', 'D', 'D', 'D', 'C'],
-                    ['C', 'D', 'D', 'D', 'D', 'D', 'C'],
-                    ['C', 'D', 'D', 'D', 'D', 'D', 'C'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['A', 'B', 'C', 'C', 'C', 'B', 'A']
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-']
+                ]
+            },
+            {
+                type: 'comp-ctcrafting:mixed',
+                pattern: [
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', 'A', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', 'A', '-', '-', '-', 'A', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', 'A', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-']
                 ]
             },
             {
                 type: 'compactcrafting:mixed',
                 pattern: [
-                    ['A', 'B', 'C', 'B', 'C', 'B', 'A'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['C', 'D', 'D', 'D', 'D', 'D', 'C'],
-                    ['B', 'D', 'D', 'E', 'D', 'D', 'B'],
-                    ['C', 'D', 'D', 'D', 'D', 'D', 'C'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['A', 'B', 'C', 'B', 'C', 'B', 'A']
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-']
                 ]
             },
             {
                 type: 'compactcrafting:mixed',
                 pattern: [
-                    ['A', 'B', 'C', 'C', 'C', 'B', 'A'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['C', 'D', 'D', 'D', 'D', 'D', 'C'],
-                    ['C', 'D', 'D', 'D', 'D', 'D', 'C'],
-                    ['C', 'D', 'D', 'D', 'D', 'D', 'C'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['A', 'B', 'C', 'C', 'C', 'B', 'A']
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-']
                 ]
             },
             {
                 type: 'compactcrafting:mixed',
                 pattern: [
-                    ['A', 'B', 'B', 'B', 'B', 'B', 'A'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['B', 'D', 'D', 'D', 'D', 'D', 'B'],
-                    ['A', 'B', 'B', 'B', 'B', 'B', 'A']
-                ]
-            },
-            {
-                type: 'compactcrafting:mixed',
-                pattern: [
-                    ['A', 'A', 'A', 'A', 'A', 'A', 'A'],
-                    ['A', 'B', 'B', 'B', 'B', 'B', 'A'],
-                    ['A', 'B', 'C', 'C', 'C', 'B', 'A'],
-                    ['A', 'B', 'C', 'B', 'C', 'B', 'A'],
-                    ['A', 'B', 'C', 'C', 'C', 'B', 'A'],
-                    ['A', 'B', 'B', 'B', 'B', 'B', 'A'],
-                    ['A', 'A', 'A', 'A', 'A', 'A', 'A']
+                    ['D', '-', '-', '-', '-', '-', 'D'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['-', '-', '-', '-', '-', '-', '-'],
+                    ['D', '-', '-', '-', '-', '-', 'D']
                 ]
             }
         ]
@@ -682,7 +682,7 @@ onEvent('recipes', (event) => {
         recipeSize: 4,
         layers: machineShapes.end_resin_processor,
         catalyst: {
-            id: 'minecraft:ender_pearl',
+            id: 'avaritia:endest_pearl',
             Count: 1
         },
         components: {
@@ -715,6 +715,48 @@ onEvent('recipes', (event) => {
             id: 'custommachinery:custom_machine_item',
             Count: 1,
             tag: {machine:"custommachinery:end_resin_processor"}
+        }]
+    },
+
+    {
+        //compact_crafting_single_block
+        // (The Irony, yo I heard you like compact crafting so I'm gonna compact craft your compact crafter so you can compact craft)
+        recipeSize: 4,
+        layers: machineShapes.compact_crafter,
+        catalyst: {
+            id: Item.of('extendedcrafting:singularity', {Id:"enderioalloys:item_alloy_ingot_stellar_alloy"}),
+            Count: 1
+        },
+        components: {
+            'A': {
+                type: 'compactcrafting:block',
+                block: 'compactcrafting:field_projector'
+            },
+            'B': {
+                type: 'compactcrafting:block',
+                block: 'compactcrafting:match_proxy'
+            },
+            'C': {
+                type: 'compactcrafting:block',
+                block: 'compactcrafting:rescan_proxy'
+            },
+            'D': {
+                type: 'compactcrafting:block',
+                block: 'rftoolsbuilder:space_chamber'
+            },
+            'E': {
+                type: 'compactcrafting:block',
+                block: 'rftoolsbuilder:space_chamber_controller'
+            },
+            'F': {
+                type: 'compactcrafting:block',
+                block: 'rftoolsbuilder:builder'
+            }
+        },
+        outputs: [{
+            id: 'custommachinery:custom_machine_item',
+            Count: 1,
+            tag: {machine:"custommachinery:compact_crafter"}
         }]
     }
 
