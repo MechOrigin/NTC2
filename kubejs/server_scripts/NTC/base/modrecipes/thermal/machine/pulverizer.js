@@ -87,7 +87,20 @@ onEvent('recipes', (event) => {
             experience: 0.2,
             outputs: [Item.of('minecraft:blaze_powder', 3), Item.of('emendatusenigmatica:sulfur_dust').chance(0.25)],
             id: 'thermal:machine/pulverizer/pulverizer_blaze_rod'
-        }
+        },
+
+        {
+            input: 'minecraft:charcoal',
+            experience: 0.2,
+            outputs: [Item.of('emendatusenigmatica:charcoal_dust', 1)],
+            id: `${id_prefix}charcoal_to_charcoal_dust`
+        },
+        {
+            input: 'morecharcoal:charcoal_block',
+            experience: 0.2,
+            outputs: [Item.of('emendatusenigmatica:charcoal_dust', 9)],
+            id: `${id_prefix}charcoal_block_to_charcoal_dust`
+        },
     ];
     recipes.forEach((recipe) => {
         event.recipes.thermal.pulverizer(recipe.outputs, recipe.input).experience(recipe.experience).id(recipe.id);

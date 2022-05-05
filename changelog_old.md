@@ -852,3 +852,15 @@ All notable changes to this project will be documented in this file.
 <!-- ! Alert -->
 <!-- ? IDK I'm blue -->
 <!-- TODO: To do's -->
+
+
+
+LotP script for clearlag
+
+ok, first call these 2 commands on the server:
+/scoreboard objectives add entities dummy "entities"
+/execute store result score <your mc name> entities if entity @e[type=minecraft:item
+then get a timer to call these 3 commands in order every 5 minutes
+execute if score <mc-name> entities matches 2000.. run kill @e[type=minecraft:item]
+execute store result score <mc-name> entities if entity @e[type=minecraft:item]
+execute if score <mc-name> entities matches 2000.. run say More than 2k items exist, clearing items in 5 min

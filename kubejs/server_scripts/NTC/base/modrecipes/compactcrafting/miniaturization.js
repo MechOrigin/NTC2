@@ -726,7 +726,7 @@ onEvent('recipes', (event) => {
         catalyst: {
             id: 'extendedcrafting:singularity',
             Count: 1,
-            tag: {Id: "extendedcrafting:stellar_alloy_ingot"}
+            tag: {Id:"extendedcrafting:stellar_alloy_ingot"}
         },
         components: {
             'A': {
