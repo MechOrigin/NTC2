@@ -76,6 +76,8 @@ onEvent('item.tags', event => {
     event.remove('forge:dusts/iron', 'mekanism:dust_iron')
     event.remove('forge:dusts', 'mekanism:dust_sulfur')
     event.remove('forge:dusts/sulfur', 'mekanism:dust_sulfur')
+    event.remove('forge:dyes', 'mekanism:dust_sulfur')
+    event.remove('forge:dyes/yellow', 'mekanism:dust_sulfur')
 
     event.remove('appliedenergistics2:silicon', 'appliedenergistics2:silicon')
     event.remove('appliedenergistics2:dusts/fluix', 'appliedenergistics2:fluix_dust')
@@ -119,6 +121,7 @@ onEvent('item.tags', event => {
     event.remove('forge:dusts/electrum', 'immersiveengineering:dust_electrum')
     event.remove('forge:dusts', 'immersiveengineering:dust_sulfur')
     event.remove('forge:dusts/sulfur', 'immersiveengineering:dust_sulfur')
+
 
     event.add('forge:dusts', 'appliedenergistics2:sky_dust')
     event.add('forge:dusts/sky', 'appliedenergistics2:sky_dust')

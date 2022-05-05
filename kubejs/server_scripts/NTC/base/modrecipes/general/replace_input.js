@@ -31,24 +31,21 @@ events.listen('recipes', (event) => {
 
 //Applied Energistics 2
     event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:fluix_block', 'emendatusenigmatica:fluix_block');
-    event.replaceInput({ mod: 'appliedenergistics2' }, '#appliedenergistics2:dusts/ender', 'emendatusenigmatica:ender_dust');
 
-    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem');
-    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:certus_quartz_crystal', 'emendatusenigmatica:certus_quartz_gem');
-    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:fluix_crystal', 'emendatusenigmatica:fluix_gem');
+//    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem');
+//    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:certus_quartz_crystal', 'emendatusenigmatica:certus_quartz_gem');
+//    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:fluix_crystal', 'emendatusenigmatica:fluix_gem');
 
     event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:silicon', 'emendatusenigmatica:silicon_gem');
     event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:flour', 'pamhc2foodcore:flouritem');
 
-    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem');
     event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:ender_dust', 'emendatusenigmatica:ender_dust');
-    event.replaceInput({ mod: 'appliedenergistics2' }, 'mekanism:dust_dust', 'emendatusenigmatica:coal_dust');
     event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:fluix_dust', 'emendatusenigmatica:fluix_dust');
 
 //Lazy AE2
     event.replaceInput({ mod: 'lazierae2' }, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem');
     event.replaceInput({ mod: 'lazierae2' }, 'appliedenergistics2:ender_dust', 'emendatusenigmatica:ender_dust');
-    event.replaceInput({ mod: 'lazierae2' }, 'mekanism:dust_dust', 'emendatusenigmatica:coal_dust');
+    event.replaceInput({ mod: 'lazierae2' }, 'mekanism:dust_coal', 'emendatusenigmatica:coal_dust');
     event.replaceInput({ mod: 'lazierae2' }, 'appliedenergistics2:fluix_dust', 'emendatusenigmatica:fluix_dust');
 
 //Thermal
@@ -67,6 +64,7 @@ events.listen('recipes', (event) => {
 
 //Mekanism
     event.replaceInput({ mod: 'mekanism' }, 'mekanism:pellet_plutonium', 'kubejs:242_plutonium');
+    event.replaceInput({ mod: 'mekanism' }, 'mekanism:dust_coal', 'emendatusenigmatica:coal_dust');
 
 //General
 event.replaceInput({}, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem');
