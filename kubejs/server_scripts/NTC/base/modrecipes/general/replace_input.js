@@ -66,7 +66,7 @@ events.listen('recipes', (event) => {
     event.replaceInput({ mod: 'immersivepetroleum' }, 'immersiveengineering:slag', 'thermal:slag');
 
 //Mekanism
-    event.replaceInput({ mod: 'mekanism' }, 'mekanism:pellet_plutonium', 'kubejs:242_plutonium');
+//    event.replaceInput({ mod: 'mekanism' }, 'mekanism:pellet_plutonium', 'kubejs:242_plutonium'); // ! just add item tag
 
 //General
 event.replaceInput({}, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem');
@@ -74,7 +74,6 @@ event.replaceInput({}, 'appliedenergistics2:fluix_dust', 'emendatusenigmatica:fl
 event.replaceInput({}, 'thermal:niter_dust', 'emendatusenigmatica:potassium_nitrate_dust');
 event.replaceInput({}, 'exnihilosequentia:dust_obsidian', 'emendatusenigmatica:obsidian_dust');
 event.replaceInput({}, 'mekanism:dust_obsidian', 'emendatusenigmatica:obsidian_dust');
-event.replaceInput({}, 'mekanism:dust_refined_obsidian', 'emendatusenigmatica:obsidian_dust');
 
 event.replaceInput({}, 'mekanism:dust_sulfur', 'emendatusenigmatica:sulfur_dust');
 event.replaceInput({}, 'immersiveengineering:dust_sulfur', 'emendatusenigmatica:sulfur_dust');

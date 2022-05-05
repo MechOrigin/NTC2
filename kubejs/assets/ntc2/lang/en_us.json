@@ -2133,7 +2133,8 @@
 
     "ntc2.precsaw.subtitle": "Make a Precision Sawmill",
     "ntc2.precsaw.desc1": "The &bPrecision Sawmill&r uses FE to process wooden items more efficiently, creating more Planks, Sticks, etc.",
-    "ntc2.precsaw.desc2": "It is also the one of the &6only sources of Sawdust&r.",
+    "ntc2.precsaw.desc2": "It is also the one of the &6many sources of Sawdust&r.",
+    "ntc2.precsaw.desc3": "Sawdust can be easily acquired much earlier in the pack - not only can it be obtained from the Thermal Pulverizer and Sawmill, but it can also be gotten from the manual Sawmill (i.e. the one that looks just like the vanilla Stonecutter) that you're instructed to craft during the Intro questline.",
 
     "ntc2.cardboard.title": "&bCardboard Box&r",
     "ntc2.cardboard.subtitle": "Make a Cardboard Box",
