@@ -14,52 +14,36 @@
     {
       "mode": "input",
       "id": "input1",
-      "capacity": 10000,
-      "type": "custommachinery:fluid",
-      "filter": [
-        "kubejs:liquid_amber_root",
-        "kubejs:liquid_end_lily",
-        "kubejs:liquid_chorus_mushroom",
-        "kubejs:liquid_lumecorn"
-      ],
-      "whitelist": true
+      "type": "custommachinery:item"
     },
     {
       "mode": "input",
       "id": "input2",
-      "capacity": 10000,
-      "type": "custommachinery:fluid",
-      "filter": [
-        "kubejs:liquid_blossom_berry",
-        "kubejs:liquid_end_lotus",
-        "kubejs:liquid_glowing_pillar"
-      ],
-      "whitelist": true
+      "type": "custommachinery:item"
     },
     {
       "mode": "input",
       "id": "input3",
-      "capacity": 10000,
-      "type": "custommachinery:fluid",
-      "filter": [
-        "kubejs:liquid_shadow_berry",
-        "kubejs:liquid_blue_vine"
-      ],
-      "whitelist": true
+      "type": "custommachinery:item"
     },
     {
       "mode": "input",
       "id": "input4",
-      "capacity": 10000,
-      "type": "custommachinery:fluid",
-      "filter": [
-        "kubejs:liquid_bulb_vine"
-      ],
-      "whitelist": true
+      "type": "custommachinery:item"
     },
     {
       "mode": "input",
       "id": "input5",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input6",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input7",
       "type": "custommachinery:item"
     },
     {
@@ -96,35 +80,48 @@
       "type": "custommachinery:energy"
     },
     {
+      "id": "input1",
       "x": 67,
       "y": 30,
-      "type": "custommachinery:fluid",
-      "id": "input1"
+      "type": "custommachinery:slot"
     },
     {
+      "id": "input2",
       "x": 87,
       "y": 30,
-      "type": "custommachinery:fluid",
-      "id": "input2"
+      "type": "custommachinery:slot"
     },
     {
+      "id": "input3",
       "x": 107,
       "y": 30,
-      "type": "custommachinery:fluid",
-      "id": "input3"
+      "type": "custommachinery:slot"
     },
     {
-      "x": 127,
-      "y": 30,
-      "type": "custommachinery:fluid",
-      "id": "input4"
+      "id": "input4",
+      "x": 67,
+      "y": 50,
+      "type": "custommachinery:slot"
     },
     {
       "id": "input5",
+      "x": 87,
+      "y": 50,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input6",
+      "x": 107,
+      "y": 50,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input7",
       "x": 147,
       "y": 30,
       "type": "custommachinery:slot"
     },
+
     {
       "id": "output1",
       "x": 200,
@@ -163,17 +160,6 @@
       "type": "custommachinery:reset",
       "x": 5,
       "y": 60
-    },
-    {
-      "type": "custommachinery:dump",
-      "x": 5,
-      "y": 30,
-      "id": [
-        "input1",
-        "input2",
-        "input3",
-        "input4"
-      ]
     }
   ]
 }
