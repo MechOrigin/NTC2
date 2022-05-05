@@ -14,7 +14,7 @@
     {
       "mode": "input",
       "id": "input1",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid",
       "filter": ["kubejs:liquid_proton", "kubejs:liquid_positron"],
       "whitelist": true
@@ -22,7 +22,7 @@
     {
       "mode": "input",
       "id": "input2",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid",
       "filter": ["tconstruct:molten_lead", "kubejs:liquid_electron_neutrino", "kubejs:liquid_anti_proton"],
       "whitelist": true
@@ -35,25 +35,25 @@
     {
       "mode": "output",
       "id": "output1",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid"
     },
     {
       "mode": "output",
       "id": "output2",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid"
     },
     {
       "mode": "output",
       "id": "output3",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid"
     },
     {
       "mode": "output",
       "id": "output4",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid"
     },
     {
@@ -153,7 +153,7 @@
     },
     {
       "id": "upgrade",
-      "x": 200,
+      "x": 205,
       "y": 5,
       "type": "custommachinery:slot"
     },
@@ -167,6 +167,24 @@
       "type": "custommachinery:reset",
       "x": 5,
       "y": 60
+    },
+    {
+      "type": "custommachinery:dump",
+      "texture": "ftblibrary:textures/icons/close.png",
+      "width": 8,
+      "height": 8,
+      "x": 72,
+      "y": 18,
+      "id": "input1"
+    },
+    {
+      "type": "custommachinery:dump",
+      "texture": "ftblibrary:textures/icons/close.png",
+      "width": 8,
+      "height": 8,
+      "x": 92,
+      "y": 18,
+      "id": "input2"
     }
   ]
 }

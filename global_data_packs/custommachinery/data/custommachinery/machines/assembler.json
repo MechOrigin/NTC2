@@ -121,6 +121,12 @@
       "type": "custommachinery:text"
     },
     {
+      "id": "upgrade",
+      "x": 205,
+      "y": 5,
+      "type": "custommachinery:slot"
+    },
+    {
       "text": "Upgrade:",
       "x": 150,
       "y": 5,
@@ -130,6 +136,15 @@
       "type": "custommachinery:reset",
       "x": 5,
       "y": 60
+    },
+    {
+      "type": "custommachinery:dump",
+      "texture": "ftblibrary:textures/icons/close.png",
+      "width": 8,
+      "height": 8,
+      "x": 112,
+      "y": 18,
+      "id": "input5"
     }
   ]
 }

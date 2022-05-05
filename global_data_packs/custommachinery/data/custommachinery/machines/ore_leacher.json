@@ -14,19 +14,19 @@
     {
       "mode": "input",
       "id": "input1",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid"
     },
     {
       "mode": "input",
       "id": "input2",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid"
     },
     {
       "mode": "input",
       "id": "input3",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid"
     },
     {

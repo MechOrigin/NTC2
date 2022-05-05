@@ -14,7 +14,7 @@
     {
       "mode": "input",
       "id": "input1",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid",
       "filter": ["mekanism:hydrogen"],
       "whitelist": true
@@ -23,7 +23,7 @@
     {
       "mode": "output",
       "id": "output1",
-      "capacity": 100000,
+      "capacity": 10000,
       "type": "custommachinery:fluid",
       "filter": ["kubejs:liquid_proton"],
       "whitelist": true
@@ -84,7 +84,7 @@
     },
     {
       "id": "upgrade",
-      "x": 200,
+      "x": 205,
       "y": 5,
       "type": "custommachinery:slot"
     },
@@ -101,9 +101,12 @@
     },
     {
       "type": "custommachinery:dump",
-      "x": 20,
-      "y": 20,
-      "id": "tank1"
-  }
+      "texture": "ftblibrary:textures/icons/close.png",
+      "width": 8,
+      "height": 8,
+      "x": 72,
+      "y": 18,
+      "id": "input1"
+    }
   ]
 }

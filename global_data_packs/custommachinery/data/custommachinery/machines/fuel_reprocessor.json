@@ -110,7 +110,7 @@
     },
     {
       "id": "upgrade",
-      "x": 200,
+      "x": 205,
       "y": 5,
       "type": "custommachinery:slot"
     },

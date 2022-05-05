@@ -390,7 +390,7 @@ onEvent('recipes', (event) => {
                 ]
             },
             {
-                type: 'comp-ctcrafting:mixed',
+                type: 'compactcrafting:mixed',
                 pattern: [
                     ['-', '-', '-', '-', '-', '-', '-'],
                     ['-', '-', '-', 'A', '-', '-', '-'],
@@ -724,8 +724,9 @@ onEvent('recipes', (event) => {
         recipeSize: 4,
         layers: machineShapes.compact_crafter,
         catalyst: {
-            id: Item.of('extendedcrafting:singularity', {Id:"enderioalloys:item_alloy_ingot_stellar_alloy"}),
-            Count: 1
+            id: 'extendedcrafting:singularity',
+            Count: 1,
+            tag: {Id: "extendedcrafting:stellar_alloy_ingot"}
         },
         components: {
             'A': {
