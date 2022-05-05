@@ -1281,11 +1281,17 @@ onEvent('recipes', event => {
     event.recipes.custommachinery.custom_machine("custommachinery:compact_crafter", 100)
         .requireItem(Item.of("compactcrafting:field_projector", 4), "input1")
         .requireItem(Item.of("compactcrafting:match_proxy", 2), "input2")
-        .requireItem(Item.of("ompactcrafting:rescan_proxy", 1), "input3")
+        .requireItem(Item.of("compactcrafting:rescan_proxy", 1), "input3")
         .requireItem(Item.of("rftoolsbuilder:space_chamber", 7), "input4")
         .requireItem(Item.of("rftoolsbuilder:space_chamber_controller", 1), "input5")
         .requireItem(Item.of("rftoolsbuilder:builder", 1), "input6")
         .requireItem(Item.of('extendedcrafting:singularity', 1, '{Id:"extendedcrafting:stellar_alloy_ingot"}'), "input7") 
         .requireEnergy(5000)
         .produceItem(Item.of('custommachinery:custom_machine_item', 1, '{machine:"custommachinery:compact_crafter"}'), "output1")
+
+
+    //Nitrogen Collector
+    event.recipes.custommachinery.custom_machine("custommachinery:nitrogen_collector", 100)
+        .requireEnergy(5000)
+        .produceFluid(Fluid.of("kubejs:liquid_nitrogen", 5), "output1")
 })

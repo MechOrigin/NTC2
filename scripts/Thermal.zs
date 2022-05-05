@@ -215,12 +215,16 @@ craftingTable.addShapeless("rubber", <item:thermal:rubber> * 1,
 //<recipetype:thermal:refinery>.addRecipe("element_oxygen", <item:chemlib:element_oxygen> * 8, [<fluid:minecraft:empty>], <fluid:mekanism:oxygen> *500, 500);
 <recipetype:thermal:crucible>.addRecipe("element_oxygen", <fluid:mekanism:oxygen> *500, <item:chemlib:element_oxygen> * 8, 800);
 
+<recipetype:thermal:crucible>.addRecipe("element_nitrogen", <fluid:kubejs:liquid_nitrogen> *500, <item:chemlib:element_nitrogen> * 8, 800);
+
+
 <recipetype:thermal:refinery>.addRecipe("liquid_refined_glue", <item:thermal:rosin> % 50, [<fluid:thermal:tree_oil> * 100, <fluid:kubejs:liquid_refined_glue> * 50], <fluid:thermal:resin> * 200, 4000);
 
 <recipetype:thermal:crucible>.addRecipe("compound_sucrose", <fluid:kubejs:molten_sugar> *144, <item:chemlib:compound_sucrose> * 1, 800);
 
 <recipetype:thermal:refinery>.addRecipe("oxygen_from_fluid", <item:chemlib:element_oxygen>*8, [<fluid:minecraft:empty>], <fluid:mekanism:oxygen> *500, 800);
 
+<recipetype:thermal:refinery>.addRecipe("nitrogen_from_fluid", <item:chemlib:element_nitrogen>*8, [<fluid:minecraft:empty>], <fluid:kubejs:liquid_nitrogen> *500, 800);
 
 
 //6 times materials ore processing

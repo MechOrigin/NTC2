@@ -1,0 +1,97 @@
+{
+  "name": "Nitrogen Collector",
+  "appearance": {
+    "lightmode": "running",
+    "lightlevel": 7,
+    "model": "testresourcepack:machine/stone_generator_model"
+  },
+  "components": [
+    {
+      "capacity": 1000000,
+      "type": "custommachinery:energy",
+      "maxOutput": 0
+    },
+    {
+      "mode": "output",
+      "id": "output1",
+      "capacity": 10000,
+      "type": "custommachinery:fluid",
+      "filter": ["kubejs:liquid_nitrogen"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade",
+      "filter": ["kubejs:upgrade_basic"],
+      "whitelist": true,
+      "mode": "upgrade",
+      "variant": "custommachinery:upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 47,
+      "y": 30,
+      "type": "custommachinery:energy"
+    },
+    {
+      "x": 139,
+      "y": 30,
+      "type": "custommachinery:fluid",
+      "id": "output1"
+    },
+    {
+      "x": 107,
+      "y": 30,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Nitrogen Collector",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "id": "upgrade",
+      "x": 205,
+      "y": 5,
+      "type": "custommachinery:slot"
+    },
+    {
+      "text": "Upgrade:",
+      "x": 150,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "type": "custommachinery:reset",
+      "x": 5,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:dump",
+      "texture": "ftblibrary:textures/icons/close.png",
+      "width": 8,
+      "height": 8,
+      "x": 144,
+      "y": 18,
+      "id": "output1"
+    }
+  ]
+}
