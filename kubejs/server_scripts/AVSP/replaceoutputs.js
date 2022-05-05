@@ -379,17 +379,17 @@ events.listen('recipes', (event) => {
 
 //CERTUS QUARTZ
 	//Certus quartz crystal
-	event.replaceOutput({}, 'appliedenergistics2:certus_quartz_crystal', 'emendatusenigmatica:certus_quartz_gem')
+//	event.replaceOutput({}, 'appliedenergistics2:certus_quartz_crystal', 'emendatusenigmatica:certus_quartz_gem')
 	//Certus quartz dust
-	event.replaceOutput({}, 'appliedenergistics2:certus_quartz_dust', 'emendatusenigmatica:certus_quartz_dust')
+//	event.replaceOutput({}, 'appliedenergistics2:certus_quartz_dust', 'emendatusenigmatica:certus_quartz_dust')
 //
 //CHARGED CERTUS QUARTZ
 	//Charged certus quartz crystal
-	event.replaceOutput({}, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem')
+//	event.replaceOutput({}, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem')
 //
 //FLUIX CRYSTAL
 	//Fluix crystal
-	event.replaceOutput({}, 'appliedenergistics2:fluix_crystal', 'emendatusenigmatica:fluix_gem')
+//	event.replaceOutput({}, 'appliedenergistics2:fluix_crystal', 'emendatusenigmatica:fluix_gem')
 	//Fluix crystal dust
 	event.replaceOutput({}, 'appliedenergistics2:fluix_dust', 'emendatusenigmatica:fluix_dust')
 	//Fluix block
