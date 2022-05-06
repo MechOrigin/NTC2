@@ -183,7 +183,7 @@ craftingTable.removeRecipe(<item:exnihilosequentia:end_cake>);
 .addRoll("diamond", 0.1).addRoll("emerald", 0.1).addRoll("netherite", 0.1);
 
 <recipetype:exnihilosequentia:sieve>.create("certus_quartz_dust").setInput(<item:exnihilosequentia:dust>)
-.addDrop(<item:appliedenergistics2:certus_quartz_dust>)
+.addDrop(<item:emendatusenigmatica:certus_quartz_dust>)
 .addRoll("iron", 0.15).addRoll("diamond", 0.15).addRoll("emerald", 0.15).addRoll("netherite", 0.15);
 
 

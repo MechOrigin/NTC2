@@ -434,3 +434,4 @@ craftingTable.addShaped("basic_crafter", <item:packagedexcrafting:basic_crafter>
 <item:tconstruct:scorched_fuel_tank>.setMaxStackSize(1);
 <item:tconstruct:scorched_fuel_gauge>.setMaxStackSize(1);
 <item:tconstruct:scorched_ingot_tank>.setMaxStackSize(1);
+<item:integrateddynamics:energy_battery>.setMaxStackSize(1);
