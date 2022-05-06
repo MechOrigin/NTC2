@@ -391,7 +391,9 @@ events.listen('recipes', (event) => {
 //
 //FLUIX CRYSTAL
 	//Fluix crystal
-	event.replaceOutput({mod: 'productivebees'}, 'appliedenergistics2:fluix_crystal', 'emendatusenigmatica:fluix_gem')
+	event.replaceOutput({mod: 'mysticalagriculture'}, 'emendatusenigmatica:fluix_gem', 'appliedenergistics2:fluix_crystal')
+	event.replaceOutput({mod: 'emendatusenigmatica'}, 'emendatusenigmatica:fluix_gem', 'appliedenergistics2:fluix_crystal')
+	event.replaceOutput({mod: 'thermal'}, 'emendatusenigmatica:fluix_gem', 'appliedenergistics2:fluix_crystal')
 	//Fluix crystal dust
 	event.replaceOutput({}, 'appliedenergistics2:fluix_dust', 'emendatusenigmatica:fluix_dust')
 	//Fluix block

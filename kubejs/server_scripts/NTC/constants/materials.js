@@ -23,7 +23,7 @@ const materialsToUnify = [
     'emerald',
     'quartz',
     'obsidian',
-    'fluix',
+    //'fluix',
     'fluorite',
     'invar',
     'signalum',

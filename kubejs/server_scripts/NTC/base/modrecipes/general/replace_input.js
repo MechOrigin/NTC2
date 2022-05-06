@@ -30,7 +30,7 @@ events.listen('recipes', (event) => {
 //    event.replaceInput({ mod: 'electrodynamics' }, 'electrodynamics:ingotcopper', 'emendatusenigmatica:copper_ingot');
 
 //Applied Energistics 2
-    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:fluix_block', 'emendatusenigmatica:fluix_block');
+//    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:fluix_block', 'emendatusenigmatica:fluix_block');
 
 //    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem');
 //    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:certus_quartz_crystal', 'emendatusenigmatica:certus_quartz_gem');
@@ -42,6 +42,7 @@ events.listen('recipes', (event) => {
 
     event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:ender_dust', 'emendatusenigmatica:ender_dust');
     event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:fluix_dust', 'emendatusenigmatica:fluix_dust');
+    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:fluix_block', 'emendatusenigmatica:fluix_block');
 
 //Lazy AE2
 //    event.replaceInput({ mod: 'lazierae2' }, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem');

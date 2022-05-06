@@ -13,7 +13,7 @@ onEvent('recipes', event => {
           {
               time: 25,
               energy: 250,
-              item: 'emendatusenigmatica:fluix_gem',
+              item: 'appliedenergistics2:fluix_crystal',
               count: 2,
               input1: 'forge:gems/quartz',
               input2: 'forge:dusts/redstone',

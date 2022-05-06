@@ -47,6 +47,15 @@ onEvent('recipes', e => {
     'appliedenergistics2:silicon'
   ])
 
+  modifyShaped(e, 'emendatusenigmatica:fluix_block', 1, ['AA ', 'AA ', '   '], {
+    A: 'appliedenergistics2:fluix_crystal'
+  })
+  modifyShaped(e, 'emendatusenigmatica:certus_quartz_block', 1, ['AA ', 'AA ', '   '], {
+    A: 'appliedenergistics2:certus_quartz_crystal'
+  })
+  modifyShaped(e, 'emendatusenigmatica:charged_certus_quartz_block', 1, ['AA ', 'AA ', '   '], {
+    A: 'appliedenergistics2:charged_certus_quartz_crystal'
+  })
   modifyShaped(e, 'appliedenergistics2:quartz_glass', 4, ['GDG', 'DGD', 'GDG'], {
     G: '#appliedenergistics2:dusts/quartz',
     D: '#forge:glass'

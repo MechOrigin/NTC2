@@ -97,7 +97,7 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 
 <recipetype:thermal:smelter>.addRecipe("aeternium_alloy", [<item:betterendforge:aeternium_ingot> % 100], [<item:betterendforge:terminite_ingot>, <item:minecraft:netherite_ingot>], 0.1, 500);
 */
-<recipetype:thermal:smelter>.addRecipe("fluix_crystal", [<item:emendatusenigmatica:fluix_gem> % 200], [<item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:quartz>, <item:minecraft:redstone>], 0.1, 1000);
+<recipetype:thermal:smelter>.addRecipe("fluix_crystal", [<item:appliedenergistics2:fluix_crystal> % 200], [<item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:quartz>, <item:minecraft:redstone>], 0.1, 1000);
 
 
 craftingTable.removeRecipe(<item:thermal:beekeeper_fabric>);

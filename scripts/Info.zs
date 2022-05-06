@@ -13,7 +13,7 @@ mods.jei.JEI.addInfo(<item:appliedenergistics2:charged_certus_quartz_crystal>, [
 
 mods.jei.JEI.addInfo(<item:betterendforge:lumecorn_rod>, ["Find wild Lumecorn in the End or sieve End Stone Dust to find seeds."]);
 
-mods.jei.JEI.addInfo(<item:emendatusenigmatica:fluix_gem>, ["Must be initially crafted in a Thermal Induction Smelter. 1 Charged Certus Quartz + 1 Nether Quartz + 1 Redstone Dust."]);
+mods.jei.JEI.addInfo(<item:appliedenergistics2:fluix_crystal>, ["Must be initially crafted in a Thermal Induction Smelter. 1 Charged Certus Quartz + 1 Nether Quartz + 1 Redstone Dust."]);
 
 mods.jei.JEI.addInfo(<item:miniutilities:experience_pearl>, ["Creatures natively drop at least one but increased drops can be acquired from killing creatures with the Experience Harvester Enchant. Or can be created from transforming an Experience Droplet."]);
 mods.jei.JEI.addInfo(<item:miniutilities:experience_pearl_1x>, ["Creatures natively drop at least one but increased drops can be acquired from killing creatures with the Experience Harvester Enchant. Or can be created from transforming an Experience Droplet."]);
