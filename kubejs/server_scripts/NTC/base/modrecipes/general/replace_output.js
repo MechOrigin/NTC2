@@ -45,8 +45,8 @@ onEvent('recipes', (event) => {
         { type: {}, toReplace: 'thermal:invar_dust', replaceWith: '#forge:dusts/invar' },
 
         { type: {}, toReplace: 'lazierae2:coal_dust', replaceWith: '#forge:dusts/coal' },
-//        { type: {}, toReplace: 'appliedenergistics2:charged_certus_quartz_crystal', replaceWith: 'emendatusenigmatica:charged_certus_quartz_gem' },
-
+        { type: {}, toReplace: 'appliedenergistics2:certus_quartz_dust', replaceWith: 'emendatusenigmatica:certus_quartz_dust' },
+        
         { type: {}, toReplace: 'rftoolsbase:dimensionalshard', replaceWith: 'emendatusenigmatica:dimensional_gem' }
     ];
 

@@ -391,7 +391,7 @@ events.listen('recipes', (event) => {
 //
 //FLUIX CRYSTAL
 	//Fluix crystal
-//	event.replaceOutput({}, 'appliedenergistics2:fluix_crystal', 'emendatusenigmatica:fluix_gem')
+	event.replaceOutput({mod: 'productivebees'}, 'appliedenergistics2:fluix_crystal', 'emendatusenigmatica:fluix_gem')
 	//Fluix crystal dust
 	event.replaceOutput({}, 'appliedenergistics2:fluix_dust', 'emendatusenigmatica:fluix_dust')
 	//Fluix block

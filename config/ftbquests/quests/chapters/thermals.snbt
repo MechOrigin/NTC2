@@ -1213,5 +1213,31 @@
 				item: "enderioalloys:item_alloy_ingot_vibrant_alloy"
 			}]
 		}
+		{
+			x: -7.0d
+			y: -1.0d
+			subtitle: "Don't forget about me!"
+			description: [
+				"Cinnabar can be used as a catalyst to increase yields and production!"
+				""
+				"Think about all the &bCrystalline Pink Slime&r you can make"
+				""
+				"&bSoulsteel Ingots&r and &bFluix Crystal&r is also a good use case"
+			]
+			hide_dependency_lines: true
+			dependencies: ["192F645228E68C8F"]
+			id: "2439E3EAFC6F2530"
+			tasks: [{
+				id: "602A1309758B9F50"
+				type: "item"
+				item: "emendatusenigmatica:cinnabar_gem"
+			}]
+			rewards: [{
+				id: "522806A5C51438E9"
+				type: "item"
+				item: "emendatusenigmatica:cinnabar_chunk"
+				count: 8
+			}]
+		}
 	]
 }

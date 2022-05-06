@@ -35,6 +35,7 @@ events.listen('recipes', (event) => {
 //    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem');
 //    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:certus_quartz_crystal', 'emendatusenigmatica:certus_quartz_gem');
 //    event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:fluix_crystal', 'emendatusenigmatica:fluix_gem');
+    event.replaceInput({}, 'appliedenergistics2:certus_quartz_dust', 'emendatusenigmatica:certus_quartz_dust');
 
     event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:silicon', 'emendatusenigmatica:silicon_gem');
     event.replaceInput({ mod: 'appliedenergistics2' }, 'appliedenergistics2:flour', 'pamhc2foodcore:flouritem');

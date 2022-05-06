@@ -675,6 +675,10 @@
     {
       "item": "projectexpansion:colossal_star_omega",
       "emc": 422212465065984
+    },
+    {
+      "item": "appliedenergistics2:certus_quartz_crystal",
+      "emc": 256
     }
   ]
 }
