@@ -2659,6 +2659,16 @@
     "ntc2.be.amberlands.desc1": "Terrain: \nAmber Moss",
     "ntc2.be.amberlands.desc2": "Trees: \nHelix Tree",
     "ntc2.be.amberlands.desc3": "Plants: \nAmber Grass\nBulb Moss\nGlowing Pillar\nOrange Charnia\nRed Charnia\nLanceleaf",
-    "ntc2.be.amberlands.desc4": "Mobs: \nEnd Slime\nEnderman"
+    "ntc2.be.amberlands.desc4": "Mobs: \nEnd Slime\nEnderman",
 
+    "ntc2.be.blossomingspires.title": "Blossoming Spires",
+    "ntc2.be.blossomingspires.subtitle": "Blossoming Spires are islands and floating spires covered in lush pink and blue foliage and colorful hanging plants. Petals gently fall from above. Silk moth nests can be found here.",
+    "ntc2.be.blossomingspires.desc1": "Terrain: \nPink Moss",
+    "ntc2.be.blossomingspires.desc2": "Trees: \nTenanea Tree",
+    "ntc2.be.blossomingspires.desc3": "Plants: \nBulb Vine\nBushy Grass\nTwisted Moss\nBlossom Berry",
+    "ntc2.be.blossomingspires.desc4": "Mobs: \nSilk Moth\nEnderman"
+
+
+
+    
 }
