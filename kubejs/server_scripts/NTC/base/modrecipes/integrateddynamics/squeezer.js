@@ -160,7 +160,7 @@ onEvent('recipes', function (event) {
             },
             {
                 input: 'emendatusenigmatica:certus_quartz_chunk',
-                output: 'emendatusenigmatica:certus_quartz_gem',
+                output: 'appliedenergistics2:certus_quartz_crystal',
                 count: 3,
                 duration: 60
             },

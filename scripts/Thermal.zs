@@ -80,7 +80,7 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 <recipetype:thermal:crucible>.addRecipe("blaze_fluid", <fluid:tconstruct:blazing_blood> * 250, <item:minecraft:blaze_powder>, 500);
 
 
-<recipetype:thermal:bottler>.addRecipe("charged_certus", <item:emendatusenigmatica:charged_certus_quartz_gem>, <item:thermal:lightning_charge>, <fluid:emendatusenigmatica:molten_certus_quartz> *144, 500);
+<recipetype:thermal:bottler>.addRecipe("charged_certus", <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:thermal:lightning_charge>, <fluid:emendatusenigmatica:molten_certus_quartz> *144, 500);
 
 // <recipetype:thermal:pulverizer>.addRecipe(String name, MCWeightedItemStack[] outputs, IIngredient ingredient, float experience, int energy);
 /*
@@ -97,7 +97,7 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 
 <recipetype:thermal:smelter>.addRecipe("aeternium_alloy", [<item:betterendforge:aeternium_ingot> % 100], [<item:betterendforge:terminite_ingot>, <item:minecraft:netherite_ingot>], 0.1, 500);
 */
-<recipetype:thermal:smelter>.addRecipe("fluix_crystal", [<item:emendatusenigmatica:fluix_gem> % 200], [<item:emendatusenigmatica:charged_certus_quartz_gem>, <item:minecraft:quartz>, <item:minecraft:redstone>], 0.1, 1000);
+<recipetype:thermal:smelter>.addRecipe("fluix_crystal", [<item:emendatusenigmatica:fluix_gem> % 200], [<item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:quartz>, <item:minecraft:redstone>], 0.1, 1000);
 
 
 craftingTable.removeRecipe(<item:thermal:beekeeper_fabric>);

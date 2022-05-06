@@ -174,11 +174,11 @@ craftingTable.removeRecipe(<item:exnihilosequentia:end_cake>);
 
 
 <recipetype:exnihilosequentia:sieve>.create("certus_quartz_gem").setInput(<item:exnihiloae:crushed_skystone>)
-.addDrop(<item:emendatusenigmatica:certus_quartz_gem>)
+.addDrop(<item:appliedenergistics2:certus_quartz_crystal>)
 .addRoll("iron", 0.7).addRoll("diamond", 0.8).addRoll("emerald", 0.8).addRoll("netherite", 0.8);
 
 <recipetype:exnihilosequentia:sieve>.create("charged_certus_quartz_gem").setInput(<item:exnihiloae:crushed_skystone>)
-.addDrop(<item:emendatusenigmatica:charged_certus_quartz_gem>)
+.addDrop(<item:appliedenergistics2:charged_certus_quartz_crystal>)
 .addRoll("diamond", 0.1).addRoll("emerald", 0.1).addRoll("netherite", 0.1);
 
 

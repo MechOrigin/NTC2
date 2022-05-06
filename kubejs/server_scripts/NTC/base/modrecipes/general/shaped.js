@@ -35,6 +35,16 @@ onEvent('recipes', e => {
     E: 'kubejs:uu_matter_2'
   }).id(`ntc2:antimatter_synthesizer`)
 
+    //nitrogen collector
+    // e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:nitrogen_collector"}'),
+    // ['ACA', 'DBD', 'CEC'], {
+    //   A: 'chemlib:ingot_beryllium',
+    //   B: 'thermal:machine_frame',
+    //   C: 'immersiveengineering:ingot_hop_graphite',
+    //   D: 'minecraft:bucket',
+    //   E: 'kubejs:printed_final_basic_circuit_board'
+    // }).id(`ntc2:antimatter_synthesizer`)
+
   // uu matter
   e.shaped(Item.of('minecraft:bone', 32), ['A  ', 'AA ', 'A  '], {
     A: 'kubejs:uu_matter_2'

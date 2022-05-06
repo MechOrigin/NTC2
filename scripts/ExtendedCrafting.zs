@@ -750,6 +750,13 @@ mods.extendedcrafting.TableCrafting.addShaped("fuel_reprocessor", 1, <item:custo
 	[<item:emendatusenigmatica:bronze_plate>, <item:kubejs:printed_final_basic_circuit_board>, <item:emendatusenigmatica:bronze_plate>]
 ]);
 
+// Nitrogen Collector
+mods.extendedcrafting.TableCrafting.addShaped("nitrogen_collector", 1, <item:custommachinery:custom_machine_item>.withTag({machine: "custommachinery:nitrogen_collector" as string}), [
+	[<item:chemlib:ingot_beryllium>, <item:immersiveengineering:ingot_hop_graphite>, <item:chemlib:ingot_beryllium>], 
+	[<item:minecraft:bucket>, <item:thermal:machine_frame>, <item:minecraft:bucket>], 
+	[<item:immersiveengineering:ingot_hop_graphite>, <item:kubejs:printed_final_basic_circuit_board>, <item:immersiveengineering:ingot_hop_graphite>]
+]);
+
 //ultimate ingot
 mods.extendedcrafting.TableCrafting.addShaped("the_ultimate_ingot", 4, <item:extendedcrafting:the_ultimate_ingot>, [
 	[<item:chemlib:ingot_gallium>, <item:chemlib:ingot_germanium>, <item:chemlib:ingot_arsenic>, <item:chemlib:ingot_selenium>, <item:chemlib:ingot_rubidium>, <item:chemlib:ingot_strontium>, <item:chemlib:ingot_yttrium>, <item:chemlib:ingot_zirconium>, <item:chemlib:ingot_niobium>], 
@@ -851,22 +858,22 @@ mods.extendedcrafting.TableCrafting.addShaped("collision_chamber", 4, <item:cust
 //klein star omega
 mods.extendedcrafting.TableCrafting.addShaped("klein_star_omega", 3, <item:projecte:klein_star_omega>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>, <item:minecraft:air>], 
-	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:projectexpansion:pink_matter>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>], 
-	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:projectexpansion:pink_matter>, <item:projectexpansion:pink_matter>, <item:projectexpansion:pink_matter>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>], 
-	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:projectexpansion:pink_matter>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>], 
-	[<item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:extendedcrafting:advanced_component>, <item:extendedcrafting:advanced_component>, <item:extendedcrafting:advanced_component>, <item:kubejs:uu_matter_2>, <item:minecraft:air>], 
+	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:advanced_component>, <item:extendedcrafting:advanced_component>, <item:projectexpansion:pink_matter>, <item:extendedcrafting:advanced_component>, <item:extendedcrafting:advanced_component>, <item:kubejs:uu_matter_2>], 
+	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:advanced_component>, <item:projectexpansion:pink_matter>, <item:projectexpansion:pink_matter>, <item:projectexpansion:pink_matter>, <item:extendedcrafting:advanced_component>, <item:kubejs:uu_matter_2>], 
+	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:advanced_component>, <item:extendedcrafting:advanced_component>, <item:projectexpansion:pink_matter>, <item:extendedcrafting:advanced_component>, <item:extendedcrafting:advanced_component>, <item:kubejs:uu_matter_2>], 
+	[<item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:extendedcrafting:advanced_component>, <item:extendedcrafting:advanced_component>, <item:extendedcrafting:advanced_component>, <item:kubejs:uu_matter_2>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
 //magnum star omega
 mods.extendedcrafting.TableCrafting.addShaped("magnum_star_omega", 3, <item:projectexpansion:magnum_star_omega>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>, <item:minecraft:air>], 
-	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:projectexpansion:yellow_matter>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>], 
-	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:projectexpansion:yellow_matter>, <item:projectexpansion:yellow_matter>, <item:projectexpansion:yellow_matter>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>], 
-	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:projectexpansion:yellow_matter>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>], 
-	[<item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:extendedcrafting:ultimate_component>, <item:kubejs:uu_matter_2>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:extendedcrafting:elite_component>, <item:extendedcrafting:elite_component>, <item:extendedcrafting:elite_component>, <item:kubejs:uu_matter_2>, <item:minecraft:air>], 
+	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:elite_component>, <item:extendedcrafting:elite_component>, <item:projectexpansion:yellow_matter>, <item:extendedcrafting:elite_component>, <item:extendedcrafting:elite_component>, <item:kubejs:uu_matter_2>], 
+	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:elite_component>, <item:projectexpansion:yellow_matter>, <item:projectexpansion:yellow_matter>, <item:projectexpansion:yellow_matter>, <item:extendedcrafting:elite_component>, <item:kubejs:uu_matter_2>], 
+	[<item:kubejs:uu_matter_2>, <item:extendedcrafting:elite_component>, <item:extendedcrafting:elite_component>, <item:projectexpansion:yellow_matter>, <item:extendedcrafting:elite_component>, <item:extendedcrafting:elite_component>, <item:kubejs:uu_matter_2>], 
+	[<item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:extendedcrafting:elite_component>, <item:extendedcrafting:elite_component>, <item:extendedcrafting:elite_component>, <item:kubejs:uu_matter_2>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 

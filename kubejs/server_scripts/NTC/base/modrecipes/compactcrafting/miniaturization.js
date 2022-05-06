@@ -721,12 +721,11 @@ onEvent('recipes', (event) => {
     {
         //compact_crafting_single_block
         // (The Irony, yo I heard you like compact crafting so I'm gonna compact craft your compact crafter so you can compact craft)
-        recipeSize: 4,
+        recipeSize: 7,
         layers: machineShapes.compact_crafter,
         catalyst: {
-            id: 'extendedcrafting:singularity',
-            Count: 1,
-            tag: {Id:"extendedcrafting:stellar_alloy_ingot"}
+            id: 'extendedcrafting:the_ultimate_block',
+            Count: 1
         },
         components: {
             'A': {

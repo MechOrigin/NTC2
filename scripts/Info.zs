@@ -9,7 +9,7 @@ mods.jei.JEI.addInfo(<item:minecraft:mycelium>, ["Can be obtained by using Ancie
 
 mods.jei.JEI.addInfo(<item:quark:sturdy_stone>, ["Stronger material that can't be pushed by a piston. Crafted by arranging any Stone and any Cobblestone."]);
 
-mods.jei.JEI.addInfo(<item:emendatusenigmatica:charged_certus_quartz_gem>, ["Charged Certus Quartz is crafted by using a Thermal Fluid Encapsulator, by inserting 1 Lightning Charge and Molten Certus Quartz."]);
+mods.jei.JEI.addInfo(<item:appliedenergistics2:charged_certus_quartz_crystal>, ["Charged Certus Quartz is crafted by using a Thermal Fluid Encapsulator, by inserting 1 Lightning Charge and Molten Certus Quartz."]);
 
 mods.jei.JEI.addInfo(<item:betterendforge:lumecorn_rod>, ["Find wild Lumecorn in the End or sieve End Stone Dust to find seeds."]);
 

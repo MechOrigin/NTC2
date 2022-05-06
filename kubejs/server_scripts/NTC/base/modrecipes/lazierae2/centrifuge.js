@@ -14,7 +14,7 @@ onEvent('recipes', event => {
               energy: 2000,
               item: 'appliedenergistics2:purified_certus_quartz_crystal',
               count: 2,
-              input: 'emendatusenigmatica:certus_quartz_gem'
+              input: 'appliedenergistics2:certus_quartz_crystal'
           },
           {
             time: 180,

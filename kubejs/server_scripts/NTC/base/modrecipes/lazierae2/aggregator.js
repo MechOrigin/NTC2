@@ -17,7 +17,7 @@ onEvent('recipes', event => {
               count: 2,
               input1: 'forge:gems/quartz',
               input2: 'forge:dusts/redstone',
-              input3: 'emendatusenigmatica:charged_certus_quartz_gem'
+              input3: 'appliedenergistics2:charged_certus_quartz_crystal'
           },
           {
             time: 120,

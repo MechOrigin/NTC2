@@ -9,8 +9,8 @@ onEvent('recipes', event => {
           {
               time: 80,
               energy: 1500,
-              item: 'emendatusenigmatica:charged_certus_quartz_gem',
-              input: 'emendatusenigmatica:certus_quartz_gem'
+              item: 'appliedenergistics2:charged_certus_quartz_crystal',
+              input: 'appliedenergistics2:certus_quartz_crystal'
           }
       ]
     };
