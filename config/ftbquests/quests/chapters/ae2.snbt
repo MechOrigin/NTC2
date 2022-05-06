@@ -2522,29 +2522,5 @@
 				item: "ae2wtlib:magnet_card"
 			}]
 		}
-		{
-			x: 8.5d
-			y: 6.5d
-			hide_dependency_lines: true
-			dependencies: ["29B87968D5F05216"]
-			id: "5253BE35AF6410FE"
-			tasks: [{
-				id: "2F1CC4FAF65B6F0A"
-				type: "item"
-				item: "aeinfinitybooster:infinity_card"
-			}]
-		}
-		{
-			x: 9.5d
-			y: 6.5d
-			hide_dependency_lines: true
-			dependencies: ["29B87968D5F05216"]
-			id: "77A4725770D52670"
-			tasks: [{
-				id: "1A66108DC3B5858F"
-				type: "item"
-				item: "aeinfinitybooster:dimension_card"
-			}]
-		}
 	]
 }

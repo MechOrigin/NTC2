@@ -29,6 +29,8 @@ onEvent('item.registry', event => {
 
     event.create('overworld_portal').displayName('Overworld Portal')
 
+    event.create('ultimate_conglomerate').displayName('Ultimate Conglomerate')
+
     event.create('ntc_portal').displayName('NTC Portal')
 
     event.create('tier_1_kit').displayName('Tier 1 Kit')
