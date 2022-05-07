@@ -1,0 +1,10 @@
+{
+  "name": "Speculative Processor",
+  "colors": [
+    "df8280",
+    "df8280"
+  ],
+  "ingredient": {
+    "item": "lazierae2:speculative_processor"
+  }
+}

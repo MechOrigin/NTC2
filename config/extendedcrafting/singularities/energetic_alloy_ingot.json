@@ -1,0 +1,10 @@
+{
+  "name": "Energetic Alloy Ingot",
+  "colors": [
+    "f7a289",
+    "f7a289"
+  ],
+  "ingredient": {
+    "item": "enderioalloys:item_alloy_ingot_energetic_alloy"
+  }
+}

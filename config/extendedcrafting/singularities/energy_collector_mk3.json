@@ -1,0 +1,10 @@
+{
+  "name": "Energy Collector MK3",
+  "colors": [
+    "bf8080",
+    "bf8080"
+  ],
+  "ingredient": {
+    "item": "projecte:collector_mk3"
+  }
+}

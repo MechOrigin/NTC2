@@ -1,0 +1,10 @@
+{
+  "name": "Anti-matter Relay MK3",
+  "colors": [
+    "b08888",
+    "b08888"
+  ],
+  "ingredient": {
+    "item": "projecte:relay_mk3"
+  }
+}

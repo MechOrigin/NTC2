@@ -1,0 +1,10 @@
+{
+  "name": "Colossal Star Omega",
+  "colors": [
+    "f38b89",
+    "f38b89"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:colossal_star_omega"
+  }
+}

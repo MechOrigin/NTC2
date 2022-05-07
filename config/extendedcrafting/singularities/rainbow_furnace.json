@@ -1,0 +1,10 @@
+{
+  "name": "Rainbow Furnace",
+  "colors": [
+    "ffffff",
+    "ffffff"
+  ],
+  "ingredient": {
+    "item": "ironfurnaces:million_furnace"
+  }
+}

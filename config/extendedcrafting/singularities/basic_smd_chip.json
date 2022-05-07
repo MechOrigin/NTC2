@@ -1,0 +1,10 @@
+{
+  "name": "Basic SMD Chip",
+  "colors": [
+    "affea5",
+    "affea5"
+  ],
+  "ingredient": {
+    "item": "kubejs:basic_smd"
+  }
+}

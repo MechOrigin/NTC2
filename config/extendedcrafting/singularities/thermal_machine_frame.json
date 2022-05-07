@@ -1,0 +1,10 @@
+{
+  "name": "Thermal Machine Frame",
+  "colors": [
+    "a5a6a6",
+    "a5a6a6"
+  ],
+  "ingredient": {
+    "item": "thermal:machine_frame"
+  }
+}

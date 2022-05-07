@@ -1,0 +1,10 @@
+{
+  "name": "The Ultimate Ingot",
+  "colors": [
+    "df80fa",
+    "df80fa"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:the_ultimate_ingot"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Populated Basic PCB",
+  "colors": [
+    "2a6721",
+    "2a6721"
+  ],
+  "ingredient": {
+    "item": "kubejs:printed_final_basic_circuit_board"
+  }
+}

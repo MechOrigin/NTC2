@@ -1,0 +1,10 @@
+{
+  "name": "Fluid Cell Frame",
+  "colors": [
+    "c09d8d",
+    "c09d8d"
+  ],
+  "ingredient": {
+    "item": "thermal:fluid_cell_frame"
+  }
+}

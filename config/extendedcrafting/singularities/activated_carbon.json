@@ -1,0 +1,10 @@
+{
+  "name": "Activated Carbon",
+  "colors": [
+    "938f92",
+    "938f92"
+  ],
+  "ingredient": {
+    "item": "kubejs:activated_carbon"
+  }
+}

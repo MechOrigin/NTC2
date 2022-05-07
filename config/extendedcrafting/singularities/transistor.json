@@ -1,0 +1,10 @@
+{
+  "name": "Transistor",
+  "colors": [
+    "404040",
+    "404040"
+  ],
+  "ingredient": {
+    "item": "kubejs:transistor"
+  }
+}

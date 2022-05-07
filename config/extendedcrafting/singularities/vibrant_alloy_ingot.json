@@ -1,0 +1,10 @@
+{
+  "name": "Vibrant Alloy Ingot",
+  "colors": [
+    "dce29f",
+    "dce29f"
+  ],
+  "ingredient": {
+    "item": "enderioalloys:item_alloy_ingot_vibrant_alloy"
+  }
+}

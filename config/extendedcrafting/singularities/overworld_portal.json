@@ -1,0 +1,10 @@
+{
+  "name": "Overworld Portal",
+  "colors": [
+    "92e8fe",
+    "92e8fe"
+  ],
+  "ingredient": {
+    "item": "kubejs:overworld_portal"
+  }
+}

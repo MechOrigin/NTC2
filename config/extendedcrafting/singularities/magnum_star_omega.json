@@ -1,0 +1,10 @@
+{
+  "name": "Magnum Star Omega",
+  "colors": [
+    "c5a4e5",
+    "c5a4e5"
+  ],
+  "ingredient": {
+    "item": "projectexpansion:magnum_star_omega"
+  }
+}

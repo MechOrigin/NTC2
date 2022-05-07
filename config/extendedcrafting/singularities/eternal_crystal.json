@@ -1,0 +1,10 @@
+{
+  "name": "Eternal Crystal",
+  "colors": [
+    "b38fd5",
+    "b38fd5"
+  ],
+  "ingredient": {
+    "item": "betterendforge:eternal_crystal"
+  }
+}

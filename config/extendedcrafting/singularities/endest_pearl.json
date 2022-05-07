@@ -1,0 +1,10 @@
+{
+  "name": "Endest Pearl",
+  "colors": [
+    "a0feed",
+    "a0feed"
+  ],
+  "ingredient": {
+    "item": "avaritia:endest_pearl"
+  }
+}

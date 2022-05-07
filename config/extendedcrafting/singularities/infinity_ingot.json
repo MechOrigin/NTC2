@@ -1,0 +1,10 @@
+{
+  "name": "Infinity Ingot",
+  "colors": [
+    "e6b4fa",
+    "e6b4fa"
+  ],
+  "ingredient": {
+    "item": "avaritia:infinity_ingot"
+  }
+}

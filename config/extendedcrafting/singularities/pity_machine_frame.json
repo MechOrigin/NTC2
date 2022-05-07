@@ -1,0 +1,10 @@
+{
+  "name": "Pity Machine Frame",
+  "colors": [
+    "ccc0ad",
+    "ccc0ad"
+  ],
+  "ingredient": {
+    "item": "industrialforegoing:machine_frame_pity"
+  }
+}

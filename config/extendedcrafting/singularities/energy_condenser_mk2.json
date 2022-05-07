@@ -1,0 +1,10 @@
+{
+  "name": "Energy Condenser MK2",
+  "colors": [
+    "80cfed",
+    "80cfed"
+  ],
+  "ingredient": {
+    "item": "projecte:condenser_mk2"
+  }
+}

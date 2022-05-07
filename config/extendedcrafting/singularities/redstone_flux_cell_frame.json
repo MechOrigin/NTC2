@@ -1,0 +1,10 @@
+{
+  "name": "Redstone Flux Cell Frame",
+  "colors": [
+    "cac2a0",
+    "cac2a0"
+  ],
+  "ingredient": {
+    "item": "thermal:energy_cell_frame"
+  }
+}

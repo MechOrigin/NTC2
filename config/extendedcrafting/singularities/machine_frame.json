@@ -1,0 +1,10 @@
+{
+  "name": "RF Machine Frame",
+  "colors": [
+    "8d8d8e",
+    "8d8d8e"
+  ],
+  "ingredient": {
+    "item": "rftoolsbase:machine_frame"
+  }
+}

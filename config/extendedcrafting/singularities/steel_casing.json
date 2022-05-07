@@ -1,0 +1,10 @@
+{
+  "name": "Steel Casing",
+  "colors": [
+    "9a9a9a",
+    "9a9a9a"
+  ],
+  "ingredient": {
+    "item": "mekanism:steel_casing"
+  }
+}

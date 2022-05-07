@@ -1,0 +1,10 @@
+{
+  "name": "Ultimate Infusing Factory",
+  "colors": [
+    "8d8295",
+    "8d8295"
+  ],
+  "ingredient": {
+    "item": "mekanism:ultimate_infusing_factory"
+  }
+}
