@@ -3,7 +3,7 @@
 
     "ntc2.gettingstarted.chapter": "Getting Started with NTC2",
 
-    "ntc2.colors": "&4F &cF &6F &eF &2F &aF &bF &3F &1F &9F &dF &5F &fF &7F &8F &0F&r",
+    "ntc2.colors": "&4F &cF &6F &eF &2F &aF &bF &3F &1F &9F &dF &5F &fF &7F &8F &0F&r &oItalics&r &nUnderline&r &mStrike-through&r &lBold&r &kObfuscated&r",
     "ntc2.emcable": "&eEMCable&r",
     "ntc2.emcfarm": "&eEMC&r Farm Opportunity",
 
