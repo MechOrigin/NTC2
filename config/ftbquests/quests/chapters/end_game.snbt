@@ -342,5 +342,16 @@
 				item: "storagedrawers:creative_vending_upgrade"
 			}]
 		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "The end-game for Chemistry"
+			id: "7CE2D03A6D129735"
+			tasks: [{
+				id: "50B92D0E3C9329CF"
+				type: "item"
+				item: "kubejs:ultimate_conglomerate"
+			}]
+		}
 	]
 }

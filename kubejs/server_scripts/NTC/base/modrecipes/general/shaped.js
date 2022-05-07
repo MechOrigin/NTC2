@@ -9,6 +9,11 @@ onEvent('recipes', e => {
     D: '#minecraft:planks'
   })
 
+  modifyShaped(e, 'minecraft:dragon_breath', 1, [' D ', ' G ', '   '], {
+    G: 'minecraft:glass_bottle',
+    D: '#cagedmobs:dragon_scales'
+  })
+
 
   e.shaped(Item.of('betternether:cincinnasite_pickaxe_diamond', '{RepairCost:1,Damage:0}').enchant('minecraft:silk_touch', 1), [' C ', 'CSC', ' C '], {
     S: 'betternether:cincinnasite_pickaxe_diamond',
@@ -35,7 +40,7 @@ onEvent('recipes', e => {
     E: 'kubejs:uu_matter_2'
   }).id(`ntc2:antimatter_synthesizer`)
 
-    //nitrogen collector
+    //nitrogen collector handled by extendedcrafting.zs
     // e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:nitrogen_collector"}'),
     // ['ACA', 'DBD', 'CEC'], {
     //   A: 'chemlib:ingot_beryllium',
@@ -54,7 +59,7 @@ onEvent('recipes', e => {
     A: 'kubejs:uu_matter_2'
   }).id(`kubejs:uu_matter_coal`)
 
-  e.shaped(Ingredient.of('#forge:ingots/copper', 1), ['  A', 'A A', '   '], {
+  e.shaped(Item.of('emendatusenigmatica:copper_ingot', 1), ['  A', 'A A', '   '], {
     A: 'kubejs:uu_matter_2'
   }).id(`kubejs:uu_matter_copper`)
 
@@ -95,7 +100,7 @@ onEvent('recipes', e => {
     A: 'kubejs:uu_matter_2'
   }).id(`kubejs:uu_matter_oak_log`)
 
-  e.shaped(Ingredient.of('#forge:ingots/osmium', 1), ['A A', '   ', 'A A'], {
+  e.shaped(Item.of('emendatusenigmatica:osmium_ingot', 1), ['A A', '   ', 'A A'], {
     A: 'kubejs:uu_matter_2'
   }).id(`kubejs:uu_matter_osmium`)
 
@@ -107,11 +112,11 @@ onEvent('recipes', e => {
     A: 'kubejs:uu_matter_2'
   }).id(`kubejs:uu_matter_snow_block`)
 
-  e.shaped(Ingredient.of('#forge:ingots/steel', 1), ['AAA', ' A ', 'AAA'], {
+  e.shaped(Item.of('emendatusenigmatica:steel_ingot', 1), ['AAA', ' A ', 'AAA'], {
     A: 'kubejs:uu_matter_2'
   }).id(`kubejs:uu_matter_steel`)
 
-  e.shaped(Ingredient.of('#forge:ingots/tin', 1), ['A A', '  A', '   '], {
+  e.shaped(Item.of('emendatusenigmatica:tin_ingot', 1), ['A A', '  A', '   '], {
     A: 'kubejs:uu_matter_2'
   }).id(`kubejs:uu_matter_tin`)
 

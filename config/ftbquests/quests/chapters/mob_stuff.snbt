@@ -82,5 +82,42 @@
 				item: "alexsmobs:hemolymph_sac"
 			}]
 		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "Can be used to craft the dragon egg and dragons breath!"
+			id: "090317A1E9B31184"
+			tasks: [{
+				id: "595E6B772B6045DC"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "cagedmobs:dragon_scale"
+								Count: 1b
+							}
+							{
+								id: "mysticalagradditions:dragon_scale"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:dragon_scale"
+								Count: 1b
+							}
+							{
+								id: "quark:dragon_scale"
+								Count: 1b
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Dragon Scale\"}"
+						}
+					}
+				}
+			}]
+		}
 	]
 }
