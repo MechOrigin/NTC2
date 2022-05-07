@@ -35,7 +35,7 @@ const materialsToUnify = [
     'apatite',
     'redstone',
     'glowstone',
-    //'certus_quartz',
+    'certus_quartz',
     //'charged_certus_quartz',
     'dimensional',
     'cobalt',

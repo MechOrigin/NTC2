@@ -46,6 +46,7 @@ onEvent('recipes', (event) => {
 
         { type: {}, toReplace: 'lazierae2:coal_dust', replaceWith: '#forge:dusts/coal' },
         { type: {}, toReplace: 'appliedenergistics2:certus_quartz_dust', replaceWith: 'emendatusenigmatica:certus_quartz_dust' },
+        { type: {}, toReplace: 'emendatusenigmatica:certus_quartz', replaceWith: 'appliedenergistics2:certus_quartz' },
         
         { type: {}, toReplace: 'rftoolsbase:dimensionalshard', replaceWith: 'emendatusenigmatica:dimensional_gem' }
     ];

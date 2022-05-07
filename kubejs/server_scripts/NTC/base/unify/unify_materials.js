@@ -505,6 +505,10 @@ onEvent('recipes', (event) => {
             }
         }
 
+        if (gem == 'emendatusenigmatica:certus_quartz_gem') {
+            gem = Item.of('appliedenergistics2:certus_quartz_crystal', 1)
+        }
+
         var output = gem,
             input = `#forge:ores/${material}`;
 
@@ -849,7 +853,7 @@ onEvent('recipes', (event) => {
             return;
         }
 
-        blacklistedMaterials = ['ender'];
+        blacklistedMaterials = ['ender', 'certus_quartz'];
         for (var i = 0; i < blacklistedMaterials.length; i++) {
             if (blacklistedMaterials[i] == material) {
                 return;

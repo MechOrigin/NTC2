@@ -20,6 +20,8 @@ disable RF tools ores in JEI
 give rf tools frame quest reward - sorry dire
 fix mekanism tanks not having recipes
 
+git log --pretty="- %s"
+
 Notes:
 
 PackMode mod seems interesting

@@ -24,7 +24,7 @@
       "id": "upgrade",
       "filter": ["kubejs:upgrade_basic"],
       "whitelist": true,
-      "mode": "upgrade",
+      "mode": "input",
       "variant": "custommachinery:upgrade"
     }
   ],

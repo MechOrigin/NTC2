@@ -75,7 +75,9 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 //set up certus quartz to liquid and process to charged
 
 // <recipetype:thermal:crucible>.addRecipe(String name, IFluidStack output, IIngredient ingredient, int energy);
-//<recipetype:thermal:crucible>.addRecipe("certus_fluid", <fluid:emendatusenigmatica:molten_certus_quartz> * 144, <item:emendatusenigmatica:certus_quartz_gem>, 500);
+<recipetype:thermal:crucible>.addRecipe("certus_fluid", <fluid:emendatusenigmatica:molten_certus_quartz> * 144, <item:appliedenergistics2:certus_quartz_crystal>, 500);
+//<recipetype:thermal:crucible>.addRecipe("charged_certus_fluid", <fluid:emendatusenigmatica:molten_charged_certus_quartz> * 144, <item:appliedenergistics2:charged_certus_quartz_crystal>, 500);
+
 
 <recipetype:thermal:crucible>.addRecipe("blaze_fluid", <fluid:tconstruct:blazing_blood> * 250, <item:minecraft:blaze_powder>, 500);
 

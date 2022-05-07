@@ -41,6 +41,10 @@ onEvent('block.loot_tables', event => {
 	event.addSimpleBlock('#forge:ores/tin', 'emendatusenigmatica:tin_chunk')
 	//ZINC
 	event.addSimpleBlock('#forge:ores/zinc', 'emendatusenigmatica:zinc_chunk')
+	//CERTUS
+	event.addSimpleBlock('#forge:ores/certus_quartz', 'appliedenergistics2:certus_quartz_crystal')
+	//CHARGED CERTUS
+	event.addSimpleBlock('#forge:ores/charged_certus_quartz', 'appliedenergistics2:charged_certus_quartz_crystal')
 	
 //
 //
@@ -219,7 +223,37 @@ onEvent('block.loot_tables', event => {
 			pool.survivesExplosion()
 			pool.addEntry({type: 'minecraft:item', name: 'emendatusenigmatica:cobalt_chunk'})
 			}) 
-		}) 
+		})
+    //CERTUS
+	event.addBlock('emendatusenigmatica:certus_quartz_netherrack_ore', table => {
+		table.addPool(pool => {
+			pool.setUniformRolls(1, 2)
+			pool.survivesExplosion()
+			pool.addEntry({type: 'minecraft:item', name: 'appliedenergistics2:certus_quartz_crystal'})
+			}) 
+		})
+		event.addBlock('emendatusenigmatica:certus_quartz_soul_soil_ore', table => {
+			table.addPool(pool => {
+			pool.setUniformRolls(1, 2)
+			pool.survivesExplosion()
+			pool.addEntry({type: 'minecraft:item', name: 'appliedenergistics2:certus_quartz_crystal'})
+			}) 
+		})
+    //CHARGED CERTUS
+	event.addBlock('emendatusenigmatica:charged_certus_quartz_netherrack_ore', table => {
+		table.addPool(pool => {
+			pool.setUniformRolls(1, 2)
+			pool.survivesExplosion()
+			pool.addEntry({type: 'minecraft:item', name: 'appliedenergistics2:charged_certus_quartz'})
+			}) 
+		})
+	event.addBlock('emendatusenigmatica:charged_certus_quartz_soul_soil_ore', table => {
+		table.addPool(pool => {
+			pool.setUniformRolls(1, 2)
+			pool.survivesExplosion()
+			pool.addEntry({type: 'minecraft:item', name: 'appliedenergistics2:charged_certus_quartz'})
+			}) 
+		})
 //
 //
 //-----END ORES-----
@@ -247,6 +281,22 @@ onEvent('block.loot_tables', event => {
 	event.addSimpleBlock('emendatusenigmatica:tin_end_stone_ore', 'emendatusenigmatica:tin_cluster')
 	//ZINC
 	event.addSimpleBlock('emendatusenigmatica:zinc_end_stone_ore', 'emendatusenigmatica:zinc_cluster')
+	//CERTUS
+	event.addBlock('emendatusenigmatica:certus_quartz_end_stone_ore', table => {
+		table.addPool(pool => {
+			pool.setUniformRolls(2, 4)
+			pool.survivesExplosion()
+			pool.addEntry({type: 'minecraft:item', name: 'appliedenergistics2:certus_quartz_crystal'})
+			}) 
+		})
+	//CHARGED CERTUS
+	event.addBlock('emendatusenigmatica:charged_certus_quartz_end_stone_ore', table => {
+		table.addPool(pool => {
+			pool.setUniformRolls(2, 4)
+			pool.survivesExplosion()
+			pool.addEntry({type: 'minecraft:item', name: 'appliedenergistics2:charged_certus_quartz_crystal'})
+			}) 
+		})
 //
 //fin
 //

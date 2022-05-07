@@ -39,14 +39,14 @@
 			id: "3DB834F1D71682BD"
 			tasks: [
 				{
-					id: "14BC2A74F7D70100"
+					id: "4523712BC1F7CA8F"
 					type: "item"
-					item: "emendatusenigmatica:certus_quartz_gem"
+					item: "appliedenergistics2:certus_quartz_crystal"
 				}
 				{
-					id: "1472CA5BEB89D9D7"
+					id: "605983853223C25C"
 					type: "item"
-					item: "emendatusenigmatica:charged_certus_quartz_gem"
+					item: "appliedenergistics2:charged_certus_quartz_crystal"
 				}
 			]
 			rewards: [{
