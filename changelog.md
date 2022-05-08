@@ -164,3 +164,6 @@ and this project adheres to [Semantic Versioning].
     Fixed all fluix and certus unification hopefully for good this time by adding it back into materials.js and parsing out specific gems in unify_materials.js
 - Added thermal chiller recipe for IF essence to experience pearl
 - Changed tconstruct/materials.js structure
+- Added recipe to pink slime fluid from balls
+- Added 3 more item compartments in compact_crafter custom machine
+- Fixed recipes for custom machines to reflect counterparts
