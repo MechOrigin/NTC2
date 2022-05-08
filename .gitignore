@@ -42,3 +42,6 @@ local/
 biomeidfixer.temp
 .local
 .fmdata
+fancymenu_data/last_world.fmdata
+NewWorldBiomeIdFixer.json
+minecraftinstance.json

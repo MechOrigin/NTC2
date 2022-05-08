@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = C:/Users/mathe/Twitch/Minecraft/Instances/1.16.5 new/saves/New World
+  is_server = true
+  world = 127.0.0.1:25565
 }
 

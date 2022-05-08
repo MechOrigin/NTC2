@@ -167,3 +167,12 @@ and this project adheres to [Semantic Versioning].
 - Added recipe to pink slime fluid from balls
 - Added 3 more item compartments in compact_crafter custom machine
 - Fixed recipes for custom machines to reflect counterparts
+
+
+
+## [1.4.5] - 2022-05-08
+
+### Changed
+- 
+<!-- TODO: Fix nether quartz output from sieves -->
+<!-- TODO: Fix spelling mistake transmutation interface singularity -->
