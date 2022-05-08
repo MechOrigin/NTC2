@@ -77,12 +77,22 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 // <recipetype:thermal:crucible>.addRecipe(String name, IFluidStack output, IIngredient ingredient, int energy);
 <recipetype:thermal:crucible>.addRecipe("certus_fluid", <fluid:emendatusenigmatica:molten_certus_quartz> * 144, <item:appliedenergistics2:certus_quartz_crystal>, 500);
 //<recipetype:thermal:crucible>.addRecipe("charged_certus_fluid", <fluid:emendatusenigmatica:molten_charged_certus_quartz> * 144, <item:appliedenergistics2:charged_certus_quartz_crystal>, 500);
+//handled by kubejs <recipetype:thermal:crucible>.addRecipe("fluix_fluid", <fluid:emendatusenigmatica:molten_fluix> * 144, <item:appliedenergistics2:fluix_crystal>, 500);
 
 
 <recipetype:thermal:crucible>.addRecipe("blaze_fluid", <fluid:tconstruct:blazing_blood> * 250, <item:minecraft:blaze_powder>, 500);
 
 //experience pearls
 <recipetype:thermal:crucible>.addRecipe("experience_pearl_x0", <fluid:industrialforegoing:essence> * 250, <item:miniutilities:experience_pearl>, 500);
+
+//pink slime
+<recipetype:thermal:crucible>.addRecipe("pink_slime", <fluid:industrialforegoing:pink_slime> * 250, <item:industrialforegoing:pink_slime>, 500);
+
+
+// <recipetype:thermal:chiller>.addRecipe(String name, IItemStack output, IIngredient ingredient, IFluidStack inputFluid, int energy);
+//<recipetype:thermal:chiller>.addRecipe("chiller_test", <item:minecraft:glass>, <item:minecraft:air>, <fluid:thermal:resin> *250, 500);
+//<recipetype:thermal:chiller>.addRecipe("chiller_test_with_cast", <item:minecraft:glass>, <item:thermal:chiller_ball_cast>, <fluid:thermal:resin> *250, 500);
+<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:industrialforegoing:essence> * 250, 500);
 
 
 <recipetype:thermal:bottler>.addRecipe("charged_certus", <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:thermal:lightning_charge>, <fluid:emendatusenigmatica:molten_certus_quartz> *144, 500);

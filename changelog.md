@@ -157,4 +157,10 @@ and this project adheres to [Semantic Versioning].
 ### Changed
 - Collision Chamber can't produce anti-proton Fixes #52
     Solution was to add 2 fluid tanks of proton and leave the other recipe for proton and lead, now both craft fine
-- 
+- Fixed compact machines issue, ever since adding the 7x7 compact recipe for compact crafter single block theres been an array index out of bounds
+    Solution was to change the outside "-" as air into blocks of whatever. We chose plastic. Thanks Everyone for testing and finding a solution <3
+- Fixed 1k AE2 components requiring any certus quartz as this is unintended and changed back to charged certus
+- Fixed Certus/fluix not being meltable in magma crucible (left charged certus out because that doesn't make sense) Fixes #66 
+    Fixed all fluix and certus unification hopefully for good this time by adding it back into materials.js and parsing out specific gems in unify_materials.js
+- Added thermal chiller recipe for IF essence to experience pearl
+- Changed tconstruct/materials.js structure

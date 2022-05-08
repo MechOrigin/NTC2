@@ -212,6 +212,10 @@ onEvent('recipes', (event) => {
             return;
         }
 
+        if (gem == 'emendatusenigmatica:fluix_gem') {
+            gem = Item.of('appliedenergistics2:fluix_crystal', 1)
+        }
+
         var output = dust,
             input = `#forge:gems/${material}`;
 
@@ -785,11 +789,15 @@ onEvent('recipes', (event) => {
             return;
         }
 
-        blacklistedMaterials = ['ender'];
+        blacklistedMaterials = ['ender', 'fluix'];
         for (var i = 0; i < blacklistedMaterials.length; i++) {
             if (blacklistedMaterials[i] == material) {
                 return;
             }
+        }
+
+        if (gem == 'emendatusenigmatica:fluix_gem') {
+            gem = Item.of('appliedenergistics2:fluix_crystal', 1)
         }
 
         let recipes = [{ type: 'gem', amount: 144, output: gem, energy: 5000 }];
@@ -858,6 +866,10 @@ onEvent('recipes', (event) => {
             if (blacklistedMaterials[i] == material) {
                 return;
             }
+        }
+
+        if (gem == 'emendatusenigmatica:fluix_gem') {
+            gem = Item.of('appliedenergistics2:fluix_crystal', 1)
         }
 
         let recipes = [{ type: 'gem', amount: 144, input: `#forge:gems/${material}`, energy: 5000 }];
@@ -967,6 +979,10 @@ onEvent('recipes', (event) => {
             if (blacklistedMaterials[i] == material) {
                 return;
             }
+        }
+
+        if (gem == 'emendatusenigmatica:fluix_gem') {
+            gem = Item.of('appliedenergistics2:fluix_crystal', 1)
         }
 
         let recipes = [{ type: 'gem', amount: 144, cooling: 64, output: gem }];

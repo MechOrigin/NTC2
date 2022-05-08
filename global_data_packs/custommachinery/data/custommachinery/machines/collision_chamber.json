@@ -24,7 +24,7 @@
       "id": "input2",
       "capacity": 10000,
       "type": "custommachinery:fluid",
-      "filter": ["tconstruct:molten_lead", "kubejs:liquid_electron_neutrino", "kubejs:liquid_anti_proton", "kubejs:liquid_proton"],
+      "filter": ["tconstruct:molten_lead", "kubejs:liquid_electron_neutrino", "kubejs:liquid_anti_proton", "mekanism:hydrogen"],
       "whitelist": true
     },
     {

@@ -334,7 +334,7 @@ onEvent('recipes', event => {
     //Collision Chamber
     event.recipes.custommachinery.custom_machine("custommachinery:collision_chamber", 100)
         .requireFluid(Fluid.of("kubejs:liquid_proton", 150), "input1")
-        .requireFluid(Fluid.of("kubejs:liquid_proton", 150), "input2")
+        .requireFluid(Fluid.of("mekanism:hydrogen", 150), "input2")
         .requireEnergyPerTick(50000)
         .produceFluid(Fluid.of("kubejs:liquid_positron", 100), "output1")
         .produceFluid(Fluid.of("kubejs:liquid_electron_neutrino", 100), "output2")
@@ -1286,6 +1286,8 @@ onEvent('recipes', event => {
         .requireItem(Item.of("rftoolsbuilder:space_chamber", 7))
         .requireItem(Item.of("rftoolsbuilder:space_chamber_controller", 1))
         .requireItem(Item.of("rftoolsbuilder:builder", 1))
+        .requireItem(Item.of("mekanismadditions:black_plastic", 209))
+        .requireItem(Item.of("mekanismadditions:orange_plastic", 27))
         .requireItem(Item.of("extendedcrafting:the_ultimate_block", 1)) 
         .requireEnergy(5000)
         .produceItem(Item.of('custommachinery:custom_machine_item', 1, '{machine:"custommachinery:compact_crafter"}'), "output1")
