@@ -150,3 +150,11 @@ and this project adheres to [Semantic Versioning].
 - Changed all custom machines basic upgrade slot "mode" to insert because upgrade is invalid
 - Swapped back to ProjectExpansion-1.16.5-1.0.21.jar because of bug
 - Removed input specifics for compact crafter custom machine
+
+
+## [1.4.4] - 2022-05-08
+
+### Changed
+- Collision Chamber can't produce anti-proton Fixes #52
+    Solution was to add 2 fluid tanks of proton and leave the other recipe for proton and lead, now both craft fine
+- 

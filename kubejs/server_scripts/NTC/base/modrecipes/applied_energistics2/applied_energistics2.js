@@ -56,6 +56,18 @@ onEvent('recipes', e => {
   modifyShaped(e, 'emendatusenigmatica:charged_certus_quartz_block', 1, ['AA ', 'AA ', '   '], {
     A: 'appliedenergistics2:charged_certus_quartz_crystal'
   })
+
+  modifyShaped(e, 'appliedenergistics2:1k_cell_component', 1, ['BAB', 'ACA', 'BAB'], {
+    A: 'appliedenergistics2:charged_certus_quartz_crystal',
+    B: 'minecraft:redstone',
+    C: 'appliedenergistics2:logic_processor'
+  })
+  modifyShaped(e, 'appliedenergistics2:1k_fluid_cell_component', 1, ['BAB', 'ACA', 'BAB'], {
+    A: 'appliedenergistics2:charged_certus_quartz_crystal',
+    B: '#forge:dyes/green',
+    C: 'appliedenergistics2:logic_processor'
+  })
+
   modifyShaped(e, 'appliedenergistics2:quartz_glass', 4, ['GDG', 'DGD', 'GDG'], {
     G: '#appliedenergistics2:dusts/quartz',
     D: '#forge:glass'
