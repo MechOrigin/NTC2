@@ -1,0 +1,16 @@
+{
+    "name": "Neutronium",
+    "type": "resource",
+    "tier": "mysticalagriculture:6",
+    "ingredient": {
+      "item": "avaritia:pileof_neutrons"
+    },
+    "color": "000000",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "crux": "avaritia:neutronium_block"
+  }
+  

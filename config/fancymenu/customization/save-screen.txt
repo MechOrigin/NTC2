@@ -9,14 +9,27 @@ customization-meta {
 }
 
 customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
   baseheight = 768
   action = autoscale
   basewidth = 1024
 }
 
 customization {
-  keepaspectratio = false
+  keepaspectratio = true
   action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398242%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -104
 }
 
 customization {
@@ -49,18 +62,27 @@ customization {
 }
 
 customization {
-  identifier = %id=8755%
-  orientation = top-centered
-  x = -124
+  identifier = %id=398314%
+  orientation = mid-centered
+  x = -102
   action = movebutton
-  y = 136
+  y = -32
+}
+
+customization {
+  identifier = %id=504266%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -80
 }
 
 customization {
   identifier = %id=8755%
-  width = 19
-  action = resizebutton
-  height = 20
+  orientation = top-centered
+  x = -125
+  action = movebutton
+  y = 136
 }
 
 customization {
@@ -74,6 +96,14 @@ customization {
   x = 4
   action = movebutton
   y = -8
+}
+
+customization {
+  identifier = %id=5042901%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -56
 }
 
 customization {
@@ -92,50 +122,18 @@ customization {
 }
 
 customization {
-  identifier = %id=398362%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = 17
-}
-
-customization {
-  identifier = %id=398242%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = -104
-}
-
-customization {
-  identifier = %id=398314%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = -32
-}
-
-customization {
-  identifier = %id=504266%
-  orientation = mid-centered
-  x = 4
-  action = movebutton
-  y = -80
-}
-
-customization {
-  identifier = %id=5042901%
-  orientation = mid-centered
-  x = 4
-  action = movebutton
-  y = -56
-}
-
-customization {
   identifier = %id=398266%
   orientation = mid-centered
   x = -102
   action = movebutton
   y = -80
+}
+
+customization {
+  identifier = %id=398362%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 17
 }
 

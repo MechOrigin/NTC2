@@ -176,3 +176,6 @@ and this project adheres to [Semantic Versioning].
 - 
 <!-- TODO: Fix nether quartz output from sieves -->
 <!-- TODO: Fix spelling mistake transmutation interface singularity -->
+<!-- TODO: Remove unused avaritia stuff out of JEI -->
+Add neutronium MA
+Add enderio alloys MA
