@@ -174,6 +174,8 @@ and this project adheres to [Semantic Versioning].
 
 ### Changed
 - Fixed compact crafter requiring stack of 209 black plastic, requires 160 blocks of plastic now and I've added 12 slots for input in compact crafter
+- Fixed Fluix gem quest in AE2 tab
+- Added blocks recipes for black iron, Redstone, ender ingots
 
 <!-- TODO: Fix nether quartz output from sieves
     TODO: Fix spelling mistake transmutation interface singularity
@@ -181,5 +183,6 @@ and this project adheres to [Semantic Versioning].
     TODO: Add neutronium MA
     TODO: Add enderio alloys MA
     TODO: Add github repo to title screen
+    TODO: 
     TODO: 
 -->
