@@ -174,8 +174,11 @@ and this project adheres to [Semantic Versioning].
 
 ### Changed
 - 
-<!-- TODO: Fix nether quartz output from sieves -->
-<!-- TODO: Fix spelling mistake transmutation interface singularity -->
-<!-- TODO: Remove unused avaritia stuff out of JEI -->
-Add neutronium MA
-Add enderio alloys MA
+<!-- TODO: Fix nether quartz output from sieves
+    TODO: Fix spelling mistake transmutation interface singularity
+    TODO: Remove unused avaritia stuff out of JEI
+    TODO: Add neutronium MA
+    TODO: Add enderio alloys MA
+    TODO: Add github repo to title screen
+    TODO: Fix compact crafter requiring stack of 209 black plastic (stacks are 64 duh)
+-->
