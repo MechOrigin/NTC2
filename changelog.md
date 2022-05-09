@@ -173,12 +173,13 @@ and this project adheres to [Semantic Versioning].
 ## [1.4.5] - 2022-05-08
 
 ### Changed
-- 
+- Fixed compact crafter requiring stack of 209 black plastic, requires 160 blocks of plastic now and I've added 12 slots for input in compact crafter
+
 <!-- TODO: Fix nether quartz output from sieves
     TODO: Fix spelling mistake transmutation interface singularity
     TODO: Remove unused avaritia stuff out of JEI
     TODO: Add neutronium MA
     TODO: Add enderio alloys MA
     TODO: Add github repo to title screen
-    TODO: Fix compact crafter requiring stack of 209 black plastic (stacks are 64 duh)
+    TODO: 
 -->
