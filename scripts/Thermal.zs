@@ -3,10 +3,10 @@
 
 // <recipetype:thermal:smelter>.addRecipe(String name, MCWeightedItemStack[] outputs, IIngredient[] ingredients, float experience, int energy);
 <recipetype:thermal:smelter>.addRecipe("redstone_ingot", [<item:extendedcrafting:redstone_ingot> % 100/*, <item:appliedenergistics2:certus_quartz_crystal> %5*/], [<tag:items:forge:gems/silicon>, <item:minecraft:redstone>], 0.1, 500);
-<recipetype:thermal:smelter>.addRecipe("redstone_block", [<item:extendedcrafting:redstone_block> % 100/*, <item:appliedenergistics2:certus_quartz_crystal> %5*/], [<tag:items:forge:gems/silicon> * 9, <item:minecraft:redstone_block>], 0.1, 4500);
+<recipetype:thermal:smelter>.addRecipe("redstone_ingot_block", [<item:extendedcrafting:redstone_ingot_block> % 100/*, <item:appliedenergistics2:certus_quartz_crystal> %5*/], [<tag:items:forge:gems/silicon> * 9, <item:minecraft:redstone_block>], 0.1, 4500);
 
 <recipetype:thermal:smelter>.addRecipe("ender_ingot", [<item:extendedcrafting:ender_ingot> % 100], [<item:minecraft:ender_pearl>, <item:minecraft:iron_ingot>], 0.1, 500);
-<recipetype:thermal:smelter>.addRecipe("ender_block", [<item:extendedcrafting:ender_block> % 100], [<item:minecraft:ender_pearl * 9>, <item:minecraft:iron_block>], 0.1, 500);
+<recipetype:thermal:smelter>.addRecipe("ender_ingot_block", [<item:extendedcrafting:ender_ingot_block> % 100], [<item:minecraft:ender_pearl> * 9, <item:minecraft:iron_block>], 0.1, 500);
 
 craftingTable.removeRecipe(<item:thermal:redstone_servo>);
 craftingTable.addShaped("redstone_servo", <item:thermal:redstone_servo>, [
