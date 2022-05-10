@@ -1,26 +1,26 @@
 {
-    "ntc2.packname": "NTC2 - &d1.16.5&r",
+    "ntc2.packname": "&fNTC2 - &d1.16.5&r",
 
-    "ntc2.gettingstarted.chapter": "Getting Started with NTC2",
+    "ntc2.gettingstarted.chapter": "&fGetting Started with NTC2&r",
 
     "ntc2.colors": "&4F &cF &6F &eF &2F &aF &bF &3F &1F &9F &dF &5F &fF &7F &8F &0F&r &oItalics&r &nUnderline&r &mStrike-through&r &lBold&r &kObfuscated&r",
     "ntc2.emcable": "&eEMCable&r",
     "ntc2.emcfarm": "&eEMC&r Farm Opportunity",
 
-    "ntc2.welcome.title": "Welcome to &6NTC2&r",
+    "ntc2.welcome.title": "Welcome to &fNTC2&r",
     "ntc2.welcome.subtitle": "Thank you for playing!",
-    "ntc2.welcome.desc1": "Lets forget about your problems for a while and immerse yourself into this modpack.",
-    "ntc2.welcome.desc2": "&6NTC2&r is a modpack completely designed with love, with carefully designed recipes that provide a unique playing experience.",
+    "ntc2.welcome.desc1": "Lets forget about your problems for a while and immerse yourself into this modpack",
+    "ntc2.welcome.desc2": "&fNTC2&r is a modpack completely designed with love, with carefully designed recipes that provide a unique playing experience",
     "ntc2.welcome.desc3": "Enjoy!",
 
-    "ntc2.main.title": "&4Main&r Quests",
-    "ntc2.main.subtitle": "These are quests that &6must&r be completed in order to progress.",
+    "ntc2.main.title": "&6Main Quests&r",
+    "ntc2.main.subtitle": "These are &bquests&r that &6must&r be completed in order to progress",
 
-    "ntc2.optional.title": "&4Optional&r Quests",
-    "ntc2.optional.subtitle": "Completely optional. These will mainly be &6tips and tricks.&r",
+    "ntc2.optional.title": "&6Optional Quests&r",
+    "ntc2.optional.subtitle": "&bCompletely&r optional. These will mainly be &6tips and tricks&r",
 
-    "ntc2.gotoquests.title": "&4Go To&r Quests",
-    "ntc2.gotoquests.subtitle": "&6Round quests&r will take you to another page.",
+    "ntc2.gotoquests.title": "&6Go To Quests&r",
+    "ntc2.gotoquests.subtitle": "&bRound quests&r will take you to &6another page&r",
 
     "ntc2.stone.subtitle": "&eEMCable&r",
     "ntc2.stone.desc1": "Gather Stone to make Sturdy Stone",
@@ -30,20 +30,20 @@
     "ntc2.beds.subtitle": "&oI'm not sleeping! I'm just squishing a bug with my eyelids&r",
 
     "ntc2.watercan.title": "&bWatercans!&r",
-    "ntc2.watercan.subtitle": "Whoa, whats in this stuff?! &oGrow you son of a birch&r",
+    "ntc2.watercan.subtitle": "Whoa, whats in this stuff?!",
     "ntc2.watercan.desc1": "Michael Jordans Secret Stuff? Probably not, but plants love these!",
 
-    "ntc2.inksac.desc1": "After completing &bOn the Dynamics of Integration&r Guide book, you will get a squid and some ink.",
+    "ntc2.inksac.desc1": "After completing &n&aOn the Dynamics of Integration&r Guide book, you will get a &bsquid and some ink&r",
 
     "ntc2.cobble.subtitle": "&eEMCable&r",
     "ntc2.cobble.desc1": "Gather Cobblestone to make Sturdy Stone",
 
 
-    "ntc2.saplings.title": "One of every kind",
-    "ntc2.saplings.desc1": "Easily transmute any sapling you get with the Philosophers Stone into other variants.",
+    "ntc2.saplings.title": "&bOne&r of every &6kind&r",
+    "ntc2.saplings.desc1": "Easily transmute any sapling you get with the Philosophers Stone into other variants",
 
-    "ntc2.feather.desc1": "If you haven't figured it out already. The Philosophers Stone is capable of morphing animals and monsters into another. What was once a Pig is now a Chicken, or a Cow, or a Zombie...?",
-    "ntc2.feather.desc2": "Passive mobs spawn naturally given some time and enough space. If you happen to come across a chicken and get some feathers before completing the &n&aBook&r quest, congrats.",
+    "ntc2.feather.desc1": "If you haven't figured it out already. The &bPhilosophers Stone&r is capable of &6morphing&r animals and monsters into another. What was once a Pig is now a Chicken, or a Cow, or a Zombie...?",
+    "ntc2.feather.desc2": "Passive mobs spawn naturally given some time and enough space. If you happen to come across a chicken and get some feathers before completing the &n&aBook&r quest, congrats",
 
     "ntc2.backpack.title": "&bSophisticated Backpacks!&r",
     "ntc2.backpack.desc1": "&fSophisticated backpacks is yet another backpack mod this time with backpack you can place in world, color in different color combinations, upgrade with more inventory and enhance with many functional upgrades.&r",
@@ -54,29 +54,37 @@
     "ntc2.backpack.desc6": "&l&bDyeing the backpack in crafting table:&r\nColor of multiple dyes in recipe gets combined similar to how it works for coloring leather armor except backpack can have two colors - main and accent\nDyes to the left of the backpack in the recipe apply to the main color\nDyes to the right apply to the accent color of the backpack\nDyes in the same column apply to both\nAnd once dyed you can continue adding dyes which combine with the current main color, accent color or both\nSo yes there are many color combinations\nColor of already dyed backpack can be washed away by clicking it on cauldron with water",
     "ntc2.backpack.desc7": "&l&bUpgrades:&r\nPickup Upgrade\nMagnet Upgrade\nFilter Upgrade\nVoid Upgrade\nCompacting Upgrade\nFeeding upgrade\nDeposit upgrade\nRestock Upgrade\nRefill upgrade\nInception Upgrade\nEverlasting Upgrade\nSmelting Upgrades\nCrafting Upgrade\nStonecutter Upgrade\nStack Upgrade\nJukebox Upgrade\nToolswapper Upgrade",
 
-    "ntc2.sturdy.subtitle": "Stone that makes sense",
+    "ntc2.sturdy.subtitle": "&7Stone&r that makes sense",
 
-    "ntc2.furnace.subtitle": "&n&o&2The Staple of Smelting&r",
-    "ntc2.quartz.subtitle": "&eEMCable&r",
-    "ntc2.redstoneingot.subtitle": "Required to make Piston and progress in automation",
-    "ntc2.clayball.subtitle": "&eEMCable&r",
-    "ntc2.netherquartz.desc1": "Try sieving soul sand with a flint mesh",
-    "ntc2.terracottaplate.subtitle": "Can be used to make early game plate casts",
-    "ntc2.cocoabeans.subtitle": "Sieve Sand to get Cocoa Beans",
-    "ntc2.nethergems.subtitle": "Can be found in the &bNether&r early game",
+    "ntc2.furnace.subtitle": "Good ole &6Furnace&r",
 
-    "ntc2.potassiumnitrate.desc1": "Can be found in the &bNether/Overworld&r, &bBees&r, and by grinding up &bSandstone&r",
-    "ntc2.sulfur.desc1": "Can be found in the &bNether/Overworld&r, &bOil processing&r, &bChemical processing&r, &bBees&r, and grinding up &bBlaze Rods&r",
+    "ntc2.quartz.desc1": "&bNether Quartz&r can be found in the &2Nether&r of course, but you first get it from sieving &6Soul Sand&r in an &dIron mesh&r. &cDon't even try a &dFlint mesh&r &cunless you want to lose all your &6Soul Sand&r",
+    "ntc2.quartz.desc2": "&6Soul Sand&r can be acquired from putting &eSand&r in a barrel of &5witch water&r, you will get &d64x&r more from completing the quest",
 
-    "ntc2.grindstone.title": "Manual Grinding",
+    "ntc2.redstoneingot.subtitle": "Required to make the &6Piston&r",
+
+    "ntc2.clayball.desc1": "&bClay block&r can be first acquired from inserting &6dust&r into a barrel of &1water&r, then simply break it down normally",
+
+    "ntc2.terracottaplate.subtitle": "Can be used to make early game &bplate casts&r for &eTinkers&r",
+
+    "ntc2.cocoabeans.subtitle": "Sieve &eSand&r to get &6Cocoa Beans&r",
+
+    "ntc2.nethergems.subtitle": "Can be found in the &2Nether&r early game",
+
+    "ntc2.potassiumnitrate.desc1": "Can be found in the &2Nether/Overworld&r. Created with &eProductive Bees&r and &eMystical Agriculture&r, and by grinding up &6Sandstone&r",
+
+    "ntc2.sulfur.desc1": "Can be found in the &2Nether/Overworld&r. Created with &bOil processing&r, &bChemical processing&r, &eMystical Agriculture, Productive Bees&r, and grinding up &6Blaze Rods&r",
+
+    "ntc2.grindstone.title": "&o&bManual Grinding&r",
     "ntc2.grindstone.subtitle": "Make a Quartz Grindstone",
-    "ntc2.grindstone.desc1": "The &bQuartz Grindstone&r is the &6earliest form of ore duplication&r in most packs it's in.",
-    "ntc2.grindstone.desc2": "Simply insert the items you wish to crush into the left slots, place a &bCrank&r on top of the block, and then hold right-click on the Crank.",
-    "ntc2.grindstone.desc3": "This will slowly grind the blocks, turning them to dust. If there are no inputs, this has a chance of destroying the Crank.",
+    "ntc2.grindstone.desc1": "The &bQuartz Grindstone&r is the &6earliest form of ore duplication&r in most packs it's in",
+    "ntc2.grindstone.desc2": "Simply insert the items you wish to crush into the left slots, place a &bCrank&r on top of the block, and then hold right-click on the Crank",
+    "ntc2.grindstone.desc3": "This will slowly grind the blocks, turning them to dust. If there are no inputs, this has a chance of destroying the Crank",
+    "ntc2.grindstone.desc4": "This block can be tick accelerated with things such as &eTime in a Bottle&r",
 
-    "ntc2.sand.subtitle": "&eEMCable&r",
-    "ntc2.sand.desc1": "Place Cobblestone down and right click with the Philosophers Stone to make it into Sand.",
-    "ntc2.sand.desc2": "Craft 4 Sand together to make Sandstone.",
+    "ntc2.sand.subtitle": "Lets go to the &eBeach!&r Oh wait...",
+    "ntc2.sand.desc1": "Place &7Cobblestone&r down and right click with the &bPhilosophers Stone&r to make it into &eSand&r",
+    "ntc2.sand.desc2": "Craft &d4x&r &eSand&r together to make &6Sandstone&r",
 
     "ntc2.sandstone.subtitle": "Sandstone into Gravel",
     "ntc2.sandstone.desc1": "Place Sandstone down and right click with the Philosophers Stone to make it into gravel.",
@@ -2257,7 +2265,7 @@
     "ntc2.rotarycondens.desc2": "For the purposes of ore quintupling, you need to &6decondensentrate Water into Water Vapor&r, which has to be combined with Sulfur Trioxide in the Chemical Infuser to create &6Sulfuric Acid&r.",
 
     "ntc2.chemdiss.subtitle": "Make a Chemical Dissolution Chamber",
-    "ntc2.chemdiss.desc": "The &bChemical Dissolution Chamber&r allows you to combine ores with Sulfuric Acid to create a bucket of &6ore lurry&r.",
+    "ntc2.chemdiss.desc": "The &bChemical Dissolution Chamber&r allows you to combine ores with Sulfuric Acid to create a bucket of &6ore slurry&r.",
 
     "ntc2.chemwasher.subtitle": "Make a Chemical Washer",
     "ntc2.chemwasher.desc": "The &bChemical Washer&r combines 5mB of Water with 1mB of ore Slurry to create 1mB of &6Clean ore Slurry&r.",

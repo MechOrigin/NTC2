@@ -1,10 +1,16 @@
 {
-    "Go To": "&fWhite&r",
-    "Actual Quest Names": "&aLight Green&r",
-
+    "Formatting": "&4F &cF &6F &eF &2F &aF &bF &3F &1F &9F &dF &5F &fF &7F &8F &0F&r &oItalics&r &nUnderline&r &mStrike-through&r &lBold&r &kObfuscated&r",
+    "Go To and Chapters": "&fWhite&r",
+    "Actual Quest Names": "&n&aLight Green&r",
     "EMC": "&eYellow&r",
-
-    "Specific Items": "&6Item 1 &dItem 2 &bItem 3 &fItem 4&r",
-
-    "Visit": "&2Dimension or Thing"
+    "Various Items": "&6Item 1 &dItem 2 &bItem 3 &fItem 4&r",
+    "Visit": "&2Dimension or Thing&r",
+    "Highlight Specific or List Prefix": "&bSandstone&r or things like &bThis is how:&r blah blah blah",
+    "Specific Items or Fluids or Colors": "&4Lava is Red&r &5Obsidian&r &2Grass&r &1Water&r &9Cobalt&r &7Stone&r",
+    "Object after highlight specific": "&6something about sandstone to note&r generates &6 200,000 RF/t &r",
+    "Warnings": "&cDo not use if&r",
+    "Highlight GUI elements": "Click &9Void Fluids&r",
+    "Mods": "&eThermal&r",
+    "multiplying": "&d 3x &r ore processing",
+    "modmaker or notable names": "&9Direwolf20&r"
 }
