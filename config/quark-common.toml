@@ -163,7 +163,7 @@
 		"Enable Carrot Crate" = true
 		"Enable Beetroot Crate" = true
 		"Enable Cocoa Bean Sack" = true
-		"Enable Nether Wart Sack" = true
+		"Enable Nether Wart Sack" = false
 		"Enable Gunpowder Sack" = true
 		"Enable Berry Sack" = true
 		"Enable Blaze Lantern" = true

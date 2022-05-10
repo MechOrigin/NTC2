@@ -92,7 +92,8 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 // <recipetype:thermal:chiller>.addRecipe(String name, IItemStack output, IIngredient ingredient, IFluidStack inputFluid, int energy);
 //<recipetype:thermal:chiller>.addRecipe("chiller_test", <item:minecraft:glass>, <item:minecraft:air>, <fluid:thermal:resin> *250, 500);
 //<recipetype:thermal:chiller>.addRecipe("chiller_test_with_cast", <item:minecraft:glass>, <item:thermal:chiller_ball_cast>, <fluid:thermal:resin> *250, 500);
-<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:industrialforegoing:essence> * 250, 500);
+//<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:industrialforegoing:essence> * 250, 500);
+//<recipetype:thermal:bottler>.addRecipe("bottler_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:forge:experience> * 250, 500);
 
 
 <recipetype:thermal:bottler>.addRecipe("charged_certus", <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:thermal:lightning_charge>, <fluid:emendatusenigmatica:molten_certus_quartz> *144, 500);

@@ -181,4 +181,6 @@ and this project adheres to [Semantic Versioning].
     TODO: Add enderio alloys MA
     TODO: Add github repo to title screen
     TODO: Fix compact crafter requiring stack of 209 black plastic (stacks are 64 duh)
+    TODO: Fix blast chiller recipe for experience (doesn't work) change to fluid encapsulator
+    TODO: change nether wart to be 3x3 recipe and thermal packing recipe output 9 instead of 4
 -->
