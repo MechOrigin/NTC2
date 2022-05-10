@@ -86,6 +86,54 @@ onEvent('recipes', (event) => {
             outputs: [Fluid.of('thermal:latex', 50)],
             energy: 400,
             id: 'thermal:machine/press/press_dandelion_to_latex'
+        },
+        {
+            inputs: [Item.of('emendatusenigmatica:aluminum_ingot')],
+            outputs: [Item.of('emendatusenigmatica:aluminum_plate', 1)],
+            energy: 2400,
+            id: 'thermal:machine/press/press_aluminum_ingot_to_plate'
+        },
+        {
+            inputs: [Item.of('emendatusenigmatica:osmium_ingot')],
+            outputs: [Item.of('emendatusenigmatica:osmium_plate', 1)],
+            energy: 2400,
+            id: 'thermal:machine/press/press_osmium_ingot_to_plate'
+        },
+        {
+            inputs: [Item.of('emendatusenigmatica:cobalt_ingot')],
+            outputs: [Item.of('emendatusenigmatica:cobalt_plate', 1)],
+            energy: 2400,
+            id: 'thermal:machine/press/press_cobalt_ingot_to_plate'
+        },
+        {
+            inputs: [Item.of('emendatusenigmatica:brass_ingot')],
+            outputs: [Item.of('emendatusenigmatica:brass_plate', 1)],
+            energy: 2400,
+            id: 'thermal:machine/press/press_brass_ingot_to_plate'
+        },
+        {
+            inputs: [Item.of('emendatusenigmatica:steel_ingot')],
+            outputs: [Item.of('emendatusenigmatica:steel_plate', 1)],
+            energy: 2400,
+            id: 'thermal:machine/press/press_steel_ingot_to_plate'
+        },
+        {
+            inputs: [Item.of('emendatusenigmatica:signalum_ingot')],
+            outputs: [Item.of('emendatusenigmatica:signalum_plate', 1)],
+            energy: 2400,
+            id: 'thermal:machine/press/press_signalum_ingot_to_plate'
+        },
+        {
+            inputs: [Item.of('emendatusenigmatica:lumium_ingot')],
+            outputs: [Item.of('emendatusenigmatica:lumium_plate', 1)],
+            energy: 2400,
+            id: 'thermal:machine/press/press_lumium_ingot_to_plate'
+        },
+        {
+            inputs: [Item.of('emendatusenigmatica:enderium_ingot')],
+            outputs: [Item.of('emendatusenigmatica:enderium_plate', 1)],
+            energy: 2400,
+            id: 'thermal:machine/press/press_enderium_ingot_to_plate'
         }
     ];
 

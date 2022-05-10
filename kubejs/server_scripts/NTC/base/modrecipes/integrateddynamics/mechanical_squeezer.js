@@ -415,28 +415,9 @@ onEvent('recipes', function (event) {
 
     data.recipes.forEach((recipe) => {
         event.custom({
-            type: 'integrateddynamics:squeezer',
-            item: recipe.input,
-            result: {
-                items: [
-                    {
-                        item: {
-                            item: recipe.output,
-                            count: recipe.count
-                        }
-                    }
-                ]
-            }
-        });
-
-        event.custom({
             type: 'integrateddynamics:mechanical_squeezer',
             item: recipe.input,
             result: {
-                fluid: {
-                    fluid: recipe.fluid,
-                    amount: recipe.amount
-                },
                 items: [
                     {
                         item: {
@@ -449,55 +430,6 @@ onEvent('recipes', function (event) {
             duration: recipe.duration
         });
 
-    });
-
-    // Tag Inputs
-    data = {
-        recipes: [
-            {
-                input: 'forge:stone',
-                output: 'minecraft:cobblestone',
-                count: 1,
-                duration: 20
-            }
-        ]
-    };
-
-    data.recipes.forEach((recipe) => {
-        event.custom({
-            type: 'integrateddynamics:squeezer',
-            item: {
-                tag: recipe.input
-            },
-            result: {
-                items: [
-                    {
-                        item: {
-                            item: recipe.output,
-                            count: recipe.count
-                        }
-                    }
-                ]
-            }
-        });
-
-        event.custom({
-            type: 'integrateddynamics:mechanical_squeezer',
-            item: {
-                tag: recipe.input
-            },
-            result: {
-                items: [
-                    {
-                        item: {
-                            item: recipe.output,
-                            count: recipe.count
-                        }
-                    }
-                ]
-            },
-            duration: recipe.duration
-        });
     });
 
 });

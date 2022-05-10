@@ -177,7 +177,13 @@ and this project adheres to [Semantic Versioning].
 - Fixed Fluix gem quest in AE2 tab
 - Added blocks recipes for black iron, Redstone, ender ingots
 - Fixed Quark nether wart block 2x2 crafting recipe, disabled it. Now it should be default 3x3.
-- Prior patch I added blast chiller recipe for experience (doesn't work). Thermal machines actually won't accept fluid experience? Removed it.
+- Prior patch I added blast chiller recipe for experience (doesn't work). Removed recipe.
+    Instead added crushed glass + experience to pearls
+- Added plate recipes to thermal press for missing metals
+- Fixed IE HOP graphite rod being 50% (this pack is hard enough, we dont need no 50% durability)
+- Fixed mechanical squeezer not having any outputs at all or correct outputs
+- Added mekanism crusher recipes
+- Added wire recipes to thermal blast chiller
 
 <!-- TODO: Fix nether quartz output from sieves
     TODO: Fix spelling mistake transmutation interface singularity

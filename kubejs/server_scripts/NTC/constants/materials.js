@@ -100,7 +100,7 @@ const meltingPoints = {
     sulfur: { temp: 115 },
     redstone: { temp: 660 },
     potassium_nitrate: { temp: 334 },
-    lapis: { temp: 115 },
+    lapis: { temp: 3400 },
     fluorite: { temp: 1418 },
     dimensional: { temp: 1450 },
     coal: { temp: 1149 },

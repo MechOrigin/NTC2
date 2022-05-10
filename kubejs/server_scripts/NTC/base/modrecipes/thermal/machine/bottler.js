@@ -18,6 +18,12 @@ onEvent('recipes', (event) => {
             fluid: Fluid.of('tconstruct:blazing_blood', 1125),
             output: 'extendedcrafting:black_iron_block',
             id: `${id_prefix}black_iron_block`
+        },
+        {
+            input: 'quark:clear_shard',
+            fluid: Fluid.of('cofh_core:experience', 250),
+            output: 'miniutilities:experience_pearl',
+            id: `${id_prefix}experience_pearl`
         }
     ];
 

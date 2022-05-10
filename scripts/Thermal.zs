@@ -57,7 +57,7 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 
 // <recipetype:thermal:bottler>.addRecipe(String name, IItemStack output, IIngredient ingredient, IFluidStack fluidInput, int energy);
 <recipetype:thermal:bottler>.addRecipe("black_iron_ingot", <item:extendedcrafting:black_iron_ingot>, <item:minecraft:iron_ingot>, <fluid:tconstruct:blazing_blood> *125, 500);
-<recipetype:thermal:bottler>.addRecipe("black_iron_block", <item:extendedcrafting:black_iron_block>, <item:minecraft:iron_block>, <fluid:tconstruct:blazing_blood> *1125, 500);
+//handled by bottler.js <recipetype:thermal:bottler>.addRecipe("black_iron_block", <item:extendedcrafting:black_iron_block>, <item:minecraft:iron_block>, <fluid:tconstruct:blazing_blood> *1125, 500);
 
 <recipetype:thermal:bottler>.addRecipe("basalz_powder", <item:thermal:basalz_powder>, <item:emendatusenigmatica:obsidian_dust>, <fluid:industrialforegoing:essence> *250, 500);
 
@@ -96,7 +96,8 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 //<recipetype:thermal:chiller>.addRecipe("chiller_test", <item:minecraft:glass>, <item:minecraft:air>, <fluid:thermal:resin> *250, 500);
 //<recipetype:thermal:chiller>.addRecipe("chiller_test_with_cast", <item:minecraft:glass>, <item:thermal:chiller_ball_cast>, <fluid:thermal:resin> *250, 500);
 //<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:industrialforegoing:essence> * 250, 500);
-//<recipetype:thermal:bottler>.addRecipe("bottler_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:forge:experience> * 250, 500);
+//<recipetype:thermal:bottler>.addRecipe("bottler_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:cofh_core:experience> * 250, 500);
+<recipetype:thermal:pulverizer>.addRecipe("clear_shard", [<item:quark:clear_shard> * 4 % 100] , <tag:items:forge:glass>, 0.1, 9000);
 
 
 <recipetype:thermal:bottler>.addRecipe("charged_certus", <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:thermal:lightning_charge>, <fluid:emendatusenigmatica:molten_certus_quartz> *144, 500);
