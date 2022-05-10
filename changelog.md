@@ -173,7 +173,10 @@ and this project adheres to [Semantic Versioning].
 ## [1.4.5] - 2022-05-08
 
 ### Changed
-- 
+- Fixed compact crafter requiring stack of 209 black plastic, requires 160 blocks of plastic now and I've added 12 slots for input in compact crafter
+- Fixed Fluix gem quest in AE2 tab
+- Added blocks recipes for black iron, Redstone, ender ingots
+
 <!-- TODO: Fix nether quartz output from sieves
     TODO: Fix spelling mistake transmutation interface singularity
     TODO: Remove unused avaritia stuff out of JEI

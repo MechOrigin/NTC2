@@ -3,8 +3,10 @@
 
 // <recipetype:thermal:smelter>.addRecipe(String name, MCWeightedItemStack[] outputs, IIngredient[] ingredients, float experience, int energy);
 <recipetype:thermal:smelter>.addRecipe("redstone_ingot", [<item:extendedcrafting:redstone_ingot> % 100/*, <item:appliedenergistics2:certus_quartz_crystal> %5*/], [<tag:items:forge:gems/silicon>, <item:minecraft:redstone>], 0.1, 500);
+<recipetype:thermal:smelter>.addRecipe("redstone_block", [<item:extendedcrafting:redstone_block> % 100/*, <item:appliedenergistics2:certus_quartz_crystal> %5*/], [<tag:items:forge:gems/silicon> * 9, <item:minecraft:redstone_block>], 0.1, 4500);
 
 <recipetype:thermal:smelter>.addRecipe("ender_ingot", [<item:extendedcrafting:ender_ingot> % 100], [<item:minecraft:ender_pearl>, <item:minecraft:iron_ingot>], 0.1, 500);
+<recipetype:thermal:smelter>.addRecipe("ender_block", [<item:extendedcrafting:ender_block> % 100], [<item:minecraft:ender_pearl * 9>, <item:minecraft:iron_block>], 0.1, 500);
 
 craftingTable.removeRecipe(<item:thermal:redstone_servo>);
 craftingTable.addShaped("redstone_servo", <item:thermal:redstone_servo>, [
@@ -55,6 +57,7 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 
 // <recipetype:thermal:bottler>.addRecipe(String name, IItemStack output, IIngredient ingredient, IFluidStack fluidInput, int energy);
 <recipetype:thermal:bottler>.addRecipe("black_iron_ingot", <item:extendedcrafting:black_iron_ingot>, <item:minecraft:iron_ingot>, <fluid:tconstruct:blazing_blood> *125, 500);
+<recipetype:thermal:bottler>.addRecipe("black_iron_block", <item:extendedcrafting:black_iron_block>, <item:minecraft:iron_block>, <fluid:tconstruct:blazing_blood> *1125, 500);
 
 <recipetype:thermal:bottler>.addRecipe("basalz_powder", <item:thermal:basalz_powder>, <item:emendatusenigmatica:obsidian_dust>, <fluid:industrialforegoing:essence> *250, 500);
 
