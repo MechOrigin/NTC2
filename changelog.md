@@ -184,9 +184,15 @@ and this project adheres to [Semantic Versioning].
 - Fixed mechanical squeezer not having any outputs at all or correct outputs
 - Added mekanism crusher recipes
 - Added wire recipes to thermal blast chiller
+- Changed Rainbow furnace recipe. Removed RM/DM furnace recipe/jei
+- Changed Rainbow furnace to be 2 ticks per operation
+- Fixed spelling mistake transmutation interface singularity
+- Added some heads to cagedmobs drops from respective mobs
+- Removed charcoal/block from blast furnace fuel source
+- Fixed nether quartz dust output from sieves being AE2 and not EE (I suspect TODO: Will have to replace inputs and outputs too?)
 
-<!-- TODO: Fix nether quartz output from sieves
-    TODO: Fix spelling mistake transmutation interface singularity
+<!-- TODO: 
+    TODO: 
     TODO: Remove unused avaritia stuff out of JEI
     TODO: Add neutronium MA
     TODO: Add enderio alloys MA

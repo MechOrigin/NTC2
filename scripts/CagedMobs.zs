@@ -126,6 +126,7 @@ val entities = <recipetype:cagedmobs:mob_data>;
     val skeleton = entities.getEntity( "cagedmobs:mobs/skeleton");
     skeleton.addLoot(<item:miniutilities:experience_pearl>, 0.2, 1, 3);
     skeleton.addLoot(<item:mysticalagriculture:inferium_essence>, 0.25, 1, 3);
+    skeleton.addLoot(<item:tconstruct:skeleton_head>, 0.05, 1, 3, true, false);
 
     val skeleton_horse = entities.getEntity( "cagedmobs:mobs/skeleton_horse");
     skeleton_horse.addLoot(<item:miniutilities:experience_pearl>, 0.2, 1, 3);
@@ -169,7 +170,8 @@ val entities = <recipetype:cagedmobs:mob_data>;
     wither_skeleton.addLoot(<item:miniutilities:experience_pearl>, 0.2, 1, 3);
     wither_skeleton.addLoot(<item:mysticalagriculture:inferium_essence>, 0.25, 1, 3);
     wither_skeleton.addLoot(<item:tconstruct:necrotic_bone>, 0.20, 1, 3);
-
+    wither_skeleton.addLoot(<item:minecraft:wither_skeleton_skull>, 0.05, 1, 3, true, false);
+   
     val zoglin = entities.getEntity( "cagedmobs:mobs/zoglin");
     zoglin.addLoot(<item:miniutilities:experience_pearl>, 0.2, 1, 3);
     zoglin.addLoot(<item:mysticalagriculture:inferium_essence>, 0.25, 1, 3);
@@ -177,6 +179,7 @@ val entities = <recipetype:cagedmobs:mob_data>;
     val zombie = entities.getEntity( "cagedmobs:mobs/zombie");
     zombie.addLoot(<item:miniutilities:experience_pearl>, 0.2, 1, 3);
     zombie.addLoot(<item:mysticalagriculture:inferium_essence>, 0.25, 1, 3);
+    zombie.addLoot(<item:minecraft:zombie_head>, 0.05, 1, 3, true, false);
 
     val zombie_villager = entities.getEntity( "cagedmobs:mobs/zombie_villager");
     zombie_villager.addLoot(<item:miniutilities:experience_pearl>, 0.2, 1, 3);

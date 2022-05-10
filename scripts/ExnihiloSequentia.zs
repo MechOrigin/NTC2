@@ -27,6 +27,7 @@ import mods.exnihilosequentia.ZenFluidItemRecipe;
 <recipetype:exnihilosequentia:sieve>.removeRecipe(<item:appliedenergistics2:certus_quartz_crystal>);
 <recipetype:exnihilosequentia:sieve>.removeRecipe(<item:appliedenergistics2:charged_certus_quartz_crystal>);
 <recipetype:exnihilosequentia:sieve>.removeRecipe(<item:appliedenergistics2:certus_quartz_dust>);
+<recipetype:exnihilosequentia:sieve>.removeRecipe(<item:appliedenergistics2:nether_quartz_dust>);
 
 <recipetype:exnihilosequentia:sieve>.removeRecipe(<item:thermal:cinnabar>);
 <recipetype:exnihilosequentia:sieve>.removeRecipe(<item:thermal:sulfur>);
@@ -184,6 +185,10 @@ craftingTable.removeRecipe(<item:exnihilosequentia:end_cake>);
 
 <recipetype:exnihilosequentia:sieve>.create("certus_quartz_dust").setInput(<item:exnihilosequentia:dust>)
 .addDrop(<item:emendatusenigmatica:certus_quartz_dust>)
+.addRoll("iron", 0.15).addRoll("diamond", 0.15).addRoll("emerald", 0.15).addRoll("netherite", 0.15);
+
+<recipetype:exnihilosequentia:sieve>.create("nether_quartz_dust").setInput(<item:exnihilosequentia:dust>)
+.addDrop(<item:emendatusenigmatica:nether_quartz_dust>)
 .addRoll("iron", 0.15).addRoll("diamond", 0.15).addRoll("emerald", 0.15).addRoll("netherite", 0.15);
 
 

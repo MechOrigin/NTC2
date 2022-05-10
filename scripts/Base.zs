@@ -339,9 +339,9 @@ craftingTable.addShaped("end_portal_frame", <item:minecraft:end_portal_frame> * 
 
 craftingTable.removeRecipe(<item:ironfurnaces:rainbow_plating>);
 craftingTable.addShaped("rainbow_plating", <item:ironfurnaces:rainbow_plating> * 8, [
-    [<item:ironfurnaces:iron_furnace>, <item:ironfurnaces:gold_furnace>, <item:ironfurnaces:diamond_furnace>],
-    [<item:ironfurnaces:emerald_furnace>, <item:ironfurnaces:obsidian_furnace>, <item:ironfurnaces:crystal_furnace>],
-    [<item:projecte:dm_furnace>, <item:projecte:rm_furnace>, <item:mysticalagriculture:supremium_furnace>]
+    [<item:ironfurnaces:netherite_furnace>, <item:ironfurnaces:netherite_furnace>, <item:ironfurnaces:netherite_furnace>],
+    [<item:ironfurnaces:netherite_furnace>, <item:mysticalagriculture:supremium_furnace>, <item:ironfurnaces:netherite_furnace>],
+    [<item:ironfurnaces:netherite_furnace>, <item:ironfurnaces:netherite_furnace>, <item:ironfurnaces:netherite_furnace>]
 ]);
 
 craftingTable.removeRecipe(<item:minecraft:stonecutter>);

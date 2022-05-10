@@ -48,7 +48,10 @@ onEvent('recipes', (event) => {
         { type: {}, toReplace: 'appliedenergistics2:certus_quartz_dust', replaceWith: 'emendatusenigmatica:certus_quartz_dust' },
         { type: {}, toReplace: 'emendatusenigmatica:certus_quartz', replaceWith: 'appliedenergistics2:certus_quartz' },
         
-        { type: {}, toReplace: 'rftoolsbase:dimensionalshard', replaceWith: 'emendatusenigmatica:dimensional_gem' }
+        { type: {}, toReplace: 'rftoolsbase:dimensionalshard', replaceWith: 'emendatusenigmatica:dimensional_gem' },
+
+        //Pollution of the Realms
+        { type: {mod: 'adpother'}, toReplace: 'mekanism:dust_coal', replaceWith: 'emendatusenigmatica:coal_dust' }
     ];
 
     recipes.forEach((recipe) => {

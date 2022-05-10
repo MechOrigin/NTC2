@@ -74,7 +74,7 @@
 		# 200 ticks is what a regular furnace takes.
 		# Default: 20
 		#Range: 2 ~ 72000
-		speed = 20
+		speed = 2
 
 	[furnaces.furance_xp_drop]
 		# This value indicates when the furnace should 'overload' and spit out the xp stored. 

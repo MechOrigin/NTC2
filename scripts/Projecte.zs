@@ -22,6 +22,8 @@ craftingTable.removeRecipe(<item:projecte:soul_stone>);
 craftingTable.removeRecipe(<item:projecte:mind_stone>);
 craftingTable.removeRecipe(<item:projecte:life_stone>);
 craftingTable.removeRecipe(<item:projecte:watch_of_flowing_time>);
+craftingTable.removeRecipe(<item:projecte:rm_furnace>);
+craftingTable.removeRecipe(<item:projecte:dm_furnace>);
 
 craftingTable.removeByName( "projectexpansion:collector/basic");
 craftingTable.removeByName( "projectexpansion:relay/basic");

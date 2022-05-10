@@ -135,6 +135,9 @@ events.listen('recipes', e => {
         'immersiveengineering:crafting/ingot_steel_to_nugget_steel',
         'immersiveengineering:crafting/coke_to_coal_coke',
         'immersiveengineering:crafting/stick_aluminum',
+        'immersiveengineering:blastfurnace/fuel_charcoal',
+        'immersiveengineering:blastfurnace/fuel_charcoal_block',
+
         'immersiveengineering:crafting/stick_steel',
 
         'tconstruct:common/materials/copper_block_from_ingots',

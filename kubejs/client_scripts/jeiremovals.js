@@ -213,7 +213,9 @@ onEvent('jei.hide.items', event => {
         /exnihilosequentia:hammer_/,
         /silkworm/,
         'industrialforegoing:latex_bucket',
-        'industrialforegoing:latex'
+        'industrialforegoing:latex',
+        'projecte:rm_furnace',
+        'projecte:dm_furnace'
     ]);
 
   })
