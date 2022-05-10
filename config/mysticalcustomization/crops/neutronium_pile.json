@@ -1,7 +1,7 @@
 {
     "name": "Neutronium",
     "type": "resource",
-    "tier": "mysticalagriculture:6",
+    "tier": "mysticalagradditions:6",
     "ingredient": {
       "item": "avaritia:pileof_neutrons"
     },
