@@ -101,6 +101,18 @@
 		containerClass = "appeng.container.implementations.WirelessTermContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.ae2wt.wirelesscraftingterminal.WirelessCraftingTerminalContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.ae2wt.wirelessfluidterminal.WirelessFluidTerminalContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.ae2wt.wirelessinterfaceterminal.WirelessInterfaceTerminalContainer"
+		sortRange = ""
+
 #Tweaks
 [tweaks]
 	#Enable auto-refill
