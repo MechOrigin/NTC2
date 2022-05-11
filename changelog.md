@@ -200,4 +200,5 @@ and this project adheres to [Semantic Versioning].
     TODO: 
     TODO: 
     TODO: 
+    ! Fix a bunch of unreasonable singularities, take a look at the singularities excel doc
 -->
