@@ -189,8 +189,11 @@ and this project adheres to [Semantic Versioning].
 - Fixed spelling mistake transmutation interface singularity
 - Added some heads to cagedmobs drops from respective mobs
 - Removed charcoal/block from blast furnace fuel source
-- Fixed nether quartz dust output from sieves being AE2 and not EE (I suspect TODO: Will have to replace inputs and outputs too?)
+- Fixed nether quartz dust output from sieves being AE2 and not EE
 - Changed rainbow furnace to not produce pollution
+- Fixed painkiller mix and a few other recipes set to output2 and not output1 on a single output causing recipe to be invalid
+- Changed sulfur bee to use sulfur block instead of vanilla coal block
+- Removed regular opinium core recipes back to default extendedcrafting
 
 <!-- TODO: 
     TODO: 

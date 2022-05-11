@@ -241,7 +241,7 @@ onEvent('recipes', event => {
         .requireFluid(Fluid.of("kubejs:liquid_aspirin", 250), "input1")
         .requireFluid(Fluid.of("kubejs:liquid_acetaminophen", 250), "input2")
         .requireEnergy(5000)
-        .produceFluid(Fluid.of("kubejs:liquid_painkiller_mix", 500), "output2")
+        .produceFluid(Fluid.of("kubejs:liquid_painkiller_mix", 500), "output1")
 
     //chemical reactor
     event.recipes.custommachinery.custom_machine("custommachinery:chemical_reactor", 100)
@@ -256,7 +256,7 @@ onEvent('recipes', event => {
         .requireFluid(Fluid.of("kubejs:liquid_methyl_acetate", 250), "input1")
         .requireFluid(Fluid.of("kubejs:liquid_carbon_monoxide", 250), "input2")
         .requireEnergy(5000)
-        .produceFluid(Fluid.of("kubejs:liquid_acetic_anhydride", 250), "output2")
+        .produceFluid(Fluid.of("kubejs:liquid_acetic_anhydride", 250), "output1")
 
     //chemical reactor
     event.recipes.custommachinery.custom_machine("custommachinery:chemical_reactor", 100)

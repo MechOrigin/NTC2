@@ -126,7 +126,7 @@ val entities = <recipetype:cagedmobs:mob_data>;
     val skeleton = entities.getEntity( "cagedmobs:mobs/skeleton");
     skeleton.addLoot(<item:miniutilities:experience_pearl>, 0.2, 1, 3);
     skeleton.addLoot(<item:mysticalagriculture:inferium_essence>, 0.25, 1, 3);
-    skeleton.addLoot(<item:tconstruct:skeleton_head>, 0.05, 1, 3, true, false);
+    skeleton.addLoot(<item:minecraft:skeleton_skull>, 0.05, 1, 3, true, false);
 
     val skeleton_horse = entities.getEntity( "cagedmobs:mobs/skeleton_horse");
     skeleton_horse.addLoot(<item:miniutilities:experience_pearl>, 0.2, 1, 3);

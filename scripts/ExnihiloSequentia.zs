@@ -188,7 +188,7 @@ craftingTable.removeRecipe(<item:exnihilosequentia:end_cake>);
 .addRoll("iron", 0.15).addRoll("diamond", 0.15).addRoll("emerald", 0.15).addRoll("netherite", 0.15);
 
 <recipetype:exnihilosequentia:sieve>.create("nether_quartz_dust").setInput(<item:exnihilosequentia:dust>)
-.addDrop(<item:emendatusenigmatica:nether_quartz_dust>)
+.addDrop(<item:emendatusenigmatica:quartz_dust>)
 .addRoll("iron", 0.15).addRoll("diamond", 0.15).addRoll("emerald", 0.15).addRoll("netherite", 0.15);
 
 
