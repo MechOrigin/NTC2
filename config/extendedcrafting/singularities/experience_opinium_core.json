@@ -1,0 +1,10 @@
+{
+  "name": "Experience Opinium Core",
+  "colors": [
+    "acd7ab",
+    "acd7ab"
+  ],
+  "ingredient": {
+    "item": "miniutilities:experience_opinium_core"
+  }
+}

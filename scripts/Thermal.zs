@@ -87,6 +87,9 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 
 //experience pearls
 <recipetype:thermal:crucible>.addRecipe("experience_pearl_x0", <fluid:industrialforegoing:essence> * 250, <item:miniutilities:experience_pearl>, 500);
+<recipetype:thermal:crucible>.addRecipe("experience_pearl_x1", <fluid:industrialforegoing:essence> * 2000, <item:miniutilities:experience_pearl_1x>, 500);
+<recipetype:thermal:crucible>.addRecipe("experience_pearl_x2", <fluid:industrialforegoing:essence> * 16000, <item:miniutilities:experience_pearl_2x>, 500);
+<recipetype:thermal:crucible>.addRecipe("experience_pearl_x3", <fluid:industrialforegoing:essence> * 128000, <item:miniutilities:experience_pearl_3x>, 500);
 
 //pink slime
 <recipetype:thermal:crucible>.addRecipe("pink_slime", <fluid:industrialforegoing:pink_slime> * 250, <item:industrialforegoing:pink_slime>, 500);
@@ -98,6 +101,9 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 //<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:industrialforegoing:essence> * 250, 500);
 //<recipetype:thermal:bottler>.addRecipe("bottler_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:cofh_core:experience> * 250, 500);
 <recipetype:thermal:pulverizer>.addRecipe("clear_shard", [<item:quark:clear_shard> * 4 % 100] , <tag:items:forge:glass>, 0.1, 9000);
+<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl_if", <item:miniutilities:experience_pearl>, <item:thermal:chiller_ball_cast>, <fluid:industrialforegoing:essence> * 250, 500);
+<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl_cofh", <item:miniutilities:experience_pearl>, <item:thermal:chiller_ball_cast>, <fluid:cofh_core:experience> * 250, 500);
+<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl_sb", <item:miniutilities:experience_pearl>, <item:thermal:chiller_ball_cast>,  <fluid:sophisticatedbackpacks:xp_still> * 250, 500);
 
 
 <recipetype:thermal:bottler>.addRecipe("charged_certus", <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:thermal:lightning_charge>, <fluid:emendatusenigmatica:molten_certus_quartz> *144, 500);

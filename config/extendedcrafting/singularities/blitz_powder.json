@@ -1,0 +1,10 @@
+{
+  "name": "Blitz Powder",
+  "colors": [
+    "feeab7",
+    "feeab7"
+  ],
+  "ingredient": {
+    "item": "thermal:blitz_powder"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Neutronium Ingot",
+  "colors": [
+    "000000",
+    "000000"
+  ],
+  "ingredient": {
+    "item": "avaritia:neutronium_ingot"
+  }
+}

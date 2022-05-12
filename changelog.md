@@ -195,6 +195,10 @@ and this project adheres to [Semantic Versioning].
 - Changed sulfur bee to use sulfur block instead of vanilla coal block
 - Removed regular opinium core recipes back to default extendedcrafting
 - Added a few large ore deposits of some QOL gems
+- Fixed a bunch of unreasonable singularities
+- Updated:
+    ProjectExpansion-1.16.5-1.0.24.jar
+    IntegratedDynamics-1.16.5-1.10.10.jar
 
 <!-- TODO: 
     TODO: 

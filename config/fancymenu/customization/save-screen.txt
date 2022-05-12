@@ -20,7 +20,7 @@ customization {
 }
 
 customization {
-  keepaspectratio = true
+  keepaspectratio = false
   action = backgroundoptions
 }
 
@@ -79,10 +79,10 @@ customization {
 
 customization {
   identifier = %id=8755%
-  orientation = top-centered
+  orientation = mid-centered
   x = -125
   action = movebutton
-  y = 136
+  y = -56
 }
 
 customization {
@@ -108,10 +108,10 @@ customization {
 
 customization {
   identifier = %id=8955%
-  orientation = top-centered
+  orientation = mid-centered
   x = -102
   action = movebutton
-  y = 136
+  y = -56
 }
 
 customization {
@@ -124,7 +124,7 @@ customization {
 customization {
   identifier = %id=398266%
   orientation = mid-centered
-  x = -102
+  x = -103
   action = movebutton
   y = -80
 }

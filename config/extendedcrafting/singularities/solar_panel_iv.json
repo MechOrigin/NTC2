@@ -1,0 +1,10 @@
+{
+  "name": "Solar Panel IV",
+  "colors": [
+    "94b8dc",
+    "94b8dc"
+  ],
+  "ingredient": {
+    "item": "solarflux:sp_4"
+  }
+}

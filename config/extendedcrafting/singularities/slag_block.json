@@ -1,0 +1,10 @@
+{
+  "name": "Slag Block",
+  "colors": [
+    "94989a",
+    "94989a"
+  ],
+  "ingredient": {
+    "item": "thermal:slag_block"
+  }
+}
