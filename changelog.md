@@ -200,14 +200,20 @@ and this project adheres to [Semantic Versioning].
     ProjectExpansion-1.16.5-1.0.24.jar
     IntegratedDynamics-1.16.5-1.10.10.jar
 
+
+## [1.4.6] - 2022-05-12
+
+### Changed
+- 
+
 <!-- TODO: 
     TODO: 
     TODO: Remove unused avaritia stuff out of JEI
     TODO: Add neutronium MA
     TODO: Add enderio alloys MA
     TODO: Add github repo to title screen
-    TODO: 
-    TODO: 
-    TODO: 
-    ! Fix a bunch of unreasonable singularities, take a look at the singularities excel doc
+    TODO: add crafting recipe from polonium pellet to polonium ingot and back (maybe 4 per?)
+    TODO: add knowledge sharing book?
+    TODO: add recipes to mek machines
+    
 -->
