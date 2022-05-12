@@ -190,6 +190,8 @@ and this project adheres to [Semantic Versioning].
 - Added some heads to cagedmobs drops from respective mobs
 - Removed charcoal/block from blast furnace fuel source
 - Fixed nether quartz dust output from sieves being AE2 and not EE (I suspect TODO: Will have to replace inputs and outputs too?)
+- Added a few large ore deposits of some QOL gems
+
 
 <!-- TODO: 
     TODO: 

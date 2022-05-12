@@ -1566,7 +1566,7 @@
 
 	["Cinnabar Config".Overworld]
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = false
+		generate_in_the_overworld = true
 		#Baseline Y-Level [Default: 10]
 		#Range: 0 ~ 256
 		overworld_base = 10
@@ -2083,7 +2083,7 @@
 
 	["Iridium Config".Overworld]
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 		#Baseline Y-Level [Default: 12]
 		#Range: 0 ~ 256
 		overworld_base = 12
