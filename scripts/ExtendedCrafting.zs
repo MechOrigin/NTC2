@@ -260,47 +260,47 @@ mods.extendedcrafting.TableCrafting.addShaped("infinity_ingot", 4, <item:avariti
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
-//craftingTable.removeRecipe(<item:miniutilities:iron_opinium_core>);
+craftingTable.removeRecipe(<item:miniutilities:iron_opinium_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe("iron_opinium_core", <item:miniutilities:iron_opinium_core>, 6000, [
 	<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:coal>, <item:minecraft:coal>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:coal>, <item:minecraft:coal>
 ]);
 
-//craftingTable.removeRecipe(<item:miniutilities:gold_opinium_core>);
+craftingTable.removeRecipe(<item:miniutilities:gold_opinium_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe("gold_opinium_core", <item:miniutilities:gold_opinium_core>, 6000, [
 	<item:minecraft:air>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:miniutilities:iron_opinium_core>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:miniutilities:iron_opinium_core>
 ]);
 
-//craftingTable.removeRecipe(<item:miniutilities:diamond_opinium_core>);
+craftingTable.removeRecipe(<item:miniutilities:diamond_opinium_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe("diamond_opinium_core", <item:miniutilities:diamond_opinium_core>, 6000, [
 	<item:minecraft:air>, <item:minecraft:diamond>, <item:minecraft:diamond>, <item:miniutilities:gold_opinium_core>, <item:miniutilities:gold_opinium_core>, <item:minecraft:diamond>, <item:minecraft:diamond>, <item:miniutilities:gold_opinium_core>, <item:miniutilities:gold_opinium_core>
 ]);
 
-//craftingTable.removeRecipe(<item:miniutilities:netherite_opinium_core>);
+craftingTable.removeRecipe(<item:miniutilities:netherite_opinium_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe("netherite_opinium_core", <item:miniutilities:netherite_opinium_core>, 6000, [
 	<item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:netherite_ingot>, <item:miniutilities:diamond_opinium_core>, <item:miniutilities:diamond_opinium_core>, <item:minecraft:netherite_ingot>, <item:minecraft:netherite_ingot>, <item:miniutilities:diamond_opinium_core>, <item:miniutilities:diamond_opinium_core>
 ]);
 
-//craftingTable.removeRecipe(<item:miniutilities:emerald_opinium_core>);
+craftingTable.removeRecipe(<item:miniutilities:emerald_opinium_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe("emerald_opinium_core", <item:miniutilities:emerald_opinium_core>, 6000, [
 	<item:minecraft:air>, <item:minecraft:emerald>, <item:minecraft:emerald>, <item:miniutilities:netherite_opinium_core>, <item:miniutilities:netherite_opinium_core>, <item:minecraft:emerald>, <item:minecraft:emerald>, <item:miniutilities:netherite_opinium_core>, <item:miniutilities:netherite_opinium_core>
 ]);
 
-//craftingTable.removeRecipe(<item:miniutilities:chorus_opinium_core>);
+craftingTable.removeRecipe(<item:miniutilities:chorus_opinium_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe("chorus_opinium_core", <item:miniutilities:chorus_opinium_core>, 6000, [
 	<item:minecraft:air>, <item:minecraft:chorus_flower>, <item:minecraft:chorus_flower>, <item:miniutilities:emerald_opinium_core>, <item:miniutilities:emerald_opinium_core>, <item:minecraft:chorus_flower>, <item:minecraft:chorus_flower>, <item:miniutilities:emerald_opinium_core>, <item:miniutilities:emerald_opinium_core>
 ]);
 
-//craftingTable.removeRecipe(<item:miniutilities:experience_opinium_core>);
+craftingTable.removeRecipe(<item:miniutilities:experience_opinium_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe("experience_opinium_core", <item:miniutilities:experience_opinium_core>, 6000, [
 	<item:minecraft:air>, <tag:items:forge:experience_containers>, <tag:items:forge:experience_containers>, <item:miniutilities:chorus_opinium_core>, <item:miniutilities:chorus_opinium_core>, <tag:items:forge:experience_containers>, <tag:items:forge:experience_containers>, <item:miniutilities:chorus_opinium_core>, <item:miniutilities:chorus_opinium_core>
 ]);
 
-//craftingTable.removeRecipe(<item:miniutilities:nether_star_opinium_core>);
+craftingTable.removeRecipe(<item:miniutilities:nether_star_opinium_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe("nether_star_opinium_core", <item:miniutilities:nether_star_opinium_core>, 6000, [
 	<item:miniutilities:unstable_ingot>, <item:minecraft:nether_star>, <item:minecraft:nether_star>, <item:miniutilities:experience_opinium_core>, <item:miniutilities:experience_opinium_core>, <item:minecraft:nether_star>, <item:minecraft:nether_star>, <item:miniutilities:experience_opinium_core>, <item:miniutilities:experience_opinium_core>
 ]);
 
-//craftingTable.removeRecipe(<item:miniutilities:the_final_opinium_core>);
+craftingTable.removeRecipe(<item:miniutilities:the_final_opinium_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe("the_final_opinium_core", <item:miniutilities:the_final_opinium_core>, 6000, [
 	<item:miniutilities:unstable_ingot>, <item:extendedcrafting:crystaltine_block>, <item:extendedcrafting:crystaltine_block>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:crystaltine_block>, <item:extendedcrafting:crystaltine_block>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>
 ]);

@@ -115,6 +115,7 @@ onEvent('jei.hide.items', event => {
         'emendatusenigmatica:fluix_gem',
         'emendatusenigmatica:certus_quartz_gem',
         'appliedenergistics2:certus_quartz_dust',
+        'appliedenergistics2:nether_quartz_dust',
         'emendatusenigmatica:charged_certus_quartz_gem',
         'mekanism:nugget_bronze',
         'mekanism:ingot_bronze',
