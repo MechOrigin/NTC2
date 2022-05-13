@@ -74,10 +74,6 @@ onEvent('recipes', (event) => {
                 '#forge:mushroom_stems',
                 '#forge:mushrooms'
             ]
-        },
-        {
-            count: 7,
-            inputs: ['#forge:mushroom_caps']
         }
     ];
 
