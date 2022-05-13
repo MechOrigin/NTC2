@@ -216,5 +216,6 @@ Inititive to cut down on autocrafting times:
     TODO: add crafting recipe from polonium pellet to polonium ingot and back (maybe 4 per?)
     TODO: add knowledge sharing book?
     TODO: add recipes to mek machines
+    write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     
 -->

@@ -47,7 +47,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}charcoal_to_charcoal_dust`
         },
         {
-            input: 'minecraft:charcoal_block',
+            input: 'morecharcoal:charcoal_block',
             output: Item.of('emendatusenigmatica:charcoal_dust', 9),
             id: `${id_prefix}charcoal_block_to_charcoal_dust`
         },
