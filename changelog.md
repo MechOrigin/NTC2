@@ -204,7 +204,8 @@ and this project adheres to [Semantic Versioning].
 ## [1.4.6] - 2022-05-12
 
 ### Changed
-- 
+Inititive to cut down on autocrafting times:
+- Added mekanism crushing recipes for some thermal pulverizer stuff
 
 <!-- TODO: 
     TODO: 

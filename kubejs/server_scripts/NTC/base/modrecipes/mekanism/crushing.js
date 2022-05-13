@@ -29,7 +29,32 @@ onEvent('recipes', (event) => {
         {
             input: '#forge:glass',
             output: Item.of('quark:clear_shard', 4),
-            id: `${id_prefix}cobblestone`
+            id: `${id_prefix}clear_shard`
+        },
+        {
+            input: 'enderioalloys:item_material_pulsating_crystal',
+            output: Item.of('enderioalloys:item_material_pulsating_powder', 1),
+            id: `${id_prefix}item_material_pulsating_powder`
+        },
+        {
+            input: '#forge:planks',
+            output: Item.of('inspirations:plain_mulch', 1),
+            id: `${id_prefix}plain_mulch`
+        },
+        {
+            input: 'minecraft:charcoal',
+            output: Item.of('emendatusenigmatica:charcoal_dust', 1),
+            id: `${id_prefix}charcoal_to_charcoal_dust`
+        },
+        {
+            input: 'minecraft:charcoal_block',
+            output: Item.of('emendatusenigmatica:charcoal_dust', 9),
+            id: `${id_prefix}charcoal_block_to_charcoal_dust`
+        },
+        {
+            input: '#forge:storage_blocks/aurora',
+            output: Item.of('betterendforge:crystal_shards', 4),
+            id: `${id_prefix}crystal_shards`
         }
     ];
 
