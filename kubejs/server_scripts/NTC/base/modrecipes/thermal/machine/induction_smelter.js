@@ -113,10 +113,6 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('tconstruct:soulsteel_ingot', 4)]
             },
             {
-                inputs: ['minecraft:redstone_block', Ingredient.of('#forge:gems/silicon', 9)],
-                outputs: [Item.of('extendedcrafting:redstone_ingot_block', 1)]
-            },
-            {
                 inputs: ['#forge:ingots/gold', Ingredient.of('#forge:dusts/redstone', 1), '#forge:storage_blocks/glowstone'],
                 outputs: [Item.of('enderioalloys:item_alloy_ingot_energetic_alloy', 1)]
             },

@@ -206,6 +206,8 @@ and this project adheres to [Semantic Versioning].
 ### Changed
 Inititive to cut down on autocrafting times:
 - Added mekanism crushing recipes for some thermal pulverizer stuff
+- Added custom infusion types and Infusion recipes
+- Added enriching, sawing recipes as well
 
 <!-- TODO: 
     TODO: 
