@@ -106,6 +106,22 @@ onEvent('recipes', (event) => {
         {
             output: Item.of('minecraft:brown_dye', 2),
             inputs: ['#forge:dyes/red', '#forge:dyes/green']
+        },
+        {
+            output: Item.of('emendatusenigmatica:ender_dust', 1),
+            inputs: ['appliedenergistics2:ender_dust']
+        },
+        {
+            output: Item.of('emendatusenigmatica:charcoal_dust', 1),
+            inputs: ['mekanism:dust_charcoal']
+        },
+        {
+            output: Item.of('appliedenergistics2:ender_dust', 1),
+            inputs: ['emendatusenigmatica:ender_dust']
+        },
+        {
+            output: Item.of('mekanism:dust_charcoal', 1),
+            inputs: ['emendatusenigmatica:charcoal_dust']
         }
     ];
 

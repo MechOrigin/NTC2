@@ -6,5 +6,7 @@ onEvent('infuse_type.registry', event => {
 
     event.create("certus").color(13231084).displayName('Certus')
 
+    event.create("blazing").color(16757504).displayName('Blazing')
+
 
 })

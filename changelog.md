@@ -207,7 +207,10 @@ and this project adheres to [Semantic Versioning].
 Inititive to cut down on autocrafting times:
 - Added mekanism crushing recipes for some thermal pulverizer stuff
 - Added custom infusion types and Infusion recipes
+    Ender, Redstone Ingots now craftable in mekanism, as well as charged certus
 - Added enriching, sawing recipes as well
+QOL:
+- Added crafting recipe to and from mek/EE charcoal dust and ender dust
 
 <!-- TODO: 
     TODO: 

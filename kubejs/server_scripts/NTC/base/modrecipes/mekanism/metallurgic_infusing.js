@@ -33,6 +33,13 @@ onEvent('recipes', (event) => {
             infusionInput: 'kubejs:certus',
             infusionAmount: 10,
             id: 'mekanism:metallurgic_infusing/charged_certus_quartz_crystal'
+        },
+        {
+            output: 'extendedcrafting:black_iron_ingot',
+            input: 'minecraft:iron_ingot',
+            infusionInput: 'kubejs:blazing',
+            infusionAmount: 10,
+            id: 'mekanism:metallurgic_infusing/black_iron_ingot'
         }
     ];
 

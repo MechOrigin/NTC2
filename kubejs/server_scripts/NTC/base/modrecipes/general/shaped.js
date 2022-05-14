@@ -145,4 +145,11 @@ onEvent('recipes', e => {
     B: 'mysticalagriculture:enderman_essence'
   }).id(`kubejs:enderman_head`)
 
+//Fluid Drawer
+  e.shaped(Item.of('fluiddrawerslegacy:fluiddrawer', 4), ['BAB', 'BCB', 'BAB'], {
+    A: 'pipez:fluid_pipe',
+    B: 'emendatusenigmatica:steel_plate',
+    C: '#storagedrawers:drawers'
+  }).id(`kubejs:fluiddrawer`)
+
 })
