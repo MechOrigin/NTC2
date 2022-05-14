@@ -325,6 +325,7 @@
 		{
 			x: 14.0d
 			y: 4.0d
+			subtitle: "&bCraftable&r"
 			id: "7E5540FCCF52CFCC"
 			tasks: [{
 				id: "144A71403B51869F"
@@ -335,6 +336,7 @@
 		{
 			x: 14.0d
 			y: 5.0d
+			subtitle: "&bCraftable&r"
 			id: "23F5AB6DB96EB8B2"
 			tasks: [{
 				id: "2AA7FCE928A4A8C4"

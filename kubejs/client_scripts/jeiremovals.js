@@ -248,4 +248,6 @@ onEvent('jei.hide.items', event => {
     jei.add('tconstruct:soulsteel_nugget')
     jei.add('tconstruct:soulsteel_ingot')
     jei.add('tconstruct:soulsteel_block')
+
+    jei.add('minecraft:dragon_egg')
 })
