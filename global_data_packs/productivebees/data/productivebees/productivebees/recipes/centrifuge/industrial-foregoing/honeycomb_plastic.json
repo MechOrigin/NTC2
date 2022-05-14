@@ -1,0 +1,33 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "tag": "forge:honeycombs/plastic"
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:plastic"
+            }
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        },
+        {
+            "fluid": {
+                "fluid": "thermal:latex"
+            },
+            "amount": 100
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:plastic"
+            }
+        }
+    ]
+}

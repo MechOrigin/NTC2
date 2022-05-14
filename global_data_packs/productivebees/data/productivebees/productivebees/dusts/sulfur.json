@@ -3,7 +3,6 @@
     "secondaryColor": "#c9ab4b",
     "particleColor": "#f1f372",
     "createComb": false,
-    "flowerTag": "productivebees:flowers/sulfur",
     "renderer": "default_crystal",
     "flowerBlock": "emendatusenigmatica:sulfur_block",
     "conditions": [

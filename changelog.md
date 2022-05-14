@@ -211,6 +211,7 @@ Inititive to cut down on autocrafting times:
 - Added enriching, sawing recipes as well
 QOL:
 - Added crafting recipe to and from mek/EE charcoal dust and ender dust
+- Added blocks that make sense to productive bee's flowering
 
 <!-- TODO: 
     TODO: 
