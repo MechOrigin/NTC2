@@ -3,11 +3,11 @@ onEvent('recipes', (event) => {
     var data = {
         recipes: [
             {
-                input: { amount: 1, item: 'minecraft:ender_pearl' },
+                input: { ingredient: { tag: `forge:gems/ender` } },
                 output: { amount: 10, infuse_type: 'kubejs:ender' }
             },
             {
-                input: { amount: 1, item: 'appliedenergistics2:certus_quartz_crystal' },
+                input: { ingredient: { tag: `appliedenergistics2:crystals/quartz` } },
                 output: { amount: 10, infuse_type: 'kubejs:certus' }
             }
         ]
