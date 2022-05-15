@@ -116,6 +116,8 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 <recipetype:thermal:pulverizer>.addRecipe("betterend_endstone", [<item:betterendforge:endstone_dust> * 3 % 100] , <item:exnihilosequentia:crushed_end_stone>, 0.1, 500);
 */
 
+<recipetype:thermal:pulverizer>.addRecipe("monazite_gem_processing", [<item:chemlib:element_cerium> * 4 % 100, <item:chemlib:element_lanthanum> * 4 % 100, <item:chemlib:element_thorium> * 6 % 100] , <item:kubejs:monazite_gem>, 0.1, 500);
+
 <recipetype:thermal:smelter>.addRecipe("crystalline_pink_slime_ingot", [<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime> % 100], [<item:enderioalloys:item_material_pulsating_powder>, <item:industrialforegoing:pink_slime_ingot>], 0.1, 9000);
 <recipetype:thermal:pulverizer>.addRecipe("pulsating_powder", [<item:enderioalloys:item_material_pulsating_powder> * 1 % 100] , <item:enderioalloys:item_material_pulsating_crystal>, 0.1, 9000);
 /*

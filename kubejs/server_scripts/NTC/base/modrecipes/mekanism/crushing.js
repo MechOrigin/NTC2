@@ -22,7 +22,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}construction_paste`
         },
         {
-            input: '#forge:ores/netherite',
+            input: '#forge:ores/netherite_scrap',
             output: Item.of('mekanism:dirty_netherite_scrap', 3),
             id: 'mekanism:processing/netherite/ancient_debris_to_dirty_scrap'
         },
@@ -37,7 +37,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}item_material_pulsating_powder`
         },
         {
-            input: '#forge:planks',
+            input: '#minecraft:planks',
             output: Item.of('inspirations:plain_mulch', 1),
             id: `${id_prefix}plain_mulch`
         },
@@ -71,7 +71,6 @@ onEvent('recipes', (event) => {
             inputs: [
                 '#minecraft:small_flowers',
                 '#minecraft:tall_flowers',
-                '#forge:mushroom_stems',
                 '#forge:mushrooms'
             ]
         }

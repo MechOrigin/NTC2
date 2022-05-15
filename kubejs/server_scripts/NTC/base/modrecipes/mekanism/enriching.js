@@ -17,6 +17,11 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}amber_shards`
         },
         {
+            input: 'kubejs:monazite_gem',
+            output: Item.of('kubejs:monazite_gem', 3),
+            id: `${id_prefix}monazite_gems`
+        },
+        {
             input: 'minecraft:sugar_cane',
             output: Item.of('minecraft:sugar', 2),
             id: `${id_prefix}sugar`

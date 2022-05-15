@@ -6,6 +6,7 @@ events.listen('recipes', e => {
         'alchemistry:evaporator/lava',
         'immersiveengineering:recycling/hammer',
         'tconstruct:smeltery/entity_melting/heads/creeper',
+        'fluiddrawerslegacy:fluiddrawer',
 /*
         'electrodynamics:geariron',
         'electrodynamics:gearcopper',

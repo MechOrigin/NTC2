@@ -19,4 +19,5 @@ onEvent("jei.information", jei_info => {
 */
     jei_info.add('tconstruct:dragon_scale',['Drops when the Ender Dragon is killed by an explosion'])
     jei_info.add('minecraft:ender_pearl',['Can be used to create the Quantum Entangled Singularity along with a Singularity and an explosion'])
+    jei_info.add('kubejs:monazite_gem',['Dropped as a secondary drop from Biotite Ore in the End. Can also be seeded and grown in an Enricher.'])
 })

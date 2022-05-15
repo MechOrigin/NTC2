@@ -298,7 +298,6 @@ onEvent('block.loot_tables', event => {
 			}) 
 		})
 	//BIOTITE / MONAZITE
-	event.addSimpleBlock('quark:biotite_ore', 'kubejs:monazite_crystal')
 	event.addBlock('quark:biotite_ore', table => {
 		table.addPool(pool => {
 			pool.setUniformRolls(2, 4)

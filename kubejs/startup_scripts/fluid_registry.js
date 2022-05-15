@@ -8,6 +8,8 @@ onEvent('fluid.registry', event => {
     event.create('molten_blitz').textureThick(0xfcd324).bucketColor(0xfcd324).displayName('Molten Blitz')
     event.create('molten_blizz').textureThick(0x2cb4fc).bucketColor(0x2cb4fc).displayName('Molten Blizz')
 
+    event.create('molten_monazite').textureThick(0x543c28).bucketColor(0x543c28).displayName('Molten Monazite')
+
     event.create('molten_ender_iron').textureThick(0x1b7a6a).bucketColor(0x1b7a6a).displayName('Molten Ender Iron')
 
     event.create('molten_energetic_alloy').textureThick(0xff8000).bucketColor(0xff8000).displayName('Molten Energetic Alloy')

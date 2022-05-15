@@ -57,7 +57,7 @@ onEvent('recipes', (event) => {
         thermal_gem_ore_pulverizing(event, material, ore, dust, gem, shard);
         thermal_ingot_gem_pulverizing(event, material, ingot, dust, gem);
         thermal_metal_casting(event, material, ingot, nugget, gear, rod, plate, wire);
-        thermal_metal_melting(event, material, block, ingot, nugget, gear, rod, plate);
+        thermal_metal_melting(event, material, block, ingot, nugget, gear, rod, plate, wire);
         thermal_gem_casting(event, material, gem, gear, rod, plate);
         thermal_gem_melting(event, material, block, gem, gear, rod, plate);
 
@@ -700,7 +700,7 @@ onEvent('recipes', (event) => {
         if (plate != air) {
             recipes.push({ type: 'plate', amount: 144, output: plate, energy: 5000 });
         }
-        if (wire != air) {
+        if (wire != air && (`${material}` == ('copper' || 'electrum' || 'aluminum' || 'steel' || 'lead'))) {
             recipes.push({ type: 'wire', amount: 72, output: wire, energy: 2500 });
         }
 
@@ -737,8 +737,8 @@ onEvent('recipes', (event) => {
         });
     }
 
-    function thermal_metal_melting(event, material, block, ingot, nugget, gear, rod, plate) {
-        if (ingot == air) {
+    function thermal_metal_melting(event, material, block, ingot, nugget, gear, rod, plate, wire) {
+        if (material == air || ingot == air || nugget == air || gear == air || rod == air || plate == air || wire == air) {
             return;
         }
 
@@ -768,6 +768,9 @@ onEvent('recipes', (event) => {
         }
         if (plate != air) {
             recipes.push({ type: 'plate', amount: 144, input: `#forge:plates/${material}`, energy: 5000 });
+        }
+        if (wire != air && (`${material}` == ('copper' || 'electrum' || 'aluminum' || 'steel' || 'lead'))) {
+            recipes.push({ type: 'wire', amount: 72, input: `#forge:wires/${material}`, energy: 2500 });
         }
 
         recipes.forEach((recipe) => {
