@@ -212,6 +212,7 @@ Inititive to cut down on autocrafting times:
 QOL:
 - Added crafting recipe to and from mek/EE charcoal dust and ender dust
 - Added blocks that make sense to productive bee's flowering
+- Added Monazite crystal to biotite drops for a source of cerium, lanthanum and thorium
 
 <!-- TODO: 
     TODO: 
@@ -223,5 +224,6 @@ QOL:
     TODO: add knowledge sharing book?
     TODO: add recipes to mek machines
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
+    remove ae2 charger from jei and replace input recipes that use it with just charged certus block
     
 -->

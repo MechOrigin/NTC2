@@ -18,4 +18,5 @@ onEvent("jei.information", jei_info => {
     jei_info.add('quark:black_candle',['Makes the Matrix Enchanter more likely to give Smite and Projectile Protection'])
 */
     jei_info.add('tconstruct:dragon_scale',['Drops when the Ender Dragon is killed by an explosion'])
+    jei_info.add('minecraft:ender_pearl',['Can be used to create the Quantum Entangled Singularity along with a Singularity and an explosion'])
 })

@@ -297,6 +297,16 @@ onEvent('block.loot_tables', event => {
 			pool.addEntry({type: 'minecraft:item', name: 'appliedenergistics2:charged_certus_quartz_crystal'})
 			}) 
 		})
+	//BIOTITE / MONAZITE
+	event.addSimpleBlock('quark:biotite_ore', 'kubejs:monazite_crystal')
+	event.addBlock('quark:biotite_ore', table => {
+		table.addPool(pool => {
+			pool.setUniformRolls(2, 4)
+			pool.survivesExplosion()
+			pool.addEntry({type: 'minecraft:item', name: 'kubejs:monazite_crystal'})
+			pool.addEntry({type: 'minecraft:item', name: 'quark:biotite'})
+			}) 
+		})
 //
 //fin
 //

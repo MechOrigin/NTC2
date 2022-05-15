@@ -122,6 +122,10 @@ onEvent('recipes', (event) => {
         {
             output: Item.of('mekanism:dust_charcoal', 1),
             inputs: ['emendatusenigmatica:charcoal_dust']
+        },
+        {
+            output: Item.of('minecraft:dragon_egg', 1),
+            inputs: ['productivebees:inactive_dragon_egg', 'minecraft:dragon_breath']
         }
     ];
 

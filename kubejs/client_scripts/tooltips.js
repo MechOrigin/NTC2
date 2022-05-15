@@ -85,7 +85,7 @@ onEvent('item.tooltip', (event) => {
             text: [Text.of('(Si)(Hg)(Nd)').color("#A460D9")]
         },
         {
-            items: ['minecraft:iron_ingot'],
+            items: ['minecraft:iron_ingot', 'emendatusenigmatica:iron_gear', /iron/],
             text: [Text.of('(Fe)').color("#A460D9")]
         },
         {

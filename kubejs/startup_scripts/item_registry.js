@@ -51,6 +51,8 @@ onEvent('item.registry', event => {
     //event.create('calcium_carbonate').displayName('Calcium Carbonate')
     event.create('calcium_acetate').displayName('Calcium Acetate')
 
+    event.create('monazite_crystal').displayName('Monazite Crystal')
+
     //Custom built mekanism matter stuff
     event.create('uu_matter_2').displayName('Universal Mass')
     event.create('scrap_2').displayName('Scrap') //not going to use--use matter ball instead
