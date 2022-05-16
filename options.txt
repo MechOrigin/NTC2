@@ -5,7 +5,7 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 enableVsync:false
-entityShadows:true
+entityShadows:false
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
@@ -15,7 +15,7 @@ snooperEnabled:false
 showSubtitles:false
 touchscreen:false
 fullscreen:false
-bobView:true
+bobView:false
 toggleCrouch:false
 toggleSprint:false
 mouseSensitivity:0.5
@@ -26,7 +26,7 @@ gamma:0.0
 renderDistance:2
 entityDistanceScaling:1.0
 guiScale:2
-particles:0
+particles:2
 maxFps:260
 difficulty:2
 graphicsMode:0

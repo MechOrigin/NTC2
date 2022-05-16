@@ -63,12 +63,13 @@ onEvent('recipes', (event) => {
 
         tconstruct_metal_casting(event, material, block, ingot, nugget, gear, rod, plate);
         tconstruct_gem_casting(event, material, block, gem, gear, rod, plate);
-    });
 
-    combs.forEach((material) => {
-        let combs = getPreferredItemInTag(Ingredient.of(`#forge:honeycombs/${material}`)).id;
-
-        thermal_comb_centrifuging(event, material, combs, dust, nugget, ingot);
+        combs.forEach((combMaterial) => {
+            let combs = getPreferredItemInTag(Ingredient.of(`#forge:honeycombs/${combMaterial}`)).id;
+            let dust = getPreferredItemInTag(Ingredient.of(`#forge:dusts/${material}`)).id;
+    
+            thermal_comb_centrifuging(event, material, combMaterial, combs, dust);
+        });
     });
 
     function betterend_alloys(event, material, ore, ingot) {
@@ -908,14 +909,14 @@ onEvent('recipes', (event) => {
         });
     }
 
-    function thermal_comb_centrifuging(event, material, combs, dust, nugget, ingot) {
+    function thermal_comb_centrifuging(event, material, combMaterial, combs, dust) {
         if (combs == air) {
             return;
         }
 
-        let recipes = [{ type: 'combs', amount: 50, input: `#forge:honeycombs/${material}`, energy: 4000 }];
+        let recipes = [{ type: 'combs', amount: 50, input: `#forge:honeycombs/${combMaterial}`, energy: 4000 }];
         if (dust != air) {
-            recipes.push({ type: 'dust', amount: 50, input: `#forge:honeycombs/${material}`, output: `#forge:dusts/${material}`, energy: 4000 });
+            recipes.push({ type: 'dust', amount: 50, input: `#forge:honeycombs/${combMaterial}`, output: `#forge:dusts/${material}`, energy: 4000 });
         }
         // if (gear != air) {
         //     recipes.push({ type: 'gear', amount: 576, input: `#forge:gears/${material}`, energy: 20000 });
@@ -930,7 +931,7 @@ onEvent('recipes', (event) => {
             event.recipes.thermal
                 .centrifuge(Fluid.of(Fluidhoney, recipe.amount), (recipe.output1), recipe.input)
                 .energy(recipe.energy)
-                .id(`ntc2:base/thermal/centrifuge/${material}_${recipe.type}`);
+                .id(`ntc2:base/thermal/centrifuge/${combMaterial}_${recipe.type}`);
         });
     }
 
