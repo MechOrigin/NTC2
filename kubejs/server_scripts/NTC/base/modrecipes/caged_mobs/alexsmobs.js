@@ -7,6 +7,7 @@ onEvent('recipes', (event) => {
             samplerTier: 3,
             growTicks: 3000,
             output0: 'alexsmobs:void_worm_eye',
+            maxAmount0: 1,
             output1: 'alexsmobs:void_worm_mandible'
         },
         {
@@ -16,7 +17,7 @@ onEvent('recipes', (event) => {
             samplerTier: 3,
             growTicks: 300,
             output0: 'alexsmobs:tarantula_hawk_wing_fragment',
-            maxAmount: 3,
+            maxAmount0: 3,
             output1: 'miniutilities:experience_pearl'
         }
     ];

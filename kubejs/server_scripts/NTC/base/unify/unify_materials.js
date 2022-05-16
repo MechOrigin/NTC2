@@ -913,10 +913,10 @@ onEvent('recipes', (event) => {
             return;
         }
 
-        let recipes = [{ type: 'combs', amount: 144, input: `#forge:gems/${material}`, energy: 5000 }];
-        // if (block != air) {
-        //     recipes.push({ type: 'block', amount: 1296, input: `#forge:storage_blocks/${material}`, energy: 40000 });
-        // }
+        let recipes = [{ type: 'combs', amount: 50, input: `#forge:honeycombs/${material}`, energy: 4000 }];
+        if (dust != air) {
+            recipes.push({ type: 'dust', amount: 50, input: `#forge:honeycombs/${material}`, output: `#forge:dusts/${material}`, energy: 4000 });
+        }
         // if (gear != air) {
         //     recipes.push({ type: 'gear', amount: 576, input: `#forge:gears/${material}`, energy: 20000 });
         // }
@@ -928,9 +928,9 @@ onEvent('recipes', (event) => {
         // }
         recipes.forEach((recipe) => {
             event.recipes.thermal
-                .centrifuge(Fluid.of(`${Fluidhoney}`, recipe.amount), (recipe.output1), recipe.input)
+                .centrifuge(Fluid.of(Fluidhoney, recipe.amount), (recipe.output1), recipe.input)
                 .energy(recipe.energy)
-                .id(`ntc2:base/thermal/crucible/${material}_${recipe.type}`);
+                .id(`ntc2:base/thermal/centrifuge/${material}_${recipe.type}`);
         });
     }
 
