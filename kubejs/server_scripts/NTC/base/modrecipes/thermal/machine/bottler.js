@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/thermal/bottler/';
+    const id_prefix = 'ntc2:base/thermal/bottler/';
     const recipes = [
         {
             input: 'minecraft:glass_bottle',

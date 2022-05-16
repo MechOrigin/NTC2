@@ -204,25 +204,29 @@ and this project adheres to [Semantic Versioning].
 ## [1.4.6] - 2022-05-12
 
 ### Changed
-Inititive to cut down on autocrafting times:
+Initiative to cut down on autocrafting times:
 - Added mekanism crushing recipes for some thermal pulverizer stuff
 - Added custom infusion types and Infusion recipes
     Ender, Redstone Ingots now craftable in mekanism, as well as charged certus
 - Added enriching, sawing recipes as well
+Initiative to cut down on some grinds:
+- Add neutronium to MA
 QOL:
 - Added crafting recipe to and from mek/EE charcoal dust and ender dust
 - Added blocks that make sense to productive bee's flowering
 - Added Monazite crystal to biotite drops for a source of cerium, lanthanum and thorium
+- Added tarantula hawk to mob cages
+- Fixed plate/gear etc recipes not showing in thermal chiller
 
 <!-- TODO: 
     TODO: 
     TODO: Remove unused avaritia stuff out of JEI
-    TODO: Add neutronium MA
+    TODO: 
     TODO: Add enderio alloys MA
     TODO: Add github repo to title screen
     TODO: add crafting recipe from polonium pellet to polonium ingot and back (maybe 4 per?)
     TODO: add knowledge sharing book?
-    TODO: add recipes to mek machines
+    TODO: 
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block
     

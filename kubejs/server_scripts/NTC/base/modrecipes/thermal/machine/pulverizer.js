@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/thermal/pulverizer/';
+    const id_prefix = 'ntc2:base/thermal/pulverizer/';
     const recipes = [
         {
             input: '#forge:ores/netherite',

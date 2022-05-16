@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/thermal/reaction';
+    const id_prefix = 'ntc2:base/thermal/reaction';
 
     metalsProcessing.forEach((material) => {
         let ore = getPreferredItemInTag(Ingredient.of(`#forge:ores/${material}`)).id;

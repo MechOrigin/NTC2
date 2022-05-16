@@ -8,6 +8,16 @@ onEvent('recipes', (event) => {
             growTicks: 3000,
             output0: 'alexsmobs:void_worm_eye',
             output1: 'alexsmobs:void_worm_mandible'
+        },
+        {
+            inputs: [
+                'alexsmobs:tarantula_hawk'
+            ],
+            samplerTier: 3,
+            growTicks: 300,
+            output0: 'alexsmobs:tarantula_hawk_wing_fragment',
+            maxAmount: 3,
+            output1: 'miniutilities:experience_pearl'
         }
     ];
 
@@ -32,7 +42,7 @@ onEvent('recipes', (event) => {
                             item: input.output0
                         },
                         minAmount: 1,
-                        maxAmount: 1
+                        maxAmount: input.maxAmount0
                     },
                     {
                         chance: 0.2,

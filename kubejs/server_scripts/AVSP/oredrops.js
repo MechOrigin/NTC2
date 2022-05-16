@@ -302,7 +302,7 @@ onEvent('block.loot_tables', event => {
 		table.addPool(pool => {
 			pool.setUniformRolls(2, 4)
 			pool.survivesExplosion()
-			pool.addEntry({type: 'minecraft:item', name: 'kubejs:monazite_crystal'})
+			pool.addEntry({type: 'minecraft:item', name: 'kubejs:monazite_gem'})
 			pool.addEntry({type: 'minecraft:item', name: 'quark:biotite'})
 			}) 
 		})

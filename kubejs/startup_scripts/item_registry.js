@@ -53,6 +53,11 @@ onEvent('item.registry', event => {
 
     event.create('monazite_gem').displayName('Monazite Crystal')
 
+    event.create('monazite_gem_seed').displayName('Monazite Crystal Seed')
+    event.create('crystal_shard_seed').displayName('Crystal Shard Seed')
+    event.create('ender_shard_seed').displayName('Ender Shard Seed')
+    event.create('amber_gem_seed').displayName('Amber Crystal Seed')
+
     //Custom built mekanism matter stuff
     event.create('uu_matter_2').displayName('Universal Mass')
     event.create('scrap_2').displayName('Scrap') //not going to use--use matter ball instead

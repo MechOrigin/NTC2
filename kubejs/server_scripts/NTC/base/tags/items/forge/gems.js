@@ -20,7 +20,8 @@ onEvent('item.tags', (event) => {
         'thermal:bitumen',
         'betterendforge:sulphur_crystal',
         'betterendforge:amber_gem',
-        'betterendforge:crystal_shards'
+        'betterendforge:crystal_shards',
+        'kubejs:monazite_gem'
     ]);
 
     event.add(gems + '/coal_coke', [
@@ -36,4 +37,5 @@ onEvent('item.tags', (event) => {
     event.get('forge:gems/sulfur').add('betterendforge:crystalline_sulphur');
     event.get('forge:gems/amber').add('betterendforge:amber_gem');
     event.get('forge:gems/crystal').add('betterendforge:crystal_shards');
+    event.get('forge:gems/monazite').add('kubejs:monazite_gem');
 });

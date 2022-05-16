@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/mekanism/crushing/';
+    const id_prefix = 'ntc2:base/mekanism/crushing/';
     const recipes = [
         {
             input: 'atmospheric:arid_sandstone',

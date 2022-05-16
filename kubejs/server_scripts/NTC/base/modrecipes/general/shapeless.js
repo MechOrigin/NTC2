@@ -126,6 +126,22 @@ onEvent('recipes', (event) => {
         {
             output: Item.of('minecraft:dragon_egg', 1),
             inputs: ['productivebees:inactive_dragon_egg', 'minecraft:dragon_breath']
+        },
+        {
+            output: Item.of('kubejs:monazite_gem_seed', 2),
+            inputs: ['#forge:sand', 'kubejs:monazite_gem']
+        },
+        {
+            output: Item.of('kubejs:crystal_shard_seed', 2),
+            inputs: ['#forge:sand', 'betterendforge:crystal_shards']
+        },
+        {
+            output: Item.of('kubejs:ender_shard_seed', 2),
+            inputs: ['#forge:sand', 'betterendforge:ender_shard']
+        },
+        {
+            output: Item.of('kubejs:amber_gem_seed', 2),
+            inputs: ['#forge:sand', 'betterendforge:amber_gem']
         }
     ];
 

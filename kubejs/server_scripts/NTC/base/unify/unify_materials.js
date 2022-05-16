@@ -65,6 +65,12 @@ onEvent('recipes', (event) => {
         tconstruct_gem_casting(event, material, block, gem, gear, rod, plate);
     });
 
+    combs.forEach((material) => {
+        let combs = getPreferredItemInTag(Ingredient.of(`#forge:honeycombs/${material}`)).id;
+
+        thermal_comb_centrifuging(event, material, combs, dust, nugget, ingot);
+    });
+
     function betterend_alloys(event, material, ore, ingot) {
         if (ore == air || ingot == air) {
             return;
@@ -670,7 +676,7 @@ onEvent('recipes', (event) => {
     }
 
     function thermal_metal_casting(event, material, ingot, nugget, gear, rod, plate, wire) {
-        if (material == air || ingot == air || nugget == air || gear == air || rod == air || plate == air || wire == air) {
+        if (ingot == air) {
             return;
         }
 
@@ -700,7 +706,7 @@ onEvent('recipes', (event) => {
         if (plate != air) {
             recipes.push({ type: 'plate', amount: 144, output: plate, energy: 5000 });
         }
-        if (wire != air && (`${material}` == ('copper' || 'electrum' || 'aluminum' || 'steel' || 'lead'))) {
+        if (wire != air && (`${material}` == 'copper') || (`${material}` == 'electrum') || (`${material}` == 'aluminum') || (`${material}` == 'steel') || (`${material}` == 'lead')) {
             recipes.push({ type: 'wire', amount: 72, output: wire, energy: 2500 });
         }
 
@@ -738,7 +744,7 @@ onEvent('recipes', (event) => {
     }
 
     function thermal_metal_melting(event, material, block, ingot, nugget, gear, rod, plate, wire) {
-        if (material == air || ingot == air || nugget == air || gear == air || rod == air || plate == air || wire == air) {
+        if (ingot == air) {
             return;
         }
 
@@ -898,7 +904,33 @@ onEvent('recipes', (event) => {
             event.recipes.thermal
                 .crucible(Fluid.of(`${modId}:molten_${material}`, recipe.amount), recipe.input)
                 .energy(recipe.energy)
-                .id(`enigmatica:base/thermal/crucible/${material}_${recipe.type}`);
+                .id(`ntc2:base/thermal/crucible/${material}_${recipe.type}`);
+        });
+    }
+
+    function thermal_comb_centrifuging(event, material, combs, dust, nugget, ingot) {
+        if (combs == air) {
+            return;
+        }
+
+        let recipes = [{ type: 'combs', amount: 144, input: `#forge:gems/${material}`, energy: 5000 }];
+        // if (block != air) {
+        //     recipes.push({ type: 'block', amount: 1296, input: `#forge:storage_blocks/${material}`, energy: 40000 });
+        // }
+        // if (gear != air) {
+        //     recipes.push({ type: 'gear', amount: 576, input: `#forge:gears/${material}`, energy: 20000 });
+        // }
+        // if (rod != air) {
+        //     recipes.push({ type: 'rod', amount: 72, input: `#forge:rods/${material}`, energy: 2500 });
+        // }
+        // if (plate != air) {
+        //     recipes.push({ type: 'plate', amount: 144, input: `#forge:plates/${material}`, energy: 5000 });
+        // }
+        recipes.forEach((recipe) => {
+            event.recipes.thermal
+                .centrifuge(Fluid.of(`${Fluidhoney}`, recipe.amount), (recipe.output1), recipe.input)
+                .energy(recipe.energy)
+                .id(`ntc2:base/thermal/crucible/${material}_${recipe.type}`);
         });
     }
 

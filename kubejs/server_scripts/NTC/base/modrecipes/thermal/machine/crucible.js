@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/thermal/crucible/';
+    const id_prefix = 'ntc2:base/thermal/crucible/';
     const recipes = [
         {
             output: Fluid.of('kubejs:molten_blitz', 250),

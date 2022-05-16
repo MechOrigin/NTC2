@@ -1,5 +1,6 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/mekanism/enriching/';
+    const id_prefix = 'ntc2:base/mekanism/enriching/';
+    // ! These have to be tags , the blizz, etc rods dont work
     const recipes = [
         {
             input: '#forge:storage_blocks/aurora',
@@ -17,7 +18,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}amber_shards`
         },
         {
-            input: 'kubejs:monazite_gem',
+            input: '#forge:ores/biotite',
             output: Item.of('kubejs:monazite_gem', 3),
             id: `${id_prefix}monazite_gems`
         },
@@ -65,6 +66,26 @@ onEvent('recipes', (event) => {
             input: 'mekanism:dirty_netherite_scrap',
             output: Item.of('minecraft:netherite_scrap'),
             id: 'mekanism:processing/netherite/dirty_scrap_to_scrap'
+        },
+        {
+            input: '#ntc2:seeds/monazite',
+            output: Item.of('kubejs:monazite_gem', 1),
+            id: `${id_prefix}monazite_gem_seed`
+        },
+        {
+            input: '#ntc2:seeds/crystal_shard',
+            output: Item.of('betterendforge:crystal_shards', 1),
+            id: `${id_prefix}crystal_shard_seed`
+        },
+        {
+            input: '#ntc2:seeds/ender_shard',
+            output: Item.of('betterendforge:ender_shard', 1),
+            id: `${id_prefix}ender_shard_seed`
+        },
+        {
+            input: '#ntc2:seeds/amber',
+            output: Item.of('betterendforge:amber_gem', 1),
+            id: `${id_prefix}amber_gem_seed`
         }
     ];
     recipes.forEach((recipe) => {
