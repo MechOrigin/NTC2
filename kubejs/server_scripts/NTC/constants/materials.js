@@ -144,11 +144,11 @@ const combs = [
 //    'coal_coke'
     'amber',
     'basalz',
-    'bismuth',
+//    'bismuth',
     'blazing',
     'blitz',
     'blizz',
-    'bloody',
+//    'bloody',
     'bone',
     'draconic',
     'ender',
