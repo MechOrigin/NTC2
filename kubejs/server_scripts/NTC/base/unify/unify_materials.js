@@ -913,7 +913,7 @@ onEvent('recipes', (event) => {
         if (combs == air) {
             return;
         }
-
+        
         let recipesx = [{ type: 'combs', amount: 50, input: `#forge:honeycombs/${combMaterial}`, energy: 4000 }];
         let recipes = [{
             type: 'combs',
@@ -931,6 +931,8 @@ onEvent('recipes', (event) => {
                 .energy(recipe.energy)
                 .id(`ntc2:base/thermal/centrifuge/${combMaterial}_${recipe.type}`);
         });
+
+        console.log(`Created new ${recipe.type} as ${recipe.input} with ${recipe.outputs} and ${recipe.energy} I also want to see ${combMaterial} and ${material}`);
     }
 
     function tconstruct_metal_casting(event, material, block, ingot, nugget, gear, rod, plate) {
