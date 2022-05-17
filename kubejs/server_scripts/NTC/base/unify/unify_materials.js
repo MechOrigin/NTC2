@@ -63,13 +63,12 @@ onEvent('recipes', (event) => {
 
         tconstruct_metal_casting(event, material, block, ingot, nugget, gear, rod, plate);
         tconstruct_gem_casting(event, material, block, gem, gear, rod, plate);
+    });
 
-        combs.forEach((combMaterial) => {
-            let combs = getPreferredItemInTag(Ingredient.of(`#forge:honeycombs/${combMaterial}`)).id;
-            let dust = getPreferredItemInTag(Ingredient.of(`#forge:dusts/${material}`)).id;
-    
-            thermal_comb_centrifuging(event, material, combMaterial, combs);
-        });
+    combs.forEach((combMaterial) => {
+        let honeyCombs = getPreferredItemInTag(Ingredient.of(`#forge:honeycombs/${combMaterial}`)).id;
+
+        thermal_comb_centrifuging(event, combMaterial, honeyCombs);
     });
 
     function betterend_alloys(event, material, ore, ingot) {
@@ -909,17 +908,17 @@ onEvent('recipes', (event) => {
         });
     }
 
-    function thermal_comb_centrifuging(event, material, combMaterial, combs) {
-        if (combs == air) {
+    function thermal_comb_centrifuging(event, combMaterial, honeyCombs) {
+        if (combMaterial == air) {
             return;
         }
         
-        let recipesx = [{ type: 'combs', amount: 50, input: `#forge:honeycombs/${combMaterial}`, energy: 4000 }];
+        //let recipesx = [{ type: 'combs', amount: 50, input: `#forge:honeycombs/${combMaterial}`, energy: 4000 }];
         let recipes = [{
             type: 'combs',
-            input: `#forge:honeycombs/${combMaterial}`,
+            input: honeyCombs,
             outputs: [
-                Item.of(`#forge:dusts_${material}`).withCount(1),
+                Item.of(`#forge:dusts/${honeyCombs}`).withCount(1),
                 Fluid.of('cofh_core:honey', 50)
             ], 
             energy: 4000
@@ -930,9 +929,9 @@ onEvent('recipes', (event) => {
                 .centrifuge(recipe.outputs, recipe.input)
                 .energy(recipe.energy)
                 .id(`ntc2:base/thermal/centrifuge/${combMaterial}_${recipe.type}`);
-        });
 
-        console.log(`Created new ${recipe.type} as ${recipe.input} with ${recipe.outputs} and ${recipe.energy} I also want to see ${combMaterial} and ${material}`);
+                console.log(`Created new ${combMaterial} and ${honeyCombs}`);
+        });
     }
 
     function tconstruct_metal_casting(event, material, block, ingot, nugget, gear, rod, plate) {

@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/';
+    const id_prefix = 'ntc2:base/';
     const recipes = [
         {
             output: Item.of('#forge:shards/ender'),
@@ -42,15 +42,6 @@ onEvent('recipes', (event) => {
             inputs: ['#minecraft:leaves', '#forge:shears']
         },
         {
-            output: Item.of('projectvibrantjourneys:pinecones', 6),
-            inputs: [
-                '#minecraft:leaves/coniferous',
-                '#minecraft:leaves/coniferous',
-                '#minecraft:leaves/coniferous',
-                '#forge:shears'
-            ]
-        },
-        {
             output: Item.of('projectvibrantjourneys:fallen_leaves', 1),
             inputs: ['quark:oak_leaf_carpet']
         },
@@ -77,18 +68,6 @@ onEvent('recipes', (event) => {
         {
             output: Item.of('projectvibrantjourneys:glowcap'),
             inputs: ['minecraft:glowstone_dust', ['minecraft:brown_mushroom', 'minecraft:red_mushroom']]
-        },
-        {
-            output: Item.of('botanypots:botany_pot'),
-            inputs: ['#enigmatica:washables/simplebotanypots', 'minecraft:water_bucket']
-        },
-        {
-            output: Item.of('botanypots:hopper_botany_pot'),
-            inputs: ['#enigmatica:washables/hopperbotanypots', 'minecraft:water_bucket']
-        },
-        {
-            output: Item.of('minecraft:terracotta'),
-            inputs: ['#enigmatica:washables/terracotta', 'minecraft:water_bucket']
         },
         {
             output: Item.of('minecraft:string', 3),

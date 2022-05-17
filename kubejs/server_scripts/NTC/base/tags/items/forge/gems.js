@@ -21,7 +21,8 @@ onEvent('item.tags', (event) => {
         'betterendforge:sulphur_crystal',
         'betterendforge:amber_gem',
         'betterendforge:crystal_shards',
-        'kubejs:monazite_gem'
+        'kubejs:monazite_gem',
+        'betterendforge:ender_shard'
     ]);
 
     event.add(gems + '/coal_coke', [
@@ -38,4 +39,10 @@ onEvent('item.tags', (event) => {
     event.get('forge:gems/amber').add('betterendforge:amber_gem');
     event.get('forge:gems/crystal').add('betterendforge:crystal_shards');
     event.get('forge:gems/monazite').add('kubejs:monazite_gem');
+
+    event.add('forge:shards', 'betterendforge:ender_shard')
+    event.add('forge:shards/ender', 'betterendforge:ender_shard')
+
+    event.add('forge:shards', 'betterendforge:amber_gem')
+    event.add('forge:shards/amber', 'betterendforge:amber_gem')
 });

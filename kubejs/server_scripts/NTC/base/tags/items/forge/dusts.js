@@ -125,4 +125,7 @@ onEvent('item.tags', event => {
 
     event.add('forge:dusts', 'appliedenergistics2:sky_dust')
     event.add('forge:dusts/sky', 'appliedenergistics2:sky_dust')
+
+    event.add('forge:dusts', 'betterendforge:endstone_dust')
+    event.add('forge:dusts/end_stone', 'betterendforge:endstone_dust')
   })

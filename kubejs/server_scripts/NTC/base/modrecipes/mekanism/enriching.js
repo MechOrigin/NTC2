@@ -58,7 +58,7 @@ onEvent('recipes', (event) => {
             id: 'mekanism:enriching/hdpe_sheet'
         },
         {
-            input: '#forge:ores/netherite',
+            input: '#forge:ores/netherite_scrap',
             output: Item.of('minecraft:netherite_scrap', 2),
             id: 'mekanism:processing/netherite/ancient_debris_to_scrap'
         },
