@@ -217,6 +217,8 @@ QOL:
 - Added Monazite crystal to biotite drops for a source of cerium, lanthanum and thorium
 - Added tarantula hawk to mob cages
 - Fixed plate/gear etc recipes not showing in thermal chiller
+Updated:
+    ProjectExpansion-1.16.5-1.0.26.jar
 
 <!-- TODO: 
     TODO: 
