@@ -210,7 +210,9 @@ Initiative to cut down on autocrafting times:
     Ender, Redstone Ingots now craftable in mekanism, as well as charged certus
 - Added enriching, sawing recipes as well
 Initiative to cut down on some grinds:
-- Add neutronium to MA
+- Added neutronium to MA
+- Added enderio alloys MA
+- Added pink slime ingot to ma
 QOL:
 - Added crafting recipe to and from mek/EE charcoal dust and ender dust
 - Added blocks that make sense to productive bee's flowering
@@ -218,6 +220,7 @@ QOL:
 - Added tarantula hawk to mob cages
 - Fixed plate/gear etc recipes not showing in thermal chiller
 - Fixed shapeless recipes not working properly due to invalid tags (protip: recipes wont validate if tag doesnt exist)
+- Changed energy cost for end resin processor to 500 (reduced 100%) and increased yields of resin by 2x
 Updated:
     ProjectExpansion-1.16.5-1.0.26.jar
 
@@ -225,12 +228,15 @@ Updated:
     TODO: 
     TODO: Remove unused avaritia stuff out of JEI
     TODO: 
-    TODO: Add enderio alloys MA
+    TODO: 
     TODO: Add github repo to title screen
     TODO: add crafting recipe from polonium pellet to polonium ingot and back (maybe 4 per?)
     TODO: add knowledge sharing book?
     TODO: 
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block
-    
+    update lazierae2
+    find a way to fix the 360,000 requires 16m components for mk3 singularities
+    opinium cores, fix the recipes for those (slow)
+    make fluid methane convert to item methane, among other chemistry stuff
 -->

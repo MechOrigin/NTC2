@@ -1,0 +1,16 @@
+{
+    "name": "Vibrant Alloy",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "enderioalloys:item_alloy_ingot_vibrant_alloy"
+    },
+    "color": "80ff00",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "crux": "enderioalloys:block_alloy_vibrant_alloy"
+  }
+  

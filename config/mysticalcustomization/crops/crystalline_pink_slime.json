@@ -1,0 +1,16 @@
+{
+    "name": "Crystalline Pink Slime Alloy",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "industrialforegoing:item_alloy_ingot_crystalline_pink_slime"
+    },
+    "color": "0xffbcff",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "crux": "enderioalloys:block_alloy_crystalline_pink_slime"
+  }
+  

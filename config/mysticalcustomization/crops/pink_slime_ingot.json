@@ -1,0 +1,16 @@
+{
+    "name": "Pink Slime Ingot",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "color": "ffbcd9",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "crux": "industrialforegoing:dissolution_chamber"
+  }
+  

@@ -34,16 +34,16 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 <recipetype:thermal:press>.addRecipe("menril_log", [<item:integrateddynamics:crystalized_menril_chunk> % 350], <fluid:integrateddynamics:menril_resin> * 1000, [<item:integrateddynamics:menril_log>], 500);
 <recipetype:thermal:press>.addRecipe("en_menril_log", [<item:integrateddynamics:crystalized_menril_chunk> % 450], <fluid:integrateddynamics:menril_resin> * 1500, [<item:integrateddynamics:menril_log_filled>], 500);
 
-<recipetype:thermal:press>.addRecipe("liquid_amber_root", [], <fluid:kubejs:liquid_amber_root> * 125, [<item:betterendforge:amber_root_raw>], 5000);
-<recipetype:thermal:press>.addRecipe("liquid_blossom_berry", [], <fluid:kubejs:liquid_blossom_berry> * 250, [<item:betterendforge:blossom_berry>], 5000);
-<recipetype:thermal:press>.addRecipe("liquid_blue_vine", [], <fluid:kubejs:liquid_blue_vine> * 500, [<item:betterendforge:blue_vine_lantern>], 5000);
-<recipetype:thermal:press>.addRecipe("liquid_bulb_vine", [], <fluid:kubejs:liquid_bulb_vine> * 250, [<item:betterendforge:glowing_bulb>], 5000);
-<recipetype:thermal:press>.addRecipe("liquid_chorus_mushroom", [], <fluid:kubejs:liquid_chorus_mushroom> * 50, [<item:betterendforge:chorus_mushroom_raw>], 5000);
-<recipetype:thermal:press>.addRecipe("liquid_end_lily", [], <fluid:kubejs:liquid_end_lily> * 75, [<item:betterendforge:end_lily_leaf>], 5000);
-<recipetype:thermal:press>.addRecipe("liquid_end_lotus", [], <fluid:kubejs:liquid_end_lotus> * 125, [<item:betterendforge:end_lotus_stem>], 5000);
-<recipetype:thermal:press>.addRecipe("liquid_glowing_pillar", [], <fluid:kubejs:liquid_glowing_pillar> * 500, [<item:betterendforge:glowing_pillar_luminophor>], 5000);
-<recipetype:thermal:press>.addRecipe("liquid_lumecorn", [], <fluid:kubejs:liquid_lumecorn> * 125, [<item:betterendforge:lumecorn_rod>], 5000);
-<recipetype:thermal:press>.addRecipe("liquid_shadow_berry", [], <fluid:kubejs:liquid_shadow_berry> * 250, [<item:betterendforge:shadow_berry_raw>], 5000);
+<recipetype:thermal:press>.addRecipe("liquid_amber_root", [], <fluid:kubejs:liquid_amber_root> * 250, [<item:betterendforge:amber_root_raw>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_blossom_berry", [], <fluid:kubejs:liquid_blossom_berry> * 500, [<item:betterendforge:blossom_berry>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_blue_vine", [], <fluid:kubejs:liquid_blue_vine> * 1000, [<item:betterendforge:blue_vine_lantern>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_bulb_vine", [], <fluid:kubejs:liquid_bulb_vine> * 500, [<item:betterendforge:glowing_bulb>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_chorus_mushroom", [], <fluid:kubejs:liquid_chorus_mushroom> * 100, [<item:betterendforge:chorus_mushroom_raw>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_end_lily", [], <fluid:kubejs:liquid_end_lily> * 150, [<item:betterendforge:end_lily_leaf>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_end_lotus", [], <fluid:kubejs:liquid_end_lotus> * 250, [<item:betterendforge:end_lotus_stem>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_glowing_pillar", [], <fluid:kubejs:liquid_glowing_pillar> * 1000, [<item:betterendforge:glowing_pillar_luminophor>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_lumecorn", [], <fluid:kubejs:liquid_lumecorn> * 250, [<item:betterendforge:lumecorn_rod>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_shadow_berry", [], <fluid:kubejs:liquid_shadow_berry> * 500, [<item:betterendforge:shadow_berry_raw>], 500);
 
 <recipetype:thermal:press>.addRecipe("graphite_electrode", [<item:immersiveengineering:graphite_electrode>.withTag({graphDmg: 0 as int})], <fluid:minecraft:empty>, [<tag:items:forge:ingots/hop_graphite>*4, <item:immersiveengineering:mold_rod>], 5000);
 

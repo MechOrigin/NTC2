@@ -1,0 +1,16 @@
+{
+    "name": "Melodic Alloy",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
+    },
+    "color": "ec8afd",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "crux": "enderioalloys:block_alloy_melodic_alloy"
+  }
+  

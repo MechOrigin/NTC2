@@ -132,7 +132,7 @@ const combs = [
     'queens_slime',
     'rose_gold',
     'tinkers_bronze',
-    'knightslime',
+//    'knightslime',
     'slimesteel',
     'manyullyn',
     'hepatizon',

@@ -1,0 +1,16 @@
+{
+    "name": "Stellar Alloy",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "industrialforegoing:item_alloy_ingot_stellar_alloy"
+    },
+    "color": "0xfffef0",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "crux": "enderioalloys:block_alloy_stellar_alloy"
+  }
+  

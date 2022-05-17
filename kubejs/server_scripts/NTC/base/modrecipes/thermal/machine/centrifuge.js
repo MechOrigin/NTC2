@@ -50,10 +50,127 @@ onEvent('recipes', (event) => {
         if (combMaterial == 'fossilised') {
             combMaterial = 'coal'
         }
-        if (combMaterial == '') {
-            combMaterial = ''
+        if (combMaterial == 'queens_slime') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`#forge:nuggets/${combMaterial}`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
         }
-        
+        if (combMaterial == 'rose_gold') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`#forge:nuggets/${combMaterial}`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
+        if (combMaterial == 'tinkers_bronze') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`#forge:nuggets/${combMaterial}`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
+        if (combMaterial == 'slimesteel') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`#forge:nuggets/${combMaterial}`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
+        if (combMaterial == 'manyullyn') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`#forge:nuggets/${combMaterial}`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
+        if (combMaterial == 'hepatizon') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`#forge:nuggets/${combMaterial}`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
+        if (combMaterial == 'amber') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`#forge:nuggets/${combMaterial}`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
+        if (combMaterial == 'basalz') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`thermal:${combMaterial}_powder`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
+        if (combMaterial == 'blazing') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`minecraft:${combMaterial}_powder`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
+        if (combMaterial == 'blitz') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`thermal:${combMaterial}_powder`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
+        if (combMaterial == 'blizz') {
+            recipesCombs.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`thermal:${combMaterial}_powder`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
 
         console.log(`Created new ${combMaterial} and ${honeyCombs}`);
         recipesCombs.push({

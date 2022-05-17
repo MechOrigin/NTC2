@@ -1,0 +1,16 @@
+{
+    "name": "Dark Steel Alloy",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "enderioalloys:item_alloy_ingot_dark_steel"
+    },
+    "color": "333333",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "crux": "enderioalloys:block_alloy_dark_steel"
+  }
+  
