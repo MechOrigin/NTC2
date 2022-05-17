@@ -913,6 +913,8 @@ onEvent('recipes', (event) => {
             return;
         }
         
+        console.log(`Created new ${combMaterial} and ${honeyCombs}`);
+
         //let recipesx = [{ type: 'combs', amount: 50, input: `#forge:honeycombs/${combMaterial}`, energy: 4000 }];
         let recipes = [{
             type: 'combs',
@@ -923,14 +925,23 @@ onEvent('recipes', (event) => {
             ], 
             energy: 4000
         }];
+        if (honeyCombs != air) {
+            recipes.push({
+                type: 'combs',
+                input: honeyCombs,
+                outputs: [
+                    Item.of(`#forge:dusts/${honeyCombs}`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ], 
+                energy: 4000
+            });
+        }
 
         recipes.forEach((recipe) => {
             event.recipes.thermal
                 .centrifuge(recipe.outputs, recipe.input)
                 .energy(recipe.energy)
                 .id(`ntc2:base/thermal/centrifuge/${combMaterial}_${recipe.type}`);
-
-                console.log(`Created new ${combMaterial} and ${honeyCombs}`);
         });
     }
 
