@@ -236,7 +236,7 @@ Updated:
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block
     update lazierae2
-    find a way to fix the 360,000 requires 16m components for mk3 singularities
+    find a way to fix the 360,000 required 16m components for mk3 singularities
     opinium cores, fix the recipes for those (slow)
     make fluid methane convert to item methane, among other chemistry stuff
 -->
