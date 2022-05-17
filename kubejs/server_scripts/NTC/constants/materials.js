@@ -91,7 +91,7 @@ const metalsProcessing = [
 ];
 
 // Used for creating tags on custom ore processing materials
-const Fluidhoney = 'cofh_core:honey';
+const fluidHoney = 'cofh_core:honey';
 const combs = [
     'alfsteel',
     'allthemodium',

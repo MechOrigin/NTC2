@@ -1,0 +1,16 @@
+{
+    "name": "Energetic Alloy",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "enderioalloys:item_alloy_ingot_energetic_alloy"
+    },
+    "color": "ff8000",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "crux": "enderioalloys:block_alloy_energetic_alloy"
+  }
+  

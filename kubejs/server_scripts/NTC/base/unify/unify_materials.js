@@ -68,7 +68,7 @@ onEvent('recipes', (event) => {
             let combs = getPreferredItemInTag(Ingredient.of(`#forge:honeycombs/${combMaterial}`)).id;
             let dust = getPreferredItemInTag(Ingredient.of(`#forge:dusts/${material}`)).id;
     
-            thermal_comb_centrifuging(event, material, combMaterial, combs, dust);
+            thermal_comb_centrifuging(event, material, combMaterial, combs);
         });
     });
 
@@ -909,27 +909,25 @@ onEvent('recipes', (event) => {
         });
     }
 
-    function thermal_comb_centrifuging(event, material, combMaterial, combs, dust) {
+    function thermal_comb_centrifuging(event, material, combMaterial, combs) {
         if (combs == air) {
             return;
         }
 
-        let recipes = [{ type: 'combs', amount: 50, input: `#forge:honeycombs/${combMaterial}`, energy: 4000 }];
-        if (dust != air) {
-            recipes.push({ type: 'dust', amount: 50, input: `#forge:honeycombs/${combMaterial}`, output: `#forge:dusts/${material}`, energy: 4000 });
-        }
-        // if (gear != air) {
-        //     recipes.push({ type: 'gear', amount: 576, input: `#forge:gears/${material}`, energy: 20000 });
-        // }
-        // if (rod != air) {
-        //     recipes.push({ type: 'rod', amount: 72, input: `#forge:rods/${material}`, energy: 2500 });
-        // }
-        // if (plate != air) {
-        //     recipes.push({ type: 'plate', amount: 144, input: `#forge:plates/${material}`, energy: 5000 });
-        // }
+        let recipesx = [{ type: 'combs', amount: 50, input: `#forge:honeycombs/${combMaterial}`, energy: 4000 }];
+        let recipes = [{
+            type: 'combs',
+            input: `#forge:honeycombs/${combMaterial}`,
+            outputs: [
+                Item.of(`#forge:dusts_${material}`).withCount(1),
+                Fluid.of('cofh_core:honey', 50)
+            ], 
+            energy: 4000
+        }];
+
         recipes.forEach((recipe) => {
             event.recipes.thermal
-                .centrifuge(Fluid.of(Fluidhoney, recipe.amount), (recipe.output1), recipe.input)
+                .centrifuge(recipe.outputs, recipe.input)
                 .energy(recipe.energy)
                 .id(`ntc2:base/thermal/centrifuge/${combMaterial}_${recipe.type}`);
         });
