@@ -213,17 +213,8 @@ onEvent('recipes', (event) => {
                 ], 
                 energy: 4000
             });
-        } else {
-            console.log(`Created new ${combMaterial} and ${honeyCombs}`);
-            recipesCombs.push({
-                type: 'combs',
-                input: honeyCombs,
-                outputs: [
-                    Item.of(`#forge:nuggets/${combMaterial}`).withCount(1),
-                    Fluid.of('cofh_core:honey', 50)
-                ], 
-                energy: 4000
-            });
+        } else if (combmaterial == queens_slime) {
+            
         }
 
         recipesCombs.forEach((comb) => {
