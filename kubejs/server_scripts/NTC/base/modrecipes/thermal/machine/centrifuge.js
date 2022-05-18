@@ -203,7 +203,7 @@ onEvent('recipes', (event) => {
 
         
         if (combMaterial != air) {
-            console.log(`Created new ${combMaterial} and ${honeyCombs}`);
+            console.log(`Created new ${combMaterial} and ${honeyCombs} not Air`);
             recipesCombs.push({
                 type: 'combs',
                 input: honeyCombs,
@@ -213,8 +213,14 @@ onEvent('recipes', (event) => {
                 ], 
                 energy: 4000
             });
-        } else if (combmaterial == queens_slime) {
-            
+        } else {
+            console.log(`Created new ${combMaterial} and ${honeyCombs} is Air`);
+            recipesCombs.push({
+                outputs: [
+                    Item.of(`#forge:nuggets/${combMaterial}`).withCount(1),
+                    Fluid.of('cofh_core:honey', 50)
+                ]
+            });
         }
 
         recipesCombs.forEach((comb) => {
