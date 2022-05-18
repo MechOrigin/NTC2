@@ -3,7 +3,7 @@
     "type": "resource",
     "tier": "mysticalagradditions:6",
     "ingredient": {
-      "item": "enderioalloys:item_alloy_ingot_vibrant_alloy"
+      "item": "enderioalloys:block_alloy_vibrant_alloy"
     },
     "color": "80ff00",
     "textures": {

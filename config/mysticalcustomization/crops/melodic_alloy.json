@@ -3,7 +3,7 @@
     "type": "resource",
     "tier": "mysticalagradditions:6",
     "ingredient": {
-      "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
+      "item": "enderioalloys:block_alloy_melodic_alloy"
     },
     "color": "ec8afd",
     "textures": {

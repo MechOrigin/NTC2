@@ -3,7 +3,7 @@
     "type": "resource",
     "tier": "mysticalagradditions:6",
     "ingredient": {
-      "item": "enderioalloys:item_alloy_ingot_end_steel"
+      "item": "enderioalloys:block_alloy_end_steel"
     },
     "color": "fffee0",
     "textures": {

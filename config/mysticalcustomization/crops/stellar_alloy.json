@@ -3,7 +3,7 @@
     "type": "resource",
     "tier": "mysticalagradditions:6",
     "ingredient": {
-      "item": "industrialforegoing:item_alloy_ingot_stellar_alloy"
+      "item": "enderioalloys:block_alloy_stellar_alloy"
     },
     "color": "0xfffef0",
     "textures": {

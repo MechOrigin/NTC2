@@ -3,7 +3,7 @@
     "type": "resource",
     "tier": "mysticalagradditions:6",
     "ingredient": {
-      "item": "avaritia:pileof_neutrons"
+      "item": "avaritia:neutronium_block"
     },
     "color": "000000",
     "textures": {

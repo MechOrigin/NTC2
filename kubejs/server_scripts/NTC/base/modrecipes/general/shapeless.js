@@ -121,6 +121,19 @@ onEvent('recipes', (event) => {
         {
             output: Item.of('kubejs:amber_gem_seed', 2),
             inputs: ['#forge:sand', 'betterendforge:amber_gem']
+        },
+        {
+            output: 'chemlib:ingot_polonium',
+            inputs: [
+                '#forge:pellets/polonium',
+                '#forge:pellets/polonium',
+                '#forge:pellets/polonium',
+                '#forge:pellets/polonium',
+            ]
+        },
+        {
+            output: Item.of('mekanism:pellet_polonium', 4),
+            inputs: ['chemlib:ingot_polonium']
         }
     ];
 

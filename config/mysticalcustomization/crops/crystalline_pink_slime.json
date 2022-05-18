@@ -3,7 +3,7 @@
     "type": "resource",
     "tier": "mysticalagradditions:6",
     "ingredient": {
-      "item": "industrialforegoing:item_alloy_ingot_crystalline_pink_slime"
+      "item": "enderioalloys:block_alloy_crystalline_pink_slime"
     },
     "color": "0xffbcff",
     "textures": {

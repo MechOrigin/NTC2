@@ -224,19 +224,20 @@ QOL:
 Updated:
     ProjectExpansion-1.16.5-1.0.26.jar
     Lazierae2-1.16.5-2.0.4.jar
+    geckolib-forge-1.16.5-3.0.71.jar
+    Iceberg-1.16.5-1.0.41.jar
 
 <!-- TODO: 
     TODO: 
     TODO: Remove unused avaritia stuff out of JEI
     TODO: 
-    TODO: 
+    TODO: add tinkers glass to chisel, as well as coralstone
     TODO: Add github repo to title screen
     TODO: add crafting recipe from polonium pellet to polonium ingot and back (maybe 4 per?)
     TODO: add knowledge sharing book?
-    TODO: 
+    TODO: make a way to automate tinkers glass faster
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block
-    update lazierae2
     find a way to fix the 360,000 required 16m components for mk3 singularities
     opinium cores, fix the recipes for those (slow)
     make fluid methane convert to item methane, among other chemistry stuff

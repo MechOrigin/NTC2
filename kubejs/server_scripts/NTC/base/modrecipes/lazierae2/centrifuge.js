@@ -43,6 +43,13 @@ onEvent('recipes', event => {
             item: 'betterendforge:ender_shard',
             count: 32,
             input: 'enderioalloys:item_material_ender_crystal'
+          },
+          {
+            time: 180,
+            energy: 20000,
+            item: 'appliedenergistics2:quartz_block',
+            count: 1,
+            input: 'emendatusenigmatica:certus_quartz_block'
           }
       ]
     };

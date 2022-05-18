@@ -31,6 +31,12 @@ onEvent('recipes', (event) => {
             output: Item.of('tconstruct:debris_nugget', 1),
             energy: 555,
             id: 'thermal:compat/tconstruct/chiller_tconstruct_debris_nugget'
+        },
+        {
+            inputs: [Fluid.of('tconstruct:molten_glass', 1000)],
+            output: Item.of('tconstruct:clear_glass', 1),
+            energy: 555,
+            id: 'ntc2:compat/tconstruct/clear_glass'
         }
     ];
 
