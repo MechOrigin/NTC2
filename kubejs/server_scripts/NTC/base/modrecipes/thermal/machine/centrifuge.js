@@ -53,153 +53,153 @@ onEvent('recipes', (event) => {
         if (combMaterial == 'fossilised') {
             combMaterial = 'coal'
         }
-        if (combMaterial == 'queens_slime') {
-            return;
-        }
-        if (combMaterial == 'rose_gold') {
-            return;
-        }
-        if (combMaterial == 'tinkers_bronze') {
-            return;
-        }
-        if (combMaterial == 'slimesteel') {
-            return;
-        }
-        if (combMaterial == 'manyullyn') {
-            return;
-        }
-        if (combMaterial == 'hepatizon') {
-            return;
-        }
-        if (combMaterial == 'amber') {
-            return;
-        }
-        if (combMaterial == 'basalz') {
-            return;
-        }
-        if (combMaterial == 'blazing') {
-            return;
-        }
-        if (combMaterial == 'blitz') {
-            return;
-        }
-        if (combMaterial == 'blizz') {
-            return;
-        }
-        if (combMaterial == 'bone') {
-            return;
-        }
-        if (combMaterial == 'draconic') {
-            return;
-        }
-        if (combMaterial == 'ender') {
-            return;
-        }
-        if (combMaterial == 'ender_biotite') {
-            return;
-        }
-        if (combMaterial == 'experience') {
-            return;
-        }
-        if (combMaterial == 'frosty') {
-            return;
-        }
-        if (combMaterial == 'ghostly') {
-            return;
-        }
-        if (combMaterial == 'imperium') {
-            return;
-        }
-        if (combMaterial == 'inferium') {
-            return;
-        }
-        if (combMaterial == 'insanium') {
-            return;
-        }
-        if (combMaterial == 'magmatic') {
-            return;
-        }
-        if (combMaterial == 'menril') {
-            return;
-        }
-        if (combMaterial == 'milky') {
-            return;
-        }
-        if (combMaterial == 'netherite') {
-            return;
-        }
-        if (combMaterial == 'plastic') {
-            return;
-        }
-        if (combMaterial == 'platinum') {
-            return;
-        }
-        if (combMaterial == 'powdery') {
-            return;
-        }
-        if (combMaterial == 'prosperity') {
-            return;
-        }
-        if (combMaterial == 'prudentium') {
-            return;
-        }
-        if (combMaterial == 'rotten') {
-            return;
-        }
-        if (combMaterial == 'refined_glowstone') {
-            return;
-        }
-        if (combMaterial == 'refined_obsidian') {
-            return;
-        }
-        if (combMaterial == 'silicon') {
-            return;
-        }
-        if (combMaterial == 'silky') {
-            return;
-        }
-        if (combMaterial == 'slimy') {
-            return;
-        }
-        if (combMaterial == 'soulium') {
-            return;
-        }
-        if (combMaterial == 'supremium') {
-            return;
-        }
-        if (combMaterial == 'tertium') {
-            return;
-        }
-        if (combMaterial == 'titanium') {
-            return;
-        }
-        if (combMaterial == 'tungsten') {
-            return;
-        }
-        if (combMaterial == 'withered') {
-            return;
-        }
-        if (combMaterial == 'ruby') {
-            return;
-        }
-        if (combMaterial == 'sapphire') {
-            return;
-        }
-        if (combMaterial == 'pig_iron') {
-            return;
-        }
-        if (combMaterial == 'soulsteel') {
-            return;
-        }
-        if (combMaterial == 'sky_slimy') {
-            return;
-        }
-        if (combMaterial == 'ender_slimy') {
-            return;
-        }
-        if (combMaterial == 'ichor_slimy') {
-            return;
-        }
+        // if (combMaterial == 'queens_slime') {
+        //     return;
+        // }
+        // if (combMaterial == 'rose_gold') {
+        //     return;
+        // }
+        // if (combMaterial == 'tinkers_bronze') {
+        //     return;
+        // }
+        // if (combMaterial == 'slimesteel') {
+        //     return;
+        // }
+        // if (combMaterial == 'manyullyn') {
+        //     return;
+        // }
+        // if (combMaterial == 'hepatizon') {
+        //     return;
+        // }
+        // if (combMaterial == 'amber') {
+        //     return;
+        // }
+        // if (combMaterial == 'basalz') {
+        //     return;
+        // }
+        // if (combMaterial == 'blazing') {
+        //     return;
+        // }
+        // if (combMaterial == 'blitz') {
+        //     return;
+        // }
+        // if (combMaterial == 'blizz') {
+        //     return;
+        // }
+        // if (combMaterial == 'bone') {
+        //     return;
+        // }
+        // if (combMaterial == 'draconic') {
+        //     return;
+        // }
+        // if (combMaterial == 'ender') {
+        //     return;
+        // }
+        // if (combMaterial == 'ender_biotite') {
+        //     return;
+        // }
+        // if (combMaterial == 'experience') {
+        //     return;
+        // }
+        // if (combMaterial == 'frosty') {
+        //     return;
+        // }
+        // if (combMaterial == 'ghostly') {
+        //     return;
+        // }
+        // if (combMaterial == 'imperium') {
+        //     return;
+        // }
+        // if (combMaterial == 'inferium') {
+        //     return;
+        // }
+        // if (combMaterial == 'insanium') {
+        //     return;
+        // }
+        // if (combMaterial == 'magmatic') {
+        //     return;
+        // }
+        // if (combMaterial == 'menril') {
+        //     return;
+        // }
+        // if (combMaterial == 'milky') {
+        //     return;
+        // }
+        // if (combMaterial == 'netherite') {
+        //     return;
+        // }
+        // if (combMaterial == 'plastic') {
+        //     return;
+        // }
+        // if (combMaterial == 'platinum') {
+        //     return;
+        // }
+        // if (combMaterial == 'powdery') {
+        //     return;
+        // }
+        // if (combMaterial == 'prosperity') {
+        //     return;
+        // }
+        // if (combMaterial == 'prudentium') {
+        //     return;
+        // }
+        // if (combMaterial == 'rotten') {
+        //     return;
+        // }
+        // if (combMaterial == 'refined_glowstone') {
+        //     return;
+        // }
+        // if (combMaterial == 'refined_obsidian') {
+        //     return;
+        // }
+        // if (combMaterial == 'silicon') {
+        //     return;
+        // }
+        // if (combMaterial == 'silky') {
+        //     return;
+        // }
+        // if (combMaterial == 'slimy') {
+        //     return;
+        // }
+        // if (combMaterial == 'soulium') {
+        //     return;
+        // }
+        // if (combMaterial == 'supremium') {
+        //     return;
+        // }
+        // if (combMaterial == 'tertium') {
+        //     return;
+        // }
+        // if (combMaterial == 'titanium') {
+        //     return;
+        // }
+        // if (combMaterial == 'tungsten') {
+        //     return;
+        // }
+        // if (combMaterial == 'withered') {
+        //     return;
+        // }
+        // if (combMaterial == 'ruby') {
+        //     return;
+        // }
+        // if (combMaterial == 'sapphire') {
+        //     return;
+        // }
+        // if (combMaterial == 'pig_iron') {
+        //     return;
+        // }
+        // if (combMaterial == 'soulsteel') {
+        //     return;
+        // }
+        // if (combMaterial == 'sky_slimy') {
+        //     return;
+        // }
+        // if (combMaterial == 'ender_slimy') {
+        //     return;
+        // }
+        // if (combMaterial == 'ichor_slimy') {
+        //     return;
+        // }
 
         
         if (combMaterial != air) {
