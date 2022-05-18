@@ -209,10 +209,12 @@ Initiative to cut down on autocrafting times:
 - Added custom infusion types and Infusion recipes
     Ender, Redstone Ingots now craftable in mekanism, as well as charged certus
 - Added enriching, sawing recipes as well
+- Added block processing recipes for lazierAE2 where I could and a few additions
 Initiative to cut down on some grinds:
 - Added neutronium to MA
 - Added enderio alloys MA
-- Added pink slime ingot to ma
+- Added pink slime ingot to MA
+- Added charged certus quartz to MA
 QOL:
 - Added crafting recipe to and from mek/EE charcoal dust and ender dust
 - Added blocks that make sense to productive bee's flowering

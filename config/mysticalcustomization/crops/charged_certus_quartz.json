@@ -1,16 +1,16 @@
 {
-    "name": "Crystalline Pink Slime Alloy",
+    "name": "Charged Certus Quartz",
     "type": "resource",
     "tier": "mysticalagradditions:6",
     "ingredient": {
-      "item": "enderioalloys:block_alloy_crystalline_pink_slime"
+      "item": "ae2extras:16m_crafting_storage"
     },
-    "color": "ffbcff",
+    "color": "d6eefe",
     "textures": {
       "flower": "mysticalagriculture:block/flower_dust",
       "essence": "mysticalagriculture:item/essence_dust",
       "seeds": "mysticalagriculture:item/mystical_seeds"
     },
-    "crux": "enderioalloys:block_alloy_crystalline_pink_slime"
+    "crux": "ae2extras:16m_crafting_storage"
   }
   
