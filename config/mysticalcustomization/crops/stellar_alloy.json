@@ -5,7 +5,7 @@
     "ingredient": {
       "item": "enderioalloys:block_alloy_stellar_alloy"
     },
-    "color": "0xfffef0",
+    "color": "fffef0",
     "textures": {
       "flower": "mysticalagriculture:block/flower_dust",
       "essence": "mysticalagriculture:item/essence_dust",

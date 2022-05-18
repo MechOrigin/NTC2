@@ -226,7 +226,7 @@ QOL:
 - Added crafting recipe from polonium pellet to polonium ingot and back
 - Added a way to automate tinkers glass faster
 - Added Fluid drawers and removed tank/null
-- Fixed certus quartz dupe bug]
+- Fixed certus quartz dupe bug
 Updated:
     ProjectExpansion-1.16.5-1.0.26.jar
     Lazierae2-1.16.5-2.0.4.jar
