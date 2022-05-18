@@ -528,10 +528,9 @@ var idRemovals = [
 
 var regexIdRemovals = [
     /emendatusenigmatica:ore_from_chunk_stonecutting/,
-    /emendatusenigmatica:ore_from_chunk_crafting/
-    /*
-    /thermal:compat\/\w+\/\w+_ore/
-    */
+    /emendatusenigmatica:ore_from_chunk_crafting/,
+//    /thermal:compat\/\w+\/\w+_ore/
+    
 ];
 
 outputRemovals.forEach((removal) => {

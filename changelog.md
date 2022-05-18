@@ -223,6 +223,7 @@ QOL:
 - Changed energy cost for end resin processor to 500 (reduced 100%) and increased yields of resin by 2x
 Updated:
     ProjectExpansion-1.16.5-1.0.26.jar
+    Lazierae2-1.16.5-2.0.4.jar
 
 <!-- TODO: 
     TODO: 
