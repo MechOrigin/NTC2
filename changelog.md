@@ -223,6 +223,10 @@ QOL:
 - Fixed plate/gear etc recipes not showing in thermal chiller
 - Fixed shapeless recipes not working properly due to invalid tags (protip: recipes wont validate if tag doesnt exist)
 - Changed energy cost for end resin processor to 500 (reduced 100%) and increased yields of resin by 2x
+- Added crafting recipe from polonium pellet to polonium ingot and back
+- Added a way to automate tinkers glass faster
+- Added Fluid drawers and removed tank/null
+- Fixed certus quartz dupe bug]
 Updated:
     ProjectExpansion-1.16.5-1.0.26.jar
     Lazierae2-1.16.5-2.0.4.jar
@@ -235,9 +239,9 @@ Updated:
     TODO: 
     TODO: add tinkers glass to chisel, as well as coralstone
     TODO: Add github repo to title screen
-    TODO: add crafting recipe from polonium pellet to polonium ingot and back (maybe 4 per?)
+    TODO: 
     TODO: add knowledge sharing book?
-    TODO: make a way to automate tinkers glass faster
+    TODO: 
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block
     find a way to fix the 360,000 required 16m components for mk3 singularities

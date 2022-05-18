@@ -146,7 +146,7 @@ onEvent('recipes', e => {
   }).id(`kubejs:enderman_head`)
 
 //Fluid Drawer
-  e.shaped(Item.of('fluiddrawerslegacy:fluiddrawer', 4), ['BAB', 'BCB', 'BAB'], {
+  e.shaped(Item.of('fluiddrawerslegacy:fluiddrawer', 4), ['BAB', 'ACA', 'BAB'], {
     A: 'pipez:fluid_pipe',
     B: 'emendatusenigmatica:steel_plate',
     C: '#storagedrawers:drawers'
@@ -154,43 +154,43 @@ onEvent('recipes', e => {
 
 //Mystical Agri custom crops
   e.shaped(Item.of('avaritia:pileof_neutrons', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:neutronium_essence'
+    B: 'mysticalagriculture:neutronium_essence'
   }).id(`kubejs:neutronium_essence`)
 
   e.shaped(Item.of('enderioalloys:item_alloy_ingot_energetic_alloy', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:energetic_alloy_essence'
+    B: 'mysticalagriculture:energetic_alloy_essence'
   }).id(`kubejs:energetic_alloy_essence`)
 
   e.shaped(Item.of('enderioalloys:item_alloy_ingot_melodic_alloy', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:melodic_alloy_essence'
+    B: 'mysticalagriculture:melodic_alloy_essence'
   }).id(`kubejs:melodic_alloy_essence`)
 
   e.shaped(Item.of('industrialforegoing:pink_slime_ingot', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:pink_slime_ingot_essence'
+    B: 'mysticalagriculture:pink_slime_ingot_essence'
   }).id(`kubejs:pink_slime_ingot_essence`)
 
   e.shaped(Item.of('enderioalloys:item_alloy_ingot_vibrant_alloy', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:vibrant_alloy_essence'
+    B: 'mysticalagriculture:vibrant_alloy_essence'
   }).id(`kubejs:vibrant_alloy_essence`)
 
   e.shaped(Item.of('enderioalloys:item_alloy_ingot_crystalline_pink_slime', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:crystalline_pink_slime_essence'
+    B: 'mysticalagriculture:crystalline_pink_slime_essence'
   }).id(`kubejs:crystalline_pink_slime_essence`)
 
   e.shaped(Item.of('enderioalloys:item_alloy_ingot_dark_steel', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:dark_steel_alloy_essence'
+    B: 'mysticalagriculture:dark_steel_alloy_essence'
   }).id(`kubejs:dark_steel_alloy_essence`)
 
   e.shaped(Item.of('enderioalloys:item_alloy_ingot_end_steel', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:end_steel_alloy_essence'
+    B: 'mysticalagriculture:end_steel_alloy_essence'
   }).id(`kubejs:end_steel_alloy_essence`)
 
   e.shaped(Item.of('enderioalloys:item_alloy_ingot_stellar_alloy', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:stellar_alloy_essence'
+    B: 'mysticalagriculture:stellar_alloy_essence'
   }).id(`kubejs:stellar_alloy_essence`)
 
   e.shaped(Item.of('appliedenergistics2:charged_certus_quartz_crystal', 8), ['BBB', 'B B', 'BBB'], {
-    A: 'mysticalagriculture:charged_certus_quartz_essence'
+    B: 'mysticalagriculture:charged_certus_quartz_essence'
   }).id(`kubejs:charged_certus_quartz_essence`)
 
 })

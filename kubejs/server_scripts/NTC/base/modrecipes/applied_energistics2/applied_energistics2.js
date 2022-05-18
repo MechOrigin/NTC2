@@ -128,6 +128,6 @@ onEvent('recipes', e => {
   modifyShapeless(e, 'appliedenergistics2:fuzzy_card', 1, ['#minecraft:wool', 'appliedenergistics2:advanced_card'])
   modifyShapeless(e, 'appliedenergistics2:crafting_terminal', 1, ['appliedenergistics2:terminal', '#forge:workbench', 'appliedenergistics2:calculation_processor'])
 
-  modifyShapeless(e, 'appliedenergistics2:purified_certus_quartz_crystal', 16, ['appliedenergistics2:quartz_pillar'])
-  modifyShapeless(e, 'appliedenergistics2:purified_certus_quartz_crystal', 16, ['appliedenergistics2:chiseled_quartz_block'])
+  modifyShapeless(e, 'appliedenergistics2:purified_certus_quartz_crystal', 8, ['appliedenergistics2:quartz_pillar'])
+  modifyShapeless(e, 'appliedenergistics2:purified_certus_quartz_crystal', 8, ['appliedenergistics2:chiseled_quartz_block'])
 })
