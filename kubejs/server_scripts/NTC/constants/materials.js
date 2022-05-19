@@ -129,6 +129,9 @@ const combs = [
     'spacial',
 //    'dimensional',
     'cobalt',
+    'fossilised'
+];
+const combsNuggets = [
     'queens_slime',
     'rose_gold',
     'tinkers_bronze',
@@ -138,7 +141,6 @@ const combs = [
     'hepatizon',
 //    'thallasium',
 //    'bitumen',
-    'fossilised',
 //    'terminite',
 //    'aeternium',
 //    'coal_coke'
