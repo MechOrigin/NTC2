@@ -10,8 +10,8 @@ onEvent('recipes', event => {
               time: 80,
               energy: 1500,
               item: 'appliedenergistics2:1k_cell_component',
-              input1: '#forge:storage_blocks/charged_certus_quartz',
-              input2: '#mekanism:enriched/redstone',
+              input1: 'forge:storage_blocks/charged_certus_quartz',
+              input2: 'mekanism:enriched/redstone',
               input3: 'appliedenergistics2:logic_processor'
           }
       ]
@@ -30,10 +30,14 @@ onEvent('recipes', event => {
               {
                 input: {
                   tag: recipe.input1
-                },
+                }
+              },
+              {
                 input: {
                   tag: recipe.input2
-                },
+                }
+              },
+              {
                 input: {
                   item: recipe.input3
                 }
