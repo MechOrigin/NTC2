@@ -1,23 +1,24 @@
 onEvent('recipes', event => {
 
     removeRecipeByID(event, [
-
+      ''
     ])
 
     data = {
       recipes: [
           {
-              time: 25,
-              energy: 250,
-              item: 'lazierae2:speculative_printed',
-              input1: 'lazierae2:universal_press',
-              input2: 'lazierae2:speculation_core_64',
-              input3: 'minecraft:air'
+              time: 80,
+              energy: 1500,
+              item: 'appliedenergistics2:1k_cell_component',
+              input1: 'emendatusenigmatica:charged_certus_quartz_block',
+              input2: 'mekanism:enriched_redstone',
+              input3: 'appliedenergistics2:logic_processor'
           }
       ]
     };
 
     data.recipes.forEach((recipe) => {
+
         event.custom({
             type: 'lazierae2:etcher',
             process_time: recipe.time,
@@ -28,18 +29,14 @@ onEvent('recipes', event => {
             input: [
               {
                 input: {
-                    item: recipe.input
-                  }
-              },
-              {
+                  item: recipe.input1
+                },
                 input: {
-                    item: recipe.input
-                  }
-              },
-              {
+                  item: recipe.input2
+                },
                 input: {
-                    item: recipe.input
-                  }
+                  item: recipe.input3
+                }
               }
             ]
         });
