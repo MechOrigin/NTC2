@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
             input: '#minecraft:logs',
             outputs: [Item.of('minecraft:charcoal').toJson(), Fluid.of('immersiveengineering:creosote', 125).toJson()],
             experience: 0.15,
-            energy: 2000,
+            energy: 200,
             id: 'thermal:machine/pyrolyzer/pyrolyzer_logs'
         },
         {
@@ -15,7 +15,7 @@ onEvent('recipes', (event) => {
                 Fluid.of('thermal:heavy_oil', 50).toJson()
             ],
             experience: 0.15,
-            energy: 4000,
+            energy: 400,
             id: 'thermal:machine/pyrolyzer/pyrolyzer_bitumen'
         },
         {
@@ -26,8 +26,19 @@ onEvent('recipes', (event) => {
                 Fluid.of('immersiveengineering:creosote', 250).toJson()
             ],
             experience: 0.15,
-            energy: 4000,
+            energy: 400,
             id: 'thermal:machine/pyrolyzer/pyrolyzer_coal'
+        },
+        {
+            input: '#forge:storage_blocks/coal',
+            outputs: [
+                Item.of('emendatusenigmatica:coke_block').toJson(),
+                Item.of('thermal:tar_block').withChance(0.25).toJson(),
+                Fluid.of('immersiveengineering:creosote', 2250).toJson()
+            ],
+            experience: 0.15,
+            energy: 3600,
+            id: 'thermal:machine/pyrolyzer/pyrolyzer_coal_block'
         }
     ];
     recipes.forEach((recipe) => {
