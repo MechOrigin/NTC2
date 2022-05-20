@@ -134,6 +134,22 @@ onEvent('recipes', (event) => {
         {
             output: Item.of('mekanism:pellet_polonium', 4),
             inputs: ['chemlib:ingot_polonium']
+        },
+        {
+            output: Item.of('appliedenergistics2:1k_cell_component', 9),
+            inputs: ['kubejs:1k_component_waffer']
+        },
+        {
+            output: Item.of('appliedenergistics2:4k_cell_component', 9),
+            inputs: ['kubejs:4k_component_waffer']
+        },
+        {
+            output: Item.of('appliedenergistics2:16k_cell_component', 9),
+            inputs: ['kubejs:16k_component_waffer']
+        },
+        {
+            output: Item.of('appliedenergistics2:64k_cell_component', 9),
+            inputs: ['kubejs:64k_component_waffer']
         }
     ];
 

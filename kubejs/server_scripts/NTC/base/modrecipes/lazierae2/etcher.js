@@ -4,7 +4,7 @@ onEvent('recipes', event => {
       ''
     ])
 
-    data = {
+    dataTags = {
       recipes: [
           {
               time: 80,
@@ -17,7 +17,20 @@ onEvent('recipes', event => {
       ]
     };
 
-    data.recipes.forEach((recipe) => {
+    dataItems = {
+      recipes: [
+          {
+            time: 80,
+            energy: 1500,
+            item: 'lazierae2:speculative_printed',
+            input1: 'emendatusenigmatica:silicon_gem',
+            input2: 'lazierae2:speculation_core_64',
+            input3: 'lazierae2:universal_press'
+          }
+      ]
+    };
+
+    dataTags.recipes.forEach((recipe) => {
 
         event.custom({
             type: 'lazierae2:etcher',
@@ -45,5 +58,34 @@ onEvent('recipes', event => {
             ]
         });
     });
+
+    dataItems.recipes.forEach((recipe) => {
+
+      event.custom({
+          type: 'lazierae2:etcher',
+          process_time: recipe.time,
+          energy_cost: recipe.energy,
+          output: {
+              item: recipe.item
+          },
+          input: [
+            {
+              input: {
+                item: recipe.input1
+              }
+            },
+            {
+              input: {
+                item: recipe.input2
+              }
+            },
+            {
+              input: {
+                item: recipe.input3
+              }
+            }
+          ]
+      });
+  });
 
 })

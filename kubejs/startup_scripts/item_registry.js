@@ -24,6 +24,11 @@ onEvent('item.registry', event => {
     event.create('elite_smd').displayName('Elite SMD Chip')
     event.create('ultimate_smd').displayName('Ultimate SMD Chip')
 
+    event.create('1k_component_waffer').displayName('1k ME Storage Component Waffer')
+    event.create('4k_component_waffer').displayName('4k ME Storage Component Waffer')
+    event.create('16k_component_waffer').displayName('16k ME Storage Component Waffer')
+    event.create('64k_component_waffer').displayName('64k ME Storage Component Waffer')
+
     event.create('titanium_rod').displayName('Titanium Rod')
     event.create('iridium_rod').displayName('Iridium Rod')
 

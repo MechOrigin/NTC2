@@ -237,7 +237,8 @@ Updated:
 ## [1.4.7] - 2022-05-19
 
 ### Changed
-- 
+- Added lazierAE2 Etcher recipes
+- Added 1-64k Storage Component Waffer recipes
 
 <!-- TODO: 
     TODO: 
