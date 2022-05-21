@@ -137,19 +137,23 @@ onEvent('recipes', (event) => {
         },
         {
             output: Item.of('appliedenergistics2:1k_cell_component', 9),
-            inputs: ['kubejs:1k_component_waffer']
+            inputs: ['kubejs:1k_component_wafer']
         },
         {
             output: Item.of('appliedenergistics2:4k_cell_component', 9),
-            inputs: ['kubejs:4k_component_waffer']
+            inputs: ['kubejs:4k_component_wafer']
         },
         {
             output: Item.of('appliedenergistics2:16k_cell_component', 9),
-            inputs: ['kubejs:16k_component_waffer']
+            inputs: ['kubejs:16k_component_wafer']
         },
         {
             output: Item.of('appliedenergistics2:64k_cell_component', 9),
-            inputs: ['kubejs:64k_component_waffer']
+            inputs: ['kubejs:64k_component_wafer']
+        },
+        {
+            output: Item.of('emendatusenigmatica:silicon_gem', 9),
+            inputs: ['kubejs:silicon_sheet']
         }
     ];
 

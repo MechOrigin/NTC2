@@ -130,4 +130,5 @@ onEvent('recipes', e => {
 
   modifyShapeless(e, 'appliedenergistics2:purified_certus_quartz_crystal', 8, ['appliedenergistics2:quartz_pillar'])
   modifyShapeless(e, 'appliedenergistics2:purified_certus_quartz_crystal', 8, ['appliedenergistics2:chiseled_quartz_block'])
+  modifyShapeless(e, 'appliedenergistics2:purified_certus_quartz_crystal', 8, ['appliedenergistics2:quartz_block'])
 })

@@ -193,4 +193,8 @@ onEvent('recipes', e => {
     B: 'mysticalagriculture:charged_certus_quartz_essence'
   }).id(`kubejs:charged_certus_quartz_essence`)
 
+  e.shaped(Item.of('kubejs:silicon_sheet', 1), ['BBB', 'BBB', 'BBB'], {
+    B: 'emendatusenigmatica:silicon_gem'
+  }).id(`kubejs:silicon_sheet`)
+
 })

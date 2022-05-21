@@ -977,7 +977,7 @@ mods.extendedcrafting.TableCrafting.addShaped("creative_vending_upgrade", 4, <it
 ]);
 
 //1k Storage Component Waffer
-mods.extendedcrafting.TableCrafting.addShaped("1k_component_waffer", 4, <item:kubejs:1k_component_waffer>, [
+mods.extendedcrafting.TableCrafting.addShaped("1k_component_wafer", 4, <item:kubejs:1k_component_wafer>, [
 	[<item:minecraft:redstone>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:redstone>], 
 	[<item:appliedenergistics2:charged_certus_quartz_crystal>, <item:appliedenergistics2:logic_processor>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:appliedenergistics2:logic_processor>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:appliedenergistics2:logic_processor>, <item:appliedenergistics2:charged_certus_quartz_crystal>], 
 	[<item:minecraft:redstone>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:redstone>], 
@@ -990,7 +990,7 @@ mods.extendedcrafting.TableCrafting.addShaped("1k_component_waffer", 4, <item:ku
 ]);
 
 //4k Storage Component Waffer
-mods.extendedcrafting.TableCrafting.addShaped("4k_component_waffer", 4, <item:kubejs:4k_component_waffer>, [
+mods.extendedcrafting.TableCrafting.addShaped("4k_component_wafer", 4, <item:kubejs:4k_component_wafer>, [
 	[<item:minecraft:redstone>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:redstone>], 
 	[<item:appliedenergistics2:1k_cell_component>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:1k_cell_component>, <item:appliedenergistics2:1k_cell_component>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:1k_cell_component>, <item:appliedenergistics2:1k_cell_component>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:1k_cell_component>], 
 	[<item:minecraft:redstone>, <item:appliedenergistics2:1k_cell_component>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:appliedenergistics2:1k_cell_component>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:appliedenergistics2:1k_cell_component>, <item:minecraft:redstone>], 
@@ -1003,7 +1003,7 @@ mods.extendedcrafting.TableCrafting.addShaped("4k_component_waffer", 4, <item:ku
 ]);
 
 //16k Storage Component Waffer
-mods.extendedcrafting.TableCrafting.addShaped("16k_component_waffer", 4, <item:kubejs:16k_component_waffer>, [
+mods.extendedcrafting.TableCrafting.addShaped("16k_component_wafer", 4, <item:kubejs:16k_component_wafer>, [
 	[<item:minecraft:glowstone_dust>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:glowstone_dust>], 
 	[<item:appliedenergistics2:4k_cell_component>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:4k_cell_component>, <item:appliedenergistics2:4k_cell_component>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:4k_cell_component>, <item:appliedenergistics2:4k_cell_component>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:4k_cell_component>], 
 	[<item:minecraft:glowstone_dust>, <item:appliedenergistics2:4k_cell_component>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:appliedenergistics2:4k_cell_component>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:appliedenergistics2:4k_cell_component>, <item:minecraft:glowstone_dust>], 
@@ -1016,7 +1016,7 @@ mods.extendedcrafting.TableCrafting.addShaped("16k_component_waffer", 4, <item:k
 ]);
 
 //64k Storage Component Waffer
-mods.extendedcrafting.TableCrafting.addShaped("64k_component_waffer", 4, <item:kubejs:64k_component_waffer>, [
+mods.extendedcrafting.TableCrafting.addShaped("64k_component_wafer", 4, <item:kubejs:64k_component_wafer>, [
 	[<item:minecraft:glowstone_dust>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:glowstone_dust>], 
 	[<item:appliedenergistics2:16k_cell_component>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:16k_cell_component>, <item:appliedenergistics2:16k_cell_component>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:16k_cell_component>, <item:appliedenergistics2:16k_cell_component>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:16k_cell_component>], 
 	[<item:minecraft:glowstone_dust>, <item:appliedenergistics2:16k_cell_component>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:appliedenergistics2:16k_cell_component>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:appliedenergistics2:16k_cell_component>, <item:minecraft:glowstone_dust>], 

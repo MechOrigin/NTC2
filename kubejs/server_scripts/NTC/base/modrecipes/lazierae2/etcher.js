@@ -26,6 +26,33 @@ onEvent('recipes', event => {
             input1: 'emendatusenigmatica:silicon_gem',
             input2: 'lazierae2:speculation_core_64',
             input3: 'lazierae2:universal_press'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'appliedenergistics2:logic_processor',
+            count: 9,
+            input1: 'minecraft:gold_block',
+            input2: 'minecraft:redstone_block',
+            input3: 'kubejs:silicon_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'appliedenergistics2:calculation_processor',
+            count: 9,
+            input1: 'appliedenergistics2:quartz_block',
+            input2: 'minecraft:redstone_block',
+            input3: 'kubejs:silicon_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'appliedenergistics2:engineering_processor',
+            count: 9,
+            input1: 'minecraft:diamond_block',
+            input2: 'minecraft:redstone_block',
+            input3: 'kubejs:silicon_sheet'
           }
       ]
     };
@@ -66,7 +93,8 @@ onEvent('recipes', event => {
           process_time: recipe.time,
           energy_cost: recipe.energy,
           output: {
-              item: recipe.item
+              item: recipe.item,
+              count: recipe.count
           },
           input: [
             {

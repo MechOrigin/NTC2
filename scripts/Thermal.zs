@@ -371,3 +371,7 @@ craftingTable.addShapeless("rubber", <item:thermal:rubber> * 1,
 <recipetype:thermal:centrifuge>.addRecipe("red_collector", [<item:projecte:collector_mk3>], <fluid:minecraft:empty>, <item:projectexpansion:red_collector>, 4000);
 <recipetype:thermal:centrifuge>.addRecipe("dark_collector", [<item:projecte:collector_mk2>], <fluid:minecraft:empty>, <item:projectexpansion:dark_collector>, 4000);
 <recipetype:thermal:centrifuge>.addRecipe("basic_collector", [<item:projecte:collector_mk1>], <fluid:minecraft:empty>, <item:projectexpansion:basic_collector>, 4000);
+
+
+// <recipetype:thermal:sawmill>.addRecipe(String name, MCWeightedItemStack[] outputs, IIngredient ingredient, int energy);
+//<recipetype:thermal:sawmill>.addRecipe("sawmill_test", [<item:minecraft:oak_planks> % 200], <item:minecraft:oak_door>, 500);

@@ -1,0 +1,15 @@
+tickDelay = 20
+formatEMC = true
+fullNumberNames = true
+emcDisplay = true
+notifyCommandChanges = true
+limitEmcLinkVendor = true
+transmutationInterfaceItemCount = 4096
+useOldValues = false
+collectorMultiplier = 1
+emcLinkItemLimitMultiplier = 1
+emcLinkEMCLimitMultiplier = 1
+powerflowerMultiplier = 1
+relayBonusMultiplier = 1
+relayTransferMultiplier = 1
+

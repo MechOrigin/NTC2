@@ -238,7 +238,40 @@ Updated:
 
 ### Changed
 - Added lazierAE2 Etcher recipes
-- Added 1-64k Storage Component Waffer recipes
+- Added 1-64k Storage Component Wafer recipes
+- Added 9x AE2 processor recipes
+- Added silicon sheet (basically just 9x item) and recipes
+- Added Tesseract recipe
+
+### Mods Added/Updated
+AI-Improvements-1.16.5-0.5.0
+BotanyPots-1.16.5-7.1.39
+cofh_core-1.16.5-1.5.0.11
+corail_woodcutter-1.16-2.0.2
+CraftTweaker-1.16.5-7.1.2.510
+custommachinery-1.16.5-0.5.8f
+CyclopsCore-1.16.5-1.12.4
+DarkUtilities-1.16.5-8.0.14
+engineersdecor-1.16.5-1.1.18
+fancymenu_forge_2.7.2_MC_1.16.2-1.16.5
+LegendaryTooltips-1.16.5-1.1.7
+mowziesmobs-1.5.25
+Numina-1.16.5-2.2.27
+PackagedAuto-1.16.5-2.0.0.7
+PackagedExCrafting-1.16.5-2.0.0.4
+rftoolsbuilder-1.16-3.1.9
+rftoolspower-1.16-3.0.14
+supermartijn642corelib-1.0.18-forge-mc1.16.5
+tesseract-1.0.26-forge-mc1.16
+thermal_foundation-1.16.5-1.5.0.14
+thermal_cultivation-1.16.5-1.5.0.4
+thermal_expansion-1.16.5-1.5.0.7
+thermal_innovation-1.16.5-1.5.0.4
+thermal_locomotion-1.16.5-1.5.0.4
+trashcans-1.0.15-forge-mc1.16
+
+### Fixed
+- fixed pure certus block recipe missing
 
 <!-- TODO: 
     TODO: 

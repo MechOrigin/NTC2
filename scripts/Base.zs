@@ -62,7 +62,7 @@ craftingTable.removeRecipe(<item:mysticalagriculture:supremium_farmland>);
 craftingTable.removeRecipe(<item:mysticalagradditions:insanium_farmland>);
 
 //tesseract WIP
-craftingTable.removeRecipe(<item:tesseract:tesseract>);
+//craftingTable.removeRecipe(<item:tesseract:tesseract>);
 
 craftingTable.removeByName( "immersiveengineering:crafting/plate_gold_hammering");
 craftingTable.removeByName( "immersiveengineering:crafting/plate_iron_hammering");
