@@ -238,12 +238,13 @@ Updated:
 
 ### Changed
 - Added lazierAE2 Etcher recipes
-- Added 1-64k Storage Component Wafer recipes
+- Added 1-64k Storage Component Wafer recipes, and 256k-16m Storage Component Wafers
 - Added 9x AE2 processor recipes
 - Added silicon sheet (basically just 9x item) and recipes
 - Added Tesseract recipe
 
 ### Mods Added/Updated
+- Updated forge 26.2.35
 AI-Improvements-1.16.5-0.5.0
 BotanyPots-1.16.5-7.1.39
 cofh_core-1.16.5-1.5.0.11
@@ -274,9 +275,9 @@ trashcans-1.0.15-forge-mc1.16
 - fixed pure certus block recipe missing
 
 <!-- TODO: 
-    TODO: 
+    TODO: Fix compact crafting recipe failing
     TODO: Remove unused avaritia stuff out of JEI
-    TODO: 
+    TODO: Fix enderio alloys not automatable
     TODO: add tinkers glass to chisel, as well as coralstone
     TODO: Add github repo to title screen
     TODO: 

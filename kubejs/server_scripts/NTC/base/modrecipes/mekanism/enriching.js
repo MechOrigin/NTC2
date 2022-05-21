@@ -87,6 +87,12 @@ onEvent('recipes', (event) => {
             output: Item.of('betterendforge:amber_gem', 1),
             id: `${id_prefix}amber_gem_seed`
         }
+        ,
+        {
+            input: '#forge:dusts/cinnabar',
+            output: Item.of('forge:gems/cinnabar', 1),
+            id: `${id_prefix}cinnabar_dust_to_gem`
+        }
     ];
     recipes.forEach((recipe) => {
         event.recipes.mekanism.enriching(recipe.output, recipe.input).id(recipe.id);

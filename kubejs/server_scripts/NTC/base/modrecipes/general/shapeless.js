@@ -154,7 +154,23 @@ onEvent('recipes', (event) => {
         {
             output: Item.of('emendatusenigmatica:silicon_gem', 9),
             inputs: ['kubejs:silicon_sheet']
-        }
+        },
+        {
+            output: Item.of('ae2extras:256k_cell_component', 9),
+            inputs: ['kubejs:256k_component_wafer']
+        },
+        {
+            output: Item.of('ae2extras:1m_cell_component', 9),
+            inputs: ['kubejs:1m_component_wafer']
+        },
+        {
+            output: Item.of('ae2extras:4m_cell_component', 9),
+            inputs: ['kubejs:4m_component_wafer']
+        },
+        {
+            output: Item.of('ae2extras:16m_cell_component', 9),
+            inputs: ['kubejs:16m_component_wafer']
+        },
     ];
 
     recipes.forEach((recipe) => {
