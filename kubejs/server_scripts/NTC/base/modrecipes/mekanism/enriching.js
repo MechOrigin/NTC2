@@ -86,11 +86,10 @@ onEvent('recipes', (event) => {
             input: '#ntc2:seeds/amber',
             output: Item.of('betterendforge:amber_gem', 1),
             id: `${id_prefix}amber_gem_seed`
-        }
-        ,
+        },
         {
             input: '#forge:dusts/cinnabar',
-            output: Item.of('forge:gems/cinnabar', 1),
+            output: Item.of('emendatusenigmatica:cinnabar_gem', 1),
             id: `${id_prefix}cinnabar_dust_to_gem`
         }
     ];

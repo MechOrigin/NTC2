@@ -459,5 +459,140 @@
 				item: "enderioalloys:item_material_ender_crystal"
 			}]
 		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "&bLook in JEI&r"
+			id: "7941D9995349A8F9"
+			tasks: [{
+				id: "535844B5B12380B4"
+				type: "item"
+				title: "End Resin Processor"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:end_resin_processor"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							machine: "custommachinery:end_resin_processor"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			subtitle: "&bLook in JEI&r"
+			id: "725D558809D82DAC"
+			tasks: [{
+				id: "0909384BCC8DB497"
+				type: "item"
+				title: "Nitrogen Collector"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:nitrogen_collector"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							machine: "custommachinery:nitrogen_collector"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "&bLook in JEI&r"
+			id: "75A7DAA2BAB6B765"
+			tasks: [{
+				id: "36E8987244A8492E"
+				type: "item"
+				title: "Compact Crafter"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:compact_crafter"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							machine: "custommachinery:compact_crafter"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			subtitle: "&bLook in JEI&r"
+			id: "5349E01E4C5FD5EA"
+			tasks: [{
+				id: "1DB9843FA13DBB49"
+				type: "item"
+				title: "Fuel Re-processor"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:fuel_reprocessor"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							machine: "custommachinery:fuel_reprocessor"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.5d
+			subtitle: "&bLook in JEI&r"
+			id: "4569EA4B4D410631"
+			tasks: [{
+				id: "29A7490F9D1CAB67"
+				type: "item"
+				title: "Isotope Separator"
+				icon: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:isotope_separator"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							machine: "custommachinery:isotope_separator"
+						}
+					}
+				}
+			}]
+		}
 	]
 }

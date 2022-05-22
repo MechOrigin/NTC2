@@ -28,7 +28,7 @@
 
 	[Features.Tools]
 		#If TRUE, the Crescent Hammer is enabled.
-		Wrench = true
+		Wrench = false
 		#If TRUE, the Redprint is enabled.
 		Redprint = true
 		#If TRUE, the Capacitato is enabled.

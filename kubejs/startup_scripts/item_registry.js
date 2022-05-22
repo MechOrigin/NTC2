@@ -33,7 +33,7 @@ onEvent('item.registry', event => {
 
     event.create('256k_component_wafer').displayName('246k ME Storage Component Wafer')
     event.create('1m_component_wafer').displayName('1M ME Storage Component Wafer')
-    event.create('14m_component_wafer').displayName('4M ME Storage Component Wafer')
+    event.create('4m_component_wafer').displayName('4M ME Storage Component Wafer')
     event.create('16m_component_wafer').displayName('16M ME Storage Component Wafer')
 
     event.create('titanium_rod').displayName('Titanium Rod')

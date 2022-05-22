@@ -242,6 +242,7 @@ Updated:
 - Added 9x AE2 processor recipes
 - Added silicon sheet (basically just 9x item) and recipes
 - Added Tesseract recipe
+- Compact machine recipes are directional. You must be facing north
 
 ### Mods Added/Updated
 - Updated forge 26.2.35
@@ -273,6 +274,10 @@ trashcans-1.0.15-forge-mc1.16
 
 ### Fixed
 - fixed pure certus block recipe missing
+- fixed mutton patty recipe makes the item unobtainable
+- Fixed a few enderio alloy blocks not having drops when broken
+- Added lang to custom infuse_types and blocks to recipes
+- Disabled thermal crescent wrench because of dupe bug
 
 <!-- TODO: 
     TODO: Fix compact crafting recipe failing

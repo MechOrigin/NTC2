@@ -64,6 +64,14 @@ craftingTable.removeRecipe(<item:mysticalagradditions:insanium_farmland>);
 //tesseract WIP
 //craftingTable.removeRecipe(<item:tesseract:tesseract>);
 
+//Thanks DjefNUKEM
+craftingTable.removeRecipe(<item:pamhc2foodextended:gourmetmuttonpattyitem>);
+craftingTable.addShaped("gourmet_mutton-patty", <item:pamhc2foodextended:gourmetmuttonpattyitem> * 1, [
+    [<item:pamhc2foodcore:mixingbowlitem>, <item:pamhc2foodcore:groundmuttonitem>, <item:pamhc2foodextended:saltandpepperitem>],
+    [<item:pamhc2crops:spiceleafitem>, <item:pamhc2crops:mustardseedsitem>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
 craftingTable.removeByName( "immersiveengineering:crafting/plate_gold_hammering");
 craftingTable.removeByName( "immersiveengineering:crafting/plate_iron_hammering");
 craftingTable.removeByName( "immersiveengineering:crafting/plate_silver_hammering");
