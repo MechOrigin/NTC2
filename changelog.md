@@ -245,6 +245,7 @@ Updated:
 - Compact machine recipes are directional. You must be facing north
 - Removed opinium core singularity and replaced it with a AE2 singularity singularity (should be much easier now and more balanced)
 - Changed basic upgrade to -10 (addition) per upgrade to a maximum of 4 per machine
+- Updating custommachinery-1.16.5-0.5.8f causes filters to break do not update
 
 ### Mods Added/Updated
 - Updated forge 26.2.35
@@ -253,7 +254,7 @@ BotanyPots-1.16.5-7.1.39
 cofh_core-1.16.5-1.5.0.11
 corail_woodcutter-1.16-2.0.2
 CraftTweaker-1.16.5-7.1.2.510
-custommachinery-1.16.5-0.5.8f
+
 CyclopsCore-1.16.5-1.12.4
 DarkUtilities-1.16.5-8.0.14
 engineersdecor-1.16.5-1.1.18
