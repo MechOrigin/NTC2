@@ -1,0 +1,10 @@
+{
+  "name": "Applied Energistics Singularity",
+  "colors": [
+    "0080ff",
+    "0080ff"
+  ],
+  "ingredient": {
+    "item": "appliedenergistics2:singularity"
+  }
+}

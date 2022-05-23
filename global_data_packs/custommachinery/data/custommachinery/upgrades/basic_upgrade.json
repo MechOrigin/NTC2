@@ -5,8 +5,8 @@
 		{
 			"requirement": "custommachinery:speed",
 			"mode": "input",
-			"operation": "multiplication",
-			"modifier": 0.90
+			"operation": "addition",
+			"modifier": -10
 		}
 	]
 }

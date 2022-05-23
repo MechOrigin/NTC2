@@ -243,6 +243,8 @@ Updated:
 - Added silicon sheet (basically just 9x item) and recipes
 - Added Tesseract recipe
 - Compact machine recipes are directional. You must be facing north
+- Removed opinium core singularity and replaced it with a AE2 singularity singularity (should be much easier now and more balanced)
+- Changed basic upgrade to -10 (addition) per upgrade to a maximum of 4 per machine
 
 ### Mods Added/Updated
 - Updated forge 26.2.35

@@ -55,7 +55,8 @@
       "filter": ["kubejs:upgrade_basic"],
       "whitelist": true,
       "mode": "input",
-      "variant": "custommachinery:upgrade"
+      "variant": "custommachinery:upgrade",
+      "capacity": 4
     }
   ],
   "gui": [
