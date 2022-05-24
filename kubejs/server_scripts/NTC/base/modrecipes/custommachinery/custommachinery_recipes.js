@@ -1366,7 +1366,7 @@ onEvent('recipes', event => {
         .requireItem(Item.of("mekanismadditions:black_plastic", 64))
         .requireItem(Item.of("mekanismadditions:black_plastic", 32))
         .requireItem(Item.of("mekanismadditions:orange_plastic", 27))
-        .requireItem(Item.of("extendedcrafting:the_ultimate_block", 1)) 
+        .requireItem(Item.of("extendedcrafting:the_ultimate_ingot", 1)) 
         .requireEnergy(5000)
         .produceItem(Item.of('custommachinery:custom_machine_item', 1, '{machine:"custommachinery:compact_crafter"}'), "output1")
 

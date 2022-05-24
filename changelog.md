@@ -237,6 +237,7 @@ Updated:
 ## [1.4.7] - 2022-05-19
 
 ### Changed
+## Lots has changed check your automation setups after updating
 - Added lazierAE2 Etcher recipes
 - Added 1-64k Storage Component Wafer recipes, and 256k-16m Storage Component Wafers
 - Added 9x AE2 processor recipes
@@ -249,6 +250,11 @@ Updated:
 - Added logic,engineering,calculation processor wafers
 - Added Glassy Redstone Sheet, and Charged Redstone Sheet
 - Changed assembler to be base 80 ticks
+- changed ultimate conglomerate singularity to iron opinium core singularity
+- Changed chemistry machines to use more energy per tick but increased operations per tick (faster machines)
+- Changed Endstone x5 requirement for endest pearl to x3
+- changed 16m storage component to be 256k storage component in relay/collector
+
 
 ### Mods Added/Updated
 - Updated forge 26.2.35
@@ -284,11 +290,12 @@ trashcans-1.0.15-forge-mc1.16
 - Fixed a few enderio alloy blocks not having drops when broken
 - Added lang to custom infuse_types and blocks to recipes
 - Disabled thermal crescent wrench because of dupe bug
+- Agricraft is not included in newer versions, flavor text removed from quests
 
 <!-- TODO: 
-    TODO: Fix compact crafting recipe failing
+    TODO: 
     TODO: Remove unused avaritia stuff out of JEI
-    TODO: Fix enderio alloys not automatable
+    TODO: 
     TODO: add tinkers glass to chisel, as well as coralstone
     TODO: Add github repo to title screen
     TODO: 
@@ -299,4 +306,21 @@ trashcans-1.0.15-forge-mc1.16
     find a way to fix the 360,000 required 16m components for mk3 singularities
     opinium cores, fix the recipes for those (slow)
     make fluid methane convert to item methane, among other chemistry stuff
+
+    fix ultimate ingot feeling janky because all the automation is under one mod
+    fix ultimate conglomerate
+    Tbh the main issue with the ultimate ingot and the ultimate conglomerate is that they both 
+    require a stupid level of infrastructure with a single mod
+
+    Which like idek feels a bit off, especially with both of those things effectively requiring like 81x3 machines
+
+    My biggest progression issue is the fact that EMC is just laggy to generate (or requires a ton of insane scaling of cheap resources) in early game. Maybe buffing T1/T2 collectors/relays wouldn't even be a bad idea
+
+    Like T1/T2 collectors generate basically nothing in comparison to their EMC cost, and especially considering how quickly you ramp up as soon as you hit T3
+
+    Ngl the jump to tier 3 feels stupidly big
+    after mk3 And instantly upgrade to orange/white tier
+
+    Yeah T3 to T15 is very cheap, especially if you use WoFT or Time in a Bottle (which you should have a lot of stored time by the time you get to T3 anyway)
+    It only takes 12h of time to do 12 x256 applications, which is more than enough to ramp up through the 12 tiers of collector
 -->

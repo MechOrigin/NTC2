@@ -202,11 +202,11 @@ craftingTable.removeRecipe(<item:projecte:collector_mk3>);
 mods.extendedcrafting.TableCrafting.addShaped("collector_mk3", 4, <item:projecte:collector_mk3>, [
 	[<item:projecte:klein_star_zwei>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:klein_star_zwei>], 
 	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
-	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
-	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:chemlib:ingot_lutetium>, <item:chemlib:ingot_lutetium>, <item:chemlib:ingot_lutetium>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
-	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:chemlib:ingot_lutetium>, <item:projecte:collector_mk2>, <item:chemlib:ingot_lutetium>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
-	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:chemlib:ingot_lutetium>, <item:chemlib:ingot_lutetium>, <item:chemlib:ingot_lutetium>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
-	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
+	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
+	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:chemlib:ingot_lutetium>, <item:chemlib:ingot_lutetium>, <item:chemlib:ingot_lutetium>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
+	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:chemlib:ingot_lutetium>, <item:projecte:collector_mk2>, <item:chemlib:ingot_lutetium>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
+	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:chemlib:ingot_lutetium>, <item:chemlib:ingot_lutetium>, <item:chemlib:ingot_lutetium>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
+	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
 	[<item:projecte:klein_star_zwei>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:projecte:klein_star_zwei>], 
 	[<item:projecte:klein_star_zwei>, <item:projecte:klein_star_zwei>, <item:projecte:klein_star_zwei>, <item:projecte:klein_star_zwei>, <item:projecte:klein_star_zwei>, <item:projecte:klein_star_zwei>, <item:projecte:klein_star_zwei>, <item:projecte:klein_star_zwei>, <item:projecte:klein_star_zwei>]
 ]);
@@ -215,25 +215,25 @@ craftingTable.removeRecipe(<item:projecte:relay_mk3>);
 mods.extendedcrafting.TableCrafting.addShaped("relay_mk3", 4, <item:projecte:relay_mk3>, [
 	[<item:mekanism:pellet_antimatter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>, <item:mekanism:pellet_antimatter>], 
 	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
-	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
-	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:chemlib:ingot_oganesson>, <item:chemlib:ingot_oganesson>, <item:chemlib:ingot_oganesson>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
-	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:chemlib:ingot_oganesson>, <item:projecte:relay_mk2>, <item:chemlib:ingot_oganesson>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
-	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:chemlib:ingot_oganesson>, <item:chemlib:ingot_oganesson>, <item:chemlib:ingot_oganesson>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
-	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
+	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
+	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:chemlib:ingot_oganesson>, <item:chemlib:ingot_oganesson>, <item:chemlib:ingot_oganesson>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
+	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:chemlib:ingot_oganesson>, <item:projecte:relay_mk2>, <item:chemlib:ingot_oganesson>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
+	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:chemlib:ingot_oganesson>, <item:chemlib:ingot_oganesson>, <item:chemlib:ingot_oganesson>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
+	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:ae2extras:256k_cell_component>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
 	[<item:mekanism:pellet_antimatter>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:kubejs:uu_matter_2>, <item:mekanism:pellet_antimatter>], 
 	[<item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped("endest_pearl", 4, <item:avaritia:endest_pearl>, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:endstone_5>, <item:compressium:endstone_5>, <item:compressium:endstone_5>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:endstone_5>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_5>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:compressium:endstone_5>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:extendedcrafting:enhanced_ender_ingot>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_5>, <item:minecraft:air>], 
-	[<item:compressium:endstone_5>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:emendatusenigmatica:enderium_ingot>, <item:miniutilities:nether_star_opinium_core>, <item:emendatusenigmatica:enderium_ingot>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_5>], 
-	[<item:compressium:endstone_5>, <item:minecraft:ender_eye>, <item:extendedcrafting:enhanced_ender_ingot>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:ender_star>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:enhanced_ender_ingot>, <item:minecraft:ender_eye>, <item:compressium:endstone_5>], 
-	[<item:compressium:endstone_5>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:emendatusenigmatica:enderium_ingot>, <item:miniutilities:nether_star_opinium_core>, <item:emendatusenigmatica:enderium_ingot>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_5>], 
-	[<item:minecraft:air>, <item:compressium:endstone_5>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:extendedcrafting:enhanced_ender_ingot>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_5>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:endstone_5>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_5>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:endstone_5>, <item:compressium:endstone_5>, <item:compressium:endstone_5>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:endstone_3>, <item:compressium:endstone_3>, <item:compressium:endstone_3>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:endstone_3>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_3>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:compressium:endstone_3>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:extendedcrafting:enhanced_ender_ingot>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_3>, <item:minecraft:air>], 
+	[<item:compressium:endstone_3>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:emendatusenigmatica:enderium_ingot>, <item:miniutilities:nether_star_opinium_core>, <item:emendatusenigmatica:enderium_ingot>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_3>], 
+	[<item:compressium:endstone_3>, <item:minecraft:ender_eye>, <item:extendedcrafting:enhanced_ender_ingot>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:ender_star>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:enhanced_ender_ingot>, <item:minecraft:ender_eye>, <item:compressium:endstone_3>], 
+	[<item:compressium:endstone_3>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:emendatusenigmatica:enderium_ingot>, <item:miniutilities:nether_star_opinium_core>, <item:emendatusenigmatica:enderium_ingot>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_3>], 
+	[<item:minecraft:air>, <item:compressium:endstone_3>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:extendedcrafting:enhanced_ender_ingot>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_3>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:endstone_3>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:minecraft:ender_eye>, <item:compressium:endstone_3>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:compressium:endstone_3>, <item:compressium:endstone_3>, <item:compressium:endstone_3>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped("infinity_catalyst", 4, <item:avaritia:infinity_catalyst>, [
@@ -261,22 +261,22 @@ mods.extendedcrafting.TableCrafting.addShaped("infinity_ingot", 4, <item:avariti
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:iron_opinium_core>);
-mods.extendedcrafting.CombinationCrafting.addRecipe("iron_opinium_core", <item:miniutilities:iron_opinium_core>, 6000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("iron_opinium_core", <item:miniutilities:iron_opinium_core>, 500, [
 	<item:appliedenergistics2:matter_ball>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:coal>, <item:minecraft:coal>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:coal>, <item:minecraft:coal>
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:gold_opinium_core>);
-mods.extendedcrafting.CombinationCrafting.addRecipe("gold_opinium_core", <item:miniutilities:gold_opinium_core>, 6000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("gold_opinium_core", <item:miniutilities:gold_opinium_core>, 1000, [
 	<item:appliedenergistics2:matter_ball>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:miniutilities:iron_opinium_core>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:miniutilities:iron_opinium_core>, <item:miniutilities:iron_opinium_core>
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:diamond_opinium_core>);
-mods.extendedcrafting.CombinationCrafting.addRecipe("diamond_opinium_core", <item:miniutilities:diamond_opinium_core>, 6000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("diamond_opinium_core", <item:miniutilities:diamond_opinium_core>, 4000, [
 	<item:appliedenergistics2:matter_ball>, <item:minecraft:diamond>, <item:minecraft:diamond>, <item:miniutilities:gold_opinium_core>, <item:miniutilities:gold_opinium_core>, <item:minecraft:diamond>, <item:minecraft:diamond>, <item:miniutilities:gold_opinium_core>, <item:miniutilities:gold_opinium_core>
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:netherite_opinium_core>);
-mods.extendedcrafting.CombinationCrafting.addRecipe("netherite_opinium_core", <item:miniutilities:netherite_opinium_core>, 6000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("netherite_opinium_core", <item:miniutilities:netherite_opinium_core>, 5000, [
 	<item:appliedenergistics2:matter_ball>, <item:minecraft:netherite_ingot>, <item:minecraft:netherite_ingot>, <item:miniutilities:diamond_opinium_core>, <item:miniutilities:diamond_opinium_core>, <item:minecraft:netherite_ingot>, <item:minecraft:netherite_ingot>, <item:miniutilities:diamond_opinium_core>, <item:miniutilities:diamond_opinium_core>
 ]);
 
@@ -286,22 +286,22 @@ mods.extendedcrafting.CombinationCrafting.addRecipe("emerald_opinium_core", <ite
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:chorus_opinium_core>);
-mods.extendedcrafting.CombinationCrafting.addRecipe("chorus_opinium_core", <item:miniutilities:chorus_opinium_core>, 6000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("chorus_opinium_core", <item:miniutilities:chorus_opinium_core>, 7000, [
 	<item:appliedenergistics2:matter_ball>, <item:minecraft:chorus_flower>, <item:minecraft:chorus_flower>, <item:miniutilities:emerald_opinium_core>, <item:miniutilities:emerald_opinium_core>, <item:minecraft:chorus_flower>, <item:minecraft:chorus_flower>, <item:miniutilities:emerald_opinium_core>, <item:miniutilities:emerald_opinium_core>
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:experience_opinium_core>);
-mods.extendedcrafting.CombinationCrafting.addRecipe("experience_opinium_core", <item:miniutilities:experience_opinium_core>, 6000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("experience_opinium_core", <item:miniutilities:experience_opinium_core>, 8000, [
 	<item:appliedenergistics2:matter_ball>, <tag:items:forge:experience_containers>, <tag:items:forge:experience_containers>, <item:miniutilities:chorus_opinium_core>, <item:miniutilities:chorus_opinium_core>, <tag:items:forge:experience_containers>, <tag:items:forge:experience_containers>, <item:miniutilities:chorus_opinium_core>, <item:miniutilities:chorus_opinium_core>
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:nether_star_opinium_core>);
-mods.extendedcrafting.CombinationCrafting.addRecipe("nether_star_opinium_core", <item:miniutilities:nether_star_opinium_core>, 6000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("nether_star_opinium_core", <item:miniutilities:nether_star_opinium_core>, 9000, [
 	<item:miniutilities:unstable_ingot>, <item:minecraft:nether_star>, <item:minecraft:nether_star>, <item:miniutilities:experience_opinium_core>, <item:miniutilities:experience_opinium_core>, <item:minecraft:nether_star>, <item:minecraft:nether_star>, <item:miniutilities:experience_opinium_core>, <item:miniutilities:experience_opinium_core>
 ]);
 
 craftingTable.removeRecipe(<item:miniutilities:the_final_opinium_core>);
-mods.extendedcrafting.CombinationCrafting.addRecipe("the_final_opinium_core", <item:miniutilities:the_final_opinium_core>, 6000, [
+mods.extendedcrafting.CombinationCrafting.addRecipe("the_final_opinium_core", <item:miniutilities:the_final_opinium_core>, 10000, [
 	<item:miniutilities:unstable_ingot>, <item:extendedcrafting:crystaltine_block>, <item:extendedcrafting:crystaltine_block>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:extendedcrafting:crystaltine_block>, <item:extendedcrafting:crystaltine_block>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>
 ]);
 

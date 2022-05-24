@@ -114,27 +114,27 @@ events.listen('worldgen.remove', (event) => {
 	});
 
 //MANA GEM
-	event.removeOres((ores) => {
-		ores.blocks = ['ars_nouveau:arcane_ore'];
-	});
+	// event.removeOres((ores) => {
+	// 	ores.blocks = ['ars_nouveau:arcane_ore'];
+	// });
 
 //DIMENSIONAL SHARD
 //
 
-//THORIANITE
-event.removeOres((ores) => {
-	ores.blocks = ['electrodynamics:orethorianite'];
-});
+// //THORIANITE
+// event.removeOres((ores) => {
+// 	ores.blocks = ['electrodynamics:orethorianite'];
+// });
 
-//MONAZITE
-event.removeOres((ores) => {
-	ores.blocks = ['electrodynamics:oremonazite'];
-});
+// //MONAZITE
+// event.removeOres((ores) => {
+// 	ores.blocks = ['electrodynamics:oremonazite'];
+// });
 
-//VANADINITE
-event.removeOres((ores) => {
-	ores.blocks = ['electrodynamics:orevanadinite'];
-});
+// //VANADINITE
+// event.removeOres((ores) => {
+// 	ores.blocks = ['electrodynamics:orevanadinite'];
+// });
 
 //
 //fin

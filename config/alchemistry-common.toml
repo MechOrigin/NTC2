@@ -9,37 +9,37 @@
 	energyPerTick = 5000
 	#Default: 100
 	#Range: > 1
-	ticksPerOperation = 100
+	ticksPerOperation = 1
 
 #Chemical Combiner
 [combiner]
 	#Default: 100000 (100k)
 	#Range: > 0
-	energyCapacity = 100000
+	energyCapacity = 1000000
 	#Default: 200
 	#Range: > 0
-	energyPerTick = 20000
+	energyPerTick = 40000
 	#Default: 5
 	#Range: > 1
-	ticksPerOperation = 5
+	ticksPerOperation = 1
 
 #Chemical Dissolver
 [dissolver]
 	#Default: 100000 (100k)
 	#Range: > 0
-	energyCapacity = 100000
+	energyCapacity = 1000000
 	#Default: 200
 	#Range: > 0
-	energyPerTick = 10000
+	energyPerTick = 40000
 	#Default: 8
 	#Range: 1 ~ 64
-	maxOutputPerTick = 8
+	maxOutputPerTick = 1
 
 #Evaporator
 [evaporator]
 	#Default: 160
 	#Range: > 1
-	ticksPerOperation = 160
+	ticksPerOperation = 1
 
 #Liquifier
 [liquifier]
@@ -51,29 +51,29 @@
 	energyPerTick = 5000
 	#Default: 100
 	#Range: > 1
-	ticksPerOperation = 100
+	ticksPerOperation = 1
 
 #Fission
 [fission]
 	#Default: 100000 (100k)
 	#Range: > 0
-	energyCapacity = 100000
+	energyCapacity = 1000000
 	#Default: 300
 	#Range: > 0
-	energyPerTick = 3000
+	energyPerTick = 40000
 	#Default: 40
 	#Range: > 1
-	ticksPerOperation = 40
+	ticksPerOperation = 1
 
 #Fusion
 [fusion]
 	#Default: 100000 (100k)
 	#Range: > 0
-	energyCapacity = 100000
+	energyCapacity = 1000000
 	#Default: 300
 	#Range: > 0
-	energyPerTick = 3000
+	energyPerTick = 40000
 	#Default: 40
 	#Range: > 1
-	ticksPerOperation = 40
+	ticksPerOperation = 1
 
