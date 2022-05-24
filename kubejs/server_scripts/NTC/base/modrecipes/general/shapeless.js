@@ -171,6 +171,18 @@ onEvent('recipes', (event) => {
             output: Item.of('ae2extras:16m_cell_component', 9),
             inputs: ['kubejs:16m_component_wafer']
         },
+        {
+            output: Item.of('appliedenergistics2:logic_processor', 9),
+            inputs: ['kubejs:logic_processor_wafer']
+        },
+        {
+            output: Item.of('appliedenergistics2:engineering_processor', 9),
+            inputs: ['kubejs:engineering_processor_wafer']
+        },
+        {
+            output: Item.of('appliedenergistics2:calculation_processor', 9),
+            inputs: ['kubejs:calculation_processor_wafer']
+        }
     ];
 
     recipes.forEach((recipe) => {

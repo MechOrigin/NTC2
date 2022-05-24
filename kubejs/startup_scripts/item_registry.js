@@ -38,6 +38,7 @@ onEvent('item.registry', event => {
 
     event.create('charged_redstone_sheet').displayName('Charged Redstone Sheet')
     event.create('glassy_redstone_sheet').displayName('Glassy Redstone Sheet')
+    event.create('glassy_glowstone_sheet').displayName('Glassy Glowstone Sheet')
 
     event.create('calculation_processor_wafer').displayName('Calculation Processor Wafer')
     event.create('engineering_processor_wafer').displayName('Engineering Processor Wafer')

@@ -39,19 +39,26 @@ onEvent('recipes', event => {
         .produceItem(Item.of("kubejs:transistor", 3), "output1")
 
     //AE2 Wafers
-    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 100)
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
     .requireItem(Item.of("appliedenergistics2:logic_processor", 9), "input1")
     .requireItem(Item.of("minecraft:redstone_block", 4), "input2")
     .requireItem(Item.of("emendatusenigmatica:charged_certus_quartz_block", 9), "input3")
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:1k_component_wafer", 1), "output1")
-    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 100)
+
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
     .requireItem(Item.of("minecraft:redstone_block", 4), "input1")
     .requireItem(Item.of("emendatusenigmatica:charged_certus_quartz_block", 9), "input2")
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:charged_redstone_sheet", 1), "output1")
 
-    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 100)
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
+    .requireItem(Item.of("minecraft:redstone_block", 4), "input1")
+    .requireItem(Item.of("appliedenergistics2:quartz_glass", 9), "input2")
+    .requireEnergy(5000)
+    .produceItem(Item.of("kubejs:glassy_redstone_sheet", 1), "output1")
+
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
     .requireItem(Item.of("appliedenergistics2:calculation_processor", 9), "input1")
     .requireItem(Item.of("minecraft:redstone_block", 4), "input2")
     .requireItem(Item.of("appliedenergistics2:quartz_glass", 9), "input3")
@@ -59,7 +66,7 @@ onEvent('recipes', event => {
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:4k_component_wafer", 1), "output1")
 
-    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 100)
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
     .requireItem(Item.of("appliedenergistics2:calculation_processor", 9), "input1")
     .requireItem(Item.of("minecraft:glowstone", 9), "input2")
     .requireItem(Item.of("appliedenergistics2:quartz_glass", 9), "input3")
@@ -67,7 +74,7 @@ onEvent('recipes', event => {
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:16k_component_wafer", 1), "output1")
 
-    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 100)
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
     .requireItem(Item.of("appliedenergistics2:calculation_processor", 9), "input1")
     .requireItem(Item.of("minecraft:glowstone", 9), "input2")
     .requireItem(Item.of("appliedenergistics2:quartz_glass", 9), "input3")
@@ -75,7 +82,7 @@ onEvent('recipes', event => {
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:64k_component_wafer", 1), "output1")
 
-    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 100)
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
     .requireItem(Item.of("appliedenergistics2:calculation_processor", 9), "input1")
     .requireItem(Item.of("minecraft:redstone_block", 4), "input2")
     .requireItem(Item.of("appliedenergistics2:quartz_glass", 9), "input3")
@@ -83,7 +90,7 @@ onEvent('recipes', event => {
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:256k_component_wafer", 1), "output1")
     
-    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 100)
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
     .requireItem(Item.of("appliedenergistics2:calculation_processor", 9), "input1")
     .requireItem(Item.of("minecraft:redstone_block", 4), "input2")
     .requireItem(Item.of("appliedenergistics2:quartz_glass", 9), "input3")
@@ -91,7 +98,7 @@ onEvent('recipes', event => {
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:1m_component_wafer", 1), "output1")
 
-    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 100)
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
     .requireItem(Item.of("appliedenergistics2:calculation_processor", 9), "input1")
     .requireItem(Item.of("minecraft:glowstone", 9), "input2")
     .requireItem(Item.of("appliedenergistics2:quartz_glass", 9), "input3")
@@ -99,7 +106,7 @@ onEvent('recipes', event => {
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:4m_component_wafer", 1), "output1")
 
-    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 100)
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
     .requireItem(Item.of("appliedenergistics2:calculation_processor", 9), "input1")
     .requireItem(Item.of("minecraft:glowstone", 9), "input2")
     .requireItem(Item.of("appliedenergistics2:quartz_glass", 9), "input3")

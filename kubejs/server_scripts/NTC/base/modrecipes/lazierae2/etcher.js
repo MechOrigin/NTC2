@@ -53,6 +53,77 @@ onEvent('recipes', event => {
             input1: 'minecraft:diamond_block',
             input2: 'minecraft:redstone_block',
             input3: 'kubejs:silicon_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'kubejs:1k_component_wafer',
+            count: 1,
+            input1: 'kubejs:logic_processor_wafer',
+            input2: 'kubejs:charged_redstone_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'kubejs:4k_component_wafer',
+            count: 1,
+            input1: 'kubejs:calculation_processor_wafer',
+            input2: 'kubejs:1k_component_wafer',
+            input3: 'kubejs:glassy_redstone_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'kubejs:16k_component_wafer',
+            count: 1,
+            input1: 'kubejs:calculation_processor_wafer',
+            input2: 'kubejs:4k_component_wafer',
+            input3: 'kubejs:glassy_glowstone_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'kubejs:64k_component_wafer',
+            count: 1,
+            input1: 'kubejs:calculation_processor_wafer',
+            input2: 'kubejs:16k_component_wafer',
+            input3: 'kubejs:glassy_glowstone_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'kubejs:256k_component_wafer',
+            count: 1,
+            input1: 'kubejs:calculation_processor_wafer',
+            input2: 'kubejs:64k_component_wafer',
+            input3: 'kubejs:glassy_redstone_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'kubejs:1m_component_wafer',
+            count: 1,
+            input1: 'kubejs:calculation_processor_wafer',
+            input2: 'kubejs:256k_component_wafer',
+            input3: 'kubejs:glassy_redstone_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'kubejs:4m_component_wafer',
+            count: 1,
+            input1: 'kubejs:calculation_processor_wafer',
+            input2: 'kubejs:1m_component_wafer',
+            input3: 'kubejs:glassy_glowstone_sheet'
+          },
+          {
+            time: 80,
+            energy: 1500,
+            item: 'kubejs:16m_component_wafer',
+            count: 1,
+            input1: 'kubejs:calculation_processor_wafer',
+            input2: 'kubejs:4m_component_wafer',
+            input3: 'kubejs:glassy_glowstone_sheet'
           }
       ]
     };
