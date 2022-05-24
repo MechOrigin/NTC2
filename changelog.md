@@ -243,11 +243,12 @@ Updated:
 - Added silicon sheet (basically just 9x item) and recipes
 - Added Tesseract recipe
 - Compact machine recipes are directional. You must be facing north
-- Removed opinium core singularity and replaced it with a AE2 singularity singularity (should be much easier now and more balanced)
-- Changed basic upgrade to -20 (addition) per upgrade to a maximum of 4 per machine
+- Removed opinium core singularity and replaced it with a AE2 singularity singularity (should save a ton of time)
+- Changed basic upgrade to -20 ticks (addition) per upgrade to a maximum of 4 per machine
 - Updating custommachinery-1.16.5-0.5.8f causes filters to break do not update
 - Added logic,engineering,calculation processor wafers
 - Added Glassy Redstone Sheet, and Charged Redstone Sheet
+- Changed assembler to be base 80 ticks
 
 ### Mods Added/Updated
 - Updated forge 26.2.35

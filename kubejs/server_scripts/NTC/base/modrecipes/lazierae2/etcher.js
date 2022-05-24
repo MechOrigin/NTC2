@@ -60,7 +60,8 @@ onEvent('recipes', event => {
             item: 'kubejs:1k_component_wafer',
             count: 1,
             input1: 'kubejs:logic_processor_wafer',
-            input2: 'kubejs:charged_redstone_sheet'
+            input2: 'kubejs:charged_redstone_sheet',
+            input3: 'minecraft:air'
           },
           {
             time: 80,

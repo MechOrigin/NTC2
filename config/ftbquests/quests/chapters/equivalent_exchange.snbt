@@ -400,36 +400,6 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
-			description: [
-				"{ntc2.projecte.dmfurnace.desc1}"
-				""
-				"{ntc2.projecte.dmfurnace.desc2}"
-			]
-			hide_dependency_lines: true
-			dependencies: ["3A85FF501C6C1C3D"]
-			id: "0EF8EDEC87C86301"
-			tasks: [{
-				id: "72BD6BD994A8D1AB"
-				type: "item"
-				item: "projecte:dm_furnace"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 3.5d
-			description: ["{ntc2.projecte.rmfurnace.desc1}"]
-			hide_dependency_lines: true
-			dependencies: ["512D5134E1B3F48C"]
-			id: "69A4D6E937EF5376"
-			tasks: [{
-				id: "702EC606564FD68B"
-				type: "item"
-				item: "projecte:rm_furnace"
-			}]
-		}
-		{
 			x: 4.0d
 			y: 3.5d
 			description: ["{ntc2.projecte.repairtal.desc1}"]

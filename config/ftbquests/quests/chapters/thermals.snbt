@@ -10,8 +10,9 @@
 	quests: [
 		{
 			x: 0.0d
-			y: 1.0d
+			y: 0.0d
 			subtitle: "{ntc2.thermalwrench.subtitle}"
+			hide_dependency_lines: false
 			dependencies: ["2FFFCDB3843FE3B7"]
 			id: "4A04231883E4197C"
 			tasks: [{
@@ -30,7 +31,6 @@
 			x: 0.0d
 			y: -1.0d
 			subtitle: "{ntc2.thermalpedia.subtitle}"
-			dependencies: ["4A04231883E4197C"]
 			id: "0CA5B6537B498DE0"
 			tasks: [{
 				id: "5B91173F84ECED1B"
@@ -227,7 +227,7 @@
 		{
 			x: -2.0d
 			y: -3.0d
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			dependencies: ["192F645228E68C8F"]
 			optional: true
 			id: "350D7BFE6A595D96"
@@ -747,7 +747,7 @@
 			x: -2.0d
 			y: -5.0d
 			hide_dependency_lines: true
-			dependencies: ["4A04231883E4197C"]
+			dependencies: ["0CA5B6537B498DE0"]
 			optional: true
 			id: "139A87ECA8C3FD9A"
 			tasks: [{
@@ -760,7 +760,7 @@
 			x: -3.0d
 			y: -5.0d
 			hide_dependency_lines: true
-			dependencies: ["4A04231883E4197C"]
+			dependencies: ["0CA5B6537B498DE0"]
 			optional: true
 			id: "6ED5A87A2016E258"
 			tasks: [{
@@ -773,7 +773,7 @@
 			x: -4.0d
 			y: -4.0d
 			hide_dependency_lines: true
-			dependencies: ["4A04231883E4197C"]
+			dependencies: ["0CA5B6537B498DE0"]
 			optional: true
 			id: "788FC6959A637B54"
 			tasks: [
@@ -796,7 +796,7 @@
 			x: -4.0d
 			y: -3.0d
 			hide_dependency_lines: true
-			dependencies: ["4A04231883E4197C"]
+			dependencies: ["0CA5B6537B498DE0"]
 			optional: true
 			id: "29CA4E99671EBD72"
 			tasks: [{
