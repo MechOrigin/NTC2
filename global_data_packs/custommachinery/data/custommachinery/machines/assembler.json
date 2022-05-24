@@ -29,7 +29,9 @@
     {
       "mode": "input",
       "id": "input4",
-      "type": "custommachinery:item"
+      "type": "custommachinery:item",
+      "filter": ["appliedenergistics2:logic_processor"],
+      "whitelist": false
     },
     {
       "mode": "input",

@@ -36,6 +36,13 @@ onEvent('item.registry', event => {
     event.create('4m_component_wafer').displayName('4M ME Storage Component Wafer')
     event.create('16m_component_wafer').displayName('16M ME Storage Component Wafer')
 
+    event.create('charged_redstone_sheet').displayName('Charged Redstone Sheet')
+    event.create('glassy_redstone_sheet').displayName('Glassy Redstone Sheet')
+
+    event.create('calculation_processor_wafer').displayName('Calculation Processor Wafer')
+    event.create('engineering_processor_wafer').displayName('Engineering Processor Wafer')
+    event.create('logic_processor_wafer').displayName('Logic Processor Wafer')
+
     event.create('titanium_rod').displayName('Titanium Rod')
     event.create('iridium_rod').displayName('Iridium Rod')
 

@@ -244,7 +244,7 @@ Updated:
 - Added Tesseract recipe
 - Compact machine recipes are directional. You must be facing north
 - Removed opinium core singularity and replaced it with a AE2 singularity singularity (should be much easier now and more balanced)
-- Changed basic upgrade to -10 (addition) per upgrade to a maximum of 4 per machine
+- Changed basic upgrade to -20 (addition) per upgrade to a maximum of 4 per machine
 - Updating custommachinery-1.16.5-0.5.8f causes filters to break do not update
 
 ### Mods Added/Updated

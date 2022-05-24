@@ -3,7 +3,7 @@
     "type": "resource",
     "tier": "mysticalagradditions:6",
     "ingredient": {
-      "item": "ae2extras:16m_crafting_storage"
+      "item": "appliedenergistics2:64k_crafting_storage"
     },
     "color": "d6eefe",
     "textures": {
@@ -11,6 +11,6 @@
       "essence": "mysticalagriculture:item/essence_dust",
       "seeds": "mysticalagriculture:item/mystical_seeds"
     },
-    "crux": "ae2extras:16m_crafting_storage"
+    "crux": "appliedenergistics2:64k_crafting_storage"
   }
   
