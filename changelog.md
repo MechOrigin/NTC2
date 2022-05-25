@@ -258,6 +258,7 @@ Updated:
 - Added some slot filters to custom machines (assembler only for now)
 - Changed collector recipes to be more of a step.
 - Changed ender ingot (because redundant because enhanced ender ingot) into 16m cell component singularity (now you need to craft 10000 instead of 360000)
+- 
 
 ### Mods Added/Updated
 - Updated forge 26.2.35
@@ -301,10 +302,10 @@ trashcans-1.0.15-forge-mc1.16
 <!-- TODO: 
     TODO: Make a recipe for ultimate singularity, make an ultimate stew recipe, make a use for ultimate conglomerate (add it to armor)
     TODO: Remove unused avaritia stuff out of JEI
-    TODO: 
+    TODO: add connectivity and config changes
     TODO: add tinkers glass to chisel, as well as coralstone
     TODO: Add github repo to title screen
-    TODO: 
+    TODO: explore if custom machine catalysts option can share chemlib recipes
     TODO: add knowledge sharing book?
     TODO: 
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
