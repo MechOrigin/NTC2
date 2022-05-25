@@ -1,0 +1,10 @@
+{
+  "name": "Iron Opinium Core",
+  "colors": [
+    "c0c0c0",
+    "c0c0c0"
+  ],
+  "ingredient": {
+    "item": "miniutilities:iron_opinium_core"
+  }
+}

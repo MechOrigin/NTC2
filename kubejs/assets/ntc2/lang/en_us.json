@@ -173,7 +173,7 @@
     "ntc2.mushrooms.desc3": "The nether naturally spawns them, you can also bone meal nylium to get the fungus varieties.",
     "ntc2.mushrooms.desc4": "The philosophers stone randomizer can get you a mooshroom, set up a little farm of them will yield red/brown mushrooms.",
     "ntc2.mushrooms.desc5": "Bonemealing Mycelium will yield red/brown mushrooms.",
-    "ntc2.mushrooms.desc6": "Agricraft, crop mutation between potatoes and carrots.",
+    "ntc2.mushrooms.desc6": "",
 
     "ntc2.rabbit.desc1": "Rabbit hide can be acquired from the paper quest.",
 
@@ -1168,7 +1168,7 @@
 
     "ntc2.grass.title": "&dMowing the Lawn&r",
     "ntc2.grass.subtitle": "Take a look at some grass. Now break it. Get some seeds.",
-    "ntc2.grass.desc1": "Agricraft seeds override most crop mechanics.",
+    "ntc2.grass.desc1": "",
 
     "ntc2.info1.title": "&2Don't harvest Mature plants.&r",
     "ntc2.info1.desc1": "It should be a general rule to make a separate wheat farm to provide food until you are well into Agricraft super crops. Mature plants cross-breed faster than seedlings, they create upgraded seeds faster. If you want food, make a farm. If you want to Upgrade or Cross-Breed plants, don't harvest them.",

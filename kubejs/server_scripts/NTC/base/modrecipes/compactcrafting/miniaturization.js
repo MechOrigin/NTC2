@@ -724,7 +724,7 @@ onEvent('recipes', (event) => {
         recipeSize: 7,
         layers: machineShapes.compact_crafter,
         catalyst: {
-            id: 'extendedcrafting:the_ultimate_block',
+            id: 'extendedcrafting:the_ultimate_ingot',
             Count: 1
         },
         components: {

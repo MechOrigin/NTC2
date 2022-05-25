@@ -3,5 +3,5 @@
 	#Should the alternative Thermal Series recipe be used when the Thermal Series mods are installed?
 	#Requires a world reload
 	#Allowed Values: true, false  Default: false
-	enableThermalRecipe = false
+	enableThermalRecipe = true
 
