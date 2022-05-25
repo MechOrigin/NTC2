@@ -251,11 +251,12 @@ Updated:
 - Added Glassy Redstone Sheet, and Charged Redstone Sheet and recipes
 - Changed assembler to be base 80 ticks
 - changed ultimate conglomerate singularity to iron opinium core singularity
+    the ultimate conglomerate singularity will be used instead on a final craft
 - Changed chemistry machines to use more energy per tick but increased operations per tick (faster machines)
 - Changed Endstone x5 requirement for endest pearl to x3
 - changed 16m storage component to be 256k storage component in relay/collector
-- Added some slot filters to custom machines. Assembler is only one for now, needs testing
-- Changed collector recipes to be more of a step. WIP. Still need to adjust levels of EMC generated
+- Added some slot filters to custom machines (assembler only for now)
+- Changed collector recipes to be more of a step.
 - Changed ender ingot (because redundant because enhanced ender ingot) into 16m cell component singularity (now you need to craft 10000 instead of 360000)
 
 ### Mods Added/Updated
@@ -294,11 +295,11 @@ trashcans-1.0.15-forge-mc1.16
 - fixed mutton patty recipe makes the item unobtainable
 - Fixed a few enderio alloy blocks not having drops when broken
 - Added lang to custom infuse_types and blocks to recipes
-- Disabled thermal crescent wrench because of dupe bug
+- Instead of disabling thermal crescent wrench because of dupe bug, just blacklisting block from right click with it
 - Agricraft is not included in newer versions, flavor text removed from quests
 
 <!-- TODO: 
-    TODO: 
+    TODO: Make a recipe for ultimate singularity, make an ultimate stew recipe, make a use for ultimate conglomerate (add it to armor)
     TODO: Remove unused avaritia stuff out of JEI
     TODO: 
     TODO: add tinkers glass to chisel, as well as coralstone
@@ -308,24 +309,5 @@ trashcans-1.0.15-forge-mc1.16
     TODO: 
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block
-    find a way to fix the 360,000 required 16m components for mk3 singularities
-    opinium cores, fix the recipes for those (slow)
     make fluid methane convert to item methane, among other chemistry stuff
-
-    fix ultimate ingot feeling janky because all the automation is under one mod
-    fix ultimate conglomerate
-    Tbh the main issue with the ultimate ingot and the ultimate conglomerate is that they both 
-    require a stupid level of infrastructure with a single mod
-
-    Which like idek feels a bit off, especially with both of those things effectively requiring like 81x3 machines
-
-    My biggest progression issue is the fact that EMC is just laggy to generate (or requires a ton of insane scaling of cheap resources) in early game. Maybe buffing T1/T2 collectors/relays wouldn't even be a bad idea
-
-    Like T1/T2 collectors generate basically nothing in comparison to their EMC cost, and especially considering how quickly you ramp up as soon as you hit T3
-
-    Ngl the jump to tier 3 feels stupidly big
-    after mk3 And instantly upgrade to orange/white tier
-
-    Yeah T3 to T15 is very cheap, especially if you use WoFT or Time in a Bottle (which you should have a lot of stored time by the time you get to T3 anyway)
-    It only takes 12h of time to do 12 x256 applications, which is more than enough to ramp up through the 12 tiers of collector
 -->

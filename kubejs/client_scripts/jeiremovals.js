@@ -170,7 +170,6 @@ onEvent('jei.hide.items', event => {
         'mekanism:ingot_bronze',
         'mekanism:ingot_steel',
         'mekanism:ingot_tin',
-
         'avaritia:neutron_collector',
         'avaritia:neutronium_compressor',
         'avaritia:record_fragment',
@@ -178,18 +177,14 @@ onEvent('jei.hide.items', event => {
         'avaritia:ultimate_stew',
         'avaritia:cosmic_meatballs',
         'avaritia:\\w+/_crafting_table',
-
-
         'immersiveengineering:coke',
         'immersiveengineering:ingot_constantan',
         'immersiveengineering:ingot_electrum',
         'immersiveengineering:ingot_nickel',
         'immersiveengineering:ingot_silver',
-
         'tconstruct:copper_nugget',
         /helmet_probe/,
         'thermal:quartz_gear',
-
         /tconstruct:tough_handle/,
         /tconstruct:tool_handle/,
         /tconstruct:large_plate/,
@@ -208,7 +203,6 @@ onEvent('jei.hide.items', event => {
         /mekanism:creative_chemical_tank/,
         /mekanism:creative_fluid_tank/,
         /ftblibrary:fluid_container/,
-
         'lazierae2:coal_dust',
         /crook/,
         /exnihilosequentia:hammer_/,
