@@ -1,0 +1,10 @@
+{
+  "name": "16M Cell Component",
+  "colors": [
+    "ff0000",
+    "ff0000"
+  ],
+  "ingredient": {
+    "item": "ae2extras:16m_cell_component"
+  }
+}

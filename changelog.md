@@ -256,6 +256,7 @@ Updated:
 - changed 16m storage component to be 256k storage component in relay/collector
 - Added some slot filters to custom machines. Assembler is only one for now, needs testing
 - Changed collector recipes to be more of a step. WIP. Still need to adjust levels of EMC generated
+- Changed ender ingot (because redundant because enhanced ender ingot) into 16m cell component singularity (now you need to craft 10000 instead of 360000)
 
 ### Mods Added/Updated
 - Updated forge 26.2.35

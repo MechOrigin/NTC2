@@ -1,0 +1,10 @@
+{
+  "name": "Ultimate Conglomerate",
+  "colors": [
+    "bb33dd",
+    "bb33dd"
+  ],
+  "ingredient": {
+    "item": "kubejs:ultimate_conglomerate"
+  }
+}
