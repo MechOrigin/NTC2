@@ -662,7 +662,7 @@
 			y: 5.5d
 			subtitle: "{ntc2.piston.subtitle}"
 			description: [
-				"The Iron Rod needed for this initially will be created using tinkers meltery"
+				"The Iron Rod needed for this initially will be created using tinkers meltery. You can use a regular minecraft stick as the cast item"
 				""
 				"Many things require pistons, in addition to vanilla mechanics (move things via redstone). Pistons will be an integral part of thermal, and several other recipes"
 			]

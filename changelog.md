@@ -247,8 +247,8 @@ Updated:
 - Removed opinium core singularity and replaced it with a AE2 singularity singularity (should save a ton of time)
 - Changed basic upgrade to -20 ticks (addition) per upgrade to a maximum of 4 per machine
 - Updating custommachinery-1.16.5-0.5.8f causes filters to break do not update
-- Added logic,engineering,calculation processor wafers
-- Added Glassy Redstone Sheet, and Charged Redstone Sheet
+- Added logic,engineering,calculation processor wafers and recipes
+- Added Glassy Redstone Sheet, and Charged Redstone Sheet and recipes
 - Changed assembler to be base 80 ticks
 - changed ultimate conglomerate singularity to iron opinium core singularity
 - Changed chemistry machines to use more energy per tick but increased operations per tick (faster machines)

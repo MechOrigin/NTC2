@@ -51,7 +51,18 @@ events.listen('recipes', function (event) {
     '/emc_link/fading/',
     '/emc_link/final/',
     '/star/final_star/',
-    '/collector/'
+    '/collector/magenta/',
+    '/collector/pink/',
+    '/collector/purple/',
+    '/collector/violet/',
+    '/collector/blue/',
+    '/collector/cyan/',
+    '/collector/green/',
+    '/collector/lime/',
+    '/collector/yellow/',
+    '/collector/orange/',
+    '/collector/white/',
+    '/collector/fading/',
   ])
 
   //Thanks Kithi
