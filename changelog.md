@@ -257,7 +257,10 @@ BotanyPots-1.16.5-7.1.39
 cofh_core-1.16.5-1.5.0.11
 corail_woodcutter-1.16-2.0.2
 CraftTweaker-1.16.5-7.1.2.510
-
+architectury-1.32.63
+custommachinery-1.16.5-0.5.8f
+tombstone-6.7.6-1.16.5
+lemonlib-1.4.2
 CyclopsCore-1.16.5-1.12.4
 DarkUtilities-1.16.5-8.0.14
 engineersdecor-1.16.5-1.1.18
