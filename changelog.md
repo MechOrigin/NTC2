@@ -254,7 +254,8 @@ Updated:
 - Changed chemistry machines to use more energy per tick but increased operations per tick (faster machines)
 - Changed Endstone x5 requirement for endest pearl to x3
 - changed 16m storage component to be 256k storage component in relay/collector
-
+- Added some slot filters to custom machines. Assembler is only one for now, needs testing
+- Changed collector recipes to be more of a step. WIP. Still need to adjust levels of EMC generated
 
 ### Mods Added/Updated
 - Updated forge 26.2.35

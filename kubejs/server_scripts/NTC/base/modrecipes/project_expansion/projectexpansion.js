@@ -50,7 +50,8 @@ events.listen('recipes', function (event) {
     '/emc_link/white/',
     '/emc_link/fading/',
     '/emc_link/final/',
-    '/star/final_star/'
+    '/star/final_star/',
+    '/collector/'
   ])
 
   //Thanks Kithi
@@ -292,5 +293,53 @@ events.listen('recipes', function (event) {
     B: 'projectexpansion:green_collector',
     C: 'projectexpansion:magnum_star_sphere'
   }).id(`ntc2:projectexpansion/lime_collector`)
+  
+  event.recipes.extendedcrafting.shaped_table('projectexpansion:yellow_collector', [
+    'CCCCC',
+    'CBBBC',
+    'CBABC',
+    'CBBBC',
+    'CCCCC'
+  ], {
+    A: 'projectexpansion:yellow_matter',
+    B: 'projectexpansion:lime_collector',
+    C: 'projectexpansion:magnum_star_omega'
+  }).id(`ntc2:projectexpansion/yellow_collector`)
+
+  event.recipes.extendedcrafting.shaped_table('projectexpansion:orange_collector', [
+    'CCCCC',
+    'CBBBC',
+    'CBABC',
+    'CBBBC',
+    'CCCCC'
+  ], {
+    A: 'projectexpansion:orange_matter',
+    B: 'projectexpansion:yellow_collector',
+    C: 'projectexpansion:colossal_star_zwei'
+  }).id(`ntc2:projectexpansion/orange_collector`)
+  
+  event.recipes.extendedcrafting.shaped_table('projectexpansion:white_collector', [
+    'CCCCC',
+    'CBBBC',
+    'CBABC',
+    'CBBBC',
+    'CCCCC'
+  ], {
+    A: 'projectexpansion:white_matter',
+    B: 'projectexpansion:orange_collector',
+    C: 'projectexpansion:colossal_star_drei'
+  }).id(`ntc2:projectexpansion/white_collector`)
+    
+  event.recipes.extendedcrafting.shaped_table('projectexpansion:fading_collector', [
+    'CCCCC',
+    'CBBBC',
+    'CBABC',
+    'CBBBC',
+    'CCCCC'
+  ], {
+    A: 'projectexpansion:fading_matter',
+    B: 'projectexpansion:white_collector',
+    C: 'projectexpansion:colossal_star_vier'
+  }).id(`ntc2:projectexpansion/fading_collector`)
 
 })

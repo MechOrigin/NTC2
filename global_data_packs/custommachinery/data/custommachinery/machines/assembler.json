@@ -14,35 +14,41 @@
     {
       "mode": "input",
       "id": "input1",
-      "type": "custommachinery:item"
+      "type": "custommachinery:item",
+      "slot": "input1"
     },
     {
       "mode": "input",
       "id": "input2",
-      "type": "custommachinery:item"
+      "type": "custommachinery:item",
+      "slot": "input2"
     },
     {
       "mode": "input",
       "id": "input3",
-      "type": "custommachinery:item"
+      "type": "custommachinery:item",
+      "slot": "input3"
     },
     {
       "mode": "input",
       "id": "input4",
       "type": "custommachinery:item",
       "filter": ["appliedenergistics2:logic_processor"],
-      "whitelist": false
+      "whitelist": false,
+      "slot": "input4"
     },
     {
       "mode": "input",
       "id": "input5",
       "capacity": 10000,
-      "type": "custommachinery:fluid"
+      "type": "custommachinery:fluid",
+      "slot": "input5"
     },
     {
       "mode": "output",
       "id": "output1",
-      "type": "custommachinery:item"
+      "type": "custommachinery:item",
+      "slot": "output1"
     },
     {
       "type": "custommachinery:item",
@@ -51,7 +57,8 @@
       "whitelist": true,
       "mode": "input",
       "variant": "custommachinery:upgrade",
-      "capacity": 4
+      "capacity": 4,
+      "slot": "upgrade"
     }
   ],
   "gui": [
