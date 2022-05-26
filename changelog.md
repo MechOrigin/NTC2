@@ -258,7 +258,7 @@ Updated:
 - Added some slot filters to custom machines (assembler only for now)
 - Changed collector recipes to be more of a step.
 - Changed ender ingot (because redundant because enhanced ender ingot) into 16m cell component singularity (now you need to craft 10000 instead of 360000)
-- 
+- Balanced end game armor and gem armor a bit around conglomerate
 
 ### Mods Added/Updated
 - Updated forge 26.2.35
@@ -298,15 +298,17 @@ trashcans-1.0.15-forge-mc1.16
 - Added lang to custom infuse_types and blocks to recipes
 - Instead of disabling thermal crescent wrench because of dupe bug, just blacklisting block from right click with it
 - Agricraft is not included in newer versions, flavor text removed from quests
+- Added connectivity and config changes
+- Added knowledge sharing book
 
 <!-- TODO: 
     TODO: Make a recipe for ultimate singularity, make an ultimate stew recipe, make a use for ultimate conglomerate (add it to armor)
     TODO: Remove unused avaritia stuff out of JEI
-    TODO: add connectivity and config changes
+    TODO: 
     TODO: add tinkers glass to chisel, as well as coralstone
     TODO: Add github repo to title screen
     TODO: explore if custom machine catalysts option can share chemlib recipes
-    TODO: add knowledge sharing book?
+    TODO: 
     TODO: 
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block

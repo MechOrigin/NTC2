@@ -2939,6 +2939,12 @@
 				type: "item"
 				item: "mekanism:steel_casing"
 			}]
+			rewards: [{
+				id: "3C3D1CE324E5E665"
+				type: "item"
+				item: "mekanism:steel_casing"
+				count: 3
+			}]
 		}
 		{
 			x: 2.0d

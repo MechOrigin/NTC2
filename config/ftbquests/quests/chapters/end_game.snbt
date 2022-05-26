@@ -355,5 +355,16 @@
 				item: "kubejs:ultimate_conglomerate"
 			}]
 		}
+		{
+			x: 5.0d
+			y: 7.0d
+			subtitle: "&bCraftable&r"
+			id: "353A1345AD6014D1"
+			tasks: [{
+				id: "717BC68ACBBD86DE"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
+		}
 	]
 }

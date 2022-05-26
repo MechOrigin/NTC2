@@ -1124,6 +1124,12 @@
 				type: "item"
 				item: "projectexpansion:final_star_shard"
 			}]
+			rewards: [{
+				id: "3CE13F716D8BDA33"
+				type: "item"
+				item: "projectexpansion:final_star_shard"
+				count: 3
+			}]
 		}
 		{
 			x: 6.0d
@@ -1536,6 +1542,12 @@
 				type: "item"
 				item: "projectexpansion:fading_matter"
 			}]
+			rewards: [{
+				id: "4C7E31969F4C445A"
+				type: "item"
+				item: "projectexpansion:fading_matter"
+				count: 8
+			}]
 		}
 		{
 			title: "All the fuels"
@@ -1681,6 +1693,11 @@
 					item: "projectexpansion:final_emc_link"
 				}
 			]
+			rewards: [{
+				id: "0F23484D5DECF1C5"
+				type: "item"
+				item: "projectexpansion:final_emc_link"
+			}]
 		}
 		{
 			x: -3.5d
@@ -1729,6 +1746,11 @@
 				type: "item"
 				item: "projectexpansion:final_power_flower"
 			}]
+			rewards: [{
+				id: "00C1DE379BB683DF"
+				type: "item"
+				item: "projectexpansion:final_power_flower"
+			}]
 		}
 		{
 			x: 6.0d
@@ -1739,6 +1761,55 @@
 				type: "item"
 				item: {
 					id: "projecte:watch_of_flowing_time"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			id: "3E0C3E04015C351B"
+			tasks: [{
+				id: "158D9AC6688EF3F1"
+				type: "item"
+				item: {
+					id: "projecte:evertide_amulet"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			id: "27443383C29B6AC0"
+			tasks: [{
+				id: "28273C9CF0B6CF64"
+				type: "item"
+				item: {
+					id: "projecte:volcanite_amulet"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			id: "26D6C730F4D802BF"
+			tasks: [{
+				id: "34517416B7513E89"
+				type: "item"
+				item: {
+					id: "projecte:gem_of_eternal_density"
 					Count: 1b
 					tag: { }
 					ForgeCaps: {
