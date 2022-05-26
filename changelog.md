@@ -248,7 +248,7 @@ Updated:
 - Changed basic upgrade to -20 ticks (addition) per upgrade to a maximum of 4 per machine
 - Updating custommachinery-1.16.5-0.5.8f causes filters to break do not update
 - Added logic,engineering,calculation processor wafers and recipes
-- Added Glassy Redstone Sheet, and Charged Redstone Sheet and recipes
+- Added Glassy Redstone Sheet, and Charged Redstone Sheet and recipes (these are more cost efficient recipes, reducing material cost by roughly 4-8x)
 - Changed assembler to be base 80 ticks
 - changed ultimate conglomerate singularity to iron opinium core singularity
     the ultimate conglomerate singularity will be used instead on a final craft
@@ -259,6 +259,7 @@ Updated:
 - Changed collector recipes to be more of a step.
 - Changed ender ingot (because redundant because enhanced ender ingot) into 16m cell component singularity (now you need to craft 10000 instead of 360000)
 - Balanced end game armor and gem armor a bit around conglomerate
+- Added ultimate salad, and recipes for cosmic meatballs and ultimate stew
 
 ### Mods Added/Updated
 - Updated forge 26.2.35

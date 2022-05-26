@@ -182,6 +182,13 @@ onEvent('recipes', (event) => {
         {
             output: Item.of('appliedenergistics2:calculation_processor', 9),
             inputs: ['kubejs:calculation_processor_wafer']
+        },
+        {
+            output: 'avaritia:ultimate_stew',
+            inputs: [
+                'avaritia:cosmic_meatballs',
+                'kubejs:ultimate_salad'
+            ]
         }
     ];
 

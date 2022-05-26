@@ -51,6 +51,8 @@ onEvent('item.registry', event => {
 
     event.create('ultimate_conglomerate').displayName('Ultimate Conglomerate')
 
+    event.create('ultimate_salad').displayName('Ultimate Salad')
+
     event.create('ntc_portal').displayName('NTC Portal')
 
     event.create('tier_1_kit').displayName('Tier 1 Kit')
