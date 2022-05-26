@@ -264,6 +264,7 @@ Updated:
 - Added recipes for a few more projecte items: gem of eternal density (which can now craft the void ring), volcanite amulet and evertide amulet
 - Added infinity pipe upgrade recipe for pipez
 - Changed single block custommachine compact crafter block catalyst to be ultimate ingot instead of block
+- Changed base thermal energy usage to 20FE/t
 
 ### Mods Added/Updated
 - Updated forge 26.2.35

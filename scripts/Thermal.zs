@@ -2,11 +2,11 @@
 
 
 // <recipetype:thermal:smelter>.addRecipe(String name, MCWeightedItemStack[] outputs, IIngredient[] ingredients, float experience, int energy);
-<recipetype:thermal:smelter>.addRecipe("redstone_ingot", [<item:extendedcrafting:redstone_ingot> % 100/*, <item:appliedenergistics2:certus_quartz_crystal> %5*/], [<tag:items:forge:gems/silicon>, <item:minecraft:redstone>], 0.1, 500);
-<recipetype:thermal:smelter>.addRecipe("redstone_ingot_block", [<item:extendedcrafting:redstone_ingot_block> % 100/*, <item:appliedenergistics2:certus_quartz_crystal> %5*/], [<tag:items:forge:gems/silicon> * 9, <item:minecraft:redstone_block>], 0.1, 4500);
+<recipetype:thermal:smelter>.addRecipe("redstone_ingot", [<item:extendedcrafting:redstone_ingot> % 100/*, <item:appliedenergistics2:certus_quartz_crystal> %5*/], [<tag:items:forge:gems/silicon>, <item:minecraft:redstone>], 0.1, 20);
+<recipetype:thermal:smelter>.addRecipe("redstone_ingot_block", [<item:extendedcrafting:redstone_ingot_block> % 100/*, <item:appliedenergistics2:certus_quartz_crystal> %5*/], [<tag:items:forge:gems/silicon> * 9, <item:minecraft:redstone_block>], 0.1, 20);
 
-<recipetype:thermal:smelter>.addRecipe("ender_ingot", [<item:extendedcrafting:ender_ingot> % 100], [<item:minecraft:ender_pearl>, <item:minecraft:iron_ingot>], 0.1, 500);
-<recipetype:thermal:smelter>.addRecipe("ender_ingot_block", [<item:extendedcrafting:ender_ingot_block> % 100], [<item:minecraft:ender_pearl> * 9, <item:minecraft:iron_block>], 0.1, 500);
+<recipetype:thermal:smelter>.addRecipe("ender_ingot", [<item:extendedcrafting:ender_ingot> % 100], [<item:minecraft:ender_pearl>, <item:minecraft:iron_ingot>], 0.1, 20);
+<recipetype:thermal:smelter>.addRecipe("ender_ingot_block", [<item:extendedcrafting:ender_ingot_block> % 100], [<item:minecraft:ender_pearl> * 9, <item:minecraft:iron_block>], 0.1, 20);
 
 craftingTable.removeRecipe(<item:thermal:redstone_servo>);
 craftingTable.addShaped("redstone_servo", <item:thermal:redstone_servo>, [
@@ -25,27 +25,27 @@ craftingTable.addShaped("rf_coil", <item:thermal:rf_coil>, [
 craftingTable.removeRecipe(<item:thermal:watering_can>);
 
 // <recipetype:thermal:press>.addRecipe(String name, MCWeightedItemStack[] outputs, IFluidStack outputFluid, IIngredient[] ingredients, int energy);
-<recipetype:thermal:press>.addRecipe("plastic", [<item:industrialforegoing:plastic> % 120], <fluid:minecraft:empty>, [<item:thermal:cured_rubber>], 5000);
-<recipetype:thermal:press>.addRecipe("plastic_block", [<item:industrialforegoing:plastic> % 900], <fluid:minecraft:empty>, [<item:thermal:cured_rubber_block>], 45000);
+<recipetype:thermal:press>.addRecipe("plastic", [<item:industrialforegoing:plastic> % 120], <fluid:minecraft:empty>, [<item:thermal:cured_rubber>], 20);
+<recipetype:thermal:press>.addRecipe("plastic_block", [<item:industrialforegoing:plastic> % 900], <fluid:minecraft:empty>, [<item:thermal:cured_rubber_block>], 20);
 
-<recipetype:thermal:press>.addRecipe("chorus", [<item:integrateddynamics:crystalized_chorus_chunk> % 350], <fluid:integrateddynamics:liquid_chorus> * 125, [<item:minecraft:popped_chorus_fruit>], 500);
+<recipetype:thermal:press>.addRecipe("chorus", [<item:integrateddynamics:crystalized_chorus_chunk> % 350], <fluid:integrateddynamics:liquid_chorus> * 125, [<item:minecraft:popped_chorus_fruit>], 20);
 
-<recipetype:thermal:press>.addRecipe("menril_plank", [<item:integrateddynamics:crystalized_menril_chunk> % 100], <fluid:integrateddynamics:menril_resin> * 250, [<item:integrateddynamics:menril_planks>], 500);
-<recipetype:thermal:press>.addRecipe("menril_log", [<item:integrateddynamics:crystalized_menril_chunk> % 350], <fluid:integrateddynamics:menril_resin> * 1000, [<item:integrateddynamics:menril_log>], 500);
-<recipetype:thermal:press>.addRecipe("en_menril_log", [<item:integrateddynamics:crystalized_menril_chunk> % 450], <fluid:integrateddynamics:menril_resin> * 1500, [<item:integrateddynamics:menril_log_filled>], 500);
+<recipetype:thermal:press>.addRecipe("menril_plank", [<item:integrateddynamics:crystalized_menril_chunk> % 100], <fluid:integrateddynamics:menril_resin> * 250, [<item:integrateddynamics:menril_planks>], 20);
+<recipetype:thermal:press>.addRecipe("menril_log", [<item:integrateddynamics:crystalized_menril_chunk> % 350], <fluid:integrateddynamics:menril_resin> * 1000, [<item:integrateddynamics:menril_log>], 20);
+<recipetype:thermal:press>.addRecipe("en_menril_log", [<item:integrateddynamics:crystalized_menril_chunk> % 450], <fluid:integrateddynamics:menril_resin> * 1500, [<item:integrateddynamics:menril_log_filled>], 20);
 
-<recipetype:thermal:press>.addRecipe("liquid_amber_root", [], <fluid:kubejs:liquid_amber_root> * 250, [<item:betterendforge:amber_root_raw>], 500);
-<recipetype:thermal:press>.addRecipe("liquid_blossom_berry", [], <fluid:kubejs:liquid_blossom_berry> * 500, [<item:betterendforge:blossom_berry>], 500);
-<recipetype:thermal:press>.addRecipe("liquid_blue_vine", [], <fluid:kubejs:liquid_blue_vine> * 1000, [<item:betterendforge:blue_vine_lantern>], 500);
-<recipetype:thermal:press>.addRecipe("liquid_bulb_vine", [], <fluid:kubejs:liquid_bulb_vine> * 500, [<item:betterendforge:glowing_bulb>], 500);
-<recipetype:thermal:press>.addRecipe("liquid_chorus_mushroom", [], <fluid:kubejs:liquid_chorus_mushroom> * 100, [<item:betterendforge:chorus_mushroom_raw>], 500);
-<recipetype:thermal:press>.addRecipe("liquid_end_lily", [], <fluid:kubejs:liquid_end_lily> * 150, [<item:betterendforge:end_lily_leaf>], 500);
-<recipetype:thermal:press>.addRecipe("liquid_end_lotus", [], <fluid:kubejs:liquid_end_lotus> * 250, [<item:betterendforge:end_lotus_stem>], 500);
-<recipetype:thermal:press>.addRecipe("liquid_glowing_pillar", [], <fluid:kubejs:liquid_glowing_pillar> * 1000, [<item:betterendforge:glowing_pillar_luminophor>], 500);
-<recipetype:thermal:press>.addRecipe("liquid_lumecorn", [], <fluid:kubejs:liquid_lumecorn> * 250, [<item:betterendforge:lumecorn_rod>], 500);
-<recipetype:thermal:press>.addRecipe("liquid_shadow_berry", [], <fluid:kubejs:liquid_shadow_berry> * 500, [<item:betterendforge:shadow_berry_raw>], 500);
+<recipetype:thermal:press>.addRecipe("liquid_amber_root", [], <fluid:kubejs:liquid_amber_root> * 250, [<item:betterendforge:amber_root_raw>], 20);
+<recipetype:thermal:press>.addRecipe("liquid_blossom_berry", [], <fluid:kubejs:liquid_blossom_berry> * 500, [<item:betterendforge:blossom_berry>], 20);
+<recipetype:thermal:press>.addRecipe("liquid_blue_vine", [], <fluid:kubejs:liquid_blue_vine> * 1000, [<item:betterendforge:blue_vine_lantern>], 20);
+<recipetype:thermal:press>.addRecipe("liquid_bulb_vine", [], <fluid:kubejs:liquid_bulb_vine> * 500, [<item:betterendforge:glowing_bulb>], 20);
+<recipetype:thermal:press>.addRecipe("liquid_chorus_mushroom", [], <fluid:kubejs:liquid_chorus_mushroom> * 100, [<item:betterendforge:chorus_mushroom_raw>], 20);
+<recipetype:thermal:press>.addRecipe("liquid_end_lily", [], <fluid:kubejs:liquid_end_lily> * 150, [<item:betterendforge:end_lily_leaf>], 20);
+<recipetype:thermal:press>.addRecipe("liquid_end_lotus", [], <fluid:kubejs:liquid_end_lotus> * 250, [<item:betterendforge:end_lotus_stem>], 20);
+<recipetype:thermal:press>.addRecipe("liquid_glowing_pillar", [], <fluid:kubejs:liquid_glowing_pillar> * 1000, [<item:betterendforge:glowing_pillar_luminophor>], 20);
+<recipetype:thermal:press>.addRecipe("liquid_lumecorn", [], <fluid:kubejs:liquid_lumecorn> * 250, [<item:betterendforge:lumecorn_rod>], 20);
+<recipetype:thermal:press>.addRecipe("liquid_shadow_berry", [], <fluid:kubejs:liquid_shadow_berry> * 500, [<item:betterendforge:shadow_berry_raw>], 20);
 
-<recipetype:thermal:press>.addRecipe("graphite_electrode", [<item:immersiveengineering:graphite_electrode>.withTag({graphDmg: 0 as int})], <fluid:minecraft:empty>, [<tag:items:forge:ingots/hop_graphite>*4, <item:immersiveengineering:mold_rod>], 5000);
+<recipetype:thermal:press>.addRecipe("graphite_electrode", [<item:immersiveengineering:graphite_electrode>.withTag({graphDmg: 0 as int})], <fluid:minecraft:empty>, [<tag:items:forge:ingots/hop_graphite>*4, <item:immersiveengineering:mold_rod>], 20);
 
 
 
@@ -56,20 +56,20 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 //craftingTable.removeRecipe(<item:thermal:fluid_cell_frame>);
 
 // <recipetype:thermal:bottler>.addRecipe(String name, IItemStack output, IIngredient ingredient, IFluidStack fluidInput, int energy);
-<recipetype:thermal:bottler>.addRecipe("black_iron_ingot", <item:extendedcrafting:black_iron_ingot>, <item:minecraft:iron_ingot>, <fluid:tconstruct:blazing_blood> *125, 500);
+<recipetype:thermal:bottler>.addRecipe("black_iron_ingot", <item:extendedcrafting:black_iron_ingot>, <item:minecraft:iron_ingot>, <fluid:tconstruct:blazing_blood> *125, 20);
 //handled by bottler.js <recipetype:thermal:bottler>.addRecipe("black_iron_block", <item:extendedcrafting:black_iron_block>, <item:minecraft:iron_block>, <fluid:tconstruct:blazing_blood> *1125, 500);
 
-<recipetype:thermal:bottler>.addRecipe("basalz_powder", <item:thermal:basalz_powder>, <item:emendatusenigmatica:obsidian_dust>, <fluid:industrialforegoing:essence> *250, 500);
+<recipetype:thermal:bottler>.addRecipe("basalz_powder", <item:thermal:basalz_powder>, <item:emendatusenigmatica:obsidian_dust>, <fluid:industrialforegoing:essence> *250, 20);
 
-<recipetype:thermal:bottler>.addRecipe("blaze_powder", <item:minecraft:blaze_powder>, <item:emendatusenigmatica:sulfur_dust>, <fluid:industrialforegoing:essence> *250, 500);
+<recipetype:thermal:bottler>.addRecipe("blaze_powder", <item:minecraft:blaze_powder>, <item:emendatusenigmatica:sulfur_dust>, <fluid:industrialforegoing:essence> *250, 20);
 
-<recipetype:thermal:bottler>.addRecipe("blitz_powder", <item:thermal:blitz_powder>, <item:emendatusenigmatica:potassium_nitrate_dust>, <fluid:industrialforegoing:essence> *250, 500);
+<recipetype:thermal:bottler>.addRecipe("blitz_powder", <item:thermal:blitz_powder>, <item:emendatusenigmatica:potassium_nitrate_dust>, <fluid:industrialforegoing:essence> *250, 20);
 
-<recipetype:thermal:bottler>.addRecipe("blizz_powder", <item:thermal:blizz_powder>, <item:minecraft:snowball>, <fluid:industrialforegoing:essence> *250, 500);
+<recipetype:thermal:bottler>.addRecipe("blizz_powder", <item:thermal:blizz_powder>, <item:minecraft:snowball>, <fluid:industrialforegoing:essence> *250, 20);
 
-<recipetype:thermal:bottler>.addRecipe("sky_stone", <item:appliedenergistics2:sky_stone_block>, <item:minecraft:basalt>, <fluid:kubejs:molten_blitz> *250, 500);
+<recipetype:thermal:bottler>.addRecipe("sky_stone", <item:appliedenergistics2:sky_stone_block>, <item:minecraft:basalt>, <fluid:kubejs:molten_blitz> *250, 20);
 
-<recipetype:thermal:bottler>.addRecipe("end_stone", <item:minecraft:end_stone>, <tag:items:forge:sandstone>, <fluid:thermal:ender> *250, 500);
+<recipetype:thermal:bottler>.addRecipe("end_stone", <item:minecraft:end_stone>, <tag:items:forge:sandstone>, <fluid:thermal:ender> *250, 20);
 
 
 // <recipetype:thermal:insolator>.addRecipe(String name, MCWeightedItemStack[] outputs, IIngredient ingredient, int fluidAmount, int energy);
@@ -78,21 +78,21 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 //set up certus quartz to liquid and process to charged
 
 // <recipetype:thermal:crucible>.addRecipe(String name, IFluidStack output, IIngredient ingredient, int energy);
-<recipetype:thermal:crucible>.addRecipe("certus_fluid", <fluid:emendatusenigmatica:molten_certus_quartz> * 144, <item:appliedenergistics2:certus_quartz_crystal>, 500);
+<recipetype:thermal:crucible>.addRecipe("certus_fluid", <fluid:emendatusenigmatica:molten_certus_quartz> * 144, <item:appliedenergistics2:certus_quartz_crystal>, 20);
 //<recipetype:thermal:crucible>.addRecipe("charged_certus_fluid", <fluid:emendatusenigmatica:molten_charged_certus_quartz> * 144, <item:appliedenergistics2:charged_certus_quartz_crystal>, 500);
 //handled by kubejs <recipetype:thermal:crucible>.addRecipe("fluix_fluid", <fluid:emendatusenigmatica:molten_fluix> * 144, <item:appliedenergistics2:fluix_crystal>, 500);
 
 
-<recipetype:thermal:crucible>.addRecipe("blaze_fluid", <fluid:tconstruct:blazing_blood> * 250, <item:minecraft:blaze_powder>, 500);
+<recipetype:thermal:crucible>.addRecipe("blaze_fluid", <fluid:tconstruct:blazing_blood> * 250, <item:minecraft:blaze_powder>, 20);
 
 //experience pearls
-<recipetype:thermal:crucible>.addRecipe("experience_pearl_x0", <fluid:industrialforegoing:essence> * 250, <item:miniutilities:experience_pearl>, 500);
-<recipetype:thermal:crucible>.addRecipe("experience_pearl_x1", <fluid:industrialforegoing:essence> * 2000, <item:miniutilities:experience_pearl_1x>, 500);
-<recipetype:thermal:crucible>.addRecipe("experience_pearl_x2", <fluid:industrialforegoing:essence> * 16000, <item:miniutilities:experience_pearl_2x>, 500);
-<recipetype:thermal:crucible>.addRecipe("experience_pearl_x3", <fluid:industrialforegoing:essence> * 128000, <item:miniutilities:experience_pearl_3x>, 500);
+<recipetype:thermal:crucible>.addRecipe("experience_pearl_x0", <fluid:industrialforegoing:essence> * 250, <item:miniutilities:experience_pearl>, 20);
+<recipetype:thermal:crucible>.addRecipe("experience_pearl_x1", <fluid:industrialforegoing:essence> * 2000, <item:miniutilities:experience_pearl_1x>, 20);
+<recipetype:thermal:crucible>.addRecipe("experience_pearl_x2", <fluid:industrialforegoing:essence> * 16000, <item:miniutilities:experience_pearl_2x>, 20);
+<recipetype:thermal:crucible>.addRecipe("experience_pearl_x3", <fluid:industrialforegoing:essence> * 128000, <item:miniutilities:experience_pearl_3x>, 20);
 
 //pink slime
-<recipetype:thermal:crucible>.addRecipe("pink_slime", <fluid:industrialforegoing:pink_slime> * 250, <item:industrialforegoing:pink_slime>, 500);
+<recipetype:thermal:crucible>.addRecipe("pink_slime", <fluid:industrialforegoing:pink_slime> * 250, <item:industrialforegoing:pink_slime>, 20);
 
 
 // <recipetype:thermal:chiller>.addRecipe(String name, IItemStack output, IIngredient ingredient, IFluidStack inputFluid, int energy);
@@ -100,13 +100,13 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 //<recipetype:thermal:chiller>.addRecipe("chiller_test_with_cast", <item:minecraft:glass>, <item:thermal:chiller_ball_cast>, <fluid:thermal:resin> *250, 500);
 //<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:industrialforegoing:essence> * 250, 500);
 //<recipetype:thermal:bottler>.addRecipe("bottler_experience_pearl", <item:miniutilities:experience_pearl>, <item:minecraft:air>, <fluid:cofh_core:experience> * 250, 500);
-<recipetype:thermal:pulverizer>.addRecipe("clear_shard", [<item:quark:clear_shard> * 4 % 100] , <tag:items:forge:glass>, 0.1, 9000);
-<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl_if", <item:miniutilities:experience_pearl>, <item:thermal:chiller_ball_cast>, <fluid:industrialforegoing:essence> * 250, 500);
-<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl_cofh", <item:miniutilities:experience_pearl>, <item:thermal:chiller_ball_cast>, <fluid:cofh_core:experience> * 250, 500);
-<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl_sb", <item:miniutilities:experience_pearl>, <item:thermal:chiller_ball_cast>,  <fluid:sophisticatedbackpacks:xp_still> * 250, 500);
+<recipetype:thermal:pulverizer>.addRecipe("clear_shard", [<item:quark:clear_shard> * 4 % 100] , <tag:items:forge:glass>, 0.1, 20);
+<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl_if", <item:miniutilities:experience_pearl>, <item:thermal:chiller_ball_cast>, <fluid:industrialforegoing:essence> * 250, 20);
+<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl_cofh", <item:miniutilities:experience_pearl>, <item:thermal:chiller_ball_cast>, <fluid:cofh_core:experience> * 250, 20);
+<recipetype:thermal:chiller>.addRecipe("chiller_experience_pearl_sb", <item:miniutilities:experience_pearl>, <item:thermal:chiller_ball_cast>,  <fluid:sophisticatedbackpacks:xp_still> * 250, 20);
 
 
-<recipetype:thermal:bottler>.addRecipe("charged_certus", <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:thermal:lightning_charge>, <fluid:emendatusenigmatica:molten_certus_quartz> *144, 500);
+<recipetype:thermal:bottler>.addRecipe("charged_certus", <item:appliedenergistics2:charged_certus_quartz_crystal>, <item:thermal:lightning_charge>, <fluid:emendatusenigmatica:molten_certus_quartz> *144, 20);
 
 // <recipetype:thermal:pulverizer>.addRecipe(String name, MCWeightedItemStack[] outputs, IIngredient ingredient, float experience, int energy);
 /*
@@ -116,16 +116,16 @@ craftingTable.removeRecipe(<item:thermal:watering_can>);
 <recipetype:thermal:pulverizer>.addRecipe("betterend_endstone", [<item:betterendforge:endstone_dust> * 3 % 100] , <item:exnihilosequentia:crushed_end_stone>, 0.1, 500);
 */
 
-<recipetype:thermal:pulverizer>.addRecipe("monazite_gem_processing", [<item:chemlib:element_cerium> * 4 % 100, <item:chemlib:element_lanthanum> * 4 % 100, <item:chemlib:element_thorium> * 6 % 100] , <item:kubejs:monazite_gem>, 0.1, 500);
+<recipetype:thermal:pulverizer>.addRecipe("monazite_gem_processing", [<item:chemlib:element_cerium> * 4 % 100, <item:chemlib:element_lanthanum> * 4 % 100, <item:chemlib:element_thorium> * 6 % 100] , <item:kubejs:monazite_gem>, 0.1, 20);
 
-<recipetype:thermal:smelter>.addRecipe("crystalline_pink_slime_ingot", [<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime> % 100], [<item:enderioalloys:item_material_pulsating_powder>, <item:industrialforegoing:pink_slime_ingot>], 0.1, 9000);
+<recipetype:thermal:smelter>.addRecipe("crystalline_pink_slime_ingot", [<item:enderioalloys:item_alloy_ingot_crystalline_pink_slime> % 100], [<item:enderioalloys:item_material_pulsating_powder>, <item:industrialforegoing:pink_slime_ingot>], 0.1, 20);
 <recipetype:thermal:pulverizer>.addRecipe("pulsating_powder", [<item:enderioalloys:item_material_pulsating_powder> * 1 % 100] , <item:enderioalloys:item_material_pulsating_crystal>, 0.1, 9000);
 /*
 <recipetype:thermal:smelter>.addRecipe("terminite_alloy", [<item:betterendforge:terminite_ingot> % 100], [<item:emendatusenigmatica:enderium_dust>, <item:minecraft:iron_ingot>], 0.1, 500);
 
 <recipetype:thermal:smelter>.addRecipe("aeternium_alloy", [<item:betterendforge:aeternium_ingot> % 100], [<item:betterendforge:terminite_ingot>, <item:minecraft:netherite_ingot>], 0.1, 500);
 */
-<recipetype:thermal:smelter>.addRecipe("fluix_crystal", [<item:appliedenergistics2:fluix_crystal> % 200], [<item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:quartz>, <item:minecraft:redstone>], 0.1, 1000);
+<recipetype:thermal:smelter>.addRecipe("fluix_crystal", [<item:appliedenergistics2:fluix_crystal> % 200], [<item:appliedenergistics2:charged_certus_quartz_crystal>, <item:minecraft:quartz>, <item:minecraft:redstone>], 0.1, 20);
 
 
 craftingTable.removeRecipe(<item:thermal:beekeeper_fabric>);
@@ -151,12 +151,12 @@ craftingTable.addShaped("device_tree_extractor", <item:thermal:device_tree_extra
 //<recipetype:thermal:refinery>.addRecipe("refinery_test_with_item_and_fluid", <item:minecraft:diamond>, [<fluid:minecraft:lava> *100, <fluid:thermal:resin> *100], <fluid:minecraft:water> *500, 500);
 
 
-<recipetype:thermal:refinery>.addRecipe("refinery_ethylene", <item:minecraft:air>, [<fluid:mekanism:ethene> *50], <fluid:kubejs:liquid_ethane> *100, 500); // assuming hydrogenation using hydrogen gas in presence of nickel or palladium catalyst
+<recipetype:thermal:refinery>.addRecipe("refinery_ethylene", <item:minecraft:air>, [<fluid:mekanism:ethene> *50], <fluid:kubejs:liquid_ethane> *100, 20); // assuming hydrogenation using hydrogen gas in presence of nickel or palladium catalyst
 
-<recipetype:thermal:refinery>.addRecipe("refinery_propylene", <item:minecraft:air>, [<fluid:kubejs:liquid_propylene> *50], <fluid:kubejs:liquid_propane> *100, 500); // assuming hydrogenation using hydrogen gas in presence of nickel or palladium catalyst
+<recipetype:thermal:refinery>.addRecipe("refinery_propylene", <item:minecraft:air>, [<fluid:kubejs:liquid_propylene> *50], <fluid:kubejs:liquid_propane> *100, 20); // assuming hydrogenation using hydrogen gas in presence of nickel or palladium catalyst
 
-<recipetype:thermal:bottler>.addRecipe("ethylene_to_hdpe", <item:mekanism:hdpe_pellet> *1, <item:chemlib:element_oxygen>, <fluid:mekanism:ethene> *50, 500);
-<recipetype:thermal:bottler>.addRecipe("propylene_to_rubber", <item:thermal:rubber> *3, <tag:items:forge:dusts/charcoal>, <fluid:kubejs:liquid_propylene> *50, 500);
+<recipetype:thermal:bottler>.addRecipe("ethylene_to_hdpe", <item:mekanism:hdpe_pellet> *1, <item:chemlib:element_oxygen>, <fluid:mekanism:ethene> *50, 20);
+<recipetype:thermal:bottler>.addRecipe("propylene_to_rubber", <item:thermal:rubber> *3, <tag:items:forge:dusts/charcoal>, <fluid:kubejs:liquid_propylene> *50, 20);
 
 
 //<recipetype:thermal:press>.addRecipe("hdpe_sheet", [<item:mekanism:hdpe_sheet> % 100], <fluid:minecraft:empty>, [<item:mekanism:hdpe_pellet> *3], 500);
@@ -205,73 +205,73 @@ craftingTable.addShaped("machine_smelter", <item:thermal:machine_smelter>, [
 ]);
 
 // misc
-<recipetype:thermal:pulverizer>.addRecipe("plain_mulch", [<item:inspirations:plain_mulch> * 1 % 100] , <tag:items:minecraft:planks>, 0.1, 500);
+<recipetype:thermal:pulverizer>.addRecipe("plain_mulch", [<item:inspirations:plain_mulch> * 1 % 100] , <tag:items:minecraft:planks>, 0.1, 20);
 
 /*
 craftingTable.removeRecipe(<item:thermal:rubber>);
 craftingTable.addShapeless("rubber", <item:thermal:rubber> * 1, 
 [<item:thermal:latex_bucket>]);
 */
-<recipetype:thermal:press>.addRecipe("hop_graphite", [<item:immersiveengineering:dust_hop_graphite> % 100], <fluid:minecraft:empty>, [<item:emendatusenigmatica:coke_dust> *8], 19200);
+<recipetype:thermal:press>.addRecipe("hop_graphite", [<item:immersiveengineering:dust_hop_graphite> % 100], <fluid:minecraft:empty>, [<item:emendatusenigmatica:coke_dust> *8], 20);
 
 
 // Chemical stuff
 
 // <recipetype:thermal:pyrolyzer>.addRecipe(String name, MCWeightedItemStack[] outputs, IFluidStack outputFluid, IIngredient ingredient, int energy);
 //<recipetype:thermal:pyrolyzer>.addRecipe("sulfur_dioxide_fluid", [<item:minecraft:air> %0], <fluid:mekanism:sulfur_dioxide> *100, <item:emendatusenigmatica:sulfur_dust>, 500);
-<recipetype:thermal:crucible>.addRecipe("sulfur_dioxide_fluid", <fluid:mekanism:sulfur_dioxide> *100, <item:emendatusenigmatica:sulfur_dust>, 800);
+<recipetype:thermal:crucible>.addRecipe("sulfur_dioxide_fluid", <fluid:mekanism:sulfur_dioxide> *100, <item:emendatusenigmatica:sulfur_dust>, 20);
 
 // <recipetype:thermal:refinery>.addRecipe(String name, MCWeightedItemStack itemOutput, IFluidStack[] fluidsOutput, IFluidStack inputFluid, int energy);
-<recipetype:thermal:refinery>.addRecipe("compound_sulfur_dioxide", <item:chemlib:compound_sulfur_dioxide>, [<fluid:minecraft:empty>], <fluid:mekanism:sulfur_dioxide> *100, 500);
+<recipetype:thermal:refinery>.addRecipe("compound_sulfur_dioxide", <item:chemlib:compound_sulfur_dioxide>, [<fluid:minecraft:empty>], <fluid:mekanism:sulfur_dioxide> *100, 20);
 
-<recipetype:thermal:bottler>.addRecipe("compound_sulfur_trioxide", <item:chemlib:compound_sulfur_trioxide>, <item:chemlib:compound_sulfur_dioxide>, <fluid:mekanism:oxygen> *50, 500);
+<recipetype:thermal:bottler>.addRecipe("compound_sulfur_trioxide", <item:chemlib:compound_sulfur_trioxide>, <item:chemlib:compound_sulfur_dioxide>, <fluid:mekanism:oxygen> *50, 20);
 
 //<recipetype:thermal:pyrolyzer>.addRecipe("sulfur_trioxide_fluid", [<item:minecraft:air> %0], <fluid:mekanism:sulfur_trioxide> *100, <item:chemlib:compound_sulfur_trioxide>, 500);
-<recipetype:thermal:crucible>.addRecipe("sulfur_trioxide_fluid", <fluid:mekanism:sulfur_trioxide> *100, <item:chemlib:compound_sulfur_trioxide>, 800);
+<recipetype:thermal:crucible>.addRecipe("sulfur_trioxide_fluid", <fluid:mekanism:sulfur_trioxide> *100, <item:chemlib:compound_sulfur_trioxide>, 20);
 
 //<recipetype:thermal:refinery>.addRecipe("compound_water", <item:chemlib:compound_water> * 8, [<fluid:minecraft:empty>], <fluid:minecraft:water> * 500, 500);
 // <recipetype:thermal:crucible>.addRecipe(String name, IFluidStack output, IIngredient ingredient, int energy);
-<recipetype:thermal:crucible>.addRecipe("compound_water", <fluid:minecraft:water> * 500, <item:chemlib:compound_water> * 8, 800);
+<recipetype:thermal:crucible>.addRecipe("compound_water", <fluid:minecraft:water> * 500, <item:chemlib:compound_water> * 8, 20);
 
-<recipetype:thermal:bottler>.addRecipe("compound_sulfuric_acid", <item:chemlib:compound_sulfuric_acid> * 5, <item:chemlib:compound_water> * 8, <fluid:mekanism:sulfur_trioxide> *500, 500);
+<recipetype:thermal:bottler>.addRecipe("compound_sulfuric_acid", <item:chemlib:compound_sulfuric_acid> * 5, <item:chemlib:compound_water> * 8, <fluid:mekanism:sulfur_trioxide> *500, 20);
 
 //<recipetype:thermal:pyrolyzer>.addRecipe("sulfuric_acid_fluid", [<item:minecraft:air> %0], <fluid:mekanism:sulfuric_acid> *25, <item:chemlib:compound_sulfuric_acid>, 500);
-<recipetype:thermal:crucible>.addRecipe("sulfuric_acid_fluid", <fluid:mekanism:sulfuric_acid> *25, <item:chemlib:compound_sulfuric_acid>, 800);
+<recipetype:thermal:crucible>.addRecipe("sulfuric_acid_fluid", <fluid:mekanism:sulfuric_acid> *25, <item:chemlib:compound_sulfuric_acid>, 20);
 
-<recipetype:thermal:pyrolyzer>.addRecipe("oxygen_from_flint", [<item:minecraft:air> %0], <fluid:mekanism:oxygen> *10, <item:minecraft:flint>, 500);
+<recipetype:thermal:pyrolyzer>.addRecipe("oxygen_from_flint", [<item:minecraft:air> %0], <fluid:mekanism:oxygen> *10, <item:minecraft:flint>, 20);
 
 //<recipetype:thermal:refinery>.addRecipe("element_oxygen", <item:chemlib:element_oxygen> * 8, [<fluid:minecraft:empty>], <fluid:mekanism:oxygen> *500, 500);
-<recipetype:thermal:crucible>.addRecipe("element_oxygen", <fluid:mekanism:oxygen> *500, <item:chemlib:element_oxygen> * 8, 800);
+<recipetype:thermal:crucible>.addRecipe("element_oxygen", <fluid:mekanism:oxygen> *500, <item:chemlib:element_oxygen> * 8, 20);
 
-<recipetype:thermal:crucible>.addRecipe("element_nitrogen", <fluid:kubejs:liquid_nitrogen> *500, <item:chemlib:element_nitrogen> * 8, 800);
+<recipetype:thermal:crucible>.addRecipe("element_nitrogen", <fluid:kubejs:liquid_nitrogen> *500, <item:chemlib:element_nitrogen> * 8, 20);
 
 
-<recipetype:thermal:refinery>.addRecipe("liquid_refined_glue", <item:thermal:rosin> % 50, [<fluid:thermal:tree_oil> * 100, <fluid:kubejs:liquid_refined_glue> * 50], <fluid:thermal:resin> * 200, 4000);
+<recipetype:thermal:refinery>.addRecipe("liquid_refined_glue", <item:thermal:rosin> % 50, [<fluid:thermal:tree_oil> * 100, <fluid:kubejs:liquid_refined_glue> * 50], <fluid:thermal:resin> * 200, 20);
 
-<recipetype:thermal:crucible>.addRecipe("compound_sucrose", <fluid:kubejs:molten_sugar> *144, <item:chemlib:compound_sucrose> * 1, 800);
+<recipetype:thermal:crucible>.addRecipe("compound_sucrose", <fluid:kubejs:molten_sugar> *144, <item:chemlib:compound_sucrose> * 1, 20);
 
-<recipetype:thermal:refinery>.addRecipe("oxygen_from_fluid", <item:chemlib:element_oxygen>*8, [<fluid:minecraft:empty>], <fluid:mekanism:oxygen> *500, 800);
+<recipetype:thermal:refinery>.addRecipe("oxygen_from_fluid", <item:chemlib:element_oxygen>*8, [<fluid:minecraft:empty>], <fluid:mekanism:oxygen> *500, 20);
 
-<recipetype:thermal:refinery>.addRecipe("nitrogen_from_fluid", <item:chemlib:element_nitrogen>*8, [<fluid:minecraft:empty>], <fluid:kubejs:liquid_nitrogen> *500, 800);
+<recipetype:thermal:refinery>.addRecipe("nitrogen_from_fluid", <item:chemlib:element_nitrogen>*8, [<fluid:minecraft:empty>], <fluid:kubejs:liquid_nitrogen> *500, 20);
 
 
 //6 times materials ore processing
 //calcium carbonate + acetic acid -> calcium acetate
-<recipetype:thermal:bottler>.addRecipe("calcium_acetate_reaction", <item:kubejs:calcium_acetate>, <item:chemlib:compound_calcium_carbonate>, <fluid:kubejs:liquid_vinegar> *250, 500);
+<recipetype:thermal:bottler>.addRecipe("calcium_acetate_reaction", <item:kubejs:calcium_acetate>, <item:chemlib:compound_calcium_carbonate>, <fluid:kubejs:liquid_vinegar> *250, 20);
 
 // <recipetype:thermal:centrifuge>.addRecipe(String name, MCWeightedItemStack[] outputs, IFluidStack outputFluid, IIngredient ingredient, int energy);
 // calcium acetate -> calcium carbonate + liquid acetone
-<recipetype:thermal:centrifuge>.addRecipe("liquid_acetone_centrifuge", [<item:chemlib:compound_calcium_carbonate> % 100], <fluid:kubejs:liquid_acetone> *250, <item:kubejs:calcium_acetate>, 500);
+<recipetype:thermal:centrifuge>.addRecipe("liquid_acetone_centrifuge", [<item:chemlib:compound_calcium_carbonate> % 100], <fluid:kubejs:liquid_acetone> *250, <item:kubejs:calcium_acetate>, 20);
 
 //calcium carbonate handled by chemical disolver (coral, eggs, shells, travertine)
 
 //terpentine for DIP
-<recipetype:thermal:refinery>.addRecipe("refinery_terpentine", <item:thermal:rosin>, [<fluid:kubejs:liquid_turpentine> *50], <fluid:kubejs:liquid_pine_resin> *100, 500);
+<recipetype:thermal:refinery>.addRecipe("refinery_terpentine", <item:thermal:rosin>, [<fluid:kubejs:liquid_turpentine> *50], <fluid:kubejs:liquid_pine_resin> *100, 20);
 
 //chemical reactor stuff handled by custommachinery_recipes.js
 
 //8 times materials
-<recipetype:thermal:refinery>.addRecipe("refinery_carbonic_acid", <item:minecraft:air> %0, [<fluid:kubejs:liquid_carbonic_acid> *250], <fluid:kubejs:liquid_carbonated_water> *500, 500);
+<recipetype:thermal:refinery>.addRecipe("refinery_carbonic_acid", <item:minecraft:air> %0, [<fluid:kubejs:liquid_carbonic_acid> *250], <fluid:kubejs:liquid_carbonated_water> *500, 20);
 
 //actual processing
 
@@ -280,34 +280,34 @@ craftingTable.addShapeless("rubber", <item:thermal:rubber> * 1,
 //Enricher stuff handled by dissolution.js
 
 // <recipetype:thermal:bottler>.addRecipe(String name, IItemStack output, IIngredient ingredient, IFluidStack fluidInput, int energy);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_aluminum", <item:kubejs:dry_cleaned_aluminum>, <item:kubejs:irradiated_aluminum>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_cobalt", <item:kubejs:dry_cleaned_cobalt>, <item:kubejs:irradiated_cobalt>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_copper", <item:kubejs:dry_cleaned_copper>, <item:kubejs:irradiated_copper>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_gold", <item:kubejs:dry_cleaned_gold>, <item:kubejs:irradiated_gold>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_iron", <item:kubejs:dry_cleaned_iron>, <item:kubejs:irradiated_iron>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_lead", <item:kubejs:dry_cleaned_lead>, <item:kubejs:irradiated_lead>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_nickel", <item:kubejs:dry_cleaned_nickel>, <item:kubejs:irradiated_nickel>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_osmium", <item:kubejs:dry_cleaned_osmium>, <item:kubejs:irradiated_osmium>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_silver", <item:kubejs:dry_cleaned_silver>, <item:kubejs:irradiated_silver>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_thallasium", <item:kubejs:dry_cleaned_thallasium>, <item:kubejs:irradiated_thallasium>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_tin", <item:kubejs:dry_cleaned_tin>, <item:kubejs:irradiated_tin>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_uranium", <item:kubejs:dry_cleaned_uranium>, <item:kubejs:irradiated_uranium>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
-<recipetype:thermal:bottler>.addRecipe("dry_cleaned_zinc", <item:kubejs:dry_cleaned_zinc>, <item:kubejs:irradiated_zinc>, <fluid:kubejs:liquid_perchloroethylene> *100, 500);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_aluminum", <item:kubejs:dry_cleaned_aluminum>, <item:kubejs:irradiated_aluminum>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_cobalt", <item:kubejs:dry_cleaned_cobalt>, <item:kubejs:irradiated_cobalt>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_copper", <item:kubejs:dry_cleaned_copper>, <item:kubejs:irradiated_copper>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_gold", <item:kubejs:dry_cleaned_gold>, <item:kubejs:irradiated_gold>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_iron", <item:kubejs:dry_cleaned_iron>, <item:kubejs:irradiated_iron>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_lead", <item:kubejs:dry_cleaned_lead>, <item:kubejs:irradiated_lead>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_nickel", <item:kubejs:dry_cleaned_nickel>, <item:kubejs:irradiated_nickel>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_osmium", <item:kubejs:dry_cleaned_osmium>, <item:kubejs:irradiated_osmium>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_silver", <item:kubejs:dry_cleaned_silver>, <item:kubejs:irradiated_silver>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_thallasium", <item:kubejs:dry_cleaned_thallasium>, <item:kubejs:irradiated_thallasium>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_tin", <item:kubejs:dry_cleaned_tin>, <item:kubejs:irradiated_tin>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_uranium", <item:kubejs:dry_cleaned_uranium>, <item:kubejs:irradiated_uranium>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
+<recipetype:thermal:bottler>.addRecipe("dry_cleaned_zinc", <item:kubejs:dry_cleaned_zinc>, <item:kubejs:irradiated_zinc>, <fluid:kubejs:liquid_perchloroethylene> *100, 20);
 
 // <recipetype:thermal:press>.addRecipe(String name, MCWeightedItemStack[] outputs, IFluidStack outputFluid, IIngredient[] ingredients, int energy);
-<recipetype:thermal:press>.addRecipe("clean_pressed_aluminum", [<item:kubejs:clean_pressed_aluminum> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_aluminum>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_cobalt", [<item:kubejs:clean_pressed_cobalt> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_cobalt>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_copper", [<item:kubejs:clean_pressed_copper> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_copper>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_gold", [<item:kubejs:clean_pressed_gold> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_gold>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_iron", [<item:kubejs:clean_pressed_iron> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_iron>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_lead", [<item:kubejs:clean_pressed_lead> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_lead>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_nickel", [<item:kubejs:clean_pressed_nickel> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_nickel>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_osmium", [<item:kubejs:clean_pressed_osmium> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_osmium>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_silver", [<item:kubejs:clean_pressed_silver> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_silver>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_thallasium", [<item:kubejs:clean_pressed_thallasium> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_thallasium>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_tin", [<item:kubejs:clean_pressed_tin> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_tin>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_uranium", [<item:kubejs:clean_pressed_uranium> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_uranium>], 5000);
-<recipetype:thermal:press>.addRecipe("clean_pressed_zinc", [<item:kubejs:clean_pressed_zinc> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_zinc>], 5000);
+<recipetype:thermal:press>.addRecipe("clean_pressed_aluminum", [<item:kubejs:clean_pressed_aluminum> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_aluminum>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_cobalt", [<item:kubejs:clean_pressed_cobalt> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_cobalt>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_copper", [<item:kubejs:clean_pressed_copper> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_copper>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_gold", [<item:kubejs:clean_pressed_gold> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_gold>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_iron", [<item:kubejs:clean_pressed_iron> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_iron>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_lead", [<item:kubejs:clean_pressed_lead> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_lead>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_nickel", [<item:kubejs:clean_pressed_nickel> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_nickel>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_osmium", [<item:kubejs:clean_pressed_osmium> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_osmium>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_silver", [<item:kubejs:clean_pressed_silver> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_silver>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_thallasium", [<item:kubejs:clean_pressed_thallasium> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_thallasium>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_tin", [<item:kubejs:clean_pressed_tin> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_tin>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_uranium", [<item:kubejs:clean_pressed_uranium> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_uranium>], 20);
+<recipetype:thermal:press>.addRecipe("clean_pressed_zinc", [<item:kubejs:clean_pressed_zinc> *4], <fluid:minecraft:empty>, [<item:kubejs:dry_cleaned_zinc>], 20);
 //This concludes 8x
 
 //7 times materials
@@ -319,58 +319,58 @@ craftingTable.addShapeless("rubber", <item:thermal:rubber> * 1,
 
 // <recipetype:thermal:centrifuge>.addRecipe(String name, MCWeightedItemStack[] outputs, IFluidStack outputFluid, IIngredient ingredient, int energy);
 // centrifuge - bonsai
-<recipetype:thermal:centrifuge>.addRecipe("basic_power_flower", [<item:projectexpansion:basic_compressed_collector> * 2, <item:projectexpansion:basic_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:basic_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("dark_power_flower", [<item:projectexpansion:dark_compressed_collector> * 2, <item:projectexpansion:dark_relay> * 6, <item:projectexpansion:dark_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:dark_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("red_power_flower", [<item:projectexpansion:red_compressed_collector> * 2, <item:projectexpansion:red_relay> * 6, <item:projectexpansion:red_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:red_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("magenta_power_flower", [<item:projectexpansion:magenta_compressed_collector> * 2, <item:projectexpansion:magenta_relay> * 6, <item:projectexpansion:magenta_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:magenta_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("pink_power_flower", [<item:projectexpansion:pink_compressed_collector> * 2, <item:projectexpansion:pink_relay> * 6, <item:projectexpansion:pink_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:pink_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("purple_power_flower", [<item:projectexpansion:purple_compressed_collector> * 2, <item:projectexpansion:purple_relay> * 6, <item:projectexpansion:purple_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:purple_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("violet_power_flower", [<item:projectexpansion:violet_compressed_collector> * 2, <item:projectexpansion:violet_relay> * 6, <item:projectexpansion:violet_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:violet_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("blue_power_flower", [<item:projectexpansion:blue_compressed_collector> * 2, <item:projectexpansion:blue_relay> * 6, <item:projectexpansion:blue_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:blue_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("cyan_power_flower", [<item:projectexpansion:cyan_compressed_collector> * 2, <item:projectexpansion:cyan_relay> * 6, <item:projectexpansion:cyan_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:cyan_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("green_power_flower", [<item:projectexpansion:green_compressed_collector> * 2, <item:projectexpansion:green_relay> * 6, <item:projectexpansion:green_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:green_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("lime_power_flower", [<item:projectexpansion:lime_compressed_collector> * 2, <item:projectexpansion:lime_relay> * 6, <item:projectexpansion:lime_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:lime_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("yellow_power_flower", [<item:projectexpansion:yellow_compressed_collector> * 2, <item:projectexpansion:yellow_relay> * 6, <item:projectexpansion:yellow_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:yellow_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("orange_power_flower", [<item:projectexpansion:orange_compressed_collector> * 2, <item:projectexpansion:orange_relay> * 6, <item:projectexpansion:orange_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:orange_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("white_power_flower", [<item:projectexpansion:white_compressed_collector> * 2, <item:projectexpansion:white_relay> * 6, <item:projectexpansion:white_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:white_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("fading_power_flower", [<item:projectexpansion:fading_compressed_collector> * 2, <item:projectexpansion:fading_relay> * 6, <item:projectexpansion:fading_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:fading_power_flower>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("final_power_flower", [<item:projectexpansion:final_compressed_collector> * 2, <item:projectexpansion:final_relay> * 6, <item:projectexpansion:final_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:final_power_flower>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("basic_power_flower", [<item:projectexpansion:basic_compressed_collector> * 2, <item:projectexpansion:basic_relay> * 6, <item:projectexpansion:basic_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:basic_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("dark_power_flower", [<item:projectexpansion:dark_compressed_collector> * 2, <item:projectexpansion:dark_relay> * 6, <item:projectexpansion:dark_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:dark_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("red_power_flower", [<item:projectexpansion:red_compressed_collector> * 2, <item:projectexpansion:red_relay> * 6, <item:projectexpansion:red_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:red_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("magenta_power_flower", [<item:projectexpansion:magenta_compressed_collector> * 2, <item:projectexpansion:magenta_relay> * 6, <item:projectexpansion:magenta_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:magenta_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("pink_power_flower", [<item:projectexpansion:pink_compressed_collector> * 2, <item:projectexpansion:pink_relay> * 6, <item:projectexpansion:pink_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:pink_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("purple_power_flower", [<item:projectexpansion:purple_compressed_collector> * 2, <item:projectexpansion:purple_relay> * 6, <item:projectexpansion:purple_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:purple_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("violet_power_flower", [<item:projectexpansion:violet_compressed_collector> * 2, <item:projectexpansion:violet_relay> * 6, <item:projectexpansion:violet_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:violet_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("blue_power_flower", [<item:projectexpansion:blue_compressed_collector> * 2, <item:projectexpansion:blue_relay> * 6, <item:projectexpansion:blue_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:blue_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("cyan_power_flower", [<item:projectexpansion:cyan_compressed_collector> * 2, <item:projectexpansion:cyan_relay> * 6, <item:projectexpansion:cyan_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:cyan_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("green_power_flower", [<item:projectexpansion:green_compressed_collector> * 2, <item:projectexpansion:green_relay> * 6, <item:projectexpansion:green_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:green_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("lime_power_flower", [<item:projectexpansion:lime_compressed_collector> * 2, <item:projectexpansion:lime_relay> * 6, <item:projectexpansion:lime_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:lime_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("yellow_power_flower", [<item:projectexpansion:yellow_compressed_collector> * 2, <item:projectexpansion:yellow_relay> * 6, <item:projectexpansion:yellow_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:yellow_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("orange_power_flower", [<item:projectexpansion:orange_compressed_collector> * 2, <item:projectexpansion:orange_relay> * 6, <item:projectexpansion:orange_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:orange_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("white_power_flower", [<item:projectexpansion:white_compressed_collector> * 2, <item:projectexpansion:white_relay> * 6, <item:projectexpansion:white_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:white_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("fading_power_flower", [<item:projectexpansion:fading_compressed_collector> * 2, <item:projectexpansion:fading_relay> * 6, <item:projectexpansion:fading_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:fading_power_flower>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("final_power_flower", [<item:projectexpansion:final_compressed_collector> * 2, <item:projectexpansion:final_relay> * 6, <item:projectexpansion:final_emc_link>], <fluid:minecraft:empty>, <item:projectexpansion:final_power_flower>, 20);
 
 //Relays back recipe - Thanks Dasffion
-<recipetype:thermal:centrifuge>.addRecipe("basic_relay", [<item:projecte:relay_mk1>], <fluid:minecraft:empty>, <item:projectexpansion:basic_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("dark_relay", [<item:projecte:relay_mk2>], <fluid:minecraft:empty>, <item:projectexpansion:dark_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("red_relay", [<item:projecte:relay_mk3>], <fluid:minecraft:empty>, <item:projectexpansion:red_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("magenta_relay", [<item:projectexpansion:red_relay>, <item:projectexpansion:magenta_matter>], <fluid:minecraft:empty>, <item:projectexpansion:magenta_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("pink_relay", [<item:projectexpansion:magenta_relay>, <item:projectexpansion:pink_matter>], <fluid:minecraft:empty>, <item:projectexpansion:pink_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("purple_relay", [<item:projectexpansion:pink_relay>, <item:projectexpansion:purple_matter>], <fluid:minecraft:empty>, <item:projectexpansion:purple_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("violet_relay", [<item:projectexpansion:purple_relay>, <item:projectexpansion:violet_matter>], <fluid:minecraft:empty>, <item:projectexpansion:violet_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("blue_relay", [<item:projectexpansion:violet_relay>, <item:projectexpansion:blue_matter>], <fluid:minecraft:empty>, <item:projectexpansion:blue_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("cyan_relay", [<item:projectexpansion:blue_relay>, <item:projectexpansion:cyan_matter>], <fluid:minecraft:empty>, <item:projectexpansion:cyan_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("green_relay", [<item:projectexpansion:cyan_relay>, <item:projectexpansion:green_matter>], <fluid:minecraft:empty>, <item:projectexpansion:green_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("lime_relay", [<item:projectexpansion:green_relay>, <item:projectexpansion:lime_matter>], <fluid:minecraft:empty>, <item:projectexpansion:lime_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("yellow_relay", [<item:projectexpansion:lime_relay>, <item:projectexpansion:yellow_matter>], <fluid:minecraft:empty>, <item:projectexpansion:yellow_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("orange_relay", [<item:projectexpansion:yellow_relay>, <item:projectexpansion:orange_matter>], <fluid:minecraft:empty>, <item:projectexpansion:orange_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("white_relay", [<item:projectexpansion:orange_relay>, <item:projectexpansion:white_matter>], <fluid:minecraft:empty>, <item:projectexpansion:white_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("fading_relay", [<item:projectexpansion:white_relay>, <item:projectexpansion:fading_matter>], <fluid:minecraft:empty>, <item:projectexpansion:fading_relay>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("final_relay", [<item:projectexpansion:fading_relay>, <item:projectexpansion:final_star_shard>], <fluid:minecraft:empty>, <item:projectexpansion:final_relay>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("basic_relay", [<item:projecte:relay_mk1>], <fluid:minecraft:empty>, <item:projectexpansion:basic_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("dark_relay", [<item:projecte:relay_mk2>], <fluid:minecraft:empty>, <item:projectexpansion:dark_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("red_relay", [<item:projecte:relay_mk3>], <fluid:minecraft:empty>, <item:projectexpansion:red_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("magenta_relay", [<item:projectexpansion:red_relay>, <item:projectexpansion:magenta_matter>], <fluid:minecraft:empty>, <item:projectexpansion:magenta_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("pink_relay", [<item:projectexpansion:magenta_relay>, <item:projectexpansion:pink_matter>], <fluid:minecraft:empty>, <item:projectexpansion:pink_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("purple_relay", [<item:projectexpansion:pink_relay>, <item:projectexpansion:purple_matter>], <fluid:minecraft:empty>, <item:projectexpansion:purple_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("violet_relay", [<item:projectexpansion:purple_relay>, <item:projectexpansion:violet_matter>], <fluid:minecraft:empty>, <item:projectexpansion:violet_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("blue_relay", [<item:projectexpansion:violet_relay>, <item:projectexpansion:blue_matter>], <fluid:minecraft:empty>, <item:projectexpansion:blue_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("cyan_relay", [<item:projectexpansion:blue_relay>, <item:projectexpansion:cyan_matter>], <fluid:minecraft:empty>, <item:projectexpansion:cyan_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("green_relay", [<item:projectexpansion:cyan_relay>, <item:projectexpansion:green_matter>], <fluid:minecraft:empty>, <item:projectexpansion:green_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("lime_relay", [<item:projectexpansion:green_relay>, <item:projectexpansion:lime_matter>], <fluid:minecraft:empty>, <item:projectexpansion:lime_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("yellow_relay", [<item:projectexpansion:lime_relay>, <item:projectexpansion:yellow_matter>], <fluid:minecraft:empty>, <item:projectexpansion:yellow_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("orange_relay", [<item:projectexpansion:yellow_relay>, <item:projectexpansion:orange_matter>], <fluid:minecraft:empty>, <item:projectexpansion:orange_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("white_relay", [<item:projectexpansion:orange_relay>, <item:projectexpansion:white_matter>], <fluid:minecraft:empty>, <item:projectexpansion:white_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("fading_relay", [<item:projectexpansion:white_relay>, <item:projectexpansion:fading_matter>], <fluid:minecraft:empty>, <item:projectexpansion:fading_relay>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("final_relay", [<item:projectexpansion:fading_relay>, <item:projectexpansion:final_star_shard>], <fluid:minecraft:empty>, <item:projectexpansion:final_relay>, 20);
 
 //Collectors back recipe - Thanks Dasffion
-<recipetype:thermal:centrifuge>.addRecipe("final_collector", [<item:projectexpansion:fading_collector>, <item:projectexpansion:final_star_shard>], <fluid:minecraft:empty>, <item:projectexpansion:final_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("fading_collector", [<item:projectexpansion:white_collector>, <item:projectexpansion:fading_matter>], <fluid:minecraft:empty>, <item:projectexpansion:fading_collector>,4000);
-<recipetype:thermal:centrifuge>.addRecipe("white_collector", [<item:projectexpansion:orange_collector>, <item:projectexpansion:white_matter>], <fluid:minecraft:empty>, <item:projectexpansion:white_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("orange_collector", [<item:projectexpansion:yellow_collector>, <item:projectexpansion:orange_matter>], <fluid:minecraft:empty>, <item:projectexpansion:orange_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("yellow_collector", [<item:projectexpansion:lime_collector>, <item:projectexpansion:yellow_matter>], <fluid:minecraft:empty>, <item:projectexpansion:yellow_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("lime_collector", [<item:projectexpansion:green_collector>, <item:projectexpansion:lime_matter>], <fluid:minecraft:empty>, <item:projectexpansion:lime_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("green_collector", [<item:projectexpansion:cyan_collector>, <item:projectexpansion:green_matter>], <fluid:minecraft:empty>, <item:projectexpansion:green_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("cyan_collector", [<item:projectexpansion:blue_collector>, <item:projectexpansion:cyan_matter>], <fluid:minecraft:empty>, <item:projectexpansion:cyan_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("blue_collector", [<item:projectexpansion:violet_collector>, <item:projectexpansion:blue_matter>], <fluid:minecraft:empty>, <item:projectexpansion:blue_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("violet_collector", [<item:projectexpansion:purple_collector>, <item:projectexpansion:violet_matter>], <fluid:minecraft:empty>, <item:projectexpansion:violet_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("purple_collector", [<item:projectexpansion:pink_collector>, <item:projectexpansion:purple_matter>], <fluid:minecraft:empty>, <item:projectexpansion:purple_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("pink_collector", [<item:projectexpansion:magenta_collector>, <item:projectexpansion:pink_matter>], <fluid:minecraft:empty>, <item:projectexpansion:pink_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("magenta_collector", [<item:projectexpansion:red_collector>, <item:projectexpansion:magenta_matter>], <fluid:minecraft:empty>, <item:projectexpansion:magenta_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("red_collector", [<item:projecte:collector_mk3>], <fluid:minecraft:empty>, <item:projectexpansion:red_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("dark_collector", [<item:projecte:collector_mk2>], <fluid:minecraft:empty>, <item:projectexpansion:dark_collector>, 4000);
-<recipetype:thermal:centrifuge>.addRecipe("basic_collector", [<item:projecte:collector_mk1>], <fluid:minecraft:empty>, <item:projectexpansion:basic_collector>, 4000);
+<recipetype:thermal:centrifuge>.addRecipe("final_collector", [<item:projectexpansion:fading_collector>, <item:projectexpansion:final_star_shard>], <fluid:minecraft:empty>, <item:projectexpansion:final_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("fading_collector", [<item:projectexpansion:white_collector>, <item:projectexpansion:fading_matter>], <fluid:minecraft:empty>, <item:projectexpansion:fading_collector>,20);
+<recipetype:thermal:centrifuge>.addRecipe("white_collector", [<item:projectexpansion:orange_collector>, <item:projectexpansion:white_matter>], <fluid:minecraft:empty>, <item:projectexpansion:white_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("orange_collector", [<item:projectexpansion:yellow_collector>, <item:projectexpansion:orange_matter>], <fluid:minecraft:empty>, <item:projectexpansion:orange_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("yellow_collector", [<item:projectexpansion:lime_collector>, <item:projectexpansion:yellow_matter>], <fluid:minecraft:empty>, <item:projectexpansion:yellow_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("lime_collector", [<item:projectexpansion:green_collector>, <item:projectexpansion:lime_matter>], <fluid:minecraft:empty>, <item:projectexpansion:lime_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("green_collector", [<item:projectexpansion:cyan_collector>, <item:projectexpansion:green_matter>], <fluid:minecraft:empty>, <item:projectexpansion:green_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("cyan_collector", [<item:projectexpansion:blue_collector>, <item:projectexpansion:cyan_matter>], <fluid:minecraft:empty>, <item:projectexpansion:cyan_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("blue_collector", [<item:projectexpansion:violet_collector>, <item:projectexpansion:blue_matter>], <fluid:minecraft:empty>, <item:projectexpansion:blue_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("violet_collector", [<item:projectexpansion:purple_collector>, <item:projectexpansion:violet_matter>], <fluid:minecraft:empty>, <item:projectexpansion:violet_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("purple_collector", [<item:projectexpansion:pink_collector>, <item:projectexpansion:purple_matter>], <fluid:minecraft:empty>, <item:projectexpansion:purple_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("pink_collector", [<item:projectexpansion:magenta_collector>, <item:projectexpansion:pink_matter>], <fluid:minecraft:empty>, <item:projectexpansion:pink_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("magenta_collector", [<item:projectexpansion:red_collector>, <item:projectexpansion:magenta_matter>], <fluid:minecraft:empty>, <item:projectexpansion:magenta_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("red_collector", [<item:projecte:collector_mk3>], <fluid:minecraft:empty>, <item:projectexpansion:red_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("dark_collector", [<item:projecte:collector_mk2>], <fluid:minecraft:empty>, <item:projectexpansion:dark_collector>, 20);
+<recipetype:thermal:centrifuge>.addRecipe("basic_collector", [<item:projecte:collector_mk1>], <fluid:minecraft:empty>, <item:projectexpansion:basic_collector>, 20);
 
 
 // <recipetype:thermal:sawmill>.addRecipe(String name, MCWeightedItemStack[] outputs, IIngredient ingredient, int energy);
