@@ -19,15 +19,15 @@ onEvent('recipes', (event) => {
             output: 'emendatusenigmatica:potassium_nitrate_dust',
             inputs: ['thermal:earth_charge', '#forge:ores/potassium_nitrate']
         },
-        {
-            output: 'betterendforge:endstone_dust',
-            inputs: [
-                '#forge:dusts/end_stone',
-                '#forge:dusts/end_stone',
-                '#forge:dusts/end_stone',
-                '#forge:dusts/end_stone'
-            ]
-        },
+        // {
+        //     output: 'betterendforge:endstone_dust',
+        //     inputs: [
+        //         '#forge:dusts/end_stone',
+        //         '#forge:dusts/end_stone',
+        //         '#forge:dusts/end_stone',
+        //         '#forge:dusts/end_stone'
+        //     ]
+        // },
 
         { output: Item.of('betterendforge:lumecorn_seed', 6), inputs: ['betterendforge:lumecorn_rod'] },
         { output: Item.of('betterendforge:bulb_vine_seed', 4), inputs: ['betterendforge:glowing_bulb'] },

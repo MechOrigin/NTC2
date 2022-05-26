@@ -49,15 +49,6 @@ onEvent('recipes', event => {
           {
             time: 80,
             energy: 1500,
-            item: 'kubejs:1k_component_wafer',
-            count: 1,
-            input1: 'kubejs:logic_processor_wafer',
-            input2: 'kubejs:charged_redstone_sheet',
-            input3: 'minecraft:air'
-          },
-          {
-            time: 80,
-            energy: 1500,
             item: 'kubejs:4k_component_wafer',
             count: 1,
             input1: 'kubejs:calculation_processor_wafer',

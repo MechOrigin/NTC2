@@ -577,7 +577,7 @@ mods.extendedcrafting.TableCrafting.addShaped("volcanite_amulet", 3, <item:proje
 	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:iron_3>, <item:extendedcrafting:basic_component>, <item:extendedcrafting:basic_component>, <item:compressium:iron_3>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:compressium:iron_3>, <item:minecraft:lava_bucket>, <item:extendedcrafting:basic_component>, <item:extendedcrafting:basic_component>, <item:compressium:iron_3>, <item:minecraft:air>], 
 	[<item:compressium:iron_3>, <item:minecraft:lava_bucket>, <item:thermal:device_rock_gen>, <item:minecraft:lava_bucket>, <item:compressium:iron_3>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:compressium:iron_3>, <item:kubejs:ultimate_conglomerate>, <item:minecraft:lava_bucket>, <item:compressium:iron_3>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:compressium:iron_3>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:ultimate_conglomerate" as string}), <item:minecraft:lava_bucket>, <item:compressium:iron_3>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:compressium:iron_3>, <item:compressium:iron_3>, <item:compressium:iron_3>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
@@ -588,7 +588,7 @@ mods.extendedcrafting.TableCrafting.addShaped("evertide_amulet", 3, <item:projec
 	[<item:minecraft:air>, <item:minecraft:air>, <item:compressium:iron_3>, <item:extendedcrafting:basic_component>, <item:extendedcrafting:basic_component>, <item:compressium:iron_3>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:compressium:iron_3>, <item:minecraft:water_bucket>, <item:extendedcrafting:basic_component>, <item:extendedcrafting:basic_component>, <item:compressium:iron_3>, <item:minecraft:air>], 
 	[<item:compressium:iron_3>, <item:minecraft:water_bucket>, <item:thermal:device_water_gen>, <item:minecraft:water_bucket>, <item:compressium:iron_3>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:compressium:iron_3>, <item:alexsmobs:mimicream>, <item:minecraft:water_bucket>, <item:compressium:iron_3>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:compressium:iron_3>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:ultimate_conglomerate" as string}), <item:minecraft:water_bucket>, <item:compressium:iron_3>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:compressium:iron_3>, <item:compressium:iron_3>, <item:compressium:iron_3>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 

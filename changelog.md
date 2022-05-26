@@ -246,12 +246,12 @@ Updated:
 - Compact machine recipes are directional. You must be facing north
 - Removed opinium core singularity and replaced it with a AE2 singularity singularity (should save a ton of time)
 - Changed basic upgrade to -20 ticks (addition) per upgrade to a maximum of 4 per machine
-- Updating custommachinery-1.16.5-0.5.8f causes filters to break do not update
 - Added logic,engineering,calculation processor wafers and recipes
 - Added Glassy Redstone Sheet, and Charged Redstone Sheet and recipes (these are more cost efficient recipes, reducing material cost by roughly 4-8x)
 - Changed assembler to be base 80 ticks
 - changed ultimate conglomerate singularity to iron opinium core singularity
     the ultimate conglomerate singularity will be used instead on a final craft
+    Ultimate conglomerate, time in a bottle singularities are still a thing but will be used in a separate recipe
 - Changed chemistry machines to use more energy per tick but increased operations per tick (faster machines)
 - Changed Endstone x5 requirement for endest pearl to x3
 - changed 16m storage component to be 256k storage component in relay/collector
@@ -260,6 +260,10 @@ Updated:
 - Changed ender ingot (because redundant because enhanced ender ingot) into 16m cell component singularity (now you need to craft 10000 instead of 360000)
 - Balanced end game armor and gem armor a bit around conglomerate
 - Added ultimate salad, and recipes for cosmic meatballs and ultimate stew
+- Added ultimate singularity recipe
+- Added recipes for a few more projecte items: gem of eternal density (which can now craft the void ring), volcanite amulet and evertide amulet
+- Added infinity pipe upgrade recipe for pipez
+- Changed single block custommachine compact crafter block catalyst to be ultimate ingot instead of block
 
 ### Mods Added/Updated
 - Updated forge 26.2.35
@@ -291,6 +295,7 @@ thermal_expansion-1.16.5-1.5.0.7
 thermal_innovation-1.16.5-1.5.0.4
 thermal_locomotion-1.16.5-1.5.0.4
 trashcans-1.0.15-forge-mc1.16
+connectivity-2.4-1.16.5
 
 ### Fixed
 - fixed pure certus block recipe missing
@@ -301,9 +306,10 @@ trashcans-1.0.15-forge-mc1.16
 - Agricraft is not included in newer versions, flavor text removed from quests
 - Added connectivity and config changes
 - Added knowledge sharing book
+- Fixed endstone dust unduping recipe lol
 
 <!-- TODO: 
-    TODO: Make a recipe for ultimate singularity, make an ultimate stew recipe, make a use for ultimate conglomerate (add it to armor)
+    TODO: Need to work on quests
     TODO: Remove unused avaritia stuff out of JEI
     TODO: 
     TODO: add tinkers glass to chisel, as well as coralstone

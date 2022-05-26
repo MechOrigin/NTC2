@@ -7,21 +7,21 @@ craftingTable.addShaped("alchemical_chest", <item:projecte:alchemical_chest>, [
     [<item:minecraft:iron_ingot>, <item:metalbarrels:obsidian_barrel>, <item:minecraft:iron_ingot>]
 ]);
 
-craftingTable.removeRecipe(<item:projecte:black_hole_band>);
+craftingTable.removeRecipe(<item:projecte:black_hole_band>); //has an extendedcrafting recipe
 craftingTable.removeRecipe(<item:projecte:archangel_smite>);
-craftingTable.removeRecipe(<item:projecte:harvest_goddess_band>);
+craftingTable.removeRecipe(<item:projecte:harvest_goddess_band>); //has an extendedcrafting recipe
 craftingTable.removeRecipe(<item:projecte:ignition_ring>);
 craftingTable.removeRecipe(<item:projecte:zero_ring>);
 craftingTable.removeRecipe(<item:projecte:swiftwolf_rending_gale>);
-craftingTable.removeRecipe(<item:projecte:evertide_amulet>);
-craftingTable.removeRecipe(<item:projecte:volcanite_amulet>);
-craftingTable.removeRecipe(<item:projecte:gem_of_eternal_density>);
+craftingTable.removeRecipe(<item:projecte:evertide_amulet>); //has an extendedcrafting recipe
+craftingTable.removeRecipe(<item:projecte:volcanite_amulet>); //has an extendedcrafting recipe
+craftingTable.removeRecipe(<item:projecte:gem_of_eternal_density>); //has an extendedcrafting recipe
 craftingTable.removeRecipe(<item:projecte:mercurial_eye>);
 craftingTable.removeRecipe(<item:projecte:body_stone>);
 craftingTable.removeRecipe(<item:projecte:soul_stone>);
 craftingTable.removeRecipe(<item:projecte:mind_stone>);
 craftingTable.removeRecipe(<item:projecte:life_stone>);
-craftingTable.removeRecipe(<item:projecte:watch_of_flowing_time>);
+craftingTable.removeRecipe(<item:projecte:watch_of_flowing_time>); //has an extendedcrafting recipe
 craftingTable.removeRecipe(<item:projecte:rm_furnace>);
 craftingTable.removeRecipe(<item:projecte:dm_furnace>);
 
