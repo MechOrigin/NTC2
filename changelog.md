@@ -307,6 +307,7 @@ connectivity-2.4-1.16.5
 - Added connectivity and config changes
 - Added knowledge sharing book
 - Fixed endstone dust unduping recipe lol
+- fixed ae2 wireless terminals being affected by invtweaks, added rftools to morphotool whitelist - Thanks Kasama. Closes #76 and #85
 
 <!-- TODO: 
     TODO: Need to work on quests
