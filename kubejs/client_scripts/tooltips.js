@@ -1,4 +1,5 @@
 onEvent('item.tooltip', (event) => {
+
     const recipes = [
         {
             items: ['minecraft:clay_ball', 'minecraft:clay'],
@@ -86,7 +87,7 @@ onEvent('item.tooltip', (event) => {
         },
         {
             items: ['minecraft:iron_ingot', 'emendatusenigmatica:iron_gear', /emendatusenigmatica:iron.+/],
-            text: [Text.of('(Fe)').color("#A460D9")]
+            text: [Text.of('(Fe)').color("#A460D9"), Text.of('Melting Point: ').color("#ffffff"), Text.of('1538°C').color("#ff8000")]
         },
         {
             items: ['thermal:light_oil_bucket'],
@@ -101,6 +102,7 @@ onEvent('item.tooltip', (event) => {
             text: [Text.of('High Octane Gasoline (91)').color("#FF4B6A")]
         }
     ];
+
 /*
     refinedStorageItems.forEach((item) => {
         recipes.push({
@@ -112,4 +114,5 @@ onEvent('item.tooltip', (event) => {
     recipes.forEach((recipe) => {
         event.add(recipe.items, recipe.text);
     });
+    
 });

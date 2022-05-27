@@ -324,7 +324,7 @@ connectivity-2.4-1.16.5
 
 <!-- TODO: 
     TODO: Need to work on quests
-    TODO: 
+    TODO: go back to old thermal version because it somehow broke mystical agri essence recipes
     TODO: add info to things like iron and such their melting points in tooltip
     TODO: add tinkers glass to chisel, as well as coralstone
     TODO: Add github repo to title screen
