@@ -4,3 +4,4 @@
 "Whitelisted Names" = ["wrench", "screwdriver", "hammer", "rotator", "configurator", "crowbar"]
 "Blacklisted Mods" = ["tconstruct", "intangible"]
 "Mod Aliases" = ["nautralpledge=botania", "thermalexpansion=thermalfoundation", "thermaldynamics=thermalfoundation", "thermalcultivation=thermalfoundation", "redstonearsenal=thermalfoundation", "rftoolsdim=rftoolsbase", "rftoolspower=rftoolsbase", "rftoolscontrol=rftoolsbase", "ae2stuff=appliedenergistics2", "animus=bloodmagic", "integrateddynamics=integratedtunnels", "mekanismgenerators=mekanism", "mekanismtools=mekanism", "deepresonance=rftools", "xnet=rftools", "buildcrafttransport=buildcraft", "buildcraftfactory=buildcraft", "buildcraftsilicon=buildcraft", "rftoolsbuilder=rftoolsbase", "rftoolsutility=rftoolsbase", "rftoolsstorage=rftoolsbase"]
+
