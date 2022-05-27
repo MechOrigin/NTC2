@@ -366,5 +366,35 @@
 				item: "pipez:infinity_upgrade"
 			}]
 		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "1C4546C6761BBBC4"
+			tasks: [{
+				id: "0F1C43257E0E7B9E"
+				type: "item"
+				item: "avaritia:cosmic_meatballs"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			id: "70AEE3D0E5E00279"
+			tasks: [{
+				id: "0F4FDC9E47F5E233"
+				type: "item"
+				item: "kubejs:ultimate_salad"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			id: "5AFAAED1E626A227"
+			tasks: [{
+				id: "4DE87275830C48E4"
+				type: "item"
+				item: "avaritia:ultimate_stew"
+			}]
+		}
 	]
 }
