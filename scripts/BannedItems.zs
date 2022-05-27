@@ -10,6 +10,10 @@ import stdlib.List;
 
 val possibleItems = new List<IItemStack>(); 
 possibleItems.add(<item:tombstone:lost_tablet>);
+possibleItems.add(<item:miniutilities:laser_port>);
+possibleItems.add(<item:miniutilities:laser_hub>);
+possibleItems.add(<item:miniutilities:mechanical_miner>);
+possibleItems.add(<item:miniutilities:mechanical_placer>);
 
 
 CTEventManager.register<MCPlayerTickEvent>((event) => {

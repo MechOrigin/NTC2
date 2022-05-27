@@ -310,14 +310,26 @@ connectivity-2.4-1.16.5
 - Fixed endstone dust unduping recipe lol
 - fixed ae2 wireless terminals being affected by invtweaks, added rftools to morphotool whitelist - Thanks Kasama. Closes #76 and #85
 
+
+## [1.4.8] - 2022-05-26
+
+### Changed
+- Remove unused avaritia stuff out of JEI
+
+### Fixed
+- 
+
+### Added
+- 
+
 <!-- TODO: 
     TODO: Need to work on quests
-    TODO: Remove unused avaritia stuff out of JEI
     TODO: 
+    TODO: add info to things like iron and such their melting points in tooltip
     TODO: add tinkers glass to chisel, as well as coralstone
     TODO: Add github repo to title screen
     TODO: explore if custom machine catalysts option can share chemlib recipes
-    TODO: 
+    TODO: fix slice n splice and possibly other custom machines using 600 ticks
     TODO: 
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block

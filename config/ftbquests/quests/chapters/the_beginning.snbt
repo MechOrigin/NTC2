@@ -3446,6 +3446,8 @@
 				"&b3.&r Right-Click on the block you want to bind with the Entangled Binder"
 				"&b4.&r Right-Click on your Entangled Block with the Entangled Binder"
 			]
+			hide_dependency_lines: true
+			dependencies: ["5DF69E730EE51F78"]
 			id: "5847A0EC631F99AA"
 			tasks: [{
 				id: "7B2429069473230C"

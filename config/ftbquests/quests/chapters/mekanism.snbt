@@ -2964,12 +2964,20 @@
 				type: "item"
 				item: "mekanism:metallurgic_infuser"
 			}]
-			rewards: [{
-				id: "51606315617B44FB"
-				type: "item"
-				item: "mekanism:enriched_carbon"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "51606315617B44FB"
+					type: "item"
+					item: "mekanism:enriched_carbon"
+					count: 16
+				}
+				{
+					id: "55A586F2DE186793"
+					type: "item"
+					item: "kubejs:printed_final_basic_circuit_board"
+					count: 6
+				}
+			]
 		}
 		{
 			title: "Ore 32X"

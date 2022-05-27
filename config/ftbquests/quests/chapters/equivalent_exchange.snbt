@@ -291,6 +291,12 @@
 				type: "item"
 				item: "projecte:collector_mk3"
 			}]
+			rewards: [{
+				id: "4742860A14A20009"
+				type: "item"
+				item: "ae2extras:16m_cell_component"
+				count: 8
+			}]
 		}
 		{
 			x: -1.5d
@@ -339,6 +345,12 @@
 				id: "049CB8CCC8AB39CC"
 				type: "item"
 				item: "projecte:relay_mk3"
+			}]
+			rewards: [{
+				id: "561443A45E818AD4"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+				count: 8
 			}]
 		}
 		{

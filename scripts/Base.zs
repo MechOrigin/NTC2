@@ -14,6 +14,12 @@ craftingTable.removeRecipe(<item:tconstruct:flint_and_bronze>);
 craftingTable.removeRecipe(<item:avaritia:compressed_crafting_table>);
 craftingTable.removeRecipe(<item:avaritia:double_compressed_crafting_table>);
 
+//crescent wrench dupes these items
+craftingTable.removeRecipe(<item:miniutilities:laser_port>);
+craftingTable.removeRecipe(<item:miniutilities:laser_hub>);
+craftingTable.removeRecipe(<item:miniutilities:mechanical_miner>);
+craftingTable.removeRecipe(<item:miniutilities:mechanical_placer>);
+
 //remove ancient debris dupe
 craftingTable.removeRecipe(<item:minecraft:ancient_debris>);
 
