@@ -192,9 +192,93 @@ onEvent('recipes', e => {
   e.shaped(Item.of('appliedenergistics2:charged_certus_quartz_crystal', 8), ['BBB', 'B B', 'BBB'], {
     B: 'mysticalagriculture:charged_certus_quartz_essence'
   }).id(`kubejs:charged_certus_quartz_essence`)
-
+  
   e.shaped(Item.of('kubejs:silicon_sheet', 1), ['BBB', 'BBB', 'BBB'], {
     B: 'emendatusenigmatica:silicon_gem'
   }).id(`kubejs:silicon_sheet`)
+
+  //missing MA essence recipes
+  /*
+    aluminum, saltpeter, apatite, zinc, brass, silver, lead, nickel, constantan, electrum, invar, tungsten, titanium, uranium, signalum, lumium, platinum, iridium, enderium
+  */
+  e.shaped(Item.of('emendatusenigmatica:aluminum_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:aluminum_essence'
+  }).id(`kubejs:aluminum_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:potassium_nitrate_dust', 16), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:saltpeter_essence'
+  }).id(`kubejs:saltpeter_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:apatite_gem', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:apatite_essence'
+  }).id(`kubejs:apatite_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:zinc_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:zinc_essence'
+  }).id(`kubejs:zinc_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:brass_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:brass_essence'
+  }).id(`kubejs:brass_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:silver_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:silver_essence'
+  }).id(`kubejs:silver_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:lead_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:lead_essence'
+  }).id(`kubejs:lead_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:nickel_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:nickel_essence'
+  }).id(`kubejs:nickel_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:constantan_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:constantan_essence'
+  }).id(`kubejs:constantan_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:electrum_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:electrum_essence'
+  }).id(`kubejs:electrum_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:invar_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:invar_essence'
+  }).id(`kubejs:invar_essence`)
+  
+  e.shaped(Item.of('chemlib:ingot_tungsten', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:tungsten_essence'
+  }).id(`kubejs:tungsten_essence`)
+  
+  e.shaped(Item.of('chemlib:ingot_titanium', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:titanium_essence'
+  }).id(`kubejs:titanium_essence`)
+  
+  e.shaped(Item.of('emendatusenigmatica:uranium_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:uranium_essence'
+  }).id(`kubejs:uranium_essence`)
+  
+  e.shaped(Item.of('emendatusenigmatica:signalum_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:signalum_essence'
+  }).id(`kubejs:signalum_essence`)
+  
+  e.shaped(Item.of('emendatusenigmatica:lumium_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:lumium_essence'
+  }).id(`kubejs:lumium_essence`)
+  
+  e.shaped(Item.of('chemlib:ingot_platinum', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:platinum_essence'
+  }).id(`kubejs:platinum_essence`)
+  
+  e.shaped(Item.of('emendatusenigmatica:iridium_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:iridium_essence'
+  }).id(`kubejs:iridium_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:enderium_ingot', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:enderium_essence'
+  }).id(`kubejs:enderium_essence`)
+
+  e.shaped(Item.of('emendatusenigmatica:silicon_gem', 8), ['BBB', 'B B', 'BBB'], {
+    B: 'mysticalagriculture:silicon_essence'
+  }).id(`kubejs:silicon_essence`)
 
 })
