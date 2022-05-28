@@ -315,6 +315,17 @@ connectivity-2.4-1.16.5
 
 ### Changed
 - Remove unused avaritia stuff out of JEI
+- Added botany pot recipes for tier 6 seeds
+    - End Steel Alloy
+    - Energetic Alloy
+    - Dark Steel Alloy
+    - Charged Certus Quartz
+    - Crystalline Pink Slime
+    - Neutronium
+    - Pink Slime Ingot
+    - Melodic Alloy
+    - vibrant Alloy
+    - stellar Alloy
 
 ### Fixed
 - 
