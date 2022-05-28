@@ -227,7 +227,17 @@ onEvent(`recipes`, e => {
   //Tier 6 Crops
   tier([
     `dragon_egg`,
-    `nether_star`
+    `nether_star`,
+    `end_steel_alloy`,
+    `energetic_alloy`,
+    `dark_steel_alloy`,
+    `charged_certus_quartz`,
+    `crystalline_pink_slime`,
+    `neutronium`,
+    `pink_slime_ingot`,
+    `melodic_alloy`,
+    `vibrant_alloy`,
+    `stellar_alloy`
   ], 4750, `insanium`)
   /*
   //Magical Crops
