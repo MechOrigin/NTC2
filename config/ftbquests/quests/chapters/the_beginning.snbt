@@ -895,24 +895,6 @@
 			}]
 		}
 		{
-			title: "{ntc2.visitend.title}"
-			x: -3.0d
-			y: -5.5d
-			dependencies: ["1A1E79CAE911372A"]
-			id: "5B33B6BF2688F603"
-			tasks: [{
-				id: "7FE864535ADE8B7F"
-				type: "dimension"
-				dimension: "minecraft:the_end"
-			}]
-			rewards: [{
-				id: "2364EB61DA25AA68"
-				type: "item"
-				item: "mysticalagriculture:experience_droplet"
-				count: 8
-			}]
-		}
-		{
 			x: -2.0d
 			y: -6.5d
 			subtitle: "{ntc2.flintsteel.subtitle}"
@@ -959,7 +941,7 @@
 			x: -4.0d
 			y: -5.5d
 			subtitle: "{ntc2.chunks.subtitle}"
-			dependencies: ["5B33B6BF2688F603"]
+			dependencies: ["040918FAC1996459"]
 			id: "567E2AB9498566DE"
 			tasks: [{
 				id: "14A688715BF78A3F"
@@ -3462,6 +3444,24 @@
 				id: "019A4B909554E952"
 				type: "item"
 				item: "miniutilities:experience_pearl_1x"
+			}]
+		}
+		{
+			title: "{ntc2.visitend.title}"
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["1A1E79CAE911372A"]
+			id: "040918FAC1996459"
+			tasks: [{
+				id: "7A3319059C8EEA99"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "41E07AD883F266C6"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+				count: 8
 			}]
 		}
 	]
