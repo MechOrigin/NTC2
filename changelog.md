@@ -336,6 +336,8 @@ connectivity-2.4-1.16.5
 - Hopefully fixed some bottlenecks using thermal machines with energy consumption at high speeds
 - Added quartz glass recipe via mek infusion
 - Changed collector recipes to be more reasonable (needs testing)
+- Tweaked assembler recipes and slice n splice that if there are less that 4 input materials it should work in any slot without conflict
+- Fixed infused helmet recipe
 
 ### Fixed
 - 

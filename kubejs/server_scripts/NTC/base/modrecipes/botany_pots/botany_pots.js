@@ -28,6 +28,18 @@ onEvent(`recipes`, e => {
       growthModifier: growthModifier
     }).id(`kubejs:botany_pots/soil/${name}`)
   }
+  function makeCrux(input, name, categories, growthModifier) {
+    e.recipes.botanypots.soil({
+      input: {
+        item: input
+      },
+      display: {
+        block: input
+      },
+      categories: categories,
+      growthModifier: growthModifier
+    }).id(`kubejs:botany_pots/soil/${name}`)
+  }
   //Crops
   function tier(types, time, soil) {
     types.forEach(type => {
@@ -74,7 +86,8 @@ onEvent(`recipes`, e => {
   //#endregion
 
   makeFarmland(`mysticalagradditions:insanium_farmland`, `insanium_farmland`, [`dirt`, `farmland`, `inferium`, `prudentium`, `tertium`, `imperium`, `supremium`, `insanium`], 0.9)
-  makeSoil(`mysticalagriculture:inferium_farmland`, `magical_soil`, [`dirt`, `farmland`, `inferium`, `prudentium`, `tertium`, `imperium`, `supremium`, `insanium`, `magical`, `vibrantCrux`, `64kCrux`, `CrystallinePinkCrux`, `DarkSteelCrux`, `EndSteelCrux`, `EnergeticCrux`, `MelodicCrux`, `NeutroniumCrux`, `DissolutionCrux`, `StellarCrux`], 0.16)
+  makeSoil(`mysticalagriculture:inferium_farmland`, `magical_soil`, [`dirt`, `farmland`, `inferium`, `prudentium`, `tertium`, `imperium`, `supremium`, `insanium`, `magical`], 0.16)
+  makeCrux(`extendedcrafting:the_ultimate_block`, `dirt`, [`vibrantCrux`, `64kCrux`, `CrystallinePinkCrux`, `DarkSteelCrux`, `EndSteelCrux`, `EnergeticCrux`, `MelodicCrux`, `NeutroniumCrux`, `DissolutionCrux`, `StellarCrux`], 0.50)
 
   //#region CROPS
   //Tier 1 Crops

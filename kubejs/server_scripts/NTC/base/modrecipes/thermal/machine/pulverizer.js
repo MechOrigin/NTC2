@@ -2,7 +2,7 @@ onEvent('recipes', (event) => {
     const id_prefix = 'ntc2:base/thermal/pulverizer/';
     const recipes = [
         {
-            input: '#forge:ores/netherite',
+            input: '#forge:ores/netherite_scrap',
             experience: 0.2,
             outputs: [Item.of('minecraft:netherite_scrap', 2)],
             id: 'thermal:machine/pulverizer/pulverizer_netherite'

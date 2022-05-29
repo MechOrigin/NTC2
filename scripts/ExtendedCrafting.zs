@@ -446,15 +446,15 @@ mods.extendedcrafting.TableCrafting.addShaped("gem_boots", 0, <item:projecte:gem
 
 //infused helm
 craftingTable.removeRecipe(<item:miniutilities:infused_helmet>);
-// mods.extendedcrafting.TableCrafting.addShaped("infused_helmet", 0, <item:miniutilities:infused_helmet>, [
-// 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-// 	[<item:minecraft:air>, <item:enderioalloys:item_material_pulsating_crystal>, <item:alexsmobs:mimicream>, <item:alexsmobs:mimicream>, <item:alexsmobs:mimicream>, <item:enderioalloys:item_material_pulsating_crystal>, <item:minecraft:air>], 
-// 	[<item:minecraft:air>, <item:minecraft:air>, <item:alexsmobs:mimicream>, <item:projecte:klein_star_omega>, <item:alexsmobs:mimicream>, <item:minecraft:air>, <item:minecraft:air>], 
-// 	[<item:extendedcrafting:crystaltine_component>, <item:alexsmobs:tarantula_hawk_wing>, <item:alexsmobs:mimicream>, <item:projecte:rm_boots>, <item:alexsmobs:mimicream>, <item:alexsmobs:tarantula_hawk_wing>, <item:extendedcrafting:crystaltine_component>], 
-// 	[<item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>, <item:miniutilities:angel_ring>, <item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>], 
-// 	[<item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>, <item:minecraft:air>, <item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>], 
-// 	[<item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>, <item:minecraft:air>, <item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>, <item:extendedcrafting:crystaltine_component>]
-// ]);
+mods.extendedcrafting.TableCrafting.addShaped("infused_helmet", 0, <item:miniutilities:infused_helmet>, [
+	[<item:minecraft:air>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:air>], 
+	[<item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:projectexpansion:lime_matter>, <item:projectexpansion:lime_matter>, <item:projectexpansion:lime_matter>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>], 
+	[<item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:projectexpansion:lime_matter>, <item:projectexpansion:magnum_star_omega>, <item:projectexpansion:lime_matter>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>], 
+	[<item:miniutilities:nether_star_opinium_core>, <item:miniutilities:experience_opinium_core>, <item:projectexpansion:lime_matter>, <item:projecte:gem_helmet>, <item:projectexpansion:lime_matter>, <item:miniutilities:experience_opinium_core>, <item:miniutilities:nether_star_opinium_core>], 
+	[<item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:air>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:air>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>], 
+	[<item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>], 
+	[<item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:miniutilities:nether_star_opinium_core>, <item:miniutilities:nether_star_opinium_core>]
+]);
 
 //infused chest
 craftingTable.removeRecipe(<item:miniutilities:infused_chestplate>);

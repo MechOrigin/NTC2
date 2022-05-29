@@ -2,15 +2,15 @@ onEvent('recipes', event => {
 
     event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
         .requireFluid(Fluid.of("kubejs:liquid_refined_glue", 100), "input5")
-        .requireItem(Item.of("industrialforegoing:plastic", 1), "input1")
-        .requireItem(Item.of("emendatusenigmatica:copper_plate", 1), "input2")
+        .requireItem(Item.of("industrialforegoing:plastic", 1))
+        .requireItem(Item.of("emendatusenigmatica:copper_plate", 1))
         .requireEnergy(5000)
         .produceItem(Item.of("kubejs:basic_circuit_board", 1), "output1")
 
     event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
         .requireFluid(Fluid.of("kubejs:liquid_refined_glue", 100), "input5")
-        .requireItem(Item.of("immersiveengineering:wire_copper", 4), "input1")
-        .requireItem(Item.of("emendatusenigmatica:coal_dust", 2), "input2")
+        .requireItem(Item.of("immersiveengineering:wire_copper", 4))
+        .requireItem(Item.of("emendatusenigmatica:coal_dust", 2))
         .requireEnergy(5000)
         .produceItem(Item.of("kubejs:basic_smd", 4), "output1")
 
@@ -25,24 +25,24 @@ onEvent('recipes', event => {
 
     event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
         .requireFluid(Fluid.of("mekanism:sulfuric_acid", 100), "input5")
-        .requireItem(Item.of("kubejs:basic_circuit_board", 1), "input1")
-        .requireItem(Item.of("immersiveengineering:wire_copper", 1), "input2")
+        .requireItem(Item.of("kubejs:basic_circuit_board", 1))
+        .requireItem(Item.of("immersiveengineering:wire_copper", 1))
         .requireEnergy(5000)
         .produceItem(Item.of("kubejs:printed_basic_circuit_board", 1), "output1")
 
     event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
         .requireFluid(Fluid.of("kubejs:liquid_refined_glue", 50), "input5")
-        .requireItem(Item.of("immersiveengineering:wire_copper", 3), "input1")
-        .requireItem(Item.of("emendatusenigmatica:tin_plate", 1), "input2")
-        .requireItem(Item.of("extendedcrafting:redstone_ingot", 1), "input3")
+        .requireItem(Item.of("immersiveengineering:wire_copper", 3))
+        .requireItem(Item.of("emendatusenigmatica:tin_plate", 1))
+        .requireItem(Item.of("extendedcrafting:redstone_ingot", 1))
         .requireEnergy(5000)
         .produceItem(Item.of("kubejs:transistor", 3), "output1")
 
     //AE2 Wafers
     event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
-    .requireItem(Item.of("appliedenergistics2:logic_processor", 9), "input1")
-    .requireItem(Item.of("minecraft:redstone_block", 4), "input2")
-    .requireItem(Item.of("emendatusenigmatica:charged_certus_quartz_block", 9), "input3")
+    .requireItem(Item.of("appliedenergistics2:logic_processor", 9))
+    .requireItem(Item.of("minecraft:redstone_block", 4))
+    .requireItem(Item.of("emendatusenigmatica:charged_certus_quartz_block", 9))
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:1k_component_wafer", 1), "output1")
 
@@ -168,8 +168,8 @@ onEvent('recipes', event => {
         .produceItem(Item.of("enderioalloys:item_material_skull_zombie_electrode", 1), "output1")
 
     event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 80)
-        .requireItem(Item.of("enderioalloys:item_material_vibrant_crystal", 4), "input")
-        .requireItem(Item.of("tconstruct:enderman_head", 4), "input2")
+        .requireItem(Item.of("enderioalloys:item_material_vibrant_crystal", 4))
+        .requireItem(Item.of("tconstruct:enderman_head", 4))
         .requireEnergyPerTick(200)
         .produceItem(Item.of("enderioalloys:item_material_ender_crystal", 1), "output1")
 
