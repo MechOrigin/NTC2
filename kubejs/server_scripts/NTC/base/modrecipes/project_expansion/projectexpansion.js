@@ -216,9 +216,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:magenta_matter',
-    B: 'projectexpansion:red_collector',
-    C: 'projecte:klein_star_drei'
+    A: 'projectexpansion:red_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:magenta_matter'
   }).id(`ntc2:projectexpansion/magenta_collector`)
 
   event.recipes.extendedcrafting.shaped_table('projectexpansion:pink_collector', [
@@ -228,9 +228,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:pink_matter',
-    B: 'projectexpansion:magenta_collector',
-    C: 'projecte:klein_star_vier'
+    A: 'projectexpansion:magenta_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:pink_matter'
   }).id(`ntc2:projectexpansion/pink_collector`)
 
   event.recipes.extendedcrafting.shaped_table('projectexpansion:purple_collector', [
@@ -240,9 +240,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:purple_matter',
-    B: 'projectexpansion:pink_collector',
-    C: 'projecte:klein_star_sphere'
+    A: 'projectexpansion:pink_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:purple_matter'
   }).id(`ntc2:projectexpansion/purple_collector`)
 
   event.recipes.extendedcrafting.shaped_table('projectexpansion:violet_collector', [
@@ -252,9 +252,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:violet_matter',
-    B: 'projectexpansion:purple_collector',
-    C: 'projecte:klein_star_omega'
+    A: 'projectexpansion:purple_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:violet_matter'
   }).id(`ntc2:projectexpansion/violet_collector`)
 
   event.recipes.extendedcrafting.shaped_table('projectexpansion:blue_collector', [
@@ -264,9 +264,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:blue_matter',
-    B: 'projectexpansion:violet_collector',
-    C: 'projectexpansion:magnum_star_zwei'
+    A: 'projectexpansion:violet_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:blue_matter'
   }).id(`ntc2:projectexpansion/blue_collector`)
 
   event.recipes.extendedcrafting.shaped_table('projectexpansion:cyan_collector', [
@@ -276,9 +276,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:cyan_matter',
-    B: 'projectexpansion:blue_collector',
-    C: 'projectexpansion:magnum_star_drei'
+    A: 'projectexpansion:blue_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:cyan_matter'
   }).id(`ntc2:projectexpansion/cyan_collector`)
 
   event.recipes.extendedcrafting.shaped_table('projectexpansion:green_collector', [
@@ -288,9 +288,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:green_matter',
-    B: 'projectexpansion:cyan_collector',
-    C: 'projectexpansion:magnum_star_vier'
+    A: 'projectexpansion:cyan_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:green_matter'
   }).id(`ntc2:projectexpansion/green_collector`)
 
   event.recipes.extendedcrafting.shaped_table('projectexpansion:lime_collector', [
@@ -300,9 +300,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:lime_matter',
-    B: 'projectexpansion:green_collector',
-    C: 'projectexpansion:magnum_star_sphere'
+    A: 'projectexpansion:green_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:lime_matter'
   }).id(`ntc2:projectexpansion/lime_collector`)
   
   event.recipes.extendedcrafting.shaped_table('projectexpansion:yellow_collector', [
@@ -312,9 +312,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:yellow_matter',
-    B: 'projectexpansion:lime_collector',
-    C: 'projectexpansion:magnum_star_omega'
+    A: 'projectexpansion:lime_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:yellow_matter'
   }).id(`ntc2:projectexpansion/yellow_collector`)
 
   event.recipes.extendedcrafting.shaped_table('projectexpansion:orange_collector', [
@@ -324,9 +324,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:orange_matter',
-    B: 'projectexpansion:yellow_collector',
-    C: 'projectexpansion:colossal_star_zwei'
+    A: 'projectexpansion:yellow_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:orange_matter'
   }).id(`ntc2:projectexpansion/orange_collector`)
   
   event.recipes.extendedcrafting.shaped_table('projectexpansion:white_collector', [
@@ -336,9 +336,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:white_matter',
-    B: 'projectexpansion:orange_collector',
-    C: 'projectexpansion:colossal_star_drei'
+    A: 'projectexpansion:orange_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:white_matter'
   }).id(`ntc2:projectexpansion/white_collector`)
     
   event.recipes.extendedcrafting.shaped_table('projectexpansion:fading_collector', [
@@ -348,9 +348,9 @@ events.listen('recipes', function (event) {
     'CBBBC',
     'CCCCC'
   ], {
-    A: 'projectexpansion:fading_matter',
-    B: 'projectexpansion:white_collector',
-    C: 'projectexpansion:colossal_star_vier'
+    A: 'projectexpansion:white_collector',
+    B: 'ae2extras:16m_cell_component',
+    C: 'projectexpansion:fading_matter'
   }).id(`ntc2:projectexpansion/fading_collector`)
 
 })

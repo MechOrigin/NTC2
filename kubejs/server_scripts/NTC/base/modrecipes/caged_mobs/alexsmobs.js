@@ -8,7 +8,8 @@ onEvent('recipes', (event) => {
             growTicks: 3000,
             output0: 'alexsmobs:void_worm_eye',
             maxAmount0: 1,
-            output1: 'alexsmobs:void_worm_mandible'
+            output1: 'alexsmobs:void_worm_mandible',
+            env: ['end']
         },
         {
             inputs: [
@@ -18,7 +19,8 @@ onEvent('recipes', (event) => {
             growTicks: 300,
             output0: 'alexsmobs:tarantula_hawk_wing_fragment',
             maxAmount0: 3,
-            output1: 'miniutilities:experience_pearl'
+            output1: 'miniutilities:experience_pearl',
+            env: ['sand']
         }
     ];
 
@@ -34,7 +36,7 @@ onEvent('recipes', (event) => {
                 ],
                 entity: process,
                 samplerTier: input.samplerTier,
-                environments: ['end'],
+                environments: input.env,
                 growTicks: input.growTicks,
                 results: [
                     {

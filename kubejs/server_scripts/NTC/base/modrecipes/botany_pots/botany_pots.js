@@ -74,7 +74,7 @@ onEvent(`recipes`, e => {
   //#endregion
 
   makeFarmland(`mysticalagradditions:insanium_farmland`, `insanium_farmland`, [`dirt`, `farmland`, `inferium`, `prudentium`, `tertium`, `imperium`, `supremium`, `insanium`], 0.9)
-  makeSoil(`mysticalagriculture:inferium_farmland`, `magical_soil`, [`dirt`, `farmland`, `inferium`, `prudentium`, `tertium`, `imperium`, `supremium`, `insanium`, `magical`], 0.16)
+  makeSoil(`mysticalagriculture:inferium_farmland`, `magical_soil`, [`dirt`, `farmland`, `inferium`, `prudentium`, `tertium`, `imperium`, `supremium`, `insanium`, `magical`, `vibrantCrux`, `64kCrux`, `CrystallinePinkCrux`, `DarkSteelCrux`, `EndSteelCrux`, `EnergeticCrux`, `MelodicCrux`, `NeutroniumCrux`, `DissolutionCrux`, `StellarCrux`], 0.16)
 
   //#region CROPS
   //Tier 1 Crops
@@ -227,18 +227,41 @@ onEvent(`recipes`, e => {
   //Tier 6 Crops
   tier([
     `dragon_egg`,
-    `nether_star`,
-    `end_steel_alloy`,
-    `energetic_alloy`,
-    `dark_steel_alloy`,
-    `charged_certus_quartz`,
-    `crystalline_pink_slime`,
-    `neutronium`,
-    `pink_slime_ingot`,
-    `melodic_alloy`,
-    `vibrant_alloy`,
-    `stellar_alloy`
+    `nether_star`
   ], 4750, `insanium`)
+  //Crux Crops
+  //`vibrantCrux`, `64kCrux`, `CrystallinePinkCrux`, `DarkSteelCrux`, `EndSteelCrux`,
+  // `EnergeticCrux`, `MelodicCrux`, `NeutroniumCrux`, `DissolutionCrux`, `StellarCrux`
+  tier([
+    `vibrant_alloy`
+  ], 5000, `vibrantCrux`)
+  tier([
+    `charged_certus_quartz`
+  ], 5000, `64kCrux`)
+  tier([
+    `crystalline_pink_slime`
+  ], 5000, `CrystallinePinkCrux`)
+  tier([
+    `dark_steel_alloy`
+  ], 5000, `DarkSteelCrux`)
+  tier([
+    `end_steel_alloy`
+  ], 5000, `EndSteelCrux`)
+  tier([
+    `energetic_alloy`
+  ], 5000, `EnergeticCrux`)
+  tier([
+    `melodic_alloy`
+  ], 5000, `MelodicCrux`)
+  tier([
+    `neutronium`
+  ], 5000, `NeutroniumCrux`)
+  tier([
+    `pink_slime_ingot`
+  ], 5000, `DissolutionCrux`)
+  tier([
+    `stellar_alloy`
+  ], 5000, `StellarCrux`)
   /*
   //Magical Crops
   tier([

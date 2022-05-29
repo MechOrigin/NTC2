@@ -40,6 +40,13 @@ onEvent('recipes', (event) => {
             infusionInput: 'kubejs:blazing',
             infusionAmount: 10,
             id: 'mekanism:metallurgic_infusing/black_iron_ingot'
+        },
+        {
+            output: 'appliedenergistics2:quartz_glass',
+            input: 'minecraft:sand',
+            infusionInput: 'kubejs:certus',
+            infusionAmount: 10,
+            id: 'mekanism:metallurgic_infusing/quartz_glass'
         }
     ];
 

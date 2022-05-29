@@ -315,7 +315,7 @@ connectivity-2.4-1.16.5
 
 ### Changed
 - Remove unused avaritia stuff out of JEI
-- Added botany pot recipes for tier 6 seeds
+- Added botany pot recipes
     - End Steel Alloy
     - Energetic Alloy
     - Dark Steel Alloy
@@ -326,6 +326,16 @@ connectivity-2.4-1.16.5
     - Melodic Alloy
     - vibrant Alloy
     - stellar Alloy
+- Changed caged mobs tarantula hawk environment to sand
+- Added mekanism combiner back in
+- Added EE netherrack gold ore to nether gold bee sifting
+- Added conversion recipe for mekanism charcoal dust because for some reason adpother doesn't want to output anything other than it
+- Fixed most of the custom machines to use 80 ticks, a notable change to the slice n splice changed from 600 to 80
+- Added all the crux crops to botany pots using their crux as their sole soil
+- Added all the Mystical Agriculture essence recipes back (was a bug)
+- Hopefully fixed some bottlenecks using thermal machines with energy consumption at high speeds
+- Added quartz glass recipe via mek infusion
+- Changed collector recipes to be more reasonable (needs testing)
 
 ### Fixed
 - 
@@ -335,12 +345,12 @@ connectivity-2.4-1.16.5
 
 <!-- TODO: 
     TODO: Need to work on quests
-    TODO: go back to old thermal version because it somehow broke mystical agri essence recipes
+    TODO: 
     TODO: add info to things like iron and such their melting points in tooltip
     TODO: add tinkers glass to chisel, as well as coralstone
     TODO: Add github repo to title screen
     TODO: explore if custom machine catalysts option can share chemlib recipes
-    TODO: fix slice n splice and possibly other custom machines using 600 ticks
+    TODO: 
     TODO: 
     write custom infuse types with mekajs (bronze exists as alloy able to be made tin/copper)
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block

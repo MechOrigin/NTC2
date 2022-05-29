@@ -686,22 +686,22 @@ onEvent('recipes', (event) => {
         }
 
         const recipes = [
-            { type: 'ingot', amount: 144, output: ingot, energy: 5000 }
+            { type: 'ingot', amount: 144, output: ingot, energy: 50 }
         ];
         if (nugget != air) {
-            recipes.push({ type: 'nugget', amount: 16, output: nugget, energy: 555 });
+            recipes.push({ type: 'nugget', amount: 16, output: nugget, energy: 50 });
         }
         if (gear != air) {
-            recipes.push({ type: 'gear', amount: 576, output: gear, energy: 20000 });
+            recipes.push({ type: 'gear', amount: 576, output: gear, energy: 50 });
         }
         if (rod != air) {
-            recipes.push({ type: 'rod', amount: 72, output: rod, energy: 2500 });
+            recipes.push({ type: 'rod', amount: 72, output: rod, energy: 50 });
         }
         if (plate != air) {
-            recipes.push({ type: 'plate', amount: 144, output: plate, energy: 5000 });
+            recipes.push({ type: 'plate', amount: 144, output: plate, energy: 50 });
         }
         if (wire != air && (`${material}` == 'copper') || (`${material}` == 'electrum') || (`${material}` == 'aluminum') || (`${material}` == 'steel') || (`${material}` == 'lead')) {
-            recipes.push({ type: 'wire', amount: 72, output: wire, energy: 2500 });
+            recipes.push({ type: 'wire', amount: 72, output: wire, energy: 50 });
         }
 
         recipes.forEach((recipe) => {
@@ -753,24 +753,24 @@ onEvent('recipes', (event) => {
             return;
         }
 
-        let recipes = [{ type: 'ingot', amount: 144, input: `#forge:ingots/${material}`, energy: 5000 }];
+        let recipes = [{ type: 'ingot', amount: 144, input: `#forge:ingots/${material}`, energy: 50 }];
         if (nugget != air) {
-            recipes.push({ type: 'nugget', amount: 16, input: `#forge:nuggets/${material}`, energy: 555 });
+            recipes.push({ type: 'nugget', amount: 16, input: `#forge:nuggets/${material}`, energy: 50 });
         }
         if (block != air) {
-            recipes.push({ type: 'block', amount: 1296, input: `#forge:storage_blocks/${material}`, energy: 40000 });
+            recipes.push({ type: 'block', amount: 1296, input: `#forge:storage_blocks/${material}`, energy: 50 });
         }
         if (gear != air) {
-            recipes.push({ type: 'gear', amount: 576, input: `#forge:gears/${material}`, energy: 20000 });
+            recipes.push({ type: 'gear', amount: 576, input: `#forge:gears/${material}`, energy: 50 });
         }
         if (rod != air) {
-            recipes.push({ type: 'rod', amount: 72, input: `#forge:rods/${material}`, energy: 2500 });
+            recipes.push({ type: 'rod', amount: 72, input: `#forge:rods/${material}`, energy: 50 });
         }
         if (plate != air) {
-            recipes.push({ type: 'plate', amount: 144, input: `#forge:plates/${material}`, energy: 5000 });
+            recipes.push({ type: 'plate', amount: 144, input: `#forge:plates/${material}`, energy: 50 });
         }
         if (wire != air && (`${material}` == ('copper' || 'electrum' || 'aluminum' || 'steel' || 'lead'))) {
-            recipes.push({ type: 'wire', amount: 72, input: `#forge:wires/${material}`, energy: 2500 });
+            recipes.push({ type: 'wire', amount: 72, input: `#forge:wires/${material}`, energy: 50 });
         }
 
         recipes.forEach((recipe) => {
@@ -808,16 +808,16 @@ onEvent('recipes', (event) => {
             gem = Item.of('appliedenergistics2:fluix_crystal', 1)
         }
 
-        let recipes = [{ type: 'gem', amount: 144, output: gem, energy: 5000 }];
+        let recipes = [{ type: 'gem', amount: 144, output: gem, energy: 50 }];
 
         if (gear != air) {
-            recipes.push({ type: 'gear', amount: 576, output: gear, energy: 20000 });
+            recipes.push({ type: 'gear', amount: 576, output: gear, energy: 50 });
         }
         if (rod != air) {
-            recipes.push({ type: 'rod', amount: 72, output: rod, energy: 2500 });
+            recipes.push({ type: 'rod', amount: 72, output: rod, energy: 50 });
         }
         if (plate != air) {
-            recipes.push({ type: 'plate', amount: 144, output: plate, energy: 5000 });
+            recipes.push({ type: 'plate', amount: 144, output: plate, energy: 50 });
         }
 
         recipes.forEach((recipe) => {
@@ -880,18 +880,18 @@ onEvent('recipes', (event) => {
             gem = Item.of('appliedenergistics2:fluix_crystal', 1)
         }
 
-        let recipes = [{ type: 'gem', amount: 144, input: `#forge:gems/${material}`, energy: 5000 }];
+        let recipes = [{ type: 'gem', amount: 144, input: `#forge:gems/${material}`, energy: 50 }];
         if (block != air) {
-            recipes.push({ type: 'block', amount: 1296, input: `#forge:storage_blocks/${material}`, energy: 40000 });
+            recipes.push({ type: 'block', amount: 1296, input: `#forge:storage_blocks/${material}`, energy: 50 });
         }
         if (gear != air) {
-            recipes.push({ type: 'gear', amount: 576, input: `#forge:gears/${material}`, energy: 20000 });
+            recipes.push({ type: 'gear', amount: 576, input: `#forge:gears/${material}`, energy: 50 });
         }
         if (rod != air) {
-            recipes.push({ type: 'rod', amount: 72, input: `#forge:rods/${material}`, energy: 2500 });
+            recipes.push({ type: 'rod', amount: 72, input: `#forge:rods/${material}`, energy: 50 });
         }
         if (plate != air) {
-            recipes.push({ type: 'plate', amount: 144, input: `#forge:plates/${material}`, energy: 5000 });
+            recipes.push({ type: 'plate', amount: 144, input: `#forge:plates/${material}`, energy: 50 });
         }
 
         recipes.forEach((recipe) => {

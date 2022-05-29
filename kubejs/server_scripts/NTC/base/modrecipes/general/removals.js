@@ -166,11 +166,11 @@ e.remove({ mod: 'theoneprobe' });
 var outputRemovals = [
 //    'akashictome:tome',
 
-    'mekanism:combiner',
-    'mekanism:basic_combining_factory',
-    'mekanism:advanced_combining_factory',
-    'mekanism:elite_combining_factory',
-    'mekanism:ultimate_combining_factory',
+    // 'mekanism:combiner',
+    // 'mekanism:basic_combining_factory',
+    // 'mekanism:advanced_combining_factory',
+    // 'mekanism:elite_combining_factory',
+    // 'mekanism:ultimate_combining_factory',
 
 //    'minecraft:sticky_piston',
 

@@ -189,6 +189,14 @@ onEvent('recipes', (event) => {
                 'avaritia:cosmic_meatballs',
                 'kubejs:ultimate_salad'
             ]
+        },
+        {
+            output: Item.of('mekanism:dust_charcoal', 1),
+            inputs: ['emendatusenigmatica:charcoal_dust']
+        },
+        {
+            output: Item.of('emendatusenigmatica:charcoal_dust', 1),
+            inputs: ['mekanism:dust_charcoal']
         }
     ];
 
