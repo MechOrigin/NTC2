@@ -4,7 +4,7 @@
 	#Enable more verbose debug logging
 	debugLogging = false
 	#The Tome of Knowledge can be crafted.
-	craftableTome = true
+	craftableTome = false
 	#Require full omega klein stars in the tome of knowledge and gem armor recipes. This is the same behavior that EE2 had.
 	fullKleinStars = true
 

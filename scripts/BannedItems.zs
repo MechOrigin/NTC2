@@ -14,6 +14,7 @@ possibleItems.add(<item:miniutilities:laser_port>);
 possibleItems.add(<item:miniutilities:laser_hub>);
 possibleItems.add(<item:miniutilities:mechanical_miner>);
 possibleItems.add(<item:miniutilities:mechanical_placer>);
+possibleItems.add(<item:projecte:tome>);
 
 
 CTEventManager.register<MCPlayerTickEvent>((event) => {

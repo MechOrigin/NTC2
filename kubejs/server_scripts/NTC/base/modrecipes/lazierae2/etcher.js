@@ -125,13 +125,6 @@ onEvent('recipes', event => {
           {
             time: 80,
             energy: 1500,
-            item: 'lazierae2:speculative_printed',
-            input1: 'lazierae2:universal_press',
-            input2: 'lazierae2:speculation_core_64'
-          },
-          {
-            time: 80,
-            energy: 1500,
             item: 'kubejs:charged_redstone_sheet',
             input1: 'minecraft:redstone_block',
             input2: 'emendatusenigmatica:charged_certus_quartz_block'

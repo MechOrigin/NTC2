@@ -345,6 +345,9 @@ connectivity-2.4-1.16.5
 - Change each tier of collectors to increase in tiers of components
     - 1k, 4k, 16k, 64k, 256k, 1m, 4m, 16m, 256k-wafer, 1m-wafer, 4m-wafer, 16m-wafer
 - Removed ae2wtlib terminals all except wireless crafting terminal
+- Projecte tome is now not craftable
+- Removed matter upgrader recipe
+- There is no effective way to add speculation core recipe to etcher without consuming cast so it is removed
 
 <!-- TODO: fix thermal multiservo press quest
     TODO: Need to work on quests

@@ -26,6 +26,9 @@ craftingTable.removeRecipe(<item:ae2wtlib:wireless_pattern_terminal>);
 craftingTable.removeRecipe(<item:ae2wtlib:wireless_fluid_terminal>);
 craftingTable.removeRecipe(<item:ae2wtlib:wireless_universal_terminal>);
 
+//incredibly OP
+craftingTable.removeRecipe(<item:projectexpansion:matter_upgrader>);
+
 //remove ancient debris dupe
 craftingTable.removeRecipe(<item:minecraft:ancient_debris>);
 
