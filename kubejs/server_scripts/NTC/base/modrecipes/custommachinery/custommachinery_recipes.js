@@ -142,6 +142,33 @@ onEvent('recipes', event => {
     .requireEnergy(5000)
     .produceItem(Item.of("kubejs:16m_component_wafer", 1), "output1")
 
+    // Engineer's Worktable recipes
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
+    .requireItemTag("#forge:plates/iron", 2, "input1")
+    .requireItemTag("#forge:ingots/copper", 1, "input2")
+    .requireEnergy(5000)
+    .produceItem(Item.of("immersiveengineering:component_iron", 1), "output1")
+
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
+    .requireItemTag("#forge:plates/steel", 2, "input1")
+    .requireItemTag("#forge:ingots/copper", 1, "input2")
+    .requireEnergy(5000)
+    .produceItem(Item.of("immersiveengineering:component_steel", 1), "output1")
+
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
+    .requireItemTag("#forge:glass", 1, "input1")
+    .requireItemTag("#forge:plates/nickel", 1, "input2")
+    .requireItemTag("#forge:wires/copper", 1, "input3")
+    .requireItem(Item.of("minecraft:redstone", 1), "input4")
+    .requireEnergy(5000)
+    .produceItem(Item.of("immersiveengineering:electron_tube", 3), "output1")
+
+    event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
+    .requireItemTag(Item.of("immersiveengineering:insulating_glass", 1), "input1")
+    .requireItemTag("#forge:plates/copper", 1, "input2")
+    .requireEnergy(5000)
+    .produceItem(Item.of("immersiveengineering:circuit_board", 1), "output1")
+
     //slice_n_splice
     event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 80)
         .requireItem(Item.of("betterendforge:eternal_crystal", 4), "input")
