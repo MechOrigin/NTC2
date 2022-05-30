@@ -164,7 +164,7 @@ onEvent('recipes', event => {
     .produceItem(Item.of("immersiveengineering:electron_tube", 3), "output1")
 
     event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
-    .requireItemTag(Item.of("immersiveengineering:insulating_glass", 1))
+    .requireItem(Item.of("immersiveengineering:insulating_glass", 1))
     .requireItemTag("#forge:plates/copper", 1)
     .requireEnergy(5000)
     .produceItem(Item.of("immersiveengineering:circuit_board", 1), "output1")
