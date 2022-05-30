@@ -144,14 +144,14 @@ onEvent('recipes', event => {
 
     // Engineer's Worktable recipes
     event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
-    .requireItemTag("#forge:plates/iron", 2, "input1")
-    .requireItemTag("#forge:ingots/copper", 1, "input2")
+    .requireItemTag("#forge:plates/iron", 2)
+    .requireItemTag("#forge:ingots/copper", 1)
     .requireEnergy(5000)
     .produceItem(Item.of("immersiveengineering:component_iron", 1), "output1")
 
     event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
-    .requireItemTag("#forge:plates/steel", 2, "input1")
-    .requireItemTag("#forge:ingots/copper", 1, "input2")
+    .requireItemTag("#forge:plates/steel", 2)
+    .requireItemTag("#forge:ingots/copper", 1)
     .requireEnergy(5000)
     .produceItem(Item.of("immersiveengineering:component_steel", 1), "output1")
 
@@ -164,8 +164,8 @@ onEvent('recipes', event => {
     .produceItem(Item.of("immersiveengineering:electron_tube", 3), "output1")
 
     event.recipes.custommachinery.custom_machine("custommachinery:assembler", 80)
-    .requireItemTag(Item.of("immersiveengineering:insulating_glass", 1), "input1")
-    .requireItemTag("#forge:plates/copper", 1, "input2")
+    .requireItemTag(Item.of("immersiveengineering:insulating_glass", 1))
+    .requireItemTag("#forge:plates/copper", 1)
     .requireEnergy(5000)
     .produceItem(Item.of("immersiveengineering:circuit_board", 1), "output1")
 

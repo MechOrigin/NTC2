@@ -348,6 +348,7 @@ connectivity-2.4-1.16.5
 - Projecte tome is now not craftable
 - Removed matter upgrader recipe
 - There is no effective way to add speculation core recipe to etcher without consuming cast so it is removed
+- merged #95 - Thanks Kasama - added engineers workbench recipes to assembler
 
 <!-- TODO: fix thermal multiservo press quest
     TODO: Need to work on quests
