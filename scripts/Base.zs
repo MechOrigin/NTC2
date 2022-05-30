@@ -20,6 +20,12 @@ craftingTable.removeRecipe(<item:miniutilities:laser_hub>);
 craftingTable.removeRecipe(<item:miniutilities:mechanical_miner>);
 craftingTable.removeRecipe(<item:miniutilities:mechanical_placer>);
 
+//everything but the crafting terminal is buggy af
+craftingTable.removeRecipe(<item:ae2wtlib:wireless_interface_terminal>);
+craftingTable.removeRecipe(<item:ae2wtlib:wireless_pattern_terminal>);
+craftingTable.removeRecipe(<item:ae2wtlib:wireless_fluid_terminal>);
+craftingTable.removeRecipe(<item:ae2wtlib:wireless_universal_terminal>);
+
 //remove ancient debris dupe
 craftingTable.removeRecipe(<item:minecraft:ancient_debris>);
 

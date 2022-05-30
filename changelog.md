@@ -339,13 +339,14 @@ connectivity-2.4-1.16.5
 - Tweaked assembler recipes and slice n splice that if there are less that 4 input materials it should work in any slot without conflict
 - Fixed infused helmet recipe
 
-### Fixed
-- 
+## [1.4.9] - 2022-05-29
 
-### Added
-- 
+### Changed
+- Change each tier of collectors to increase in tiers of components
+    - 1k, 4k, 16k, 64k, 256k, 1m, 4m, 16m, 256k-wafer, 1m-wafer, 4m-wafer, 16m-wafer
+- Removed ae2wtlib terminals all except wireless crafting terminal
 
-<!-- TODO: 
+<!-- TODO: fix thermal multiservo press quest
     TODO: Need to work on quests
     TODO: 
     TODO: add info to things like iron and such their melting points in tooltip

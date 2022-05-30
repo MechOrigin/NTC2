@@ -217,7 +217,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:red_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'appliedenergistics2:1k_cell_component',
     C: 'projectexpansion:magenta_matter'
   }).id(`ntc2:projectexpansion/magenta_collector`)
 
@@ -229,7 +229,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:magenta_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'appliedenergistics2:4k_cell_component',
     C: 'projectexpansion:pink_matter'
   }).id(`ntc2:projectexpansion/pink_collector`)
 
@@ -241,7 +241,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:pink_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'appliedenergistics2:16k_cell_component',
     C: 'projectexpansion:purple_matter'
   }).id(`ntc2:projectexpansion/purple_collector`)
 
@@ -253,7 +253,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:purple_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'appliedenergistics2:64k_cell_component',
     C: 'projectexpansion:violet_matter'
   }).id(`ntc2:projectexpansion/violet_collector`)
 
@@ -265,7 +265,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:violet_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'ae2extras:256k_cell_component',
     C: 'projectexpansion:blue_matter'
   }).id(`ntc2:projectexpansion/blue_collector`)
 
@@ -277,7 +277,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:blue_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'ae2extras:1m_cell_component',
     C: 'projectexpansion:cyan_matter'
   }).id(`ntc2:projectexpansion/cyan_collector`)
 
@@ -289,7 +289,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:cyan_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'ae2extras:4m_cell_component',
     C: 'projectexpansion:green_matter'
   }).id(`ntc2:projectexpansion/green_collector`)
 
@@ -313,7 +313,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:lime_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'kubejs:256k_component_wafer',
     C: 'projectexpansion:yellow_matter'
   }).id(`ntc2:projectexpansion/yellow_collector`)
 
@@ -325,7 +325,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:yellow_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'kubejs:1m_component_wafer',
     C: 'projectexpansion:orange_matter'
   }).id(`ntc2:projectexpansion/orange_collector`)
   
@@ -337,7 +337,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:orange_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'kubejs:4m_component_wafer',
     C: 'projectexpansion:white_matter'
   }).id(`ntc2:projectexpansion/white_collector`)
     
@@ -349,7 +349,7 @@ events.listen('recipes', function (event) {
     'CCCCC'
   ], {
     A: 'projectexpansion:white_collector',
-    B: 'ae2extras:16m_cell_component',
+    B: 'kubejs:16m_component_wafer',
     C: 'projectexpansion:fading_matter'
   }).id(`ntc2:projectexpansion/fading_collector`)
 
