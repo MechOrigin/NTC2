@@ -37,8 +37,6 @@
 	prevent_death_outside_world_border = true
 	#Prevents death outside the build height [false/true|default:false]
 	prevent_death_outside_build_height = false
-	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
-	graves_bypass_griefing_rules = true
 	#Allows to fill an existing grave instead of creating a new one [false/true|default:true]
 	allow_to_fill_existing_grave = true
 	#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]

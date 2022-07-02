@@ -661,15 +661,8 @@ onEvent('recipes', (event) => {
             },
             rarity: [
                 {
-                    whitelist: {},
-                    blacklist: endBiomes,
-                    depth_min: 5,
-                    depth_max: 36,
-                    weight: 8
-                },
-                {
-                    whitelist: {},
-                    blacklist: endBiomes,
+                    whitelist: endBiomes,
+                    blacklist: netherBiomes,
                     depth_min: 0,
                     depth_max: 255,
                     weight: 2

@@ -35,18 +35,6 @@
 ["World Generation"]
 	#Should Ender Ore Generate?
 	"Ender Ore Generation" = false
-	#What should the Vein Size of Ender Ore be?
-	#Range: 0 ~ 256
-	"Ender Ore Vein" = 12
-	#What should the minimum generation height be for Ender Ore?
-	#Range: 0 ~ 256
-	"Ender Ore Min" = 0
-	#What should the maximum generation height be for Ender Ore?
-	#Range: 0 ~ 256
-	"Ender Ore Max" = 55
-	#How many times should Ender Ore try to generate?
-	#Range: 0 ~ 255
-	"Ender Ore Gen Attempts" = 12
 
 ["Blessed Earth Settings"]
 	#How long should it minimum wait before trying to spawn

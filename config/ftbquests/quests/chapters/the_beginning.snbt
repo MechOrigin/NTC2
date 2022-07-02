@@ -941,6 +941,7 @@
 			x: -4.0d
 			y: -5.5d
 			subtitle: "{ntc2.chunks.subtitle}"
+			description: ["Osmium is a bit tricky to find for most people. Try getting a scanner and searching for BIG mega ore veins. They spawn only in the End and only within End Stone, Violecite, Sulfuric Rock and Flavolite"]
 			dependencies: ["040918FAC1996459"]
 			id: "567E2AB9498566DE"
 			tasks: [{

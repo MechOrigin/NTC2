@@ -26,19 +26,6 @@
 	#Range at which Tile Entity Renderer's added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for TERs to 64 for most blocks, but uses a range of 256 for beacons and end gateways.
 	#Range: 1 ~ 1024
 	terRange = 256
-	#Show particles when machines active.
-	machineEffects = true
-	#Should active machines produce block light.
-	enableAmbientLighting = true
-	#How much light to produce if ambient lighting is enabled.
-	#Range: 1 ~ 15
-	ambientLightingLevel = 15
-	#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
-	enableMultiblockFormationParticles = true
-	#How far (in blocks) from the player radiation particles can spawn.
-	radiationParticleRadius = 30
-	#How many particles spawn when rendering radiation effects (scaled by radiation level).
-	radiationParticleCount = 100
 
 	#GUI Config
 	[client.gui]
@@ -57,6 +44,53 @@
 		#Display a fancy compass when the MekaSuit is worn.
 		mekaSuitHelmetCompass = true
 
+		#Last Window Positions. In general these values should not be modified manually.
+		[client.gui.window]
+
+			[client.gui.window.color]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.confirmation]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.crafting0]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.crafting1]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.crafting2]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.mekaSuitHelmet]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.rename]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.skinSelect]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.sideConfig]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.transporterConfig]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.upgrade]
+				x = 2147483647
+				y = 2147483647
+
 	#QIO Config
 	[client.qio]
 		#Sorting strategy when viewing items in a QIO Item Viewer.
@@ -71,4 +105,19 @@
 		#Number of slots to view vertically on a QIO Item Viewer.
 		#Range: 2 ~ 48
 		itemViewerSlotsY = 4
+
+	#Particle Config
+	[client.particle]
+		#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
+		enableMultiblockFormationParticles = true
+		#Show particles when machines active.
+		machineEffects = true
+		#How far (in blocks) from the player radiation particles can spawn.
+		radiationParticleRadius = 30
+		#How many particles spawn when rendering radiation effects (scaled by radiation level).
+		radiationParticleCount = 100
+		#Show bolts when the Magnetic Attraction Unit is pulling items.
+		magneticAttraction = true
+		#Show bolts for various AOE tool behaviors such as tilling, debarking, and vein mining.
+		toolAOE = true
 

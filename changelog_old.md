@@ -26,6 +26,10 @@ Notes:
 
 kurokaji
 
+Candice
+
+Dare
+
 PackMode mod seems interesting
 
 More Plates Revamped good for gears and plates

@@ -30,7 +30,15 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=8755%
+  orientation = bottom-right
+  x = -122
+  action = movebutton
+  y = -43
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = 163
   action = movebutton
@@ -38,14 +46,14 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 90
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -54,19 +62,78 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   path = config\fancymenu\ntc_resources\WW_menu\WW_MainMenu_Cursor.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = bottom-left
+  x = 23
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = A
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -230
+  action = movebutton
+  y = -97
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  path = config\fancymenu\ntc_resources\WW_menu\WW_Textbox_Open.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 163
   action = movebutton
@@ -74,14 +141,14 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 90
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -90,13 +157,13 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   path = config\fancymenu\ntc_resources\WW_menu\WW_PauseMenu_Save_No.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   path = config/fancymenu/ntc_resources/WW_menu/WW_PauseMenu_Quit.wav
   action = setbuttonclicksound
 }
@@ -107,115 +174,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
-  orientation = mid-centered
-  x = -230
-  action = movebutton
-  y = -145
-}
-
-customization {
-  identifier = %id=400298%
-  width = 90
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=400298%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
-  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
-}
-
-customization {
-  identifier = %id=400298%
-  path = config\fancymenu\ntc_resources\WW_menu\WW_MainMenu_Cursor.wav
-  action = addhoversound
-}
-
-customization {
-  identifier = %id=400298%
-  path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
-  action = setbuttonclicksound
-}
-
-customization {
-  identifier = %id=502346%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=8755%
-  orientation = bottom-right
-  x = -122
-  action = movebutton
-  y = -43
-}
-
-customization {
-  identifier = %id=604382%
-  orientation = bottom-left
-  x = 23
-  action = movebutton
-  y = -21
-}
-
-customization {
-  identifier = %id=604382%
-  action = setbuttonlabel
-  value = A
-}
-
-customization {
-  identifier = %id=604382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
-  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
-}
-
-customization {
-  identifier = %id=400382%
-  orientation = mid-centered
-  x = -230
-  action = movebutton
-  y = -97
-}
-
-customization {
-  identifier = %id=400382%
-  width = 90
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=400382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
-  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
-}
-
-customization {
-  identifier = %id=400382%
-  path = config\fancymenu\ntc_resources\WW_menu\WW_Textbox_Open.wav
-  action = addhoversound
-}
-
-customization {
-  identifier = %id=400382%
-  path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
-  action = setbuttonclicksound
-}
-
-customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = bottom-left
   x = 45
   action = movebutton
@@ -223,13 +182,13 @@ customization {
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = setbuttonlabel
   value = L
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -246,22 +205,22 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = 163
+  x = -230
   action = movebutton
-  y = -123
+  y = -145
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 90
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -270,15 +229,56 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   path = config\fancymenu\ntc_resources\WW_menu\WW_MainMenu_Cursor.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
   action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 163
+  action = movebutton
+  y = -123
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\ntc_resources\menubuttonhover.png
+  backgroundnormal = config\fancymenu\ntc_resources\menubutton.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  path = config\fancymenu\ntc_resources\WW_menu\WW_MainMenu_Cursor.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  path = config/fancymenu/ntc_resources/WW_menu/WW_Options_Open.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
 }
 
 customization {
@@ -287,6 +287,74 @@ customization {
   x = 0
   action = movebutton
   y = -20
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 324
+  width = 313
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 98586399-0d9f-42eb-97af-0b3ba2a708351656803710304
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 126
+  action = deep_customization_element:title_screen_branding
+  actionid = 4bd88598-0d63-4280-bd41-c472a1b442921656803710312
+  y = 678
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 692
+  width = 267
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = a14dff2c-3a43-421a-bb89-9dcda8baa2851656803710312
+  y = 700
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 94f0ab55-45ea-4d32-8897-b6afd6a4f2eb1656803710312
+  y = 280
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 17195618-ee81-4b92-99c2-fdd7ff5342fc1656803710312
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 149f7791-f814-43ca-9e73-1dc4c098bd0b1656803710312
+  y = 0
+  height = 30
 }
 
 customization {

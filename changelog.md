@@ -367,3 +367,13 @@ connectivity-2.4-1.16.5
     remove ae2 charger from jei and replace input recipes that use it with just charged certus block
     make fluid methane convert to item methane, among other chemistry stuff
 -->
+
+## [1.5.0] - 2022-07-02
+
+### Changed
+- Fixed spelling error for 256 Me storage wafer
+- Added ferritecore (memory optimizations)
+- Added Osmium chance to violecite, sulphuric rock, and flavolite in the end in addition to end stone
+- Fixed osmium not being available in the end for the miner (industrial foregoing), black listed nether, but it's still available in OW
+- Added xnet for people who like it
+- updated some quest texts
