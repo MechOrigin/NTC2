@@ -349,7 +349,8 @@ connectivity-2.4-1.16.5
 - Removed matter upgrader recipe
 - There is no effective way to add speculation core recipe to etcher without consuming cast so it is removed
 - merged #95 - Thanks Kasama - added engineers workbench recipes to assembler
-- reupload 1.4.9 to fix a kubejs error
+- reupload 1.4.9 to fix a kubejs error [1.4.9a]
+- [1.4.9b] fixed thermal centriguge recipe for collectors
 
 ### Added
 - pollutantpump-1.16.5-1.4.0.jar
