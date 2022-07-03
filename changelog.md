@@ -378,3 +378,10 @@ connectivity-2.4-1.16.5
 - Fixed osmium not being available in the end for the miner (industrial foregoing), black listed nether, but it's still available in OW
 - Added xnet for people who like it
 - updated some quest texts
+
+## [1.5.0a] - 2022-07-03
+
+### Changed
+- Fixed mekanism crashing client/server
+- Fixed some quest texts
+- Tuned down insanium essence a bit for cages mobs

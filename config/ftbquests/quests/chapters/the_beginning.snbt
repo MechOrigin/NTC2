@@ -352,8 +352,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			subtitle: "{ntc2.clayball.subtitle}"
-			description: ["You get this from Clay Blocks initially"]
+			description: ["{ntc2.clayball.desc1}"]
 			dependencies: ["5E2B93DCD6093AF1"]
 			id: "2EF155EDA52E2CF8"
 			tasks: [{
@@ -442,8 +441,11 @@
 		{
 			x: -4.0d
 			y: 1.5d
-			subtitle: "{ntc2.quartz.subtitle}"
-			description: ["{ntc2.netherquartz.desc1}"]
+			description: [
+				"{ntc2.quartz.desc1}"
+				""
+				"{ntc2.quartz.desc2}"
+			]
 			dependencies: ["3FA044FF2950895F"]
 			id: "63A7367B2E7055C5"
 			tasks: [{

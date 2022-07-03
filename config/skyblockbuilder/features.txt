@@ -295,11 +295,14 @@ betterendforge:cave_bush
 betterendforge:cave_grass
 betterendforge:rubinea
 betterendforge:tunel_cave
+mekanism:disk
+mekanism:ore
+mekanism:ore_retrogen
 immersiveengineering:mineral_vein
 immersiveengineering:ie_ore
 immersiveengineering:ore_retro
-adlods:deposit_generator
 adlods:vanilla_controller
+adlods:deposit_generator
 terraforged:template
 terraforged:disk
 terraforged:freeze_top_layer
@@ -319,9 +322,6 @@ projectvibrantjourneys:sand_rock
 projectvibrantjourneys:boulder
 projectvibrantjourneys:spike
 projectvibrantjourneys:cliff_rock
-mekanism:disk
-mekanism:ore
-mekanism:ore_retrogen
 productivebees:sand_nest
 productivebees:snow_nest
 productivebees:stone_nest

@@ -217,19 +217,19 @@ val entities = <recipetype:cagedmobs:mob_data>;
 
     val wither = entities.getEntity( "cagedmobs:bosses/wither");
     wither.addLoot(<item:miniutilities:experience_pearl>, 1.0, 1, 16);
-    wither.addLoot(<item:mysticalagradditions:insanium_essence>, 1.0, 1, 10);
+    wither.addLoot(<item:mysticalagradditions:insanium_essence>, 0.1, 1, 10);
     wither.addLoot(<item:mysticalagradditions:withering_soul>, 0.35, 1, 4);
 
     val ender_dragon = entities.getEntity( "cagedmobs:bosses/ender_dragon");
     ender_dragon.addLoot(<item:miniutilities:experience_pearl>, 1.0, 1, 16);
-    ender_dragon.addLoot(<item:mysticalagradditions:insanium_essence>, 1.0, 1, 10);
+    ender_dragon.addLoot(<item:mysticalagradditions:insanium_essence>, 0.1, 1, 10);
     ender_dragon.addLoot(<item:mysticalagradditions:dragon_scale>, 1.0, 4, 8);
     ender_dragon.addLoot(<item:tconstruct:dragon_scale>, 0.05, 1, 6, true, false);
     ender_dragon.addLoot(<item:cagedmobs:dragon_scale>, 0.05, 1, 6, true, false);
 
     val elder_guardian = entities.getEntity( "cagedmobs:bosses/elder_guardian");
     elder_guardian.addLoot(<item:miniutilities:experience_pearl>, 1.0, 1, 16);
-    elder_guardian.addLoot(<item:mysticalagradditions:insanium_essence>, 1.0, 1, 10);
+    elder_guardian.addLoot(<item:mysticalagradditions:insanium_essence>, 0.1, 1, 10);
 
     
     
