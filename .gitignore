@@ -1,6 +1,10 @@
 # Ignore the natives
 natives
 
+# Ignore the mods folder because of licensing issues (😘❤)
+mods
+mods/
+
 # Ignore Crashes
 crash-reports
 crash-reports/
@@ -47,3 +51,4 @@ NewWorldBiomeIdFixer.json
 minecraftinstance.json
 NTC2-client.zip
 NTC2-client-1.4.9.zip
+Not Too Complicated2-1.5.0b-bisect-server.zip

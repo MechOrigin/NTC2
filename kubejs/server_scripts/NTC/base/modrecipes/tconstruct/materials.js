@@ -56,7 +56,7 @@ onEvent('server.datapack.low_priority', (event) => {
     {
       identifier: 'thallasium',
       recipes: [{
-          craftable: false,
+          craftable: true,
           tier: 2,
           sortOrder: 2,
           textColor: '#87dad2'
@@ -128,7 +128,7 @@ onEvent('server.datapack.low_priority', (event) => {
     {
       identifier: 'tin',
       recipes: [{
-          craftable: false,
+          craftable: true,
           tier: 2,
           sortOrder: 1,
           textColor: '#8eadb1'
@@ -200,7 +200,7 @@ onEvent('server.datapack.low_priority', (event) => {
     {
       identifier: 'zinc',
       recipes: [{
-          craftable: false,
+          craftable: true,
           tier: 2,
           sortOrder: 1,
           textColor: '#b8bd89'
@@ -340,7 +340,7 @@ onEvent('server.datapack.low_priority', (event) => {
     {
       identifier: 'terminite',
       recipes: [{
-          craftable: false,
+          craftable: true,
           tier: 3,
           sortOrder: 2,
           textColor: '#74f3e3'
@@ -413,7 +413,7 @@ onEvent('server.datapack.low_priority', (event) => {
     {
       identifier: 'aeternium',
       recipes: [{
-          craftable: false,
+          craftable: true,
           tier: 4,
           sortOrder: 0,
           textColor: '#2e847c'
@@ -476,7 +476,7 @@ onEvent('server.datapack.low_priority', (event) => {
     {
       identifier: 'enderium',
       recipes: [{
-          craftable: false,
+          craftable: true,
           tier: 4,
           sortOrder: 2,
           textColor: '#2c8c9c'
@@ -548,7 +548,7 @@ onEvent('server.datapack.low_priority', (event) => {
     {
       identifier: 'lumium',
       recipes: [{
-          craftable: false,
+          craftable: true,
           tier: 4,
           sortOrder: 1,
           textColor: '#fceea8'
@@ -620,7 +620,7 @@ onEvent('server.datapack.low_priority', (event) => {
     {
       identifier: 'signalum',
       recipes: [{
-          craftable: false,
+          craftable: true,
           tier: 4,
           sortOrder: 1,
           textColor: '#ec3606'

@@ -254,6 +254,9 @@ craftingTable.addShapeless("rubber", <item:thermal:rubber> * 1,
 
 <recipetype:thermal:refinery>.addRecipe("nitrogen_from_fluid", <item:chemlib:element_nitrogen>*8, [<fluid:minecraft:empty>], <fluid:kubejs:liquid_nitrogen> *500, 20);
 
+<recipetype:thermal:crucible>.addRecipe("compound_sodium_hydroxide", <fluid:kubejs:liquid_sodium_hydroxide> *144, <item:chemlib:compound_sodium_hydroxide> * 1, 20);
+
+
 
 //6 times materials ore processing
 //calcium carbonate + acetic acid -> calcium acetate

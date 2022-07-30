@@ -385,3 +385,11 @@ connectivity-2.4-1.16.5
 - Fixed mekanism crashing client/server
 - Fixed some quest texts
 - Tuned down insanium essence a bit for cages mobs
+
+## [1.5.0b] - 2022-07-09
+
+### Changed
+- Fixed a chemistry chain (hydroxylamine)
+- Sodium Hydroxide is now liquefiable
+- Created fluid Tin Chloride
+- Added liquid Vinegar recipe

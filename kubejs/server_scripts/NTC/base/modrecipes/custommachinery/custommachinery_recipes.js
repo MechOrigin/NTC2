@@ -603,6 +603,27 @@ onEvent('recipes', event => {
         .produceFluid(Fluid.of("mekanism:ethene", 250), "output1")
         .produceFluid(Fluid.of("kubejs:liquid_diluted_sulfuric_acid", 500), "output2")
 
+    event.recipes.custommachinery.custom_machine("custommachinery:chemical_reactor", 80)
+        .requireFluid(Fluid.of("immersiveengineering:ethanol", 250), "input1")
+        .requireFluid(Fluid.of("mekanism:oxygen", 500), "input2")
+        .requireEnergy(5000)
+        .produceFluid(Fluid.of("minecraft:water", 250), "output1")
+        .produceFluid(Fluid.of("kubejs:liquid_vinegar", 500), "output2")
+
+    event.recipes.custommachinery.custom_machine("custommachinery:chemical_reactor", 80)
+        .requireFluid(Fluid.of("tconstruct:molten_tin", 250), "input1")
+        .requireFluid(Fluid.of("mekanism:chlorine", 500), "input2")
+        .requireEnergy(5000)
+        .produceFluid(Fluid.of("kubejs:liquid_tin_chloride", 750), "output1")
+
+    event.recipes.custommachinery.custom_machine("custommachinery:chemical_reactor", 80)
+        .requireFluid(Fluid.of("kubejs:liquid_nitric_dioxide", 250), "input1")
+        .requireFluid(Fluid.of("kubejs:liquid_tin_chloride", 250), "input2")
+        .requireEnergy(5000)
+        .produceFluid(Fluid.of("kubejs:liquid_hydroxylamine", 500), "output1")
+
+        
+
     //chemical mixer
     event.recipes.custommachinery.custom_machine("custommachinery:chemical_mixer", 80)
         .requireFluid(Fluid.of("mekanism:sulfuric_acid", 250), "input1")

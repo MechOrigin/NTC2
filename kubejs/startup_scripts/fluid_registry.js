@@ -95,6 +95,7 @@ onEvent('fluid.registry', event => {
     event.create('liquid_nitrogen').textureThin(0xa4d2ac).bucketColor(0xa4d2ac).displayName('Liquid Nitrogen')
     event.create('liquid_nitric_oxide').textureThin(0x83b44b).bucketColor(0x83b44b).displayName('Liquid Nitric Oxide')
     event.create('liquid_nitric_dioxide').textureThin(0x7bad56).bucketColor(0x7bad56).displayName('Liquid Nitric Dioxide')
+    event.create('liquid_tin_chloride').textureThin(0xcfd3d9).bucketColor(0xcfd3d9).displayName('Liquid Tin Chloride')
 
     // particle physics (without all the physics?)
     event.create('liquid_anti_hydrogen').textureThin(0xffffff).bucketColor(0xffffff).displayName('Anti-Hydrogen Fluid')
