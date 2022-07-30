@@ -1,32 +1,32 @@
-# Ignore the natives
+# Ignore the natives #
 natives
 
-# Ignore the mods folder because of licensing issues (😘❤)
+# Ignore the mods folder because of licensing issues (😘❤) #
 mods
 mods/
 
-# Ignore Crashes
+# Ignore Crashes #
 crash-reports
 crash-reports/
 
-# Ignore Dumps
+# Ignore Dumps #
 dumps
 dumps/
 
-# Ignore Logs
+# Ignore Logs #
 logs
 *.log
 logs/
 
-# Ignore saves
+# Ignore saves #
 saves
 saves/
 
-# Ignores Backups
+# Ignores Backups #
 backups
 backups/
 
-# Ignore Misc stuff
+# Ignore Misc stuff #
 emojiful/
 fancymenu_setups/
 not-enough-crashes/
