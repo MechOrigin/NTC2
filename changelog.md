@@ -393,3 +393,25 @@ connectivity-2.4-1.16.5
 - Sodium Hydroxide is now liquefiable
 - Created fluid Tin Chloride
 - Added liquid Vinegar recipe
+
+
+
+## [1.5.1] - 2022-08-27
+
+### Changed
+- Changed wyml.json ITEM_DESPAWN_DENYLIST added AE2 crystal seeds (Thanks Aluminus)
+- Updated to ExtendedCrafting-1.16.5-3.1.12 to fix the free ultimate singularity bug (Thanks everyone involved)
+- Updated custommachinery-1.16.5-0.5.8i.jar, CyclopsCore-1.16.5-1.13.0.jar, dcintegration-forge-2.4.7-1.16.jar, MasterfulMachinery-1.16.5-0.1.66-B1041.jar,
+sophisticatedbackpacks-1.16.5-3.15.16.669.jar, ProjectExpansion-1.16.5-1.0.32.jar, potiondescriptions-1.16.5-1.5.4.jar, nether-s-exoticism-1.16.5-1.1.10.jar, 
+
+- Fix Pink slime comb - git #119
+- Fix inv tweaks - git #116
+- Fix two ultimate singularity recipes - git #114
+- Fix Quartz/Flint mesh quest text error
+- Fixed most extended crafting recipes hard requiring a specific table, if it can be crafted in table 2 it should be able to be crafted in 3 and 4 now
+- Fix End Resin Processor MK2 not displaying as MK2, the single block machine is obviously only craftable after crafting the multiblock - git #110
+- Fix compact crafting mk2 not displaying as mk2
+- Fixed flat 4x rate of solarflux crafts, made it exponential per 2 tiers - git #107
+- Fixed mystical agri double essence recipes
+- Removed betternether basalt and blackstone stalactite recipes
+- Fixed item dupe method with sophisticated backpacks until fastworkbench compat can be fixed disabled recipe

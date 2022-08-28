@@ -14,4 +14,7 @@ relayBonusMultiplier = 1
 relayTransferMultiplier = 1
 notifyKnowledgeBookGains = true
 emcLinkFluidLimitMultiplier = 1
+infiniteFuelCost = 128
+infiniteFuelBurnTime = 1600
+infiniteSteakCost = 64
 

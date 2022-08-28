@@ -1,5 +1,5 @@
 
-mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_controller", 2, <item:masterfulmachinery:end_resin_processor_controller>, [
+mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_controller", 0, <item:masterfulmachinery:end_resin_processor_controller>, [
 	[<item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:thermal:cured_rubber_block>, <item:minecraft:netherite_scrap>, <item:thermal:cured_rubber_block>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:minecraft:netherite_scrap>, <item:industrialforegoing:machine_frame_advanced>, <item:minecraft:netherite_scrap>, <item:mekanismadditions:gray_plastic>], 
@@ -7,7 +7,7 @@ mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_controller", 
 	[<item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_maximum_port_fluids_input", 2, <item:masterfulmachinery:end_resin_processor_maximum_port_fluids_input>, [
+mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_maximum_port_fluids_input", 0, <item:masterfulmachinery:end_resin_processor_maximum_port_fluids_input>, [
 	[<item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:thermal:cured_rubber_block>, <item:compressium:iron_1>, <item:minecraft:piston>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:thermal:cured_rubber_block>, <item:compressium:iron_1>, <item:minecraft:piston>, <item:mekanismadditions:gray_plastic>], 
@@ -15,7 +15,7 @@ mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_maximum_port_
 	[<item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_maximum_port_energy_input", 2, <item:masterfulmachinery:end_resin_processor_maximum_port_energy_input>, [
+mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_maximum_port_energy_input", 0, <item:masterfulmachinery:end_resin_processor_maximum_port_energy_input>, [
 	[<item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:emendatusenigmatica:signalum_block>, <item:compressium:iron_1>, <item:appliedenergistics2:energy_acceptor>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:emendatusenigmatica:signalum_block>, <item:compressium:iron_1>, <item:appliedenergistics2:energy_acceptor>, <item:mekanismadditions:gray_plastic>], 
@@ -23,7 +23,7 @@ mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_maximum_port_
 	[<item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_singlechest_port_items_input", 2, <item:masterfulmachinery:end_resin_processor_singlechest_port_items_input>, [
+mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_singlechest_port_items_input", 0, <item:masterfulmachinery:end_resin_processor_singlechest_port_items_input>, [
 	[<item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:immersiveengineering:sorter>, <item:compressium:iron_1>, <item:minecraft:piston>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:immersiveengineering:sorter>, <item:compressium:iron_1>, <item:minecraft:piston>, <item:mekanismadditions:gray_plastic>], 
@@ -31,7 +31,7 @@ mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_singlechest_p
 	[<item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_singlechest_port_items_output", 2, <item:masterfulmachinery:end_resin_processor_singlechest_port_items_output>, [
+mods.extendedcrafting.TableCrafting.addShaped("end_resin_processor_singlechest_port_items_output", 0, <item:masterfulmachinery:end_resin_processor_singlechest_port_items_output>, [
 	[<item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:immersiveengineering:sorter>, <item:compressium:iron_1>, <item:minecraft:sticky_piston>, <item:mekanismadditions:gray_plastic>], 
 	[<item:mekanismadditions:gray_plastic>, <item:immersiveengineering:sorter>, <item:compressium:iron_1>, <item:minecraft:sticky_piston>, <item:mekanismadditions:gray_plastic>], 

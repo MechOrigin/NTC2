@@ -51,42 +51,42 @@ craftingTable.addShaped("sp_1", <item:solarflux:sp_1> * 4, [
 ]);
 
 craftingTable.removeRecipe(<item:solarflux:sp_3>);
-craftingTable.addShaped("sp_3", <item:solarflux:sp_3> * 4, [
+craftingTable.addShaped("sp_3", <item:solarflux:sp_3> * 3, [
     [<item:solarflux:photovoltaic_cell_1>, <item:solarflux:photovoltaic_cell_1>, <item:solarflux:photovoltaic_cell_1>],
     [<item:solarflux:sp_2>, <item:immersiveengineering:coil_lv>, <item:solarflux:sp_2>],
     [<item:solarflux:sp_2>, <item:emendatusenigmatica:steel_block>, <item:solarflux:sp_2>]
 ]);
 
 craftingTable.removeRecipe(<item:solarflux:sp_4>);
-craftingTable.addShaped("sp_4", <item:solarflux:sp_4> * 4, [
+craftingTable.addShaped("sp_4", <item:solarflux:sp_4> * 3, [
     [<item:solarflux:photovoltaic_cell_2>, <item:solarflux:photovoltaic_cell_2>, <item:solarflux:photovoltaic_cell_2>],
     [<item:solarflux:sp_3>, <item:immersiveengineering:coil_mv>, <item:solarflux:sp_3>],
     [<item:solarflux:sp_3>, <item:emendatusenigmatica:cobalt_block>, <item:solarflux:sp_3>]
 ]);
 
 craftingTable.removeRecipe(<item:solarflux:sp_5>);
-craftingTable.addShaped("sp_5", <item:solarflux:sp_5> * 4, [
+craftingTable.addShaped("sp_5", <item:solarflux:sp_5> * 2, [
     [<item:solarflux:photovoltaic_cell_3>, <item:solarflux:photovoltaic_cell_3>, <item:solarflux:photovoltaic_cell_3>],
     [<item:solarflux:sp_4>, <item:immersiveengineering:coil_hv>, <item:solarflux:sp_4>],
     [<item:solarflux:sp_4>, <item:tconstruct:hepatizon_block>, <item:solarflux:sp_4>]
 ]);
 
 craftingTable.removeRecipe(<item:solarflux:sp_6>);
-craftingTable.addShaped("sp_6", <item:solarflux:sp_6> * 4, [
+craftingTable.addShaped("sp_6", <item:solarflux:sp_6> * 2, [
     [<item:solarflux:photovoltaic_cell_4>, <item:solarflux:photovoltaic_cell_4>, <item:solarflux:photovoltaic_cell_4>],
     [<item:solarflux:sp_5>, <item:mekanism:alloy_infused>, <item:solarflux:sp_5>],
     [<item:solarflux:sp_5>, <item:emendatusenigmatica:osmium_block>, <item:solarflux:sp_5>]
 ]);
 
 craftingTable.removeRecipe(<item:solarflux:sp_7>);
-craftingTable.addShaped("sp_7", <item:solarflux:sp_7> * 4, [
+craftingTable.addShaped("sp_7", <item:solarflux:sp_7> * 1, [
     [<item:solarflux:photovoltaic_cell_5>, <item:solarflux:photovoltaic_cell_5>, <item:solarflux:photovoltaic_cell_5>],
     [<item:solarflux:sp_6>, <item:mekanism:alloy_reinforced>, <item:solarflux:sp_6>],
     [<item:solarflux:sp_6>, <item:mekanism:block_refined_glowstone>, <item:solarflux:sp_6>]
 ]);
 
 craftingTable.removeRecipe(<item:solarflux:sp_8>);
-craftingTable.addShaped("sp_8", <item:solarflux:sp_8> * 4, [
+craftingTable.addShaped("sp_8", <item:solarflux:sp_8> * 1, [
     [<item:solarflux:photovoltaic_cell_6>, <item:solarflux:photovoltaic_cell_6>, <item:solarflux:photovoltaic_cell_6>],
     [<item:solarflux:sp_7>, <item:mekanism:alloy_atomic>, <item:solarflux:sp_7>],
     [<item:solarflux:sp_7>, <item:mekanism:block_refined_obsidian>, <item:solarflux:sp_7>]

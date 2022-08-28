@@ -28,6 +28,8 @@
   allowConfigMigration = true
   # Attempt to parse id-based mentions to names in in-game chat
   parseMentionsIngame = true
+  # Set to true to supress warning of unsafe mod download location
+  ignoreFileSource = false
 # Configuration options for commands
 [commands]
   # The Role IDs of your Admin Roles
@@ -90,6 +92,9 @@ args = [    ]
           optional = false
 # Toggle some message related features
 [messages]
+  # Changing this to an language key (like en-US, de-DE) will always attempt to download the latest language file from https://github.com/ErdbeerbaerLP/Discord-Integration-Translations
+  # Setting to 'local' disables downloading
+  language = "local"
   # Enable formatting conversion (Markdown <==> Minecraft)
   convertCodes = true
   # Send formatting codes from mc chat to discord

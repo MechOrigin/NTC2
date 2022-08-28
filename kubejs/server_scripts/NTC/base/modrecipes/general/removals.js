@@ -137,7 +137,9 @@ events.listen('recipes', e => {
         'thermal:storage/charcoal_block',
         'quark:building/crafting/compressed/charcoal_block',
         'morecharcoal:charcoal_block',
-        'minecraft:bone_meal'
+        'minecraft:bone_meal',
+        'betternether:blackstone_stalactite_from_blackstone',
+        'betternether:basalt_stalactite_from_basalt'
     ];
     idRemove.forEach(iR => {
         e.remove({
@@ -272,12 +274,14 @@ var idRemovals = [
     '/integrateddynamics:\\w+/ore/quartz/',
 
     '/integrateddynamics:\\w+/convenience/',
-    '/integrateddynamics:\\w+/ore/'
+    '/integrateddynamics:\\w+/ore/',
 ];
 
 var regexIdRemovals = [
     /emendatusenigmatica:ore_from_chunk_stonecutting/,
-    /emendatusenigmatica:ore_from_chunk_crafting/
+    /emendatusenigmatica:ore_from_chunk_crafting/,
+    /mysticalagriculture:essence\/common/,
+    /mysticalagriculture:essence\/thermal/
     
 ];
 

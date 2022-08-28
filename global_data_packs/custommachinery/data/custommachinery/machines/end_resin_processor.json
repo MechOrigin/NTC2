@@ -1,5 +1,5 @@
 {
-  "name": "End Resin Processor",
+  "name": "End Resin Processor Mk2",
   "appearance": {
     "lightmode": "running",
     "lightlevel": 7,
@@ -143,7 +143,7 @@
       "type": "custommachinery:status"
     },
     {
-      "text": "End Resin Processor",
+      "text": "End Resin Processor Mk2",
       "x": 7,
       "y": 5,
       "type": "custommachinery:text"

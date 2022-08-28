@@ -160,11 +160,11 @@ infernalexp:blackstone_boulder
 infernalexp:glowdust_sink_hole
 infernalexp:shroomlight_tear
 infernalexp:planted_quartz_patch
-nethers_exoticism:ramboutan_sapling
-nethers_exoticism:pitaya_sapling
-nethers_exoticism:kiwano_sapling
-nethers_exoticism:jaboticaba_sapling
-nethers_exoticism:bouddha_s_hand_sapling
+nethers_exoticism:rambutan_spawner
+nethers_exoticism:pitaya_spawner
+nethers_exoticism:kiwano_spawner
+nethers_exoticism:jabuticaba_spawner
+nethers_exoticism:bouddhas_hand_spawner
 betterendforge:end_lotus
 betterendforge:end_lotus_leaf
 betterendforge:bubble_coral

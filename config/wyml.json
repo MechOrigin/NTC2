@@ -24,7 +24,11 @@
 	/* List of items which are not to have their de-spawn time changed
 	   Example: minecraft:kelp
 	*/
-	"ITEM_DESPAWN_DENYLIST": [],
+	"ITEM_DESPAWN_DENYLIST": [
+		"appliedenergistics2:nether_quartz_seed",
+		"appliedenergistics2:certus_crystal_seed",
+		"appliedenergistics2:fluix_crystal_seed"
+	],
 	// Allow pausing of spawns in specific chunks
 	"ALLOW_PAUSE": true,
 	// Allow pausing of chunks claimed using FTB Chunks

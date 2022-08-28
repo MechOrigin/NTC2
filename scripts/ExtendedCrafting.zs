@@ -494,7 +494,7 @@ mods.extendedcrafting.TableCrafting.addShaped("infused_boots", 0, <item:miniutil
 
 //infinity helm
 craftingTable.removeRecipe(<item:avaritia:infinity_armor_helmet>);
-mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_helmet", 4, <item:avaritia:infinity_armor_helmet>, [
+mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_helmet", 0, <item:avaritia:infinity_armor_helmet>, [
 	[<item:minecraft:air>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:minecraft:air>], 
 	[<item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>], 
 	[<item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:avaritia:infinity_ingot>, <item:projectexpansion:fading_matter>, <item:projectexpansion:fading_matter>, <item:projectexpansion:fading_matter>, <item:avaritia:infinity_ingot>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>], 
@@ -508,7 +508,7 @@ mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_helmet", 4, <item:
 
 //infinity chest
 craftingTable.removeRecipe(<item:avaritia:infinity_armor_chestplate>);
-mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_chestplate", 4, <item:avaritia:infinity_armor_chestplate>, [
+mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_chestplate", 0, <item:avaritia:infinity_armor_chestplate>, [
 	[<item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>], 
 	[<item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>], 
 	[<item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:avaritia:infinity_ingot>, <item:projectexpansion:fading_matter>, <item:projectexpansion:fading_matter>, <item:projectexpansion:fading_matter>, <item:avaritia:infinity_ingot>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>], 
@@ -522,7 +522,7 @@ mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_chestplate", 4, <i
 
 //infinity legs
 craftingTable.removeRecipe(<item:avaritia:infinity_armor_leggings>);
-mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_leggings", 4, <item:avaritia:infinity_armor_leggings>, [
+mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_leggings", 0, <item:avaritia:infinity_armor_leggings>, [
 	[<item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>], 
 	[<item:extendedcrafting:the_ultimate_component>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:extendedcrafting:the_ultimate_component>], 
 	[<item:extendedcrafting:the_ultimate_component>, <item:avaritia:infinity_ingot>, <item:extendedcrafting:the_ultimate_component>, <item:projectexpansion:fading_matter>, <item:projectexpansion:fading_matter>, <item:projectexpansion:fading_matter>, <item:extendedcrafting:the_ultimate_component>, <item:avaritia:infinity_ingot>, <item:extendedcrafting:the_ultimate_component>], 
@@ -536,7 +536,7 @@ mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_leggings", 4, <ite
 
 //infinity boots
 craftingTable.removeRecipe(<item:avaritia:infinity_armor_boots>);
-mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_boots", 4, <item:avaritia:infinity_armor_boots>, [
+mods.extendedcrafting.TableCrafting.addShaped("infinity_armor_boots", 0, <item:avaritia:infinity_armor_boots>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:projectexpansion:fading_matter>, <item:projectexpansion:fading_matter>, <item:projectexpansion:fading_matter>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
@@ -1029,7 +1029,7 @@ mods.extendedcrafting.TableCrafting.addShaped("creative_storage_upgrade", 0, <it
 	[<item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("creative_vending_upgrade", 4, <item:storagedrawers:creative_vending_upgrade>, [
+mods.extendedcrafting.TableCrafting.addShaped("creative_vending_upgrade", 0, <item:storagedrawers:creative_vending_upgrade>, [
 	[<item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>, <item:ae2extras:16m_cell_component>], 
 	[<item:ae2extras:16m_cell_component>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extendedcrafting:the_ultimate_catalyst>, <item:ae2extras:16m_cell_component>], 
 	[<item:ae2extras:16m_cell_component>, <item:extendedcrafting:the_ultimate_catalyst>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:extendedcrafting:the_ultimate_catalyst>, <item:ae2extras:16m_cell_component>], 

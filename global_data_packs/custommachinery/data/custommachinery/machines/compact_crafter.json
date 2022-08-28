@@ -1,5 +1,5 @@
 {
-  "name": "Compact Crafter",
+  "name": "Compact Crafter Mk2",
   "appearance": {
     "lightmode": "running",
     "lightlevel": 7,
@@ -170,7 +170,7 @@
       "type": "custommachinery:status"
     },
     {
-      "text": "Compact Crafter",
+      "text": "Compact Crafter Mk2",
       "x": 7,
       "y": 5,
       "type": "custommachinery:text"

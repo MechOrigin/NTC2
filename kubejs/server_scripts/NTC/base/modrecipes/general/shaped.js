@@ -1,7 +1,8 @@
 onEvent('recipes', e => {
 
   removeRecipeByID(e, [
-    'immersiveengineering:crafting/treated_wood_horizontal'
+    'immersiveengineering:crafting/treated_wood_horizontal',
+    'sophisticatedbackpacks:crafting_upgrade'
   ])
 
   modifyShaped(e, 'immersiveengineering:treated_wood_horizontal', 8, ['DDD', 'DGD', 'DDD'], {
