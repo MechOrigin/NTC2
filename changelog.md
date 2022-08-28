@@ -415,3 +415,4 @@ sophisticatedbackpacks-1.16.5-3.15.16.669.jar, ProjectExpansion-1.16.5-1.0.32.ja
 - Fixed mystical agri double essence recipes
 - Removed betternether basalt and blackstone stalactite recipes
 - Fixed item dupe method with sophisticated backpacks until fastworkbench compat can be fixed disabled recipe
+- Added quests to bees and mystical agri (Thanks Luthys)
