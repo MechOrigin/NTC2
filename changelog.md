@@ -417,3 +417,20 @@ sophisticatedbackpacks-1.16.5-3.15.16.669.jar, ProjectExpansion-1.16.5-1.0.32.ja
 - Fixed item dupe method with sophisticated backpacks until fastworkbench compat can be fixed disabled recipe
 - Added quests to bees and mystical agri (Thanks Luthys)
 - Added curious support for resperators (head) Thanks DjefNUKEM
+
+
+## [1.5.2] - 2022-10-19
+
+- Fixed extendedcrafting.zs scripts for the tables not accepting different tiers (thanks DjefNUKEM)
+
+## [1.5.3] - 2023-08-15
+
+- Updated 76 mods
+    - uhhh... too long of a list...
+- Added 2 mods
+    - memoryleakfix-forge-pre1.17-1.0.0
+    - MixinCompat-1.0-1.16.5
+
+- Adding some changes that DjefNUKEM created in an addon pack to the base game
+
+- addressing some issues

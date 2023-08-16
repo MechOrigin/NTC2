@@ -4,4 +4,6 @@
 	mustHaveSilkTouchToBreakPortal = true
 	#If enabled, add portal frames directly to the player's inventory to lower the chance of them being destroyed. Still drops the item entity if the inventory is full.
 	addBrokenPortalFramesToInventory = true
+	#Whether a message should be sent to the player where the extra dragon egg will drop.
+	sendMessageOnExtraDragonEggDrop = true
 

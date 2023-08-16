@@ -61,4 +61,10 @@
 	antiprotonicNucleosynthesizer = "1000000000"
 	#Base energy storage (Joules). Also defines max output rate.
 	spsPort = "1000000000"
+	#Base energy storage (Joules).
+	pigmentExtractor = "40000"
+	#Base energy storage (Joules).
+	pigmentMixer = "80000"
+	#Base energy storage (Joules).
+	paintingMachine = "40000"
 

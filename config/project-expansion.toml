@@ -1,20 +1,57 @@
+#The delay between mod operations (in ticks, default 20) - this will slightly effect the amount of emc generated via rounding - increase if you're noticing lag
+#Range: 1 ~ 200
 tickDelay = 20
+#If EMC should be formatted as M/B/T/etc
 formatEMC = true
+#If full number names (Million/Billion/Trillion) should be used instead of abbreviations
 fullNumberNames = true
+#Displays your current emc and gained emc per second in the top left corner.
 emcDisplay = true
+#Notify users something is changed about them via /emc.
 notifyCommandChanges = true
+#If EMC Link Right-Click functionality should be Limited by Tier or Not.
 limitEmcLinkVendor = true
+#The amount of items that the transmutation interface will report to have. Depending on your usage, you may want this to be a high value.
+#Range: > 1
 transmutationInterfaceItemCount = 2147483647
-useOldValues = false
+#Multiplies the output of Collectors.
+#Range: 0.1 ~ 50.0
 collectorMultiplier = 1
+#Multiplies the item limit of EMC Links.
+#Range: 0.1 ~ 50.0
 emcLinkItemLimitMultiplier = 1
+#Multiplies the emc limit of EMC Links.
+#Range: 0.1 ~ 50.0
 emcLinkEMCLimitMultiplier = 1
+#Multiplies the output of Power Flowers.
+#Range: 0.1 ~ 50.0
 powerflowerMultiplier = 1
+#Multiplies the bonus of Relays.
+#Range: 0.1 ~ 50.0
 relayBonusMultiplier = 1
+#Multiplies the transfer limit of Relays.
+#Range: 0.1 ~ 50.0
 relayTransferMultiplier = 1
+#Tell users the list of items they gained when using a knowledge book.
 notifyKnowledgeBookGains = true
+#Multiplies the fluid limit of EMC Links.
+#Range: 0.1 ~ 50.0
 emcLinkFluidLimitMultiplier = 1
+#The cost of using the infinite fuel item.
+#Range: > 1
 infiniteFuelCost = 128
+#The ticks each usage of the infinite fuel item will give.
+#Range: > 1
 infiniteFuelBurnTime = 1600
+#The cost of using the infinite steak item.
+#Range: > 1
 infiniteSteakCost = 64
+#If fluid efficiency should be enabled.
+enableFluidEfficiency = true
+#If ProjectE's processors.EnchantmentProcessor.persistent option should only include enchanted books.
+persistEnchantedBooksOnly = false
+#If a tooltip should be shown on items which can be learned, denoting if the item has been learned or not. Note: ProjectE's client.shiftEmcToolTips applies to this.
+enabledLearnedTooltip = true
+#If a sound should be played when something is collected with Alchemical Collection.
+alchemicalCollectionSound = true
 
