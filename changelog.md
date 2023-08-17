@@ -430,7 +430,8 @@ sophisticatedbackpacks-1.16.5-3.15.16.669.jar, ProjectExpansion-1.16.5-1.0.32.ja
 - Added 2 mods
     - memoryleakfix-forge-pre1.17-1.0.0
     - MixinCompat-1.0-1.16.5
+    - lightspeed-1.16.5-1.0.5
+    - modernfix-forge-5.6.0+mc1.16.5
+    - DataFixerSlayer 1.0-3
 
 - Adding some changes that DjefNUKEM created in an addon pack to the base game
-
-- addressing some issues
