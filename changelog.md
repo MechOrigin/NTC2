@@ -435,3 +435,16 @@ sophisticatedbackpacks-1.16.5-3.15.16.669.jar, ProjectExpansion-1.16.5-1.0.32.ja
     - DataFixerSlayer 1.0-3
 
 - Adding some changes that DjefNUKEM created in an addon pack to the base game
+
+## [1.5.4] - 2023-08-18
+
+- Applied changes to end game items (Thanks DjefNUKEM)
+    - CONFIG
+        - ftbquests / adding end game
+    - GLOBAL_DATA_PACKS
+        - adding mekanism curios
+    - KUBEJS
+        - adding creative recipes
+    - SCRIPTS
+        - adding creative recipes
+        - fixing extended crafting issues

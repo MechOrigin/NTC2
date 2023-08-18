@@ -98,6 +98,7 @@
 		{
 			x: 4.0d
 			y: 4.0d
+			subtitle: "&bCraftable&r"
 			id: "3475879E314E8BC0"
 			tasks: [{
 				id: "40E3BB4BE49FDE58"
@@ -108,6 +109,7 @@
 		{
 			x: 5.0d
 			y: 4.0d
+			subtitle: "&bCraftable&r"
 			id: "3734905E2EBAFC5A"
 			tasks: [{
 				id: "114F03B81F27EC1B"
@@ -118,6 +120,7 @@
 		{
 			x: 4.0d
 			y: 5.0d
+			subtitle: "&bCraftable&r"
 			id: "565D1A50B8BA12E3"
 			tasks: [{
 				id: "4FBDA325242311E0"
@@ -128,6 +131,7 @@
 		{
 			x: 5.0d
 			y: 5.0d
+			subtitle: "&bCraftable&r"
 			id: "2AAD29BBE0909A26"
 			tasks: [{
 				id: "3628D3FE4DEC7405"
@@ -138,6 +142,7 @@
 		{
 			x: 7.0d
 			y: 4.0d
+			subtitle: "&bCraftable&r"
 			id: "51D0BA7BBE294E3A"
 			tasks: [{
 				id: "7EFCE176264C00E0"
@@ -176,6 +181,7 @@
 		{
 			x: 2.0d
 			y: 4.0d
+			subtitle: "&bCraftable&r"
 			id: "22F913A47611F7AB"
 			tasks: [{
 				id: "35CE9C17FAE80493"
@@ -201,6 +207,7 @@
 		{
 			x: 11.0d
 			y: 4.0d
+			subtitle: "&bCraftable&r"
 			id: "428C1A3D0EF0B201"
 			tasks: [{
 				id: "4493A70D38E617FD"
@@ -212,6 +219,7 @@
 						slot: "upgrades"
 					}
 				}
+				only_from_crafting: true
 			}]
 		}
 		{
@@ -293,6 +301,7 @@
 		{
 			x: 11.0d
 			y: 5.0d
+			subtitle: "&bCraftable&r"
 			id: "267F11EE3C6F2965"
 			tasks: [{
 				id: "6706C67BC79C9B42"
@@ -304,11 +313,13 @@
 						slot: "abilities"
 					}
 				}
+				only_from_crafting: true
 			}]
 		}
 		{
 			x: 12.0d
 			y: 4.0d
+			subtitle: "&bCraftable&r"
 			id: "6E36F3649D6B47D6"
 			tasks: [{
 				id: "612CF28C154154EB"
@@ -320,6 +331,7 @@
 						slot: "souls"
 					}
 				}
+				only_from_crafting: true
 			}]
 		}
 		{
@@ -394,6 +406,24 @@
 				id: "4DE87275830C48E4"
 				type: "item"
 				item: "avaritia:ultimate_stew"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.0d
+			subtitle: "&bCraftable&r"
+			id: "127986D562A5A67A"
+			tasks: [{
+				id: "0606DC1B96AD448D"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "defense"
+					}
+				}
+				only_from_crafting: true
 			}]
 		}
 	]

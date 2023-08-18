@@ -1,15 +1,11 @@
-
-
-craftingTable.removeRecipe(<item:ironjetpacks:basic_coil>);
-craftingTable.addShaped("basic_coil", <item:ironjetpacks:basic_coil> * 1, [
-    [<item:minecraft:air>, <tag:items:forge:plates/cobalt>, <item:extendedcrafting:redstone_nugget>],
-    [<tag:items:forge:plates/cobalt>, <tag:items:forge:rods/cobalt>, <tag:items:forge:plates/cobalt>],
-    [<item:extendedcrafting:redstone_nugget>, <tag:items:forge:plates/cobalt>, <item:minecraft:air>]
-]);
-
-craftingTable.removeRecipe(<item:ironjetpacks:advanced_coil>);
-craftingTable.addShaped("advanced_coil", <item:ironjetpacks:advanced_coil> * 1, [
-    [<item:minecraft:air>, <tag:items:forge:plates/osmium>, <item:extendedcrafting:redstone_nugget>],
-    [<tag:items:forge:plates/osmium>, <tag:items:forge:rods/osmium>, <tag:items:forge:plates/osmium>],
-    [<item:extendedcrafting:redstone_nugget>, <tag:items:forge:plates/osmium>, <item:minecraft:air>]
+mods.extendedcrafting.TableCrafting.addShaped("creative_jetpack", 4, <item:ironjetpacks:creative_jetpack>.withTag({Throttle: 1.0 as double}), [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:projectexpansion:final_star>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>, <item:extendedcrafting:the_ultimate_component>], 
+	[<item:minecraft:air>, <item:kubejs:ultimate_conglomerate>, <item:kubejs:ultimate_conglomerate>, <item:kubejs:ultimate_conglomerate>, <item:minecraft:nether_star>, <item:kubejs:ultimate_conglomerate>, <item:kubejs:ultimate_conglomerate>, <item:kubejs:ultimate_conglomerate>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:kubejs:ultimate_conglomerate>, <item:projectexpansion:final_power_flower>, <item:kubejs:ultimate_conglomerate>, <item:ironjetpacks:strap>, <item:kubejs:ultimate_conglomerate>, <item:projectexpansion:final_power_flower>, <item:kubejs:ultimate_conglomerate>, <item:minecraft:air>], 
+	[<item:minecraft:nether_star>, <item:extendedcrafting:the_ultimate_ingot>, <item:mekanism:creative_fluid_tank>, <item:extendedcrafting:the_ultimate_ingot>, <item:ironjetpacks:emerald_jetpack>.withTag({Throttle: 1.0 as double}), <item:extendedcrafting:the_ultimate_ingot>, <item:mekanism:creative_fluid_tank>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:nether_star>],
+	[<item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:ironjetpacks:strap>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:ironjetpacks:strap>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:extendedcrafting:ultimate_singularity>, <item:avaritia:infinity_block>, <item:extendedcrafting:ultimate_singularity>, <item:minecraft:air>, <item:extendedcrafting:ultimate_singularity>, <item:avaritia:infinity_block>, <item:extendedcrafting:ultimate_singularity>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:avaritia:infinity_block>, <item:avaritia:endest_pearl>, <item:avaritia:infinity_block>, <item:minecraft:air>, <item:avaritia:infinity_block>, <item:avaritia:endest_pearl>, <item:avaritia:infinity_block>, <item:minecraft:air>]
 ]);
