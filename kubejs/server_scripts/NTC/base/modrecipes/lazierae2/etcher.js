@@ -108,41 +108,74 @@ onEvent('recipes', event => {
             input1: 'kubejs:calculation_processor_wafer',
             input2: 'kubejs:4m_component_wafer',
             input3: 'kubejs:glassy_glowstone_sheet'
-          }
-      ]
-    };
-
-    dataItemsTwoItems = {
-      recipes: [
+          },
           {
             time: 80,
             energy: 1500,
             item: 'kubejs:1k_component_wafer',
             count: 1,
             input1: 'kubejs:logic_processor_wafer',
-            input2: 'kubejs:charged_redstone_sheet'
+            input2: 'kubejs:charged_redstone_sheet',
+            input3: 'alchemistry:slot_filler'
           },
           {
             time: 80,
             energy: 1500,
             item: 'kubejs:charged_redstone_sheet',
             input1: 'minecraft:redstone_block',
-            input2: 'emendatusenigmatica:charged_certus_quartz_block'
+            input2: 'emendatusenigmatica:charged_certus_quartz_block',
+            input3: 'alchemistry:slot_filler'
           },
           {
             time: 80,
             energy: 1500,
             item: 'kubejs:glassy_redstone_sheet',
             input1: 'minecraft:redstone_block',
-            input2: 'appliedenergistics2:quartz_glass'
+            input2: 'appliedenergistics2:quartz_glass',
+            input3: 'alchemistry:slot_filler'
           },
           {
             time: 80,
             energy: 1500,
             item: 'kubejs:glassy_glowstone_sheet',
             input1: 'minecraft:glowstone',
-            input2: 'appliedenergistics2:quartz_glass'
+            input2: 'appliedenergistics2:quartz_glass',
+            input3: 'alchemistry:slot_filler'
           }
+      ]
+    };
+
+    dataItemsTwoItems = {
+      recipes: [
+          // {
+          //   time: 80,
+          //   energy: 1500,
+          //   item: 'kubejs:1k_component_wafer',
+          //   count: 1,
+          //   input1: 'kubejs:logic_processor_wafer',
+          //   input2: 'kubejs:charged_redstone_sheet'
+          // },
+          // {
+          //   time: 80,
+          //   energy: 1500,
+          //   item: 'kubejs:charged_redstone_sheet',
+          //   input1: 'minecraft:redstone_block',
+          //   input2: 'emendatusenigmatica:charged_certus_quartz_block'
+          // },
+          // {
+          //   time: 80,
+          //   energy: 1500,
+          //   item: 'kubejs:glassy_redstone_sheet',
+          //   input1: 'minecraft:redstone_block',
+          //   input2: 'appliedenergistics2:quartz_glass'
+          // },
+          // {
+          //   time: 80,
+          //   energy: 1500,
+          //   item: 'kubejs:glassy_glowstone_sheet',
+          //   input1: 'minecraft:glowstone',
+          //   input2: 'appliedenergistics2:quartz_glass'
+          // }
       ]
     };
 

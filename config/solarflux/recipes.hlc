@@ -4,6 +4,8 @@
 # Defaulted to true, but you may disable any of the recipes listed.
 # After you're done changing, you may apply the code right away, using /reload command
 +C:recipes={
+  +B:solarflux:ae2/energy_upgrade=true
+
   +B:solarflux:blank_upgrade=true
 
   +B:solarflux:blazing_coating=true

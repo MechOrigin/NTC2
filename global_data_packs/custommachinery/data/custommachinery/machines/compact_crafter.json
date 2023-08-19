@@ -47,6 +47,26 @@
       "type": "custommachinery:item"
     },
     {
+      "mode": "input",
+      "id": "input8",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input9",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input10",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input11",
+      "type": "custommachinery:item"
+    },
+    {
       "mode": "output",
       "id": "output1",
       "type": "custommachinery:item"

@@ -448,3 +448,5 @@ sophisticatedbackpacks-1.16.5-3.15.16.669.jar, ProjectExpansion-1.16.5-1.0.32.ja
     - SCRIPTS
         - adding creative recipes
         - fixing extended crafting issues
+- Fixed compact crafting custommachine (the single block machine) only accepting 7 inputs. Now should work
+- Fixed weird etcher bug where 2 items inside clogs it up, even with blocking mode. Added slot filler (1 hydrogen from alchemistry) as third cost
